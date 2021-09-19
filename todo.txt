@@ -1,0 +1,6 @@
+1 mainmenu complete buttons layout!
+2 ammo (done), do the same for (uber, health)
+3 mainmenu do stream list (doesnt work on linux (?)
+4 fix hudplayerstatus icons
+5 hudmediccharge fix resisticon position
+6

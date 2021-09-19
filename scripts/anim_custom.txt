@@ -1,0 +1,113 @@
+// fixes lag issue regarding DamagedPlayer
+// put things in AnimateHitmarker instead
+
+event DamagedPlayer
+{
+    StopEvent AnimateHitmarker 0.0
+    RunEvent AnimateHitmarker 0.0
+}
+
+event AnimateHitmarker
+{
+	
+}
+////************************************************Low Ammo Animations.
+event HudLowAmmoPulse
+{
+	Animate	AmmoInClipShadow 			FgColor		"MainRed"			Linear 0.0 0.1
+	Animate	AmmoInClipShadow 			FgColor		"black"				Linear 0.6 0.1
+	Animate	AmmoInClipCS 				FgColor		"MainRed"			Linear 0.0 0.1
+	Animate	AmmoInClipCS 				FgColor		"black"				Linear 0.6 0.1
+	Animate	AmmoInClipCS2 				FgColor		"MainRed"			Linear 0.0 0.1
+	Animate	AmmoInClipCS2 				FgColor		"black"				Linear 0.6 0.1
+	
+	Animate	AmmoInClipCS3 				FgColor		"MainRed"			Linear 0.8 0.1
+	Animate	AmmoInClipCS3 				FgColor		"black"				Linear 1.6 0.1
+	Animate	AmmoInClipCS4 				FgColor		"MainRed"			Linear 0.8 0.1
+	Animate	AmmoInClipCS4 				FgColor		"black"				Linear 1.6 0.1
+	Animate	AmmoInClipCS5 				FgColor		"MainRed"			Linear 0.8 0.1
+	Animate	AmmoInClipCS5 				FgColor		"black"				Linear 1.6 0.1
+	
+	Animate	AmmoInClipCS6 				FgColor		"MainRed"			Linear 1.8 0.1
+	Animate	AmmoInClipCS6 				FgColor		"black"				Linear 2.6 0.1
+	Animate	AmmoInClipCS7 				FgColor		"MainRed"			Linear 1.8 0.1
+	Animate	AmmoInClipCS7 				FgColor		"black"				Linear 2.6 0.1
+	Animate	AmmoInClipCS8 				FgColor		"MainRed"			Linear 1.8 0.1
+	Animate	AmmoInClipCS8 				FgColor		"black"				Linear 2.6 0.1	
+
+	RunEvent HudLowAmmoPulseLoop		2.8
+}
+
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+////************************************************Low Ammo Animations STOP.
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+
+	Animate	AmmoInClipShadow 			FgColor		"Black"		Linear 0.0 0.1
+	Animate	AmmoInClipCS 				FgColor		"Black"		Linear 0.1 0.1
+	Animate	AmmoInClipCS2				FgColor		"Black"		Linear 0.3 0.1
+	Animate	AmmoInClipCS3 				FgColor		"Black"		Linear 0.4 0.1
+	Animate	AmmoInClipCS4 				FgColor		"Black"		Linear 0.5 0.1
+	Animate	AmmoInClipCS5 				FgColor		"Black"		Linear 0.0 0.1
+	Animate	AmmoInClipCS6 				FgColor		"Black"		Linear 0.1 0.1
+	Animate	AmmoInClipCS7 				FgColor		"Black"		Linear 0.2 0.1
+	Animate	AmmoInClipCS8 				FgColor		"Black"		Linear 0.3 0.1
+}
+////************************************************Low Ammo Animations STOP.
+
+
+////************************************************Low Ammo Animations.
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthValueShadow 			FgColor		"HealthHigh"			Linear 0.0 0.1
+	Animate	PlayerStatusHealthValueShadow 			FgColor		"black"				Linear 0.6 0.1
+	Animate	healthCS 				FgColor		"HealthHigh"			Linear 0.0 0.1
+	Animate	healthCS 				FgColor		"black"				Linear 0.6 0.1
+	Animate	healthCS2 				FgColor		"HealthHigh"			Linear 0.0 0.1
+	Animate	healthCS2 				FgColor		"black"				Linear 0.6 0.1
+	
+	Animate	healthCS3 				FgColor		"HealthHigh"			Linear 0.8 0.1
+	Animate	healthCS3 				FgColor		"black"				Linear 1.6 0.1
+	Animate	healthCS4 				FgColor		"HealthHigh"			Linear 0.8 0.1
+	Animate	healthCS4 				FgColor		"black"				Linear 1.6 0.1
+	Animate	healthCS5 				FgColor		"HealthHigh"			Linear 0.8 0.1
+	Animate	healthCS5 				FgColor		"black"				Linear 1.6 0.1
+	
+	Animate	healthCS6 				FgColor		"HealthHigh"			Linear 1.8 0.1
+	Animate	healthCS6 				FgColor		"black"				Linear 2.6 0.1
+	Animate	healthCS7 				FgColor		"HealthHigh"			Linear 1.8 0.1
+	Animate	healthCS7 				FgColor		"black"				Linear 2.6 0.1
+	Animate	healthCS8 				FgColor		"HealthHigh"			Linear 1.8 0.1
+	Animate	healthCS8 				FgColor		"black"				Linear 2.6 0.1	
+
+	RunEvent HudHealthBonusPulseLoop		2.8
+}
+
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+
+////************************************************Low Ammo Animations STOP.
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseStop 0.0
+
+	Animate	PlayerStatusHealthValueShadow 			FgColor		"Black"		Linear 0.0 0.1
+	Animate	healthCS 				FgColor		"Black"		Linear 0.1 0.1
+	Animate	healthCS2				FgColor		"Black"		Linear 0.3 0.1
+	Animate	healthCS3 				FgColor		"Black"		Linear 0.4 0.1
+	Animate	healthCS4 				FgColor		"Black"		Linear 0.5 0.1
+	Animate	healthCS5 				FgColor		"Black"		Linear 0.0 0.1
+	Animate	healthCS6 				FgColor		"Black"		Linear 0.1 0.1
+	Animate	healthCS7 				FgColor		"Black"		Linear 0.2 0.1
+	Animate	healthCS8 				FgColor		"Black"		Linear 0.3 0.1
+}
+
