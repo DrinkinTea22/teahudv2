@@ -5,6 +5,9 @@
 //tool
 #base "../../resource/tools/tools.res"
 
+// customizations
+#base "../../customization/enabled/custom panel.res"
+
 "resource/ui/mainmenuoverride.res"
 {
 	"MainMenuOverride"
@@ -340,90 +343,406 @@
 	//buttons
 	"CharacterSetupButton"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"140"
-		"tall"			"20"
-		"font"			"tea14"
-		"textinsetx"	"20"
+		"xpos"			"-4"
+		"ypos"			"-2"						//forgive for this.		
+		"wide"			"37"
+		"tall"			"37"
+		"labelText"		""
 		"border_default"							"bg_lr"
 		"paintborder"								"1"	
 		"pin_to_sibling"							"bgbordercs2"
-		"pin_corner_to_sibling"						"7"
-		"pin_to_sibling_corner"						"7"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
 		
 		"SubImage"
 		{
-			"xpos"			"5"
+			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
+			"wide"			"19"
+			"tall"			"19"
 			"proportionaltoparent"	"1"
 		}	
 	}		
 	"GeneralStoreButton"
 	{
 		"xpos"			"0"
-		"ypos"			"-20"
-		"wide"			"140"
-		"tall"			"20"
-		"font"			"tea14"
-		"textinsetx"	"20"
+		"ypos"			"-37"
+		"wide"			"37"
+		"tall"			"37"
+		"labelText"		""
 		"border_default"							"bg_lr"
 		"paintborder"								"1"	
 		"pin_to_sibling"							"CharacterSetupButton"
 		
 		"SubImage"
 		{
-			"xpos"			"5"
+			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
+			"wide"			"19"
+			"tall"			"19"
 			"proportionaltoparent"	"1"
 		}	
 	}
-	"SettingsButton"
+	"SettingsButtonFixed"
 	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"SettingsButtonFixed"
 		"xpos"			"0"
-		"ypos"			"-20"
-		"wide"			"140"
-		"tall"			"20"
-		"font"			"tea14"
-		"labelText"		"#TF_Options_Title"
-		"textinsetx"	"20"
+		"ypos"			"-37"
+		"zpos"			"1"
+		"wide"			"37"
+		"tall"			"37"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
 		"border_default"							"bg_lr"
-		"paintborder"								"1"	
-		
+		"Command"		"OpenOptionsDialog"
+		"image_drawcolor"	"235 226 202 255"
 		"pin_to_sibling"							"GeneralStoreButton"
 		
 		"SubImage"
 		{
-			"xpos"			"5"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"19"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
 			"proportionaltoparent"	"1"
 		}			
-	}	
-	"TF2SettingsButton"
+	}
+	"AdvancedSettingsButtonFixed"
 	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"AdvancedSettingsButtonFixed"
 		"xpos"			"0"
-		"ypos"			"-20"
-		"wide"			"140"
-		"tall"			"20"
-		"font"			"tea14"
-		"labelText"		"#MMenu_AdvOptions"
-		"textAlignment"	"west"
-		"textinsetx"	"20"
+		"ypos"			"-37"
+		"zpos"			"1"
+		"wide"			"37"
+		"tall"			"37"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"+"
 		"border_default"							"bg_lr"
-		"paintborder"								"1"	
-		
-		"pin_to_sibling"							"SettingsButton"
+		"font"			"tea14"
+		"textinsetx"	"4"
+		"textinsety"	"-8"
+		"Command"		"opentf2options"
+		"image_drawcolor"	"235 226 202 255"
+		"pin_to_sibling"	"SettingsButtonFixed"
 		
 		"SubImage"
 		{
-			"xpos"			"5"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"19"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+			"proportionaltoparent"	"1"
+		}			
+	}
+	"AchievementsButtonFixed"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"AchievementsButtonFixed"
+		"xpos"			"-37"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"37"
+		"tall"			"37"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"border_default"							"bg_lr"
+		"Command"		"OpenAchievementsDialog"
+		"image_drawcolor"	"235 226 202 255"
+		"pin_to_sibling"	"CharacterSetupButton"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"19"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_achievements"
+			"proportionaltoparent"	"1"
+		}			
+	}	
+	"ReplaysButtonFixed"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ReplaysButtonFixed"
+		"xpos"			"0"
+		"ypos"			"-37"
+		"zpos"			"1"
+		"wide"			"37"
+		"tall"			"37"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"border_default"							"bg_lr"
+		"Command"		"engine replay_reloadbrowser"
+		"image_drawcolor"	"235 226 202 255"
+		"pin_to_sibling"	"AchievementsButtonFixed"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"19"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_tv"
 			"proportionaltoparent"	"1"
 		}			
 	}		
+	"WorkshopButtonFixed"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"WorkshopButtonFixed"
+		"xpos"			"0"
+		"ypos"			"-37"
+		"zpos"			"1"
+		"wide"			"37"
+		"tall"			"37"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"border_default"							"bg_lr"
+		"Command"		"engine OpenSteamWorkshopDialog"
+		"image_drawcolor"	"235 226 202 255"
+		"pin_to_sibling"	"ReplaysButtonFixed"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"19"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_steamworkshop"
+			"proportionaltoparent"	"1"
+		}			
+	}		
+	"Console"
+	{		
+		"controlname"								"CExButton"
+		"fieldname"									"Console"
+		"labeltext"									">_"			
+		"xpos"										"0"
+		"ypos"										"-37"	
+		"font"										"tea20"
+		"zpos"										"10"
+		"wide"										"37"
+		"tall"										"37"
+		"visible"									"1"	
+		"enabled"									"1"
+		"border_default"							"bg_lr"
+		
+		"command"									"engine toggleconsole"	
+		"pin_to_sibling"							"WorkshopButtonFixed"
+	}		
 	//buttons
 	
+	//buttons in-game
+	"ReportPlayerButton"
+	{
+		"xpos"			"-37"
+		"ypos"			"2"
+		"zpos"			"11"
+		"wide"										"50"
+		"tall"										"50"
+		"pin_to_sibling"							"AchievementsButtonFixed"
+
+		"SubButton"
+		{
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"										"50"
+			"tall"										"50"
+			"RoundedCorners"	"0"
+			"border_default"							"bg_lr"
+			
+			"paintbackground"	"1"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
+
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"35"
+				"tall"			"35"
+			}				
+		}
+	}	
+	"CallVoteButton"
+	{
+		"xpos"			"0"
+		"ypos"			"-50"
+		"zpos"			"11"
+		"wide"										"50"
+		"tall"										"50"
+		"pin_to_sibling"							"ReportPlayerButton"
+
+		"SubButton"
+		{
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"										"50"
+			"tall"										"50"
+			"RoundedCorners"	"0"
+			"border_default"							"bg_lr"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"35"
+				"tall"			"35"
+			}				
+		}
+	}
+	"MutePlayersButton"
+	{
+		"xpos"			"0"
+		"ypos"			"-50"
+		"zpos"			"11"
+		"wide"										"50"
+		"tall"										"50"
+		"pin_to_sibling"							"CallVoteButton"
+
+		"SubButton"
+		{
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"										"50"
+			"tall"										"50"
+			"RoundedCorners"	"0"
+			"border_default"							"bg_lr"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"35"
+				"tall"			"35"
+			}				
+		}
+	}
+	//buttons in-game
+	
 	//	[deleted]
+	"SettingsButton"
+	{
+		"xpos"				"9999"	
+		"visible"			"0"	
+		"enabled"			"0"		
+	}	
+	"TF2SettingsButton"
+	{
+		"xpos"				"9999"	
+		"visible"			"0"	
+		"enabled"			"0"			
+	}	
+	"NewUserForumsButton"
+	{
+		"xpos" "9999"
+		"visible" "0"
+		"enabled" "0"				
+	}	
+	"AchievementsButton"
+	{
+		"xpos" "9999"
+		"visible" "0"
+		"enabled" "0"				
+	}	
+	"CommentaryButton"
+	{
+		"xpos" "9999"
+		"visible" "0"
+		"enabled" "0"				
+	}	
+	"CoachPlayersButton"
+	{
+		"xpos" "9999"
+		"visible" "0"
+		"enabled" "0"				
+	}	
+	"WorkshopButton"
+	{
+		"xpos" "9999"
+		"visible" "0"
+		"enabled" "0"		
+	}	
+	"ReplayButton"
+	{
+		"xpos" "9999"
+		"visible" "0"
+		"enabled" "0"				
+	}
+	"ReportBugButton"
+	{
+		"xpos" "9999"
+		"visible" "0"
+		"enabled" "0"			
+	}	
+	"BackToReplaysButton"
+	{
+		"xpos" "9999"
+		"visible" "0"
+		"enabled" "0"	
+	}	
 	"tflogoimage"
 	{
 		"xpos" "9999"
