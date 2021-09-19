@@ -24,5 +24,25 @@
 		"tall"											"100"
 		//"border"										"bg_lrtb" //testing
 	}	
+	
+
+	HudDemomanCharge
+	{
+		"xpos"											"c-35"	
+		"ypos"											"c135"	
+		"wide"											"70"
+		"tall"											"5"
+	}
+	HudDemomanPipes
+	{
+		"xpos"											"c-35"	
+		"ypos"											"c20"	
+		"wide"											"70"
+		"tall"											"150"		
+	}	
+	HudBowCharge
+	{
+		"xpos"											"9999"
+	}		
 }
 

@@ -61,8 +61,7 @@ event HudLowAmmoPulseStop
 }
 ////************************************************Low Ammo Animations STOP.
 
-
-////************************************************Low Ammo Animations.
+////************************************************high health Animations.
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthValueShadow 			FgColor		"HealthHigh"			Linear 0.0 0.1
@@ -93,12 +92,13 @@ event HudHealthBonusPulseLoop
 {
 	RunEvent HudHealthBonusPulse 0.0
 }
+////************************************************high health Animations.
 
-////************************************************Low Ammo Animations STOP.
+////************************************************high health Animations STOP.
 event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
-	StopEvent HudHealthBonusPulseStop 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
 
 	Animate	PlayerStatusHealthValueShadow 			FgColor		"Black"		Linear 0.0 0.1
 	Animate	healthCS 				FgColor		"Black"		Linear 0.1 0.1
@@ -110,4 +110,55 @@ event HudHealthBonusPulseStop
 	Animate	healthCS7 				FgColor		"Black"		Linear 0.2 0.1
 	Animate	healthCS8 				FgColor		"Black"		Linear 0.3 0.1
 }
+////************************************************high health Animations STOP.
 
+////************************************************low health Animations.
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthValueShadow 			FgColor		"HealthLow"			Linear 0.0 0.1
+	Animate	PlayerStatusHealthValueShadow 			FgColor		"black"				Linear 0.6 0.1
+	Animate	healthCS 				FgColor		"HealthLow"			Linear 0.0 0.1
+	Animate	healthCS 				FgColor		"black"				Linear 0.6 0.1
+	Animate	healthCS2 				FgColor		"HealthLow"			Linear 0.0 0.1
+	Animate	healthCS2 				FgColor		"black"				Linear 0.6 0.1
+	
+	Animate	healthCS3 				FgColor		"HealthLow"			Linear 0.8 0.1
+	Animate	healthCS3 				FgColor		"black"				Linear 1.6 0.1
+	Animate	healthCS4 				FgColor		"HealthLow"			Linear 0.8 0.1
+	Animate	healthCS4 				FgColor		"black"				Linear 1.6 0.1
+	Animate	healthCS5 				FgColor		"HealthLow"			Linear 0.8 0.1
+	Animate	healthCS5 				FgColor		"black"				Linear 1.6 0.1
+	
+	Animate	healthCS6 				FgColor		"HealthLow"			Linear 1.8 0.1
+	Animate	healthCS6 				FgColor		"black"				Linear 2.6 0.1
+	Animate	healthCS7 				FgColor		"HealthLow"			Linear 1.8 0.1
+	Animate	healthCS7 				FgColor		"black"				Linear 2.6 0.1
+	Animate	healthCS8 				FgColor		"HealthLow"			Linear 1.8 0.1
+	Animate	healthCS8 				FgColor		"black"				Linear 2.6 0.1	
+
+	RunEvent HudHealthDyingPulseLoop		2.8
+}
+
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
+}
+////************************************************low health Animations.
+
+////************************************************low health Animations STOP.
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+
+	Animate	PlayerStatusHealthValueShadow 			FgColor		"Black"		Linear 0.0 0.1
+	Animate	healthCS 				FgColor		"Black"		Linear 0.1 0.1
+	Animate	healthCS2				FgColor		"Black"		Linear 0.3 0.1
+	Animate	healthCS3 				FgColor		"Black"		Linear 0.4 0.1
+	Animate	healthCS4 				FgColor		"Black"		Linear 0.5 0.1
+	Animate	healthCS5 				FgColor		"Black"		Linear 0.0 0.1
+	Animate	healthCS6 				FgColor		"Black"		Linear 0.1 0.1
+	Animate	healthCS7 				FgColor		"Black"		Linear 0.2 0.1
+	Animate	healthCS8 				FgColor		"Black"		Linear 0.3 0.1
+}
+////************************************************low health Animations STOP.
