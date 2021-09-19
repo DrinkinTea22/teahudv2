@@ -1,8 +1,8 @@
-# BaseHud
+# TeaHudv2
 
-Starting point for creating custom huds within tf2. Much of the tedious setup is already done, and a lot of valuable assets and tools are provided.
-
-To learn more about huds in general, check out [the hud tutorial](https://github.com/JarateKing/TF2-Hud-Reference#readme).
+New starting point for TeaHud using Jarateking's "BaseHud", if you want to learn about it, click the link bellow!
+[BaseHud Project](https://github.com/JarateKing/BaseHud)
+All credits to [Jarateking](https://github.com/JarateKing)
 
 ## Features
 
@@ -21,11 +21,9 @@ To learn more about huds in general, check out [the hud tutorial](https://github
 
 Some of these features involve scripting or programs that are intended for windows. Where possible, linux is also supported.
 
-## Modifying
+## Goals for this project:
+As i'm now working with a auto-update hud, i would like to achieve minimal changes and its intended for casual players (for now)
+Note: this will replace the original project [TeaHud](https://github.com/DrinkinTea22/TeaHud) but the hud will remain on 
+my github account.
 
-There are multiple options for making use of this:
-* Fork this repo and modify your own copy.
-* Download this and modify.
-* Start from scratch and take whatever parts you find necessary.
 
-For more details on using specific parts of the base hud, check out the [usage](USAGE.md) file.
