@@ -155,7 +155,7 @@
 		"enabled"															"1"
 		"labeltext"															""
 		"font"																""
-		"command"															""
+		"command"															"" //available commands (hud_reloadscheme(in-game mostly), reloadscheme(specific menus), toggle mat_antialias 0 2 (mainmenu))
 		"border_default"													"quickplayborder"
 		"border_armed"														"comboboxborder"
 		"image_drawcolor"													"white"
