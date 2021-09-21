@@ -25,6 +25,9 @@ Scheme
 		"MenuBGColor"								"34 65 103 255"			//Color Of [backpack, ClassLoadout, etc]
 		"Sheet"										"34 65 103 255"			//Color Of ["Sheet"]
 		
+		"LabelsDark"								"0 0 0 255"				//label for no text
+		"Labelsunavailable"							"50 50 50 255"			//label for unused	
+				
 		"Uber"										"255 255 245 255"		//When Uber = 0%	
 		"UberFull"									"43 213 134 255"		//When Uber = 100%	
 		"UberFull2"									"43 253 134 255"		//When Uber = 100% 2	

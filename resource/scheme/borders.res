@@ -138,7 +138,7 @@ scheme
 			}
 		}
 					
-		//		_|
+		//only has corners colors
 		bg_rb
 		{
 			right	
@@ -173,7 +173,6 @@ scheme
 				}
 			}
 		}			
-		//		|=
 		bg_lt
 		{
 			left	
@@ -208,5 +207,47 @@ scheme
 				}
 			}
 		}				
+		
+		//only has 1 side
+		bg_l
+		{
+			left	
+			{	
+				"1"	
+				{	
+					"color"							"bodercolor"
+				}	
+			}	
+		}	
+		bg_r
+		{
+			right	
+			{	
+				"1"	
+				{	
+					"color"							"bodercolor"
+				}	
+			}	
+		}	
+		bg_t
+		{
+			top	
+			{	
+				"1"	
+				{	
+					"color"							"bodercolor"
+				}	
+			}	
+		}	
+		bg_b
+		{
+			bottom	
+			{	
+				"1"	
+				{	
+					"color"							"bodercolor"
+				}	
+			}	
+		}	
 	}
 }
