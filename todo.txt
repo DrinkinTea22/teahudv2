@@ -4,7 +4,7 @@
 4 fix hudplayerstatus icons
 5 hudmediccharge fix resisticon position
 6 test IEM counters
-7
+7 check classloadoutpanel on lower resolutions
 8
 9
 10
