@@ -26,19 +26,20 @@
 	}	
 	
 
-	HudDemomanCharge
-	{
-		"xpos"											"c-35"	
-		"ypos"											"c135"	
-		"wide"											"70"
-		"tall"											"5"
-	}
 	HudDemomanPipes
 	{
-		"xpos"											"c-35"	
+		"xpos"											"c-75"		
 		"ypos"											"c20"	
-		"wide"											"70"
-		"tall"											"150"		
+		"wide"											"150"
+		"tall"											"150"	
+		//"border"										"bg_lrtb" //testing	
+	}
+	HudDemomanCharge
+	{
+		"xpos"					"c-75"	
+		"ypos"					"c142"
+		"wide"					"150"
+		"tall"					"8"
 	}	
 	HudBowCharge
 	{
