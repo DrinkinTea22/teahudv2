@@ -32,7 +32,7 @@
 		"ypos"											"c20"	
 		"wide"											"150"
 		"tall"											"150"	
-		//"border"										"bg_lrtb" //testing	
+		"border"										"bg_lrtb" //testing	
 	}
 	HudDemomanCharge
 	{
