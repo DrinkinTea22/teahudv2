@@ -7,7 +7,7 @@
 	{	
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"70"
-		"tall"										"5"		
+		"wide"										"150"
+		"tall"										"8"		
 	}					
 }
