@@ -57,21 +57,21 @@
 	"HudMenuEngyBuild"
 	{
 		"xpos"			"c-225"
-		"ypos"			"c30"
+		"ypos"			"c35"
 		"wide"			"450"
 		"tall"			"100"
 	}
 	"HudMenuEngyDestroy"
 	{
 		"xpos"			"c-225"
-		"ypos"			"c-59"
+		"ypos"			"c35"
 		"wide"			"450"
-		"tall"			"200"
+		"tall"			"100"
 	}
 	"HudEurekaEffectTeleportMenu"
 	{
 		"xpos"			"c-112.5"
-		"ypos"			"c30"
+		"ypos"			"c35"
 		"wide"			"225"
 		"tall"			"100"
 		"border"				"bg_lrtb" 

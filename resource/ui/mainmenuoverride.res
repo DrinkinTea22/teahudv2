@@ -116,7 +116,7 @@
 			"wide"			"f0"
 			"tall"			"f0"
 
-			"columns_count"	"2"
+			"columns_count"	"1"
 			"inset_x"		"10"
 			"inset_y"		"5"
 			"row_gap"		"5"
@@ -125,7 +125,7 @@
 
 			"friendpanel_kv"
 			{
-				"wide"		"110"
+				"wide"		"230"
 				"tall"		"20"
 			}
 		}

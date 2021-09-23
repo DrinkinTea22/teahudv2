@@ -1,6 +1,6 @@
-#base "../base/build_menu/base_cant_afford.res"
+#base "../base/destroy_menu/base_inactive.res"
 
-"Resource/UI/build_menu/base_cant_afford.res"
+"Resource/UI/destroy_menu/base_inactive.res"
 {
 	"CantBuildIcon"
 	{
@@ -28,27 +28,6 @@
 		"tall"			"18"
 		"textAlignment"	"Center"
 	}
-	"CostLabel"
-	{	
-		"font"			"tea16"
-		"xpos"			"48"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"15"
-		"textAlignment"	"west"
-	}
-	"MetalIcon"	
-	{
-		"xpos"			"15"
-		"ypos"			"-4"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"pin_to_sibling"	"CostLabel"
-	}
-	
-
 	"ItemNameLabel"
 	{	
 		"xpos"			"9999"
@@ -61,18 +40,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	"CantBuildReason"
+	"NotBuiltLabel"
 	{	
 		"xpos"			"9999"
 		"visible"		"0"
 		"enabled"		"0"
-	}	
-	"ModeLabel"
-	{	
-		"xpos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
-	}
+	}		
 	"NumberBg"	
 	{
 		"xpos"			"9999"
