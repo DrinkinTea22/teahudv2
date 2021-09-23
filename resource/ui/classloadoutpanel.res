@@ -47,20 +47,35 @@
 
 		"itemoptionpanels_kv"
 		{
-			"border_default"	"bg_lb"	
+			"border_default"	"bg_rb"	
 			"border_armed"	"bg_lb"
 			"font"			"tea14"
 			"textAlignment"	"center"
 		}
 	}
 	"classmodelpanel"
-	{
+	{	
 		"xpos"			"0"
-		"ypos"			"0"	
+		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"f0"
-		"fov"			"70"
+		"tall"			"600"
+		"fov"			"90"
 		"allow_manip"								"1"	//this makes everything bellow WORK
+		
+		"model"
+		{
+			"angles_x" "5"			//rotation
+			//"angles_y" "-170"		//rotation
+			//"angles_z" "0"		//rotation
+			
+			//"origin_x" "190"		//position how close
+			//"origin_y" "0"		//position
+			"origin_z" "-18"		//position up/down wards
+			
+			"spotlight" "1"
+		
+			"modelname"		""
+		}
 	}
 	"mouseoveritempanel"
 	{

@@ -2,6 +2,10 @@ scheme
 {
 	borders
 	{
+		ButtonDepressedBorder						//this makes buttons look like "squares"
+		{
+			"backgroundtype"						"0"
+		}
 		null
 		{
 			"bordertype"			"scalable_image"

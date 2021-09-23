@@ -191,7 +191,7 @@
 	"AmmoInReserve"
 	{
 		"font"										"tea24"
-		"fgcolor"									"AmmoR"
+		"fgcolor"									"Ammo"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.1"
 		"proportionaltoparent"						"1"
@@ -213,7 +213,7 @@
 	"AmmoNoClip"
 	{
 		"font"										"numtea40"
-		"fgcolor"									"AmmoNC"
+		"fgcolor"									"Ammo"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"20"

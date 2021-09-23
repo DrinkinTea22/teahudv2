@@ -41,8 +41,8 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"			"2"
-		"wide"			"26"	
-		"tall"			"26"
+		"wide"			"20"	
+		"tall"			"20"
 		"proportionaltoparent"						"1"	
 	}
 	"PlayerStatusHealthValue"

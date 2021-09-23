@@ -7,21 +7,6 @@
 	{
 		"ypos"										"9999"			
 	}
-	"ItemEffectMeterLabel2"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel2"
-		"xpos"					"0"
-		"ypos"					"40"
-		"zpos"					"2"
-		"wide"										"150"
-		"tall"										"8"	
-		"visible"				"1"
-		"enabled"				"1"
-		"labelText"				"Label"
-		"textAlignment"			"center"
-		"font"					"tea10"
-	}
 	"ChargeLabel"									//shield
 	{
 		"xpos"										"0"

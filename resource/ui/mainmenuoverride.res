@@ -695,6 +695,12 @@
 		"visible"			"0"	
 		"enabled"			"0"			
 	}	
+	"RequestCoachButton"
+	{
+		"xpos" "9999"
+		"visible" "0"
+		"enabled" "0"				
+	}	
 	"NewUserForumsButton"
 	{
 		"xpos" "9999"

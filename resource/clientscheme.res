@@ -1,6 +1,7 @@
 #base "scheme/fonts.res"
 #base "scheme/colors.res"
 #base "scheme/borders.res"
+#base "scheme/basesettings.res"
 
 #base "base/clientscheme.res"
 
@@ -21,8 +22,8 @@ Scheme
 
 		"110" 
 		{
-			"font" "resource/fonts/librefranklin-bold.ttf"
-			"name" "librefranklin-bold"
+			"font" "resource/fonts/librefranklin bold.ttf"
+			"name" "libre franklin"
 		}
 		"111" 
 		{

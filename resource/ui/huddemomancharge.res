@@ -8,6 +8,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"150"
-		"tall"										"8"		
+		"tall"										"8"	
+		"fgcolor_override"							"white"
 	}					
 }

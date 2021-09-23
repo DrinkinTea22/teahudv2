@@ -14,25 +14,25 @@ event AnimateHitmarker
 ////************************************************Low Ammo Animations.
 event HudLowAmmoPulse
 {
-	Animate	AmmoInClipShadow 			FgColor		"MainRed"			Linear 0.0 0.1
+	Animate	AmmoInClipShadow 			FgColor		"AmmoLow"			Linear 0.0 0.1
 	Animate	AmmoInClipShadow 			FgColor		"black"				Linear 0.6 0.1
-	Animate	AmmoInClipCS 				FgColor		"MainRed"			Linear 0.0 0.1
+	Animate	AmmoInClipCS 				FgColor		"AmmoLow"			Linear 0.0 0.1
 	Animate	AmmoInClipCS 				FgColor		"black"				Linear 0.6 0.1
-	Animate	AmmoInClipCS2 				FgColor		"MainRed"			Linear 0.0 0.1
+	Animate	AmmoInClipCS2 				FgColor		"AmmoLow"			Linear 0.0 0.1
 	Animate	AmmoInClipCS2 				FgColor		"black"				Linear 0.6 0.1
 	
-	Animate	AmmoInClipCS3 				FgColor		"MainRed"			Linear 0.8 0.1
+	Animate	AmmoInClipCS3 				FgColor		"AmmoLow"			Linear 0.8 0.1
 	Animate	AmmoInClipCS3 				FgColor		"black"				Linear 1.6 0.1
-	Animate	AmmoInClipCS4 				FgColor		"MainRed"			Linear 0.8 0.1
+	Animate	AmmoInClipCS4 				FgColor		"AmmoLow"			Linear 0.8 0.1
 	Animate	AmmoInClipCS4 				FgColor		"black"				Linear 1.6 0.1
-	Animate	AmmoInClipCS5 				FgColor		"MainRed"			Linear 0.8 0.1
+	Animate	AmmoInClipCS5 				FgColor		"AmmoLow"			Linear 0.8 0.1
 	Animate	AmmoInClipCS5 				FgColor		"black"				Linear 1.6 0.1
 	
-	Animate	AmmoInClipCS6 				FgColor		"MainRed"			Linear 1.8 0.1
+	Animate	AmmoInClipCS6 				FgColor		"AmmoLow"			Linear 1.8 0.1
 	Animate	AmmoInClipCS6 				FgColor		"black"				Linear 2.6 0.1
-	Animate	AmmoInClipCS7 				FgColor		"MainRed"			Linear 1.8 0.1
+	Animate	AmmoInClipCS7 				FgColor		"AmmoLow"			Linear 1.8 0.1
 	Animate	AmmoInClipCS7 				FgColor		"black"				Linear 2.6 0.1
-	Animate	AmmoInClipCS8 				FgColor		"MainRed"			Linear 1.8 0.1
+	Animate	AmmoInClipCS8 				FgColor		"AmmoLow"			Linear 1.8 0.1
 	Animate	AmmoInClipCS8 				FgColor		"black"				Linear 2.6 0.1	
 
 	RunEvent HudLowAmmoPulseLoop		2.8
@@ -162,3 +162,32 @@ event HudHealthDyingPulseStop
 	Animate	healthCS8 				FgColor		"Black"		Linear 0.3 0.1
 }
 ////************************************************low health Animations STOP.
+
+////************************************************UberCharge Animation.
+event HudMedicCharged
+{
+	Animate	ChargeLabel								FgColor		"UberFull"		Linear 0.0 0.1
+	Animate	ChargeLabel								FgColor		"UberFull2"		Linear 0.3 0.4
+	
+	Animate	IndividualChargesLabel					FgColor		"UberFull"		Linear 0.0 0.1
+	Animate	IndividualChargesLabel					FgColor		"UberFull2"		Linear 0.3 0.4
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+////************************************************UberCharge Animation.
+
+////************************************************UberCharge Animation STOP.
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+
+	Animate	ChargeLabel								FgColor		"Uber"			Accel 0.0 0.0
+	Animate	IndividualChargesLabel					FgColor		"Uber"			Accel 0.0 0.0
+}
+////************************************************UberCharge Animation STOP.

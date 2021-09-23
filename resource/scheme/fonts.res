@@ -16,7 +16,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"9"
 				"tall"										"8"	[$LINUX]
 				"additive"									"0"
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"10"
 				"tall"										"9" [$LINUX]
 				"additive"									"0"
@@ -38,7 +38,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"11"
 				"tall"										"10" [$LINUX]
 				"additive"									"0"
@@ -49,7 +49,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"12"
 				"tall"										"11" [$LINUX]			
 				"additive"									"0"
@@ -60,7 +60,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"14"
 				"tall"										"13" [$LINUX]
 				"additive"									"0"
@@ -71,7 +71,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"16"
 				"tall"										"15" [$LINUX]	
 				"additive"									"0"
@@ -82,7 +82,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"18"
 				"tall"										"17" [$LINUX]
 				"additive"									"0"
@@ -93,7 +93,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"20" 				
 				"tall"										"19" [$LINUX]
 				"additive"									"0"
@@ -104,7 +104,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"24"
 				"tall"										"23" [$LINUX]				
 				"additive"									"0"
@@ -115,7 +115,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"26"
 				"tall"										"25" [$LINUX]				
 				"additive"									"0"
@@ -126,7 +126,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"30"
 				"tall"										"29" [$LINUX]				
 				"additive"									"0"
@@ -137,7 +137,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"32"
 				"tall"										"31" [$LINUX]				
 				"additive"									"0"
@@ -148,7 +148,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"36"
 				"tall"										"35" [$LINUX]				
 				"additive"									"0"
@@ -159,7 +159,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"40"
 				"tall"										"39" [$LINUX]				
 				"additive"									"0"
@@ -170,7 +170,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"48"
 				"tall"										"47" [$LINUX]				
 				"additive"									"0"
@@ -181,7 +181,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"72"
 				"tall"										"71" [$LINUX]				
 				"additive"									"0"
@@ -364,7 +364,7 @@ Scheme
 		{
 			"1"
 			{	
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"36"
 				"tall"										"35" [$LINUX]
 				"antialias" 								"1"
@@ -376,41 +376,46 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"16"
-				"range"										"0x0000 0x017F
+				"outline"									"1"
+				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}							
 			"2"							
 			{							
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"22"
-				"range"										"0x0000 0x017F
+				"outline"									"1"
+				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 				"antialias"									"1"
 			}							
 			"3"							
 			{							
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"28"
-				"range"										"0x0000 0x017F
+				"outline"									"1"
+				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}							
 			"4"							
 			{							
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"28"
-				"range"										"0x0000 0x017F
+				"outline"									"1"
+				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
 			}							
 			"5"							
 			{							
-				"name"										"librefranklin-bold"
+				"name"										"libre franklin"
 				"tall"										"28"
-				"range"										"0x0000 0x017F
+				"outline"									"1"
+				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
 			}		
