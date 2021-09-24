@@ -8,6 +8,9 @@
 // customizations
 #base "../../customization/enabled/custom panel.res"
 
+// part of the menu
+#base "../../customization/enabled/bookmarks.res"
+
 "resource/ui/mainmenuoverride.res"
 {
 	"MainMenuOverride"
@@ -23,15 +26,15 @@
 	}
 	
 	//main background
-	"bgbordercs"							
+	"bgbordercs1"							
 	{							
 		"controlname"								"imagepanel"
-		"fieldname"									"bgbordercs"
-		"xpos"										"c-300"
+		"fieldname"									"bgbordercs1"
+		"xpos"										"c-350"
 		"ypos"										"c-200"
 		"zpos"										"-100"
-		"wide"										"600"
-		"tall"										"400"
+		"wide"										"350"
+		"tall"										"150"
 		"fillcolor"									"custombgcolor"
 		"border"									"bg_lrtb"
 	}	
@@ -42,16 +45,14 @@
 	{							
 		"controlname"								"imagepanel"
 		"fieldname"									"bgbordercs2"
-		"xpos"										"0"
+		"xpos"										"-351"
 		"ypos"										"0"
 		"zpos"										"-100"
 		"wide"										"350"
 		"tall"										"150"
 		"fillcolor"									"custombgcolor"
-		"border"									"bg_lb"
-		"pin_to_sibling"							"bgbordercs"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"border"									"bg_lrtb"
+		"pin_to_sibling"							"bgbordercs1"
 	}	
 	//second background
 	
@@ -61,15 +62,13 @@
 		"controlname"								"imagepanel"
 		"fieldname"									"bgbordercs3"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-151"
 		"zpos"										"-100"
-		"wide"										"250"
+		"wide"										"350"
 		"tall"										"250"
 		"fillcolor"									"custombgcolor"
 		"border"									"bg_lrtb"
-		"pin_to_sibling"							"bgbordercs"
-		"pin_corner_to_sibling"						"2"
-		"pin_to_sibling_corner"						"2"
+		"pin_to_sibling"							"bgbordercs1"
 	}	
 	//third background	
 
@@ -79,15 +78,13 @@
 		"controlname"								"imagepanel"
 		"fieldname"									"bgbordercs4"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-151"
 		"zpos"										"-100"
 		"wide"										"350"
 		"tall"										"250"
 		"fillcolor"									"custombgcolor"
-		"border"									"bg_rt"
-		"pin_to_sibling"							"bgbordercs"
-		"pin_corner_to_sibling"						"3"
-		"pin_to_sibling_corner"						"3"
+		"border"									"bg_lrtb"
+		"pin_to_sibling"							"bgbordercs2"
 	}
 	//fourth background		
 	
@@ -98,7 +95,7 @@
 		"ypos"			"0"
 		"wide"			"250"
 		"tall"			"250"
-		"border"		"bg_rt"
+		"border"					"noborder"
 		"pin_to_sibling"							"bgbordercs3"
 		
 		"TitleLabel"
@@ -142,7 +139,7 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"pin_to_sibling"							"bgbordercs"
+		"pin_to_sibling"							"bgbordercs1"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
@@ -282,7 +279,7 @@
 		"ypos"			"0"
 		"wide"			"250"
 		"tall"			"150"
-		"pin_to_sibling"							"bgbordercs"
+		"pin_to_sibling"							"bgbordercs1"
 	}	
 	"RankPanel"
 	{
@@ -292,17 +289,18 @@
 		"tall"				"150"
 		"bgcolor_override"	"custombgcolor"
 		"border"			"bg_tb"
-		"pin_to_sibling"							"bgbordercs"
+		"pin_to_sibling"							"bgbordercs1"
 		"pin_corner_to_sibling"						"0"
 		"pin_to_sibling_corner"						"0"
 	}
 	"CycleRankTypeButton"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"border"									"bg_rb"
+		"xpos"			"-5"
+		"ypos"			"-5"
+		"border_default"									"bg_rb"
+		"border_armed"										"bg_rb"
 		"paintborder"								"1"
-		"pin_to_sibling"							"bgbordercs"
+		"pin_to_sibling"							"bgbordercs1"
 		"pin_corner_to_sibling"						"0"
 		"pin_to_sibling_corner"						"0"		
 	}	
@@ -323,7 +321,7 @@
 		"textAlignment"		"center"
 		"bgcolor_override"							"custombgcolor"
 		"border"									"bg_rb"
-		"pin_to_sibling"							"bgbordercs"
+		"pin_to_sibling"							"bgbordercs1"
 		"pin_corner_to_sibling"						"0"
 		"pin_to_sibling_corner"						"0"
 	}

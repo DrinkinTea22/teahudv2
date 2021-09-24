@@ -20,8 +20,7 @@
 		"textAlignment"			"center"
 		"font"					"tea10"
 		
-		"enabled"				"0"			//step 1 to make black labels
-		"fgcolor_override"		"BLACK"		//step 2 to make black labels
+		"enabled"				"0"			//"Label.DisabledFgColor2" will replace the fgcolor 
 	}
 	"ItemEffectMeter"
 	{	

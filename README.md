@@ -26,4 +26,7 @@ As i'm now working with a auto-update hud, i would like to achieve minimal chang
 Note: this will replace the original project [TeaHud](https://github.com/DrinkinTea22/TeaHud) but the hud will remain on 
 my github account.
 
+## Credits:
+[Menu Backgrounds]https://gamebanana.com/mods/25625
+by ¡KROAN , all credits to him/her!!
 

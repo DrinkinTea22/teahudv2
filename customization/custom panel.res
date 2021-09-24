@@ -452,7 +452,7 @@
 			"border_armed"								"bg_lrtb"
 			
 			"paintbackground"							"1"
-			"command"									"engine map tr_walkway_r2"		
+			"command"									"engine map tr_walkway_rc2"		
 			
 			"pin_to_sibling" 							"DT1"			
 		}	

@@ -1,10 +1,10 @@
 1 mainmenu complete buttons layout!
-2 do uber animation
-3 mainmenu do stream list (doesnt work on linux (?)
+2 make destroy menu
+3 make training engi build menu
 4 fix hudplayerstatus icons
-5 hudmediccharge fix resisticon position
-6 test IEM counters
-7 check classloadoutpanel on lower resolutions
+5 make pipboy menu
+6 check classloadoutpanel on lower resolutions
+7 
 8
 9
 10

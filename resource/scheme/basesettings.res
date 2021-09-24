@@ -3,7 +3,9 @@ Scheme
 	BaseSettings
 	{
 		Label.TextDullColor									"120 120 120 155"
-		Label.DisabledFgColor2								"120 120 120 155"
+		
+		Label.DisabledFgColor2								"black"		//color used if enabled is set to 0, but visible is 1
+		
 		Button.DepressedTextColor							"120 120 120 155"
 		ReplayBrowser.BgColor								"MenuBGColor"
 		ReplayBrowser.Button.ArmedBgColor					"ButtonHover"
