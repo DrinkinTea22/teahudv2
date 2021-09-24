@@ -687,7 +687,7 @@
 			"wide"										"20"
 			"tall"										"20"
 			"RoundedCorners"	"0"
-			"border_default"							"bg_lr"
+			"border_default"							"bg_ltb"
 			
 			"paintbackground"	"1"
 			
@@ -725,7 +725,7 @@
 			"wide"										"20"
 			"tall"										"20"
 			"RoundedCorners"	"0"
-			"border_default"							"bg_lr"
+			"border_default"							"bg_lrtb"
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
@@ -760,7 +760,7 @@
 			"wide"										"20"
 			"tall"										"20"
 			"RoundedCorners"	"0"
-			"border_default"							"bg_lr"
+			"border_default"							"bg_rtb"
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"

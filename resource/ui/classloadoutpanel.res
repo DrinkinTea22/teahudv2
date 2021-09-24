@@ -9,7 +9,7 @@
 	{
 		"xpos"																"c0"
 		"ypos"																"0"
-		"visible"															"1"
+		"visible"															"0"
 		"command"															"reloadscheme"
 	}
 	"class_loadout_panel"
@@ -20,7 +20,7 @@
 		
 		"item_xpos_offcenter_a"	"-320"		//xpos for every button leftside
 		"item_xpos_offcenter_b"	"180"		//xpos for every button rightside
-		"item_ypos"		"0"					//ypos for every button
+		"item_ypos"		"5"					//ypos for every button
 		
 		"modelpanels_kv"
 		{
@@ -87,13 +87,13 @@
 	}
 	"CharacterLoadoutButton"
 	{
-		"xpos"			"c-84"
-		"ypos"			"0"
+		"xpos"			"c-86"
+		"ypos"			"5"
 	}
 	"TauntLoadoutButton"
 	{
 		"xpos"			"c56"
-		"ypos"			"0"
+		"ypos"			"5"
 	}	
 	
 	

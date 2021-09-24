@@ -1,189 +1,76 @@
+#base "base/CharInfoPanel.res"
+
 "Resource/UI/CharInfoPanel.res"
 {
 	"character_info"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"character_info"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"settitlebarvisible"	"1"
-		"PaintBackgroundType"	"0"
-		
 		"bgcolor_override"				"sheet"
 		"infocus_bgcolor_override"		"sheet"
 		"outoffocus_bgcolor_override"	"sheet"
-
-		"title"								"#CharInfoAndSetup"
-		"title_font"						"tea24"
-		"titletextinsetX"					"40"
-		"titletextinsetY"					"0"
-		"titlebarfgcolor_override"			"HudOffWhite"
-		"titlebardisabledfgcolor_override"	"HudOffWhite"
-		"titlebarbgcolor_override"			"DarkGrey"
-
-		"clientinsetx_override"				"0"
-		"sheetinset_bottom"					"40"
-	}
-
-	"BackgroundHeader"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BackgroundHeader"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-2"
-		"wide"				"f0"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"loadout_header"
-		"tileImage"			"1"
-	}
-	"BackgroundHeader2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BackgroundHeader2"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-2"
-		"wide"				"f0"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"27 27 27 200"
-		"tileImage"			"1"
-	}
-
-	"BackgroundFooter"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BackgroundFooter"
-		"xpos"				"0"
-		"ypos"				"420"
-		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"60"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"loadout_header"
-		"tileImage"			"1"
-	}
-	"BackgroundFooter2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BackgroundFooter2"
-		"xpos"				"0"
-		"ypos"				"420"
-		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"60"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"27 27 27 200"
-		"tileImage"			"1"
-	}
-
-	"FooterLine"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"FooterLine"
-		"xpos"				"0"
-		"ypos"				"420"
-		"zpos"				"2"
-		"wide"				"f0"
-		"tall"				"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"MainRed"
-	}
-
+	}			
 	"Sheet"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"Sheet"
-		"tabxindent"		"80"
-		"tabxdelta"			"10"
-		"tabwidth"			"240"
-		"tabheight"			"20"
-		"transition_time" 	"0"
-		"yoffset"			"14"
+		"tabxindent"		"20"
+		"tabwidth"			"180"
 
 		"HeaderLine"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"HeaderLine"
-			"xpos"			"0"
-			"ypos"			"33"
-			"zpos"			"5"
-			"wide"			"f0"
-			"tall"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"		"tandark"
+			"ypos"			"34"
+			"tall"			"5"
 		}
-
 		"tabskv"
 		{
-			"textinsetx"				"25"
-			"textinsety"				"5"
-			"textAlignment"				"north"
-			"font"						"tea14"
+			"textinsetx"				"40"
+			"font"						"tea16"
 			"selectedcolor"				"white"
-			"unselectedcolor"			"tandark"
-			"defaultBgColor_override"	"black"
-			"paintbackground"			"1"
-			"activeborder_override"		"bg_lrt"
-			"normalborder_override"		"bg_lrtb"
-			"armedBgColor_override"		"10 10 10 255"
-			"selectedBgColor_override"	"10 10 10 255"
+			"unselectedcolor"			"tandark"	
+			
+			"paintbackground"			"0"
+			"activeborder_override"		"bg_lrtb"
+			"normalborder_override"		"bg_lrt"
 		}
-	}
-
+	}			
+	"FooterLine"
+	{
+		"ypos"			"r45"
+	}	
 	"BackButton"
 	{
-		"ControlName"		"CExButton"
-		"fieldName"			"BackButton"
-		"xpos"				"c-295"
-		"ypos"				"437"
-		"zpos"				"2"
-		"wide"				"100"
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"3"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"Back (&Q)"
-		"font"				"tea18"
-		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"default"			"0"
-		"Command"			"back"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
+		"ypos"			"r35"
+		"labelText"		"#TF_Back"
+		"font"			"tea16"
+	}		
 	"NotificationsPresentPanel"
 	{
-		"ControlName"		"CNotificationsPresentPanel"
-		"fieldName"			"NotificationsPresentPanel"
-		"xpos"				"r200"
-		"ypos"				"10"
-		"zpos"				"10000"
-		"wide"				"190"
-		"tall"				"50"
-		"visible"			"0"
-		"enabled"			"1"
+		"xpos"			"r200"
+		"ypos"			"10"
+		"zpos"			"10000"
+		"wide"			"190"
+		"tall"			"50"
 	}
+
+	"quickbind"	
+	{
+		"controlname"								"cexbutton"
+		"fieldname"									"quickbind"
+		"xpos"										"9999"
+		"ypos"										"0"
+		"tall"										"0"
+		"visible"									"1"	
+		"enabled"									"1"
+		"labeltext"									"&q"
+		"command"									"back"
+	}	
+	"BackgroundHeader"
+	{
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
+	}				
+	"BackgroundFooter"
+	{
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
+	}	
 }
