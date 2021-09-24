@@ -78,32 +78,6 @@ scheme
 			}
 		}	
 
-		//has no bottom color
-		bg_lrt
-		{
-			left
-			{
-				"1"
-				{
-					"color"							"bodercolor"
-				}	
-			}	
-			right	
-			{	
-				"1"	
-				{	
-					"color"							"bodercolor"
-				}	
-			}	
-			top	
-			{	
-				"1"	
-				{	
-					"color"							"bodercolor"
-				}	
-			}	
-		}
-
 		//only has sides colors
 		bg_lr
 		{
@@ -141,7 +115,7 @@ scheme
 				}
 			}
 		}
-					
+
 		//only has corners colors
 		bg_rb
 		{
@@ -253,5 +227,106 @@ scheme
 				}	
 			}	
 		}	
+
+		//has no left color
+		bg_rtb
+		{
+			right
+			{
+				"1"
+				{
+					"color"							"bodercolor"
+				}	
+			}	
+			top	
+			{	
+				"1"	
+				{	
+					"color"							"bodercolor"
+				}	
+			}	
+			bottom	
+			{	
+				"1"	
+				{	
+					"color"							"bodercolor"
+				}	
+			}	
+		}		
+		//has no right color
+		bg_ltb
+		{
+			left
+			{
+				"1"
+				{
+					"color"							"bodercolor"
+				}	
+			}	
+			top	
+			{	
+				"1"	
+				{	
+					"color"							"bodercolor"
+				}	
+			}	
+			bottom	
+			{	
+				"1"	
+				{	
+					"color"							"bodercolor"
+				}	
+			}	
+		}
+		//has no top color
+		bg_lrb
+		{
+			left
+			{
+				"1"
+				{
+					"color"							"bodercolor"
+				}	
+			}	
+			right	
+			{	
+				"1"	
+				{	
+					"color"							"bodercolor"
+				}	
+			}	
+			bottom	
+			{	
+				"1"	
+				{	
+					"color"							"bodercolor"
+				}	
+			}	
+		}
+		//has no bottom color
+		bg_lrt
+		{
+			left
+			{
+				"1"
+				{
+					"color"							"bodercolor"
+				}	
+			}	
+			right	
+			{	
+				"1"	
+				{	
+					"color"							"bodercolor"
+				}	
+			}	
+			top	
+			{	
+				"1"	
+				{	
+					"color"							"bodercolor"
+				}	
+			}	
+		}
 	}
 }

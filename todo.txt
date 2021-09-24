@@ -1,10 +1,10 @@
-1 mainmenu complete buttons layout!
-2 make destroy menu
+1 
+2 
 3 make training engi build menu
 4 fix hudplayerstatus icons
 5 make pipboy menu
 6 check classloadoutpanel on lower resolutions
-7 
-8
+7 test new item alert (menu and backpack)
+8 resize rank panel (menu) 
 9
 10

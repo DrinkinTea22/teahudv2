@@ -138,20 +138,20 @@
 	"MOTD_ShowButtonPanel"
 	{
 		"xpos"			"0"
-		"ypos"			"0"
-		"pin_to_sibling"							"bgbordercs1"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"ypos"			"32"
+		"pin_corner_to_sibling"						"2"
+		"pin_to_sibling_corner"						"2"
+		"pin_to_sibling"							"bgbordercs3"
 	}
 	"QuestLogButton"
 	{
-		"xpos"			"32"
+		"xpos"			"-32"
 		"ypos"			"0"
 		"pin_to_sibling"							"MOTD_ShowButtonPanel"
 	}
 	"WatchStreamButton"
 	{
-		"xpos"			"32"
+		"xpos"			"-32"
 		"ypos"			"0"
 		"pin_to_sibling"							"QuestLogButton"
 	}
@@ -180,7 +180,7 @@
 				"textAlignment"	"center"
 				"wide"			"350"
 				"PaintBackgroundType" "0"
-				"fgcolor_override"	"235 226 202 255"
+				"fgcolor_override"	"white"
 				"bgcolor_override"	"141 178 61 255"
 			}
 		}
@@ -191,10 +191,10 @@
 			"proportionaltoparent"		"1"
 			
 			"defaultFgColor_override"	"46 43 42 255"
-			"armedFgColor_override"		"235 226 202 255"
+			"armedFgColor_override"		"white"
 			"depressedFgColor_override"	"46 43 42 255"
 			
-			"image_drawcolor"			"235 226 202 255"
+			"image_drawcolor"			"white"
 			"image_armedcolor"			"200 80 60 255"			
 		}				
 		"MOTD_TitleLabel"
@@ -264,13 +264,72 @@
 			"border_default"	"bg_lrtb"
 			"border_armed"		"bg_lrtb"
 			
-			"defaultFgColor_override"		"235 226 202 255"
+			"defaultFgColor_override"		"white"
 			"defaultBgColor_override"		"46 43 42 255"
-			"armedFgColor_override"			"235 226 202 255"
-			"depressedFgColor_override"		"235 226 202 255"
+			"armedFgColor_override"			"white"
+			"depressedFgColor_override"		"white"
 		}	
 	}		
 	//MOTD
+	
+	//new item alert
+	"Notifications_ShowButtonPanel"
+	{
+		"xpos"			"0"
+		"ypos"			"32"
+		"zpos"			"10"
+		"wide"			"32"
+		"tall"			"32"
+		"pin_corner_to_sibling"						"3"
+		"pin_to_sibling_corner"						"3"
+		"pin_to_sibling"							"bgbordercs4"
+		
+		"SubImage"
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"3"
+			"wide"			"16"
+			"tall"			"16"
+			"drawcolor"		"white"
+			"proportionaltoparent"	"1"
+		}				
+		
+		"Notifications_CountLabel"
+		{
+			"font"			"tea14"
+			"textAlignment"	"center"
+			"xpos"			"16"
+			"ypos"			"0"
+			"zpos"			"4"
+			"wide"			"16"
+			"tall"			"16"
+			"fgcolor_override"	"white"
+		}
+	
+		"Notifications_ShowButtonPanel_SB"
+		{
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"32"
+			"tall"			"32"
+			"font"			"tea14"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
+			
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"32"
+				"tall"			"32"
+			"proportionaltoparent"	"1"
+			}
+		}
+	}	
+	//new item alert
 	
 	//rank stuff
 	"RankModelPanel"
@@ -341,13 +400,14 @@
 	//buttons
 	"CharacterSetupButton"
 	{
-		"xpos"			"-4"
-		"ypos"			"-2"						//forgive for this.		
-		"wide"			"37"
-		"tall"			"37"
+		"xpos"			"-5"
+		"ypos"			"-12.5"						//forgive for this.		
+		"wide"			"85"
+		"tall"			"60"
 		"labelText"		""
-		"border_default"							"bg_lr"
+		"border_default"							"bg_ltb"
 		"paintborder"								"1"	
+		"image_drawcolor"	"white"
 		"pin_to_sibling"							"bgbordercs2"
 		"pin_corner_to_sibling"						"0"
 		"pin_to_sibling_corner"						"0"
@@ -356,28 +416,29 @@
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
-			"wide"			"19"
-			"tall"			"19"
+			"wide"			"35"
+			"tall"			"35"
 			"proportionaltoparent"	"1"
 		}	
 	}		
 	"GeneralStoreButton"
 	{
-		"xpos"			"0"
-		"ypos"			"-37"
-		"wide"			"37"
-		"tall"			"37"
+		"xpos"			"-85"
+		"ypos"			"0"
+		"wide"			"85"
+		"tall"			"60"
 		"labelText"		""
-		"border_default"							"bg_lr"
+		"border_default"							"bg_lrtb"
 		"paintborder"								"1"	
+		"image_drawcolor"	"white"
 		"pin_to_sibling"							"CharacterSetupButton"
 		
 		"SubImage"
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
-			"wide"			"19"
-			"tall"			"19"
+			"wide"			"35"
+			"tall"			"35"
 			"proportionaltoparent"	"1"
 		}	
 	}
@@ -385,17 +446,17 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButtonFixed"
-		"xpos"			"0"
-		"ypos"			"-37"
+		"xpos"			"-85"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"37"
-		"tall"			"37"
+		"wide"			"85"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"border_default"							"bg_lr"
+		"border_default"							"bg_tb"
 		"Command"		"OpenOptionsDialog"
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"white"
 		"pin_to_sibling"							"GeneralStoreButton"
 		
 		"SubImage"
@@ -405,8 +466,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
-			"wide"			"19"
-			"tall"			"19"
+			"wide"			"35"
+			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -418,20 +479,20 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AdvancedSettingsButtonFixed"
-		"xpos"			"0"
-		"ypos"			"-37"
+		"xpos"			"-85"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"37"
-		"tall"			"37"
+		"wide"			"85"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"+"
-		"border_default"							"bg_lr"
-		"font"			"tea14"
-		"textinsetx"	"4"
-		"textinsety"	"-8"
+		"border_default"							"bg_lrtb"
+		"font"			"tea40"
+		"textinsetx"	"20"
+		"textinsety"	"-20"
 		"Command"		"opentf2options"
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"white"
 		"pin_to_sibling"	"SettingsButtonFixed"
 		
 		"SubImage"
@@ -441,8 +502,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
-			"wide"			"19"
-			"tall"			"19"
+			"wide"			"35"
+			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -454,17 +515,17 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButtonFixed"
-		"xpos"			"-37"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"-65"
 		"zpos"			"1"
-		"wide"			"37"
-		"tall"			"37"
+		"wide"			"85"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"border_default"							"bg_lr"
+		"border_default"							"bg_ltb"
 		"Command"		"OpenAchievementsDialog"
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"white"
 		"pin_to_sibling"	"CharacterSetupButton"
 		
 		"SubImage"
@@ -474,8 +535,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
-			"wide"			"19"
-			"tall"			"19"
+			"wide"			"35"
+			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -487,17 +548,17 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReplaysButtonFixed"
-		"xpos"			"0"
-		"ypos"			"-37"
+		"xpos"			"-85"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"37"
-		"tall"			"37"
+		"wide"			"85"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"border_default"							"bg_lr"
+		"border_default"							"bg_lrtb"
 		"Command"		"engine replay_reloadbrowser"
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"white"
 		"pin_to_sibling"	"AchievementsButtonFixed"
 		
 		"SubImage"
@@ -507,8 +568,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
-			"wide"			"19"
-			"tall"			"19"
+			"wide"			"35"
+			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -520,17 +581,17 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WorkshopButtonFixed"
-		"xpos"			"0"
-		"ypos"			"-37"
+		"xpos"			"-85"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"37"
-		"tall"			"37"
+		"wide"			"85"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"border_default"							"bg_lr"
+		"border_default"							"bg_tb"
 		"Command"		"engine OpenSteamWorkshopDialog"
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"white"
 		"pin_to_sibling"	"ReplaysButtonFixed"
 		
 		"SubImage"
@@ -540,8 +601,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
-			"wide"			"19"
-			"tall"			"19"
+			"wide"			"35"
+			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -553,16 +614,17 @@
 	{		
 		"controlname"								"CExButton"
 		"fieldname"									"Console"
-		"labeltext"									">_"			
-		"xpos"										"0"
-		"ypos"										"-37"	
-		"font"										"tea20"
+		"labeltext"									">_"		
+		"xpos"										"-85"
+		"ypos"										"0"
+		"font"										"tea40"
 		"zpos"										"10"
-		"wide"										"37"
-		"tall"										"37"
+		"wide"										"85"
+		"tall"										"60"
 		"visible"									"1"	
 		"enabled"									"1"
-		"border_default"							"bg_lr"
+		"textAlignment"								"center"
+		"border_default"							"bg_lrtb"
 		
 		"command"									"engine toggleconsole"	
 		"pin_to_sibling"							"WorkshopButtonFixed"
@@ -594,8 +656,8 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"white"
+			"image_armedcolor"	"white"
 
 			"proportionaltoparent"	"1"
 			
@@ -630,8 +692,8 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"white"
+			"image_armedcolor"	"white"
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
@@ -665,8 +727,8 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"white"
+			"image_armedcolor"	"white"
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
