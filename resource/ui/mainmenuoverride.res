@@ -5,9 +5,6 @@
 //tool
 #base "../../resource/tools/tools.res"
 
-// customizations
-#base "../../customization/enabled/custom panel.res"
-
 // part of the menu
 #base "../../customization/enabled/bookmarks.res"
 
@@ -21,7 +18,7 @@
 	{
 		"xpos"		"c0"
 		"ypos"		"25"
-		"visible"	"1"	//1 to set it on
+		"visible"	"0"	//1 to set it on
 		"command"	"engine toggle mat_antialias 0 2"
 	}
 	
@@ -291,7 +288,7 @@
 			"zpos"			"3"
 			"wide"			"16"
 			"tall"			"16"
-			"drawcolor"		"white"
+			"drawcolor"		"210 125 33 255"
 			"proportionaltoparent"	"1"
 		}				
 		
@@ -304,7 +301,6 @@
 			"zpos"			"4"
 			"wide"			"16"
 			"tall"			"16"
-			"fgcolor_override"	"white"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -325,8 +321,50 @@
 				"zpos"			"1"
 				"wide"			"32"
 				"tall"			"32"
-			"proportionaltoparent"	"1"
+				"proportionaltoparent"	"1"
 			}
+		}
+	}	
+	"Notifications_Panel"
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"210"
+		"tall"			"80"
+		"visible"		"0"
+		"PaintBackgroundType"		"0"
+		"border"					"bg_lrtb"
+		"paintbackground"			"1"
+		"bgcolor_override"			"custombgcolor"
+		
+		"pin_corner_to_sibling"						"3"
+		"pin_to_sibling_corner"						"3"
+		"pin_to_sibling"							"bgbordercs4"
+		
+		"Notifications_CloseButton"
+		{
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override"			"ButtonHover"
+			"depressedFgColor_override"		"46 43 42 255"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"200 80 60 255"			
+		}		
+		"Notifications_TitleLabel"
+		{
+			"font"			"tea14"
+			"textAlignment"	"north-west"
+			"xpos"			"12"
+			"ypos"			"8"
+			"wide"			"250"
+			"tall"			"20"
+			"fgcolor"		"white"
+		}
+		"Notifications_Scroller"
+		{
+			"PaintBackgroundType"	"0"
+			"fgcolor_override"		"tandark"
 		}
 	}	
 	//new item alert
@@ -336,7 +374,7 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"250"
+		"wide"			"350"
 		"tall"			"150"
 		"pin_to_sibling"							"bgbordercs1"
 	}	
@@ -344,9 +382,8 @@
 	{
 		"xpos"				"0"
 		"ypos"				"0"
-		"wide"				"250"
+		"wide"				"350"
 		"tall"				"150"
-		"bgcolor_override"	"custombgcolor"
 		"border"			"bg_tb"
 		"pin_to_sibling"							"bgbordercs1"
 		"pin_corner_to_sibling"						"0"
@@ -356,8 +393,8 @@
 	{
 		"xpos"			"-5"
 		"ypos"			"-5"
-		"border_default"									"bg_rb"
-		"border_armed"										"bg_rb"
+		"border_default"									"bg_lrtb"
+		"border_armed"										"bg_lrtb"
 		"paintborder"								"1"
 		"pin_to_sibling"							"bgbordercs1"
 		"pin_corner_to_sibling"						"0"

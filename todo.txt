@@ -4,7 +4,7 @@
 4 fix hudplayerstatus icons
 5 make pipboy menu
 6 check classloadoutpanel on lower resolutions
-7 test new item alert (menu and backpack)
-8 resize rank panel (menu) 
+7 
+8 
 9
 10

@@ -183,7 +183,7 @@
 			{
 				"xpos"			"5"
 				"ypos"			"75"
-				"wide"			"240"
+				"wide"			"340"
 
 				"CurrentXPLabel"
 				{
@@ -198,14 +198,6 @@
 
 				"ProgressBarsContainer"
 				{
-					"ProgressBar"
-					{
-						"fgcolor_override"	"20 20 20 180"
-					}
-					"ContinuousProgressBar"
-					{
-						"fgcolor_override"	"CreditsGreen"
-					}
 					"Frame"
 					{
 						"border"			"noborder"
@@ -215,8 +207,8 @@
 
 			"Stats"
 			{
-				"ypos"				"rs1.0"
-				"tall"				"p0.30"
+				"ypos"				"rs1.2"
+				"tall"				"35"
 				"visible"			"1"
 				"bgcolor_override"	"blank"
 
@@ -228,6 +220,7 @@
 				//stats				used for all left-sided labels
 				"GamesLabel"
 				{
+					"xpos"				"5"
 					"font"				"tea10"
 					"fgcolor_override"	"white"
 				}
@@ -275,8 +268,9 @@
 				// Third column
 				"ScoreLabel"
 				{
-					"xpos"			"c55"
+					"xpos"			"r105"
 					"font"			"tea10"
+					"textAlignment"	"north-east"
 					"fgcolor_override"	"white"
 				}
 			}
