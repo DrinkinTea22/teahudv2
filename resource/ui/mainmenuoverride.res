@@ -18,7 +18,7 @@
 	{
 		"xpos"		"c0"
 		"ypos"		"25"
-		"visible"	"0"	//1 to set it on
+		"visible"	"1"	//1 to set it on
 		"command"	"engine toggle mat_antialias 0 2"
 	}
 	
@@ -90,7 +90,7 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"250"
+		"wide"			"350"
 		"tall"			"250"
 		"border"					"noborder"
 		"pin_to_sibling"							"bgbordercs3"
@@ -119,7 +119,7 @@
 
 			"friendpanel_kv"
 			{
-				"wide"		"230"
+				"wide"		"330"
 				"tall"		"20"
 			}
 		}
@@ -671,19 +671,21 @@
 	//buttons in-game
 	"ReportPlayerButton"
 	{
-		"xpos"			"-37"
-		"ypos"			"2"
+		"xpos"			"-10"
+		"ypos"			"25"
 		"zpos"			"11"
-		"wide"										"50"
-		"tall"										"50"
-		"pin_to_sibling"							"AchievementsButtonFixed"
+		"wide"										"20"
+		"tall"										"20"
+		"pin_to_sibling"							"bgbordercs3"
+		"pin_corner_to_sibling"						"3"
+		"pin_to_sibling_corner"						"3"
 
 		"SubButton"
 		{
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"										"50"
-			"tall"										"50"
+			"wide"										"20"
+			"tall"										"20"
 			"RoundedCorners"	"0"
 			"border_default"							"bg_lr"
 			
@@ -702,26 +704,26 @@
 			{
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
-				"wide"			"35"
-				"tall"			"35"
+				"wide"			"15"
+				"tall"			"15"
 			}				
 		}
 	}	
 	"CallVoteButton"
 	{
-		"xpos"			"0"
-		"ypos"			"-50"
+		"xpos"			"-20"
+		"ypos"			"0"
 		"zpos"			"11"
-		"wide"										"50"
-		"tall"										"50"
+		"wide"										"20"
+		"tall"										"20"
 		"pin_to_sibling"							"ReportPlayerButton"
 
 		"SubButton"
 		{
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"										"50"
-			"tall"										"50"
+			"wide"										"20"
+			"tall"										"20"
 			"RoundedCorners"	"0"
 			"border_default"							"bg_lr"
 			
@@ -737,26 +739,26 @@
 			{
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
-				"wide"			"35"
-				"tall"			"35"
+				"wide"			"15"
+				"tall"			"15"
 			}				
 		}
 	}
 	"MutePlayersButton"
 	{
-		"xpos"			"0"
-		"ypos"			"-50"
+		"xpos"			"-20"
+		"ypos"			"0"
 		"zpos"			"11"
-		"wide"										"50"
-		"tall"										"50"
+		"wide"										"20"
+		"tall"										"20"
 		"pin_to_sibling"							"CallVoteButton"
 
 		"SubButton"
 		{
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"										"50"
-			"tall"										"50"
+			"wide"										"20"
+			"tall"										"20"
 			"RoundedCorners"	"0"
 			"border_default"							"bg_lr"
 			
@@ -772,8 +774,8 @@
 			{
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
-				"wide"			"35"
-				"tall"			"35"
+				"wide"			"15"
+				"tall"			"15"
 			}				
 		}
 	}
