@@ -183,7 +183,7 @@
 			{
 				"xpos"			"5"
 				"ypos"			"75"
-				"wide"			"340"
+				"wide"			"p0.97"	//low and high res fix
 
 				"CurrentXPLabel"
 				{
