@@ -2,10 +2,10 @@
 
 "Resource/UI/destroy_menu/base_inactive.res"
 {
-	"CantBuildIcon"
+	"CantDestroyIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CantBuildIcon"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"CantDestroyIcon"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"10"
@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"hud/vote_no"
+		"icon"			"cappoint_progressbar_blocked"
 		"proportionaltoparent"	"1"
 	}
 	"NumberLabel"
