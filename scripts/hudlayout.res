@@ -77,5 +77,13 @@
 		"border"				"bg_lrtb" 
 		"bgcolor_override"		"custombgcolor"
 	}
+	
+	"HudMenuSpyDisguise"
+	{
+		"xpos"			"c-225"
+		"ypos"			"c35"
+		"wide"			"450"
+		"tall"			"100"
+	}	
 }
 

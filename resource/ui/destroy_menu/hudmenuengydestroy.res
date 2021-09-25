@@ -92,7 +92,7 @@
 	
 	"inactive_item_1"
 	{
-		"xpos"			"25"
+		"xpos"			"5"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"100"

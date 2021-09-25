@@ -1,9 +1,9 @@
-1 
+1 fix rank panel on 4x3 res
 2 
 3 make training engi build menu
 4 fix hudplayerstatus icons
 5 make pipboy menu
-6 check classloadoutpanel on lower resolutions
+6 
 7 
 8 
 9
