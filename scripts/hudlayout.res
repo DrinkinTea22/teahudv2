@@ -16,6 +16,14 @@
 		//"border"										"bg_lrtb" //testing
 	}
 	
+	CHealthAccountPanel
+	{
+		"xpos"											"c-225"	
+		"ypos"											"c100"	
+		"wide"											"150"
+		"tall"											"100"
+	}
+	
 	HudMedicCharge
 	{
 		"xpos"											"c-75"	
