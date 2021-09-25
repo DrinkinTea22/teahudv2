@@ -27,6 +27,5 @@ Note: this will replace the original project [TeaHud](https://github.com/Drinkin
 my github account.
 
 ## Credits:
-[Menu Backgrounds]https://gamebanana.com/mods/25625
-by ¡KROAN , all credits to him/her!!
+[Menu Backgrounds](https://gamebanana.com/mods/25625) by ¡KROAN , all credits to him/her!!
 
