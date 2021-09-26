@@ -1,7 +1,7 @@
 #base "base/hudplayerhealth.res"
 
 "Resource/UI/HudPlayerHealth.res"
-{	
+{
 	"PlayerStatusMaxHealthValue"
 	{
 		"fgcolor"		"blank"

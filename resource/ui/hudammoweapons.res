@@ -19,7 +19,6 @@
 		"enabled"			"0"		
 	}
 	
-	
 	//ammo	
 	"AmmoInClip"
 	{

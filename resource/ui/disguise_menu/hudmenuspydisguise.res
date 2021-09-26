@@ -4,10 +4,10 @@
 {
 	"Divider"
 	{
-		"xpos"			"0"
+		"xpos"			"17"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"450"
+		"wide"			"430"
 		"tall"			"100"
 		"border"		"bg_lrtb"
 		"fillcolor"		"custombgcolor"
@@ -75,107 +75,40 @@
 	
 	"NumberBg1"	
 	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"NumberBg"
-		"xpos"			"75"
-		"ypos"			"140"
-		"zpos"			"4"
-		"wide"			"15"
-		"tall"			"15"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"xpos"			"9999"
+		"enabled"		"0"
+	}
+	"NumberBg2"
+	{
+		"xpos"			"9999"
+		"enabled"		"0"
+	}
+	"NumberBg3"
+	{
+		"xpos"			"9999"
+		"enabled"		"0"
 	}
 	
 	"NumberLabel1"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
-		"font"			"Default"
-		"fgcolor"		"Black"
 		"xpos"			"75"
-		"ypos"			"140"
-		"zpos"			"5"
-		"wide"			"15"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"enabled"		"1"
-		"labelText"		"1"
-		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
+		"ypos"			"80"
+		"font"			"tea16"
+		"fgcolor"		"white"
 	}
-
-	"NumberBg2"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"NumberBg"
-		"xpos"			"227"
-		"ypos"			"140"
-		"zpos"			"4"
-		"wide"			"15"
-		"tall"			"15"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
-	}
-	
 	"NumberLabel2"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"227"
-		"ypos"			"140"
-		"zpos"			"5"
-		"wide"			"15"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"enabled"		"1"
-		"labelText"		"2"
-		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
+		"xpos"			"230"
+		"ypos"			"80"
+		"font"			"tea16"
+		"fgcolor"		"white"
 	}
-	
-	"NumberBg3"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"NumberBg"
-		"xpos"			"379"
-		"ypos"			"140"
-		"zpos"			"4"
-		"wide"			"15"
-		"tall"			"15"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
-	}
-	
 	"NumberLabel3"
 	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
-		"font"			"Default"
-		"fgcolor"		"Black"
-		"xpos"			"379"
-		"ypos"			"140"
-		"zpos"			"5"
-		"wide"			"15"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"enabled"		"1"
-		"labelText"		"3"
-		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
+		"xpos"			"385"
+		"ypos"			"80"
+		"font"			"tea16"
+		"fgcolor"		"white"
 	}
 
 	//[deleted lol]

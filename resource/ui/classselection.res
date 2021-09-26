@@ -17,6 +17,22 @@
 		"scaleimage"								"1"	
 		"fillcolor"									"custombgcolor"
 	}
+	"bg_classcolor"
+	{
+		"controlname"								"imagepanel"
+		"fieldname"									"bg_classcolor"
+		"xpos"										"0"
+		"ypos"										"-10"
+		"zpos"										"-100"
+		"wide"										"165"
+		"tall"										"300"
+		"visible"									"1"
+		"enabled"									"1"
+		"scaleimage"								"1"	
+		"fillcolor"									"custombgcolor"
+		"border"									"bg_lrtb"
+		"pin_to_sibling"							"scout"
+	}
 	"ClassMenuSelect"
 	{
 		"xpos"			"0"
@@ -34,10 +50,19 @@
 	{		"labelText"		""		}
 	"Support"
 	{		"labelText"		""		}
+	"TFPlayerModel"
+	{
+		"fov"			"30"
 	
+		"model"
+		{
+			"origin_y" "-50"	//fix
+			"origin_z" "-44"	//fix
+		}
+	}	
 	"scout"
 	{
-		"xpos"				"c-100"
+		"xpos"				"c-200"
 		"ypos"				"c-150"
 		"labelText"			""			
 	}
@@ -322,8 +347,9 @@
 	}
 	"CountLabel" 
 	{
-		"wide"										"0"
-		"tall"										"0"
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}							
 	"ClassTipsPanel"
 	{
