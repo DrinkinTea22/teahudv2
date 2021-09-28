@@ -52,12 +52,14 @@
 	{		"labelText"		""		}
 	"TFPlayerModel"
 	{
+		"xpos"			"c-150"
+		"ypos"			"0"
 		"fov"			"30"
 	
 		"model"
 		{
-			"origin_y" "-50"	//fix
-			"origin_z" "-44"	//fix
+			//"origin_y" "-50"	//fix
+			//"origin_z" "-44"	//fix
 		}
 	}	
 	"scout"

@@ -189,7 +189,7 @@
 	//reserve ammo								
 	"AmmoInReserve"
 	{
-		"font"										"tea24"
+		"font"										"numtea24"
 		"fgcolor"									"Ammo"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.1"
@@ -200,7 +200,7 @@
 	}		
 	"AmmoInReserveShadow"
 	{
-		"font"										"tea24"
+		"font"										"numtea24"
 		"fgcolor"									"Black"
 		"xpos"										"-2"
 		"ypos"										"-2"

@@ -4,15 +4,52 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"										"rs1-0"	
+		"xpos"										"rs1-10"	
+		"ypos"										"0"	
+	}
+	"ItemEffectMeterCount"
+	{
+		"xpos"				"-15"
+		"ypos"				"2"
+		"textAlignment"		"west"
+		"pin_to_sibling"	"ItemEffectMeterIcon"
+	}
+	"ItemEffectMeterCountShadow"
+	{
+		"textAlignment"		"west"
+	}
+	"ItemEffectMeterIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterIcon"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_streak"
+	}
+	"ItemEffectMeterIconShadow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterIconShadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"2"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/dneg_leaderboard_streak"
+		"pin_to_sibling"	"ItemEffectMeterIcon"
 	}
 	"ItemEffectMeterBG"
 	{		
 	}	
 	"ItemEffectMeterLabel"
 	{
-	}	
-	"ItemEffectMeterCount"
-	{
-	}				
+		"xpos"	"9999"
+	}					
 }

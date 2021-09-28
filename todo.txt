@@ -1,4 +1,4 @@
-1 fix rank panel on 4x3 res
+1 finish mvm scoreboard
 2 
 3 make training engi build menu
 4 fix hudplayerstatus icons

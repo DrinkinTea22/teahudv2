@@ -1,4 +1,3 @@
-
 //menu for small resolutions
 "resource/ui/mainmenuoverride.res"
 {

@@ -58,6 +58,9 @@ Scheme
 		"FAG"										"94 170 49 255"
 		"RSM"										"92 128 166 255"
 		"DisQit"									"192 56 63 255"
+		"FAGHover"									"94 170 49 155"
+		"RSMHover"									"92 128 166 155"
+		"DisQitHover"								"192 56 63 155"
 		
 		"MVMsubLabel"								"255 255 255 255"		//MVM Sub Panels Label color
 		"MVMsubPositive"							"230 238 255 255"		//MVM Sub Panels Positive color

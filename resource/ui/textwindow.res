@@ -2,6 +2,18 @@
 
 "Resource/UI/TextWindow.res"
 {	
+	"quickbind"	
+	{
+		"controlname"								"cexbutton"
+		"fieldname"									"quickbind"
+		"xpos"										"9999"
+		"ypos"										"0"
+		"tall"										"0"
+		"visible"									"1"	
+		"enabled"									"1"
+		"labeltext"									"&e"
+		"command"									"okay"
+	}
 	"TFMessageTitle"
 	{
 		"xpos"			"0"

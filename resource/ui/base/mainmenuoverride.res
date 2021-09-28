@@ -218,7 +218,7 @@
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011_widescreen"
+			"image"		"../console/background_xmas2020_widescreen"
 		}		
 	}
 					
@@ -643,24 +643,6 @@
 				"keyboardinputenabled" "0"
 			}		
 		}
-	}
-
-	"StreamListPanel"
-	{
-		"ControlName"	"CTFStreamListPanel"
-		"fieldName"		"StreamListPanel"
-		"xpos"			"c5"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"350"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
 	}
 
 	"QuestLogButton"
@@ -1725,12 +1707,12 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2018 Cosmetic Key"
+						"item"		"Summer 2021 Cosmetic Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2018 Cosmetic Case"
+						"item"		"Summer 2021 Cosmetic Case"
 						"show_market"	"1"
 					}
 				}

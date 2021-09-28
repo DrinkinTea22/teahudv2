@@ -1,5 +1,5 @@
 #base "lastdamagedone_above_HP.res"
-#base "lastdamagedone_above_Ammo.res"
+#base "enabled_default/lastdamagedone_above_Ammo.res"
 
 ////************************************************Custom Damage Numbers.
 "Resource/UI/HudDamageAccount.res"

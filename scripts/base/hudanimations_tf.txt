@@ -25,11 +25,11 @@
 //			Gain - < bias > Lower bias values bias towards 0.5 and higher bias values bias away from it.
 //			Bias - < bias > Lower values bias the curve towards 0 and higher values bias it towards 1.
 //
-//	RunEvent <event DefaultAnimDefaultAnimDefaultAnimname> <start time>
+//	RunEvent <event DefaultAnimname> <start time>
 //		starts another even running at the specified time
 //
-//	StopEvent <event DefaultAnimDefaultAnimDefaultAnimname> <start time>
-//		stops another event DefaultAnimDefaultAnimDefaultAnimthat is current running at the specified time
+//	StopEvent <event DefaultAnimname> <start time>
+//		stops another event DefaultAnimthat is current running at the specified time
 //
 //	StopAnimation <panel name> <variable> <start time>
 //		stops all animations refering to the specified variable in the specified panel
@@ -43,24 +43,11 @@
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
 
-event DefaultAnimDefaultAnimDefaultAnimLevelInit
+event DefaultAnimLevelInit
 {
 }
 
-event DefaultAnimDefaultAnimDefaultAnimOpenWeaponSelectionMenu
-{
-	StopEvent CloseWeaponSelectionMenu	0.0
-	StopEvent WeaponPickup				0.0
-
-	// make the display visible
-	Animate HudWeaponSelection Alpha 		"128"		Linear 0.0 0.1
-	Animate HudWeaponSelection SelectionAlpha 	"255"	Linear 0.0 0.1
-	Animate HudWeaponSelection FgColor		"FgColor"	Linear 0.0 0.1
-	//Animate HudWeaponSelection TextColor	"BrightFg"	Linear 0.0 0.1
-	Animate HudWeaponSelection TextScan		"1" 		Linear 0.0 0.1
-}
-
-event DefaultAnimDefaultAnimDefaultAnimCloseWeaponSelectionMenu
+event DefaultAnimOpenWeaponSelectionMenu
 {
 	StopEvent CloseWeaponSelectionMenu	0.0
 	StopEvent WeaponPickup				0.0
@@ -73,8 +60,21 @@ event DefaultAnimDefaultAnimDefaultAnimCloseWeaponSelectionMenu
 	Animate HudWeaponSelection TextScan		"1" 		Linear 0.0 0.1
 }
 
+event DefaultAnimCloseWeaponSelectionMenu
+{
+	StopEvent CloseWeaponSelectionMenu	0.0
+	StopEvent WeaponPickup				0.0
 
-event DefaultAnimDefaultAnimDefaultAnimMenuOpen
+	// make the display visible
+	Animate HudWeaponSelection Alpha 		"128"		Linear 0.0 0.1
+	Animate HudWeaponSelection SelectionAlpha 	"255"	Linear 0.0 0.1
+	Animate HudWeaponSelection FgColor		"FgColor"	Linear 0.0 0.1
+	//Animate HudWeaponSelection TextColor	"BrightFg"	Linear 0.0 0.1
+	Animate HudWeaponSelection TextScan		"1" 		Linear 0.0 0.1
+}
+
+
+event DefaultAnimMenuOpen
 {
 	StopEvent	MenuClose 0.0 
 
@@ -90,7 +90,7 @@ event DefaultAnimDefaultAnimDefaultAnimMenuOpen
 	Animate HudMenu		Blur		"1"			Linear	0.0		0.01
 }
 
-event DefaultAnimDefaultAnimDefaultAnimMenuClose
+event DefaultAnimMenuClose
 {	
 	// Hide it
 	Animate HudMenu Alpha 		"0" Linear 0.0 1
@@ -100,7 +100,7 @@ event DefaultAnimDefaultAnimDefaultAnimMenuClose
 	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimMenuPulse
+event DefaultAnimMenuPulse
 {
 	Animate HudMenu		Blur		"7"			Linear	0.0		0.1
 	Animate HudMenu		Blur		"2"			Deaccel	0.1		0.1
@@ -111,14 +111,14 @@ event DefaultAnimDefaultAnimDefaultAnimMenuPulse
 	Animate	HudMenu		Blur		"1"			Deaccel	0.6		0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimTimerIncrement
+event DefaultAnimTimerIncrement
 {
 	Animate HudTimer		Blur		"7"			Linear	0.0	0.1
 	Animate HudTimer		Blur		"2"			Deaccel	0.1		0.8
 	Animate	HudTimer		Blur		"0"			Deaccel	1.1		1.5
 }
 
-event DefaultAnimDefaultAnimDefaultAnimTimerDecrement
+event DefaultAnimTimerDecrement
 {
 	Animate HudTimer		Blur		"7"			Linear	0.0	0.1
 	Animate HudTimer		Blur		"2"			Deaccel	0.1		0.8
@@ -126,7 +126,7 @@ event DefaultAnimDefaultAnimDefaultAnimTimerDecrement
 }
 
 
-event DefaultAnimDefaultAnimDefaultAnimResourceIncrement
+event DefaultAnimResourceIncrement
 {
 	Animate HudResources		Blur			"3"			Linear	0.0	0.0
 	Animate HudResources		PulseAmount		"0"			Linear	0.0	0.01
@@ -136,7 +136,7 @@ event DefaultAnimDefaultAnimDefaultAnimResourceIncrement
 	Animate HudResources		PulseAmount		"0"			Linear	2	2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimResourceDecrement
+event DefaultAnimResourceDecrement
 {
 	Animate HudResources		Blur			"7"			Linear	0.0	0.0
 	Animate HudResources		PulseAmount		"0"			Linear	0.0	0.01
@@ -146,7 +146,7 @@ event DefaultAnimDefaultAnimDefaultAnimResourceDecrement
 	Animate HudResources		PulseAmount		"0"			Linear	2	2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimResourcePickup
+event DefaultAnimResourcePickup
 {
 	Animate HudResourcesPickup	Alpha			"255"			Linear	0	0
 	Animate HudResourcesPickup	Position		"80 r40"		Linear	0	0
@@ -156,7 +156,7 @@ event DefaultAnimDefaultAnimDefaultAnimResourcePickup
 	Animate	HudResourcesPickup	Blur		"1"			Deaccel	0.2	0.3
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHintMessageShow
+event DefaultAnimHintMessageShow
 {
 	Animate HudHintDisplay HintSize	"1"		Deaccel 0.0	0.3
 	Animate HudHintDisplay FgColor	"FgColor" 	Linear 0.4      0.4
@@ -174,13 +174,13 @@ event DefaultAnimDefaultAnimDefaultAnimHintMessageShow
 }
 
 
-event DefaultAnimDefaultAnimDefaultAnimHintMessageHide
+event DefaultAnimHintMessageHide
 {
 	Animate HudHintDisplay FgColor	"255 220 0 0"   Linear  0.0 	0.2
 	Animate HudHintDisplay HintSize	"0"		Deaccel 0.2	0.3
 }
 
-event DefaultAnimDefaultAnimDefaultAnimKeyHintMessageShow
+event DefaultAnimKeyHintMessageShow
 {
 	// show the hints
 	Animate HudHintKeyDisplay Alpha	255 Linear 0.0 0.5
@@ -196,7 +196,7 @@ event DefaultAnimDefaultAnimDefaultAnimKeyHintMessageShow
 	Animate HudHintKeyDisplay Alpha	0 Linear 12.0 1.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimKeyHintMessageHide
+event DefaultAnimKeyHintMessageHide
 {
 	Animate HudHintKeyDisplay Alpha	0 Linear 0.0 0.5
 }
@@ -204,7 +204,7 @@ event DefaultAnimDefaultAnimDefaultAnimKeyHintMessageHide
 //===========================================
 
 //Health Bonus Pulse
-event DefaultAnimDefaultAnimDefaultAnimHudHealthBonusPulse
+event DefaultAnimHudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
@@ -213,12 +213,12 @@ event DefaultAnimDefaultAnimDefaultAnimHudHealthBonusPulse
 }
 
 // call to loop HudHealthBonusPulse
-event DefaultAnimDefaultAnimDefaultAnimHudHealthBonusPulseLoop
+event DefaultAnimHudHealthBonusPulseLoop
 {
 	RunEvent HudHealthBonusPulse 0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudHealthBonusPulseStop
+event DefaultAnimHudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
@@ -227,7 +227,7 @@ event DefaultAnimDefaultAnimDefaultAnimHudHealthBonusPulseStop
 //===========================================
 
 //Health Dying Pulse
-event DefaultAnimDefaultAnimDefaultAnimHudHealthDyingPulse
+event DefaultAnimHudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
@@ -236,12 +236,12 @@ event DefaultAnimDefaultAnimDefaultAnimHudHealthDyingPulse
 }
 
 // call to loop HudHealthDyingPulse
-event DefaultAnimDefaultAnimDefaultAnimHudHealthDyingPulseLoop
+event DefaultAnimHudHealthDyingPulseLoop
 {
 	RunEvent HudHealthDyingPulse 0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudHealthDyingPulseStop
+event DefaultAnimHudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
@@ -249,7 +249,7 @@ event DefaultAnimDefaultAnimDefaultAnimHudHealthDyingPulseStop
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimHudLowAmmoPulse
+event DefaultAnimHudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
@@ -258,12 +258,12 @@ event DefaultAnimDefaultAnimDefaultAnimHudLowAmmoPulse
 }
 
 // call to loop HudLowAmmoPulse
-event DefaultAnimDefaultAnimDefaultAnimHudLowAmmoPulseLoop
+event DefaultAnimHudLowAmmoPulseLoop
 {
 	RunEvent HudLowAmmoPulse 0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudLowAmmoPulseStop
+event DefaultAnimHudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
@@ -271,12 +271,12 @@ event DefaultAnimDefaultAnimDefaultAnimHudLowAmmoPulseStop
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimControlPointIconShrink
+event DefaultAnimControlPointIconShrink
 {
 	Animate HudControlPointIcons icon_expand "0" Linear 0.0 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimControlPointIconGrow
+event DefaultAnimControlPointIconGrow
 {
 	Animate HudControlPointIcons icon_expand "4" Linear 0.0 0.2
 }
@@ -284,7 +284,7 @@ event DefaultAnimDefaultAnimDefaultAnimControlPointIconGrow
 // Metal Account
 
 //activecolor - instantly turn red, fade back to yellow
-event DefaultAnimDefaultAnimDefaultAnimAccountMoneyRemoved
+event DefaultAnimAccountMoneyRemoved
 {
 	Animate HudAccount		FgColor	"HudIcon_Red" Linear 0.0 0.0001
 	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
@@ -294,7 +294,7 @@ event DefaultAnimDefaultAnimDefaultAnimAccountMoneyRemoved
 }
 
 //activecolor - instantly turn green, fade back to yellow
-event DefaultAnimDefaultAnimDefaultAnimAccountMoneyAdded
+event DefaultAnimAccountMoneyAdded
 {
 	Animate HudAccount		FgColor	"HudIcon_Green" Linear 0.0 0.0001
 	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
@@ -303,7 +303,7 @@ event DefaultAnimDefaultAnimDefaultAnimAccountMoneyAdded
 	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimAccountMoneyInvisible
+event DefaultAnimAccountMoneyInvisible
 {
 	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 0.0001
 	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 0.0001
@@ -311,13 +311,13 @@ event DefaultAnimDefaultAnimDefaultAnimAccountMoneyInvisible
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimFlagOutlineHide
+event DefaultAnimFlagOutlineHide
 {
 	Animate OutlineImage	Alpha		"0"				Linear 0.0 0.1
 }
 
 // Local player flag pickup/drop
-event DefaultAnimDefaultAnimDefaultAnimFlagOutline
+event DefaultAnimFlagOutline
 {
 	RunEvent FlagOutlineHide 0.0
 	Animate OutlineImage	Alpha		"255"			Linear 0.1 0.2
@@ -335,7 +335,7 @@ event DefaultAnimDefaultAnimDefaultAnimFlagOutline
 //===========================================
 
 // Spy Disguise
-event DefaultAnimDefaultAnimDefaultAnimHudSpyDisguiseChanged
+event DefaultAnimHudSpyDisguiseChanged
 {
 	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
 	
@@ -345,7 +345,7 @@ event DefaultAnimDefaultAnimDefaultAnimHudSpyDisguiseChanged
 	RunEvent HudSpyDisguiseHide	0.7
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudSpyDisguiseHide
+event DefaultAnimHudSpyDisguiseHide
 {
 	Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
 	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
@@ -353,13 +353,13 @@ event DefaultAnimDefaultAnimDefaultAnimHudSpyDisguiseHide
 	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudSpyDisguiseFadeIn
+event DefaultAnimHudSpyDisguiseFadeIn
 {
 	RunEvent HudSpyDisguiseChanged	0
 	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudSpyDisguiseFadeOut
+event DefaultAnimHudSpyDisguiseFadeOut
 {
 	RunEvent HudSpyDisguiseChanged	0
 	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
@@ -368,50 +368,50 @@ event DefaultAnimDefaultAnimDefaultAnimHudSpyDisguiseFadeOut
 //===========================================
 
 // Show the Overtime panel
-event DefaultAnimDefaultAnimDefaultAnimOvertimeShow
+event DefaultAnimOvertimeShow
 {
 	Animate OvertimeLabel				Alpha		"255"			Linear 0.0 0.1	
 	Animate OvertimeBG					Alpha		"255"			Linear 0.0 0.1	
 }
 
 
-event DefaultAnimDefaultAnimDefaultAnimHudSnapShotReminderIn
+event DefaultAnimHudSnapShotReminderIn
 {
 	Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001
 	Animate ScreenshotPanel		Position	"c-83 13"	Spline 0.001 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
+event DefaultAnimHudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
 {
 	Animate ReplayReminder		Position	"c-83 -50"	Linear 0.0 0.001
 	Animate ReplayReminder		Position	"c-83 13"	Spline 0.001 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudReplayReminderIn2	// Puts the panel below the snapshot panel
+event DefaultAnimHudReplayReminderIn2	// Puts the panel below the snapshot panel
 {
 	Animate ReplayReminder		Position	"c-83 -50"	Linear 0.0 0.001
 	Animate ReplayReminder		Position	"c-83 53"	Spline 0.001 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudReplayTipIn
+event DefaultAnimHudReplayTipIn
 {
 	Animate ReplayTip			Position	"10 -100"	Linear 0.0 0.001
 	Animate ReplayTip			Position	"10 6"		Spline 0.001 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudReplayTipOut
+event DefaultAnimHudReplayTipOut
 {
 	Animate ReplayTip			Position	"10 6"		Linear 0.0 0.001
 	Animate ReplayTip			Position	"10 -100"	Spline 0.001 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudTournamentSetupPanelOpen
+event DefaultAnimHudTournamentSetupPanelOpen
 {
 	Animate HudTournamentSetup	Position	"c-90 -70"	Linear 0.0 0.001
 	Animate HudTournamentSetup	Position	"c-90 70"	Spline 0.001 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudTournamentSetupPanelClose
+event DefaultAnimHudTournamentSetupPanelClose
 {
 	Animate HudTournamentSetup	Position	"c-90 70"	Linear 0.0 0.001
 	Animate HudTournamentSetup	Position	"c-90 -70"	Spline 0.001 0.2
@@ -422,7 +422,7 @@ event DefaultAnimDefaultAnimDefaultAnimHudTournamentSetupPanelClose
 
 // Flash the medic charge hud when we have full charge
 
-event DefaultAnimDefaultAnimDefaultAnimHudMedicCharged
+event DefaultAnimHudMedicCharged
 {
 	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
 	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
@@ -434,12 +434,12 @@ event DefaultAnimDefaultAnimDefaultAnimHudMedicCharged
 }
 
 // call to loop HudHealthBonusPulse
-event DefaultAnimDefaultAnimDefaultAnimHudMedicChargedLoop
+event DefaultAnimHudMedicChargedLoop
 {
 	RunEvent HudMedicCharged 0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudMedicChargedStop
+event DefaultAnimHudMedicChargedStop
 {
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
@@ -450,12 +450,12 @@ event DefaultAnimDefaultAnimDefaultAnimHudMedicChargedStop
 
 //====================================
 
-event DefaultAnimDefaultAnimDefaultAnimVideoCaptionFadeIn
+event DefaultAnimVideoCaptionFadeIn
 {
 	Animate VideoCaption	Alpha		"255"			Linear 0.0 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimVideoCaptionFadeOut
+event DefaultAnimVideoCaptionFadeOut
 {
 	Animate VideoCaption	Alpha		"0"				Linear 0.0 0.1
 }
@@ -464,7 +464,7 @@ event DefaultAnimDefaultAnimDefaultAnimVideoCaptionFadeOut
 
 // arena
 
-event DefaultAnimDefaultAnimDefaultAnimArenaVsPanelOnShow
+event DefaultAnimArenaVsPanelOnShow
 {
 	Animate bluepanel	Position	"-200 50"	Linear 0.0 0.001
 	Animate redpanel	Position	"r-200 140"	Linear 0.0 0.001
@@ -474,14 +474,14 @@ event DefaultAnimDefaultAnimDefaultAnimArenaVsPanelOnShow
 	RunEvent ArenaVsPanelSlideOut	4.8
 }
 
-event DefaultAnimDefaultAnimDefaultAnimArenaVsPanelSlideIn
+event DefaultAnimArenaVsPanelSlideIn
 {
 	Animate bluepanel	Position	"c-100 50"	Spline 0.0 0.2
 	Animate redpanel	Position	"c-100 140"	Spline 0.0 0.2
 	Animate vslabel	Alpha	"255"	Linear 0.15 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimArenaVsPanelSlideOut
+event DefaultAnimArenaVsPanelSlideOut
 {
 	Animate bluepanel	Position	"-200 50"	Spline 0.0 0.2	
 	Animate redpanel	Position	"r-200 140"	Spline 0.0 0.2
@@ -491,7 +491,7 @@ event DefaultAnimDefaultAnimDefaultAnimArenaVsPanelSlideOut
 //===========================================
 
 //Cart Alarm Pulse
-event DefaultAnimDefaultAnimDefaultAnimHudCartAlarmPulse
+event DefaultAnimHudCartAlarmPulse
 {
 	Animate	EscortItemImageAlert 	Alpha		"160"		Linear 0.0 0.3
 	Animate	EscortItemImageAlert 	Alpha		"0"		Linear 0.6 0.3
@@ -499,12 +499,12 @@ event DefaultAnimDefaultAnimDefaultAnimHudCartAlarmPulse
 	RunEvent HudCartAlarmPulseLoop	1.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudCartAlarmPulseLoop
+event DefaultAnimHudCartAlarmPulseLoop
 {
 	RunEvent HudCartAlarmPulse 0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudCartAlarmPulseStop
+event DefaultAnimHudCartAlarmPulseStop
 {
 	StopEvent HudCartAlarmPulse 0.0
 	StopEvent HudCartAlarmPulseLoop 0.0
@@ -513,7 +513,7 @@ event DefaultAnimDefaultAnimDefaultAnimHudCartAlarmPulseStop
 //===========================================
 
 // Active Timer BG Pulse
-event DefaultAnimDefaultAnimDefaultAnimActiveTimerBGPulse
+event DefaultAnimActiveTimerBGPulse
 {
 	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
 	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.3 0.1
@@ -525,7 +525,7 @@ event DefaultAnimDefaultAnimDefaultAnimActiveTimerBGPulse
 	Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimActiveTimerHighlight
+event DefaultAnimActiveTimerHighlight
 {
 	Animate TimePanelValue FgColor	TanLight		Linear 0.1 0.1
 	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.3 0.1
@@ -540,7 +540,7 @@ event DefaultAnimDefaultAnimDefaultAnimActiveTimerHighlight
 	
 }
 
-event DefaultAnimDefaultAnimDefaultAnimActiveTimerDim
+event DefaultAnimActiveTimerDim
 {
 	// Slow fade out
 	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.0 0.4
@@ -548,7 +548,7 @@ event DefaultAnimDefaultAnimDefaultAnimActiveTimerDim
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimOvertimeLabelPulseRed
+event DefaultAnimOvertimeLabelPulseRed
 {
 	Animate	OvertimeLabel 	FgColor		TanLight	Linear 0.0 0.3
 	Animate	OvertimeLabel 	FgColor		RedSolid	Linear 0.3 0.3
@@ -556,7 +556,7 @@ event DefaultAnimDefaultAnimDefaultAnimOvertimeLabelPulseRed
 	RunEvent OvertimeLabelPulseRed 0.6
 }
 
-event DefaultAnimDefaultAnimDefaultAnimSuddenDeathLabelPulseRed
+event DefaultAnimSuddenDeathLabelPulseRed
 {
 	Animate	SuddenDeathLabel 	FgColor		TanLight	Linear 0.0 0.3
 	Animate	SuddenDeathLabel 	FgColor		RedSolid			Linear 0.3 0.3
@@ -566,7 +566,7 @@ event DefaultAnimDefaultAnimDefaultAnimSuddenDeathLabelPulseRed
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimTeamsFullArrowAnimate
+event DefaultAnimTeamsFullArrowAnimate
 {
 	Animate TeamsFullArrow	Position	"c-118 165"		Linear	0	0
 	Animate TeamsFullArrow	Position	"c-118 180"		Linear	0	0.4
@@ -575,12 +575,12 @@ event DefaultAnimDefaultAnimDefaultAnimTeamsFullArrowAnimate
 	RunEvent TeamsFullArrowAnimateLoop	0.8
 }
 
-event DefaultAnimDefaultAnimDefaultAnimTeamsFullArrowAnimateLoop
+event DefaultAnimTeamsFullArrowAnimateLoop
 {
 	RunEvent TeamsFullArrowAnimate 0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimTeamsFullArrowAnimateEnd
+event DefaultAnimTeamsFullArrowAnimateEnd
 {
 	StopEvent TeamsFullArrowAnimate 0.0
 	StopEvent TeamsFullArrowAnimateLoop 0.0
@@ -588,13 +588,13 @@ event DefaultAnimDefaultAnimDefaultAnimTeamsFullArrowAnimateEnd
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimTrainingHudBounce
+event DefaultAnimTrainingHudBounce
 {
 	Animate ObjectiveStatusTraining	Position		"c-160 r187"		Linear 0 0
 	Animate ObjectiveStatusTraining	Position		"c-160 r127"		Bounce 0.0 2.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimTrainingPressSpacebarBlink
+event DefaultAnimTrainingPressSpacebarBlink
 {
 	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.0 0.1
 	Animate	PressSpacebarToContinue 	Alpha		"0"			Linear 0.2 0.1
@@ -610,12 +610,12 @@ event DefaultAnimDefaultAnimDefaultAnimTrainingPressSpacebarBlink
 	RunEvent TrainingPressSpacebarBlinkLoop		3.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimTrainingPressSpacebarBlinkLoop
+event DefaultAnimTrainingPressSpacebarBlinkLoop
 {
 	RunEvent TrainingPressSpacebarBlink			0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimTrainingPressSpacebarBlinkStop
+event DefaultAnimTrainingPressSpacebarBlinkStop
 {
 	StopEvent TrainingPressSpacebarBlink			0.0
 	StopEvent TrainingPressSpacebarBlinkLoop 		0.0
@@ -623,7 +623,7 @@ event DefaultAnimDefaultAnimDefaultAnimTrainingPressSpacebarBlinkStop
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimIntroMovieContinueBlink
+event DefaultAnimIntroMovieContinueBlink
 {
 	Animate	continue 	Alpha		"255"		Linear 0.0 0.1
 	Animate	continue 	Alpha		"0"			Linear 0.2 0.1
@@ -639,12 +639,12 @@ event DefaultAnimDefaultAnimDefaultAnimIntroMovieContinueBlink
 	RunEvent IntroMovieContinueBlinkLoop		2.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimIntroMovieContinueBlinkLoop
+event DefaultAnimIntroMovieContinueBlinkLoop
 {
 	RunEvent IntroMovieContinueBlink			0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimIntroMovieContinueBlinkStop
+event DefaultAnimIntroMovieContinueBlinkStop
 {
 	StopEvent IntroMovieContinueBlink			0.0
 	StopEvent IntroMovieContinueBlinkLoop 		0.0
@@ -652,7 +652,7 @@ event DefaultAnimDefaultAnimDefaultAnimIntroMovieContinueBlinkStop
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimHasMOTDBlink
+event DefaultAnimHasMOTDBlink
 {
 	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
 	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
@@ -668,12 +668,12 @@ event DefaultAnimDefaultAnimDefaultAnimHasMOTDBlink
 	RunEvent HasMOTDBlinkLoop		2.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHasMOTDBlinkLoop
+event DefaultAnimHasMOTDBlinkLoop
 {
 	RunEvent HasMOTDBlink			0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHasMOTDBlinkStop
+event DefaultAnimHasMOTDBlinkStop
 {
 	StopEvent HasMOTDBlink				0.0
 	StopEvent HasMOTDBlinkLoop 		0.0
@@ -682,7 +682,7 @@ event DefaultAnimDefaultAnimDefaultAnimHasMOTDBlinkStop
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimHasNotificationsBlink
+event DefaultAnimHasNotificationsBlink
 {
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
@@ -698,12 +698,12 @@ event DefaultAnimDefaultAnimDefaultAnimHasNotificationsBlink
 	RunEvent HasNotificationsBlinkLoop		2.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHasNotificationsBlinkLoop
+event DefaultAnimHasNotificationsBlinkLoop
 {
 	RunEvent HasNotificationsBlink			0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHasNotificationsBlinkStop
+event DefaultAnimHasNotificationsBlinkStop
 {
 	StopEvent HasNotificationsBlink				0.0
 	StopEvent HasNotificationsBlinkLoop 		0.0
@@ -712,7 +712,7 @@ event DefaultAnimDefaultAnimDefaultAnimHasNotificationsBlinkStop
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimAddToCartBlink
+event DefaultAnimAddToCartBlink
 {
 	Animate	CartButton	BgColor	"TanDark"		Linear 0.0 0.01
 	Animate	CartButton	BgColor	"255 150 0 255"	Linear 0.1 0.01
@@ -734,7 +734,7 @@ event DefaultAnimDefaultAnimDefaultAnimAddToCartBlink
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimNotificationsPresentBlink
+event DefaultAnimNotificationsPresentBlink
 {
 	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
 	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 0.2 0.1
@@ -750,12 +750,12 @@ event DefaultAnimDefaultAnimDefaultAnimNotificationsPresentBlink
 	RunEvent NotificationsPresentBlinkLoop		2.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimNotificationsPresentBlinkLoop
+event DefaultAnimNotificationsPresentBlinkLoop
 {
 	RunEvent NotificationsPresentBlink			0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimNotificationsPresentBlinkStop
+event DefaultAnimNotificationsPresentBlinkStop
 {
 	StopEvent NotificationsPresentBlink				0.0
 	StopEvent NotificationsPresentBlinkLoop 		0.0
@@ -764,14 +764,14 @@ event DefaultAnimDefaultAnimDefaultAnimNotificationsPresentBlinkStop
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimDamagedPlayer
+event DefaultAnimDamagedPlayer
 {
 	// empty
 }
 
 //===========================================
 
-event DefaultAnimDefaultAnimDefaultAnimSpyWarningFlash
+event DefaultAnimSpyWarningFlash
 {
 	Animate	EnemyCountImageBG	BgColor	"RedSolid"		Linear 0.0 0.01
 	Animate	EnemyCountImageBG	BgColor	"TanLight"		Linear 0.21 0.01
@@ -779,18 +779,18 @@ event DefaultAnimDefaultAnimDefaultAnimSpyWarningFlash
 	RunEvent	SpyWarningFlashLoop		0.42
 }
 
-event DefaultAnimDefaultAnimDefaultAnimSpyWarningFlashLoop
+event DefaultAnimSpyWarningFlashLoop
 {
 	RunEvent SpyWarningFlash			0.0
 }
  
-event DefaultAnimDefaultAnimDefaultAnimSpyWarningFlashEnd
+event DefaultAnimSpyWarningFlashEnd
 {
 	StopEvent SpyWarningFlash			0.0
 	StopEvent SpyWarningFlashLoop		0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudReadyPulse
+event DefaultAnimHudReadyPulse
 {
 	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
 	Animate	TournamentInstructionsLabel 	FgColor		"RedSolid"		Linear 0.3 0.4
@@ -798,12 +798,12 @@ event DefaultAnimDefaultAnimDefaultAnimHudReadyPulse
 	RunEvent HudReadyPulseLoop	0.5
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudReadyPulseLoop
+event DefaultAnimHudReadyPulseLoop
 {
 	RunEvent HudReadyPulse			0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudReadyPulseEnd
+event DefaultAnimHudReadyPulseEnd
 {
 	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
 	
@@ -812,7 +812,7 @@ event DefaultAnimDefaultAnimDefaultAnimHudReadyPulseEnd
 }
 
 // Respec in Win
-event DefaultAnimDefaultAnimDefaultAnimRespecEarnedPulse
+event DefaultAnimRespecEarnedPulse
 {
 	Animate	RespecTextLabelWin	FgColor	"TanLight"		Linear 0.0 0.1
 	Animate	RespecTextLabelWin	FgColor	"RedSolid"		Linear 0.3 0.4
@@ -820,12 +820,12 @@ event DefaultAnimDefaultAnimDefaultAnimRespecEarnedPulse
 	RunEvent RespecEarnedPulseLoop		0.5
 }
 
-event DefaultAnimDefaultAnimDefaultAnimRespecEarnedPulseLoop
+event DefaultAnimRespecEarnedPulseLoop
 {
 	RunEvent RespecEarnedPulse			0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimRespecEarnedPulseEnd
+event DefaultAnimRespecEarnedPulseEnd
 {
 	Animate	RespecTextLabelWin 	FgColor		"TanLight"		Linear 0.0 0.1
 	
@@ -834,7 +834,7 @@ event DefaultAnimDefaultAnimDefaultAnimRespecEarnedPulseEnd
 }
 
 // Respec on Loss
-event DefaultAnimDefaultAnimDefaultAnimRespecEarnedPulseLoss
+event DefaultAnimRespecEarnedPulseLoss
 {
 	Animate	RespecTextLabelLoss	FgColor	"TanLight"		Linear 0.0 0.1
 	Animate	RespecTextLabelLoss	FgColor	"RedSolid"		Linear 0.3 0.4
@@ -842,12 +842,12 @@ event DefaultAnimDefaultAnimDefaultAnimRespecEarnedPulseLoss
 	RunEvent RespecEarnedPulseLoopLoss		0.5
 }
 
-event DefaultAnimDefaultAnimDefaultAnimRespecEarnedPulseLoopLoss
+event DefaultAnimRespecEarnedPulseLoopLoss
 {
 	RunEvent RespecEarnedPulseLoss			0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimRespecEarnedPulseEndLoss
+event DefaultAnimRespecEarnedPulseEndLoss
 {
 	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
 	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
@@ -856,7 +856,7 @@ event DefaultAnimDefaultAnimDefaultAnimRespecEarnedPulseEndLoss
 	StopEvent RespecEarnedPulseLoopLoss	0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimRDPositiveScorePulse
+event DefaultAnimRDPositiveScorePulse
 {
 	Animate Score FgColor	"25 255 25 255"		Linear 0.0 0.0
 	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
@@ -868,7 +868,7 @@ event DefaultAnimDefaultAnimDefaultAnimRDPositiveScorePulse
 	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimRDNegativeScorePulse
+event DefaultAnimRDNegativeScorePulse
 {
 	Animate Score FgColor	"255 75 75 255"		Linear 0.0 0.0
 	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
@@ -880,19 +880,19 @@ event DefaultAnimDefaultAnimDefaultAnimRDNegativeScorePulse
 	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestNotification_Present
+event DefaultAnimQuestNotification_Present
 {
 	Animate MainContainer Position	"r0 94"		Deaccel 0		0
 	Animate MainContainer Position	"r115 94"		Deaccel	0.01	0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestNotification_Hide
+event DefaultAnimQuestNotification_Hide
 {
 	Animate MainContainer Position	"r115 94"		Deaccel	0		0
 	Animate MainContainer Position	"r0 94"		Deaccel 0.01	0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimItemCard_ShowPinHint
+event DefaultAnimItemCard_ShowPinHint
 {
 	Animate PinLabel Position	"0 -20"	Deaccel	0	0
 
@@ -900,36 +900,36 @@ event DefaultAnimDefaultAnimDefaultAnimItemCard_ShowPinHint
 	Animate PinLabel Position	"0 0"	Deaccel 0.2	0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimItemCard_HidePinHint
+event DefaultAnimItemCard_HidePinHint
 {
 	Animate PinLabel Position	"0 5"	Deaccel	0	0.3
 
 	Animate PinLabel Position	"0 -20"	Accel 0.3	0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimItemCard_ShowCloseButton
+event DefaultAnimItemCard_ShowCloseButton
 {
 	Animate CloseButton Position	"-8 -68"	Deaccel	0	0.3
 
 	Animate CloseButton Position	"-8 -68"	Accel 0.3	0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimItemCard_HideCloseButton
+event DefaultAnimItemCard_HideCloseButton
 {
 	Animate CloseButton Position	"-30 -90"	Deaccel	0	0.0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_StaticPhoto_Reveal
+event DefaultAnimQuestItem_StaticPhoto_Reveal
 {
 	Animate StaticPhoto Alpha	"0"	Accel		0	2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHideStamp
+event DefaultAnimHideStamp
 {
 	SetVisible ApplyStampButton		0					0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_Intro
+event DefaultAnimCollectionCrafting_Intro
 {
 	// Reset
 	SetVisible ApplyStampButton		0					0
@@ -970,7 +970,7 @@ event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_Intro
 	Animate Dimmer Alpha "255" Linear 0 0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_LetterStart
+event DefaultAnimCollectionCrafting_LetterStart
 {
 	// Slide envelope up
 	FireCommand	0.0 "playsound ui/trade_up_envelope_slide_in.wav"
@@ -1002,14 +1002,14 @@ event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_LetterStart
 	SetVisible ShowExplanationsButton2	1			1.3
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_PlaceStamp
+event DefaultAnimCollectionCrafting_PlaceStamp
 {
 	SetVisible Stamp				1					0
 	SetVisible ApplyStampButton		0					0
 	FireCommand	0 "playsound ui/trade_up_apply_stamp.wav"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_LetterSend
+event DefaultAnimCollectionCrafting_LetterSend
 {
 	SetVisible ShowExplanationsButton2	0			0
 	SetVisible	SendEvelopeButton		0			0 
@@ -1025,22 +1025,22 @@ event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_LetterSend
 	FireCommand	0.2 "playsound ui/trade_up_envelope_slide_out.wav"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimStartParticle0
+event DefaultAnimStartParticle0
 {
 	FireCommand 0 "start0"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimStartParticle1
+event DefaultAnimStartParticle1
 {
 	FireCommand 0 "start1"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimStartParticle2
+event DefaultAnimStartParticle2
 {
 	FireCommand 0 "start2"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimShowFoundLabels
+event DefaultAnimShowFoundLabels
 {
 	Animate YouTradedForLabel alpha 0 Linear 0 0
 	Animate ItemName		alpha 0 Linear 0 0
@@ -1049,7 +1049,7 @@ event DefaultAnimDefaultAnimDefaultAnimShowFoundLabels
 	Animate ItemName		alpha 255 Linear 3 1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_ItemRecieved
+event DefaultAnimCollectionCrafting_ItemRecieved
 {
 	RunEventChild NewItemPanel ShowFoundLabels	0
 	FireCommand 0	"playcratesequence1"
@@ -1065,16 +1065,16 @@ event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_ItemRecieved
 	FireCommand 2.1 "playcratesequence2"
 //	RunEventChild BehindItemParticlePanel PlayNewItemParticles 1.5
 	
-	FireCommand	1.0 "playsound ../player/taunt_medic_heroic.wav"
+	FireCommand	1.0 "playsound player/taunt_medic_heroic.wav"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_OKBlink_Repeatable
+event DefaultAnimCollectionCrafting_OKBlink_Repeatable
 {
 	Animate OkButton	FgColor Red		 Linear 0 0.1
 	Animate OkButton	FgColor TanLight Linear 0.1 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_OKBlink
+event DefaultAnimCollectionCrafting_OKBlink
 {
 	RunEvent CollectionCrafting_OKBlink_Repeatable 0
 	RunEvent CollectionCrafting_OKBlink_Repeatable 0.2
@@ -1083,29 +1083,29 @@ event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_OKBlink
 }
 
 
-event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_ShowSendButton
+event DefaultAnimCollectionCrafting_ShowSendButton
 {
 	SetVisible	SendEvelopeButton	  1					0 
 	Animate SendEvelopeButton		ypos	320 Deaccel 0 0.5
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_ShowWaiting
+event DefaultAnimCollectionCrafting_ShowWaiting
 {
 	SetVisible WaitingForResponse	1	0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_HideWaiting
+event DefaultAnimCollectionCrafting_HideWaiting
 {
 	SetVisible WaitingForResponse	0	0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_ShowFailure
+event DefaultAnimCollectionCrafting_ShowFailure
 {
 	SetVisible ResponseTimeout	1	0
 	SetVisible CloseButton		1	0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_WaitForItemsOnly
+event DefaultAnimCollectionCrafting_WaitForItemsOnly
 {
 	// Set Everything Invisible
 	SetVisible ReturnModel			0					0
@@ -1144,39 +1144,39 @@ event DefaultAnimDefaultAnimDefaultAnimCollectionCrafting_WaitForItemsOnly
 	Animate Dimmer Alpha "255" Linear 0 0.4
 }
 //--------------------------------------------------------------------------
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Identify_Expand
+event DefaultAnimQuestItem_Identify_Expand
 {
 	StopEvent QuestItem_Identify_Collapse 0
 	Animate Dimmer wide 285 Bias 0.1	0.0 0.4
 	Animate Dimmer xpos 0	Bias 0.1	0.0 0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Identify_Collapse
+event DefaultAnimQuestItem_Identify_Collapse
 {
 	StopEvent QuestItem_Identify_Expand 0
 	Animate Dimmer	wide 0	Accel 0.4 0.4
 	Animate Dimmer	xpos 142	Accel 0.4 0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Complete_Expand
+event DefaultAnimQuestItem_Complete_Expand
 {
 	Animate Dimmer wide 285 Deaccel	0.4 0.1
 	Animate Dimmer xpos 0	Deaccel 0.4 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Complete_Collapse
+event DefaultAnimQuestItem_Complete_Collapse
 {
 	Animate Dimmer	wide 0	Accel 0 0.4
 	Animate Dimmer	xpos 142	Accel 0 0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Complete_Progress
+event DefaultAnimQuestItem_Complete_Progress
 {
 	Animate Dimmer	wide 0	Linear 0 5
 	Animate Dimmer	xpos 142	Linear 0 5
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Options_Flash
+event DefaultAnimQuestItem_Options_Flash
 {
 	Animate OptionsButton FgColor LightOrange	Linear 0	 0.1
 	Animate OptionsButton FgColor TanLight		Linear 0.1	 0.1
@@ -1187,7 +1187,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Options_Flash
 }
 
 //--------------------------------------------------------------------------
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Expand
+event DefaultAnimQuestItem_Expand
 {
 	Animate FrontFolderContainer		ypos 240	Gain 0.75 0 0.4
 	RunEventChild IdentifyButtonContainer QuestItem_Identify_Expand 0
@@ -1197,7 +1197,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Expand
 	RunEvent QuestItem_Options_Flash 1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Collapse
+event DefaultAnimQuestItem_Collapse
 {
 	Animate FrontFolderContainer		ypos 0	Gain 0.75 0 0.4
 	RunEventChild IdentifyButtonContainer QuestItem_Identify_Collapse 0
@@ -1206,12 +1206,12 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Collapse
 	SetInputEnabled FrontFolderContainer 1 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_TurningIn
+event DefaultAnimQuestItem_TurningIn
 {
 	RunEventChild TurnInContainer QuestItem_Complete_Progress 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Reset
+event DefaultAnimQuestItem_Reset
 {
 	Animate FrontFolderContainer		ypos 0	Linear 0 0
 	RunEventChild IdentifyButtonContainer QuestItem_Identify_Collapse 0
@@ -1221,7 +1221,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Reset
 }
 
 //--------------------------------------------------------------------------
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Operation2_Expand
+event DefaultAnimQuestItem_Operation2_Expand
 {
 	StopEvent QuestItem_Operation2_Collapse 0
 
@@ -1239,7 +1239,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Operation2_Expand
 	RunEvent QuestItem_Options_Flash 1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Operation2_Collapse
+event DefaultAnimQuestItem_Operation2_Collapse
 {
 	StopEvent QuestItem_Operation2_Expand 0
 
@@ -1256,12 +1256,12 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Operation2_Collapse
 	SetInputEnabled FrontFolderContainer 1 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Operation2_TurningIn
+event DefaultAnimQuestItem_Operation2_TurningIn
 {
 	RunEventChild TurnInContainer QuestItem_Complete_Progress 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Operation2_Reset
+event DefaultAnimQuestItem_Operation2_Reset
 {
 	StopEvent QuestItem_Operation2_Collapse 0
 	StopEvent QuestItem_Operation2_Expand 0
@@ -1278,17 +1278,17 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Operation2_Reset
 }
 
 //--------------------------------------------------------------------------
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_DisableFrontMouse
+event DefaultAnimQuestItem_DisableFrontMouse
 {
 	SetVisible FrontInputProxyPanel 0 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_EnableFrontMouse
+event DefaultAnimQuestItem_EnableFrontMouse
 {
 	SetVisible FrontInputProxyPanel 1 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Expand_Halloween
+event DefaultAnimQuestItem_Expand_Halloween
 {
 	StopEvent QuestItem_Collapse_Halloween 0
 
@@ -1312,7 +1312,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Expand_Halloween
 	RunEvent QuestItem_Options_Flash 1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Collapse_Halloween
+event DefaultAnimQuestItem_Collapse_Halloween
 {
 	StopEvent QuestItem_Expand_Halloween 0
 
@@ -1333,7 +1333,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Collapse_Halloween
 	SetInputEnabled FrontFolderContainer 1 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Reset_Halloween
+event DefaultAnimQuestItem_Reset_Halloween
 {
 	StopEvent QuestItem_Expand_Halloween 0
 	SetVisible FrontFolderContainer 1 0
@@ -1352,7 +1352,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Reset_Halloween
 }
 
 //--------------------------------------------------------------------------
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Front_Selected
+event DefaultAnimQuestItem_Front_Selected
 {
 	StopEvent QuestItem_Front_OtherSelected 0
 	StopEvent QuestItem_Front_NoneSelected 0
@@ -1360,7 +1360,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Front_Selected
 	Animate			MainContainer		ypos 0	Gain 0.75 0 0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Front_OtherSelected
+event DefaultAnimQuestItem_Front_OtherSelected
 {
 	StopEvent QuestItem_Front_Selected 0
 	StopEvent QuestItem_Front_NoneSelected 0
@@ -1369,7 +1369,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Front_OtherSelected
 }
 
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Front_NoneSelected
+event DefaultAnimQuestItem_Front_NoneSelected
 {
 	StopEvent QuestItem_Front_Selected 0
 	StopEvent QuestItem_Front_OtherSelected 0
@@ -1378,7 +1378,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Front_NoneSelected
 }
 
 //--------------------------------------------------------------------------
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Back_Selected
+event DefaultAnimQuestItem_Back_Selected
 {
 	StopEvent QuestItem_Back_OtherSelected 0
 	StopEvent QuestItem_Back_NoneSelected 0
@@ -1386,7 +1386,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Back_Selected
 	Animate			MainContainer		ypos 0	Gain 0.75 0 0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Back_OtherSelected
+event DefaultAnimQuestItem_Back_OtherSelected
 {
 	StopEvent QuestItem_Back_Selected 0
 	StopEvent QuestItem_Back_NoneSelected 0
@@ -1395,7 +1395,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Back_OtherSelected
 }
 
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Back_NoneSelected
+event DefaultAnimQuestItem_Back_NoneSelected
 {
 	StopEvent QuestItem_Back_Selected 0
 	StopEvent QuestItem_Back_OtherSelected 0
@@ -1404,29 +1404,29 @@ event DefaultAnimDefaultAnimDefaultAnimQuestItem_Back_NoneSelected
 }
 
 //--------------------------------------------------------------------------
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Highlight_On_Halloween
+event DefaultAnimQuestItem_Highlight_On_Halloween
 {
 	SetVisible GlowImage 1 0	
 	Animate GlowImage Alpha 255 Bias 0.8 0 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestItem_Highlight_Off_Halloween
+event DefaultAnimQuestItem_Highlight_Off_Halloween
 {
 	Animate GlowImage Alpha 0 Bias 0.8 0 0.2
 }
 
 //--------------------------------------------------------------------------
-event DefaultAnimDefaultAnimDefaultAnimCompetitiveGame_LowerChatWindow
+event DefaultAnimCompetitiveGame_LowerChatWindow
 {
 	Animate HudChat ypos r140 Accel 0 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCompetitiveGame_RestoreChatWindow
+event DefaultAnimCompetitiveGame_RestoreChatWindow
 {
 	Animate HudChat ypos 275 Accel 0 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudTournament_MoveChatWindow
+event DefaultAnimHudTournament_MoveChatWindow
 {
 	RunEvent CompetitiveGame_LowerChatWindow 0
 	RunEvent CompetitiveGame_RestoreChatWindow 10
@@ -1434,7 +1434,7 @@ event DefaultAnimDefaultAnimDefaultAnimHudTournament_MoveChatWindow
 
 //--------------------------------------------------------------------------
 
-event DefaultAnimDefaultAnimDefaultAnimHudTournament_MoveTimerDown
+event DefaultAnimHudTournament_MoveTimerDown
 {
 	Animate CountdownLabel ypos 150 Linear 0 0
 	Animate CountdownLabelShadow ypos 150 Linear 0 0
@@ -1451,19 +1451,19 @@ event DefaultAnimDefaultAnimDefaultAnimHudTournament_MoveTimerDown
 	SetVisible CountdownLabel 0 3
 	SetVisible CountdownLabelShadow 0 3
 }
-event DefaultAnimDefaultAnimDefaultAnimHudTournament_AnimateTeams_In
+event DefaultAnimHudTournament_AnimateTeams_In
 {
 	Animate RedTeamPanel xpos c150 Accel 0 0.25
 	Animate BlueTeamPanel xpos c-300 Accel 0 0.25
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudTournament_AnimateTeams_Out
+event DefaultAnimHudTournament_AnimateTeams_Out
 {
 	Animate RedTeamPanel xpos r-5 Accel 0 0.68
 	Animate BlueTeamPanel xpos -155 Accel 0 0.68
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudMatchStatus_ShowMatchStartDoors
+event DefaultAnimHudMatchStatus_ShowMatchStartDoors
 {
 	SetVisible	MatchDoors	1	0
 	SetVisible	BlueTeamPanel	1	0
@@ -1493,7 +1493,7 @@ event DefaultAnimDefaultAnimDefaultAnimHudMatchStatus_ShowMatchStartDoors
 	SetVisible CountdownBG 1 11
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudMatchStatus_ShowRankMatch
+event DefaultAnimHudMatchStatus_ShowRankMatch
 {
 	// Reset
 	Animate RankUpLabel			ypos 95 Linear 0 0
@@ -1511,7 +1511,7 @@ event DefaultAnimDefaultAnimDefaultAnimHudMatchStatus_ShowRankMatch
 	Animate RankUpShadowLabel	alpha 0 Linear 7 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudMatchStatus_ShowCountdown
+event DefaultAnimHudMatchStatus_ShowCountdown
 {
 	SetVisible CountdownLabel 1 0
 	SetVisible CountdownLabelShadow 1 0
@@ -1523,7 +1523,7 @@ event DefaultAnimDefaultAnimDefaultAnimHudMatchStatus_ShowCountdown
 	SetVisible CountdownLabelShadow 0 9.9
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudTournament_DoorsCleanup
+event DefaultAnimHudTournament_DoorsCleanup
 {
 	SetVisible	MatchDoors	0	0
 	SetVisible	BlueTeamPanel	0	0
@@ -1533,22 +1533,22 @@ event DefaultAnimDefaultAnimDefaultAnimHudTournament_DoorsCleanup
 	Animate BlueTeamPanel xpos -155 Accel 0 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimPlayDoorSlamParticles
+event DefaultAnimPlayDoorSlamParticles
 {
 	FireCommand 0 "start0"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimPlayDoorCloseAnim
+event DefaultAnimPlayDoorCloseAnim
 {
 	FireCommand 0 "animation close"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimPlayDoorOpenAnim
+event DefaultAnimPlayDoorOpenAnim
 {
 	FireCommand 0 "animation open"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudTournament_ShowTimerCompetitive
+event DefaultAnimHudTournament_ShowTimerCompetitive
 {
 	Animate CountdownLabel ypos 150 Linear 0 0
 	Animate CountdownLabelShadow ypos 150 Linear 0 0
@@ -1558,7 +1558,7 @@ event DefaultAnimDefaultAnimDefaultAnimHudTournament_ShowTimerCompetitive
 	SetVisible CountdownLabelShadow 1 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudTournament_ShowTimerDefault
+event DefaultAnimHudTournament_ShowTimerDefault
 {
 	Animate CountdownLabel ypos 425 Linear 0 0
 	Animate CountdownLabelShadow ypos 425 Linear 0 0
@@ -1568,27 +1568,27 @@ event DefaultAnimDefaultAnimDefaultAnimHudTournament_ShowTimerDefault
 	SetVisible CountdownLabelShadow 1 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudTournament_HideTimer
+event DefaultAnimHudTournament_HideTimer
 {
 	SetVisible CountdownBG  0 0
 	SetVisible CountdownLabel 0 0
 	SetVisible CountdownLabelShadow 0 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudTournament_ShowRoundSign
+event DefaultAnimHudTournament_ShowRoundSign
 {
 	SetVisible RoundSignModel 1 0
 	RunEventChild RoundSignModel HudTournament_PlaySignAnim 0
 	SetVisible RoundSignModel 0 6
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudTournament_PlaySignAnim
+event DefaultAnimHudTournament_PlaySignAnim
 {
 	FireCommand 0 "animation intro"
 	FireCommand 5 "animation outro"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimTeamStatus_PlayerDead
+event DefaultAnimTeamStatus_PlayerDead
 {
 	SetVisible DeathPanel  1 0
 	SetVisible SkullPanel  1 0
@@ -1599,7 +1599,7 @@ event DefaultAnimDefaultAnimDefaultAnimTeamStatus_PlayerDead
 	Animate respawntime ypos 21 Accel 0 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimTeamStatus_PlayerAlive
+event DefaultAnimTeamStatus_PlayerAlive
 {
 	Animate DeathPanel ypos 0 Accel 0 0.2
 	Animate SkullPanel ypos 0 Accel 0 0.2
@@ -1610,7 +1610,7 @@ event DefaultAnimDefaultAnimDefaultAnimTeamStatus_PlayerAlive
 	SetVisible respawntime 0 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudMatchStatus_ShowMatchWinDoors
+event DefaultAnimHudMatchStatus_ShowMatchWinDoors
 {
 	SetVisible	MatchDoors	1	0
 	SetVisible	FrontParticlePanel	1	0
@@ -1623,7 +1623,7 @@ event DefaultAnimDefaultAnimDefaultAnimHudMatchStatus_ShowMatchWinDoors
 	SetVisible	FrontParticlePanel	0	7
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudMatchStatus_ShowMatchWinDoors_NoOpen
+event DefaultAnimHudMatchStatus_ShowMatchWinDoors_NoOpen
 {
 	SetVisible	MatchDoors	1	0
 	SetVisible	FrontParticlePanel	1	0
@@ -1632,13 +1632,13 @@ event DefaultAnimDefaultAnimDefaultAnimHudMatchStatus_ShowMatchWinDoors_NoOpen
 	RunEventChild FrontParticlePanel PlayDoorSlamParticles 0.45
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHudMatchSummary_SlideInPanels
+event DefaultAnimHudMatchSummary_SlideInPanels
 {
 	Animate BlueTeamPanel xpos 0 Accel 0.25 0.25
 	Animate RedTeamPanel xpos 0 Accel 0.25 0.25
 }
 
-event DefaultAnimDefaultAnimDefaultAnimMMenu_PlayList_Expand
+event DefaultAnimMMenu_PlayList_Expand
 {
 	Animate ItemsContainer			ypos 420 Spline 0 0.4
 	Animate EventPromo				ypos 470 Spline 0 0.4
@@ -1652,7 +1652,7 @@ event DefaultAnimDefaultAnimDefaultAnimMMenu_PlayList_Expand
 	FireCommand 0 "soundentry Panel.SlideDown"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimMMenu_PlayList_Collapse
+event DefaultAnimMMenu_PlayList_Collapse
 {
 	Animate ItemsContainer			ypos 160 Spline 0 0.4
 	Animate EventPromo				ypos 210 Spline 0 0.4
@@ -1666,7 +1666,7 @@ event DefaultAnimDefaultAnimDefaultAnimMMenu_PlayList_Collapse
 	FireCommand 0 "soundentry Panel.SlideUp"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimMMenu_PlayList_Collapse_Immediate
+event DefaultAnimMMenu_PlayList_Collapse_Immediate
 {
 	Animate ItemsContainer			ypos 160 Spline 0 0
 	Animate EventPromo				ypos 210 Spline 0 0
@@ -1677,7 +1677,7 @@ event DefaultAnimDefaultAnimDefaultAnimMMenu_PlayList_Collapse_Immediate
 	Animate PlayListContainer Tall 0 Spline 0 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimMMenu_SafeMode_Blink
+event DefaultAnimMMenu_SafeMode_Blink
 {
 	Animate InfoImage	alpha 255 Linear	0.0 0.1 
 	Animate InfoImage	alpha 0 Linear		0.1 0.1
@@ -1690,12 +1690,12 @@ event DefaultAnimDefaultAnimDefaultAnimMMenu_SafeMode_Blink
 	RunEvent MMenu_SafeMode_Blink 1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimPvPRankModelClicked
+event DefaultAnimPvPRankModelClicked
 {
 	RunEventChild AboveModelParticlePanel StartParticle1 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimPvPRankLevelUpXPBar
+event DefaultAnimPvPRankLevelUpXPBar
 {
 	Animate ContinuousProgressBar BgColor "100 255 100 255" Linear 0.0 0.1
 	Animate ContinuousProgressBar BgColor ProgressBackground Linear 0.1 0.3
@@ -1704,7 +1704,7 @@ event DefaultAnimDefaultAnimDefaultAnimPvPRankLevelUpXPBar
 	Animate LevelLabel FgColor TanLight				Linear 4.0 0.3 
 }
 
-event DefaultAnimDefaultAnimDefaultAnimPvPRankLevelUpModel
+event DefaultAnimPvPRankLevelUpModel
 {
 	RunEventChild BelowModelParticlePanel StartParticle0 1.0
 	RunEventChild AboveModelParticlePanel StartParticle0 1.0
@@ -1712,7 +1712,7 @@ event DefaultAnimDefaultAnimDefaultAnimPvPRankLevelUpModel
 	PlaySound 0 "ui/mm_medal_spin_hit.wav"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimPvPRankLevelDownXPBar
+event DefaultAnimPvPRankLevelDownXPBar
 {
 	Animate ContinuousProgressBar FgColor "255 100 100 255" Linear 0.0 0.1
 	Animate ContinuousProgressBar FgColor CreditsGreen Linear 0.1 0.3
@@ -1721,14 +1721,14 @@ event DefaultAnimDefaultAnimDefaultAnimPvPRankLevelDownXPBar
 	Animate LevelLabel FgColor TanLight				Linear 4.0 0.3 
 }
 
-event DefaultAnimDefaultAnimDefaultAnimPvPRankLevelDownModel
+event DefaultAnimPvPRankLevelDownModel
 {
 	RunEventChild AboveModelParticlePanel StartParticle2 0.15
 	PlaySound 0 "ui/mm_rank_down_medal_shoot.wav"
 	PlaySound 0.15 "ui/mm_rank_down_medal_shoot_impact.wav"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCompetitiveGame_ShowPvPRankPanel
+event DefaultAnimCompetitiveGame_ShowPvPRankPanel
 {
 	Animate RankBorder ypos r0 Linear 0 0
 	Animate RankBorder ypos r65 Bias 0.90 0.2 0.3
@@ -1742,13 +1742,13 @@ event DefaultAnimDefaultAnimDefaultAnimCompetitiveGame_ShowPvPRankPanel
 	RunEventChild RankModelPanel PvPRankPanelShowXPChange 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimPvPRankPanelShowXPChange
+event DefaultAnimPvPRankPanelShowXPChange
 {
 	FireCommand 0 "update_base_state"
 	FireCommand 1 "begin_xp_lerp"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimPyroVsHeavyWar_ShowChooseScene
+event DefaultAnimPyroVsHeavyWar_ShowChooseScene
 {
 	// Reset
 	Animate Background	ypos -250 Linear 0 0
@@ -1763,7 +1763,7 @@ event DefaultAnimDefaultAnimDefaultAnimPyroVsHeavyWar_ShowChooseScene
 	Animate Foreground	ypos 65		Bias 0.9 0 1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimPyroVsHeavyWar_PyroWinnerScene
+event DefaultAnimPyroVsHeavyWar_PyroWinnerScene
 {
 	// Reset
 	Animate Background			ypos -220 Linear 0 0
@@ -1776,7 +1776,7 @@ event DefaultAnimDefaultAnimDefaultAnimPyroVsHeavyWar_PyroWinnerScene
 	Animate Foreground			ypos 75		Bias 0.9 0 1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCasualCategory_Checkbox_Hide
+event DefaultAnimCasualCategory_Checkbox_Hide
 {
 	Animate Checkbutton xpos 250 Deaccel 0 0.2
 	Animate Title		xpos 115 Deaccel 0 0.2
@@ -1785,7 +1785,7 @@ event DefaultAnimDefaultAnimDefaultAnimCasualCategory_Checkbox_Hide
 	//Animate Title		FgColor TanDark Deaccel 0 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCasualCategory_Checkbox_Show
+event DefaultAnimCasualCategory_Checkbox_Show
 {
 	Animate Checkbutton xpos 215 Deaccel 0 0.2
 	Animate Title		xpos 100 Deaccel 0 0.2
@@ -1794,29 +1794,29 @@ event DefaultAnimDefaultAnimDefaultAnimCasualCategory_Checkbox_Show
 	//Animate Title		FgColor TanLight Deaccel 0 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCasualCategory_Selected
+event DefaultAnimCasualCategory_Selected
 {
 	Animate Shade BgColor "0 0 0 0" Deaccel 0 0.2
 	Animate Title		FgColor TanLight Deaccel 0 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimCasualCategory_NotSelected
+event DefaultAnimCasualCategory_NotSelected
 {
 	Animate Shade BgColor "0 0 0 200" Deaccel 0 0.2
 	Animate Title		FgColor TanDark Deaccel 0 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHealthProgressBar_Selected
+event DefaultAnimHealthProgressBar_Selected
 {
 	Animate HealthProgressBar	Alpha 255 Deaccel 0 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimHealthProgressBar_NotSelected
+event DefaultAnimHealthProgressBar_NotSelected
 {
 	Animate HealthProgressBar	Alpha 50 Deaccel 0 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimMMenu_UpdateButton_StartGlow
+event DefaultAnimMMenu_UpdateButton_StartGlow
 {
 	SetVisible	ViewDetailsGlow	1	0
 	Animate ViewDetailsGlow BgColor "238 103 17 255" Linear 0 0
@@ -1841,7 +1841,7 @@ event DefaultAnimDefaultAnimDefaultAnimMMenu_UpdateButton_StartGlow
 	RunEvent MMenu_UpdateButton_SubtleGlow 5
 }
 
-event DefaultAnimDefaultAnimDefaultAnimMMenu_UpdateButton_SubtleGlow
+event DefaultAnimMMenu_UpdateButton_SubtleGlow
 {
 	Animate ViewDetailsGlow BgColor "238 103 17 255" Linear 0 0.2
 	Animate ViewDetailsGlow BgColor "178 83 22 255" Linear 0.2 1.0
@@ -1852,7 +1852,7 @@ event DefaultAnimDefaultAnimDefaultAnimMMenu_UpdateButton_SubtleGlow
 	RunEvent MMenu_UpdateButton_SubtleGlow 5
 }
 
-event DefaultAnimDefaultAnimDefaultAnimXPSourceShow_Positive
+event DefaultAnimXPSourceShow_Positive
 {
 	Animate SourceLabel		Alpha		0				Linear 0 0
 	Animate SourceLabelGlow Alpha		0				Linear 0 0
@@ -1869,7 +1869,7 @@ event DefaultAnimDefaultAnimDefaultAnimXPSourceShow_Positive
 	Animate SourceLabelGlow Alpha		0					Linear 2.9 0.3
 }
 
-event DefaultAnimDefaultAnimDefaultAnimXPSourceShow_Negative
+event DefaultAnimXPSourceShow_Negative
 {
 	Animate SourceLabel		Alpha		0				Linear 0 0
 	Animate SourceLabelGlow Alpha		0				Linear 0 0
@@ -1883,7 +1883,7 @@ event DefaultAnimDefaultAnimDefaultAnimXPSourceShow_Negative
 	Animate SourceLabelGlow Alpha		0					Linear	0	0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimSurveyShowSequence
+event DefaultAnimSurveyShowSequence
 {
 	Animate Survey		ypos	480		Linear 0 0
 	Animate Survey		ypos	150		Linear 1 0.3
@@ -1891,7 +1891,7 @@ event DefaultAnimDefaultAnimDefaultAnimSurveyShowSequence
 	Animate Survey		ypos	150		Accel 1.4 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimSurveySubmitSequence
+event DefaultAnimSurveySubmitSequence
 {
 	// Show submitting
 	SetVisible	QuestionContainer	0	0
@@ -1904,12 +1904,12 @@ event DefaultAnimDefaultAnimDefaultAnimSurveySubmitSequence
 	RunEvent SurveyHideSequence 6
 }
 
-event DefaultAnimDefaultAnimDefaultAnimSurveyDelete
+event DefaultAnimSurveyDelete
 {
 	FireCommand 0 "delete"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimSurveyHideSequence
+event DefaultAnimSurveyHideSequence
 {
 	SetVisible CloseButton 0 0 
 
@@ -1918,23 +1918,23 @@ event DefaultAnimDefaultAnimDefaultAnimSurveyHideSequence
 	RunEventChild Survey SurveyDelete 0.6
 }
 
-event DefaultAnimDefaultAnimDefaultAnimMapVoted
+event DefaultAnimMapVoted
 {
 	Animate VotesLabel	ypos	30		Deaccel 0	0.05
 	Animate VotesLabel	ypos	40		Deaccel 0.05 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimWinningNextMapVote
+event DefaultAnimWinningNextMapVote
 {
 	Animate VotesLabel	FgColor	CreditsGreen Deaccel	0	0.1.5
 }
 
-event DefaultAnimDefaultAnimDefaultAnimLosingNextMapVote
+event DefaultAnimLosingNextMapVote
 {
 	Animate VotesLabel	FgColor	TanLight	Deaccel		0	0.1.5
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_Start
+event DefaultAnimQuestMap_Start
 {
 	FireCommand	0.0 "switch_off"
 	FireCommand	0.4 "switch_on"
@@ -1975,7 +1975,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestMap_Start
 	RunEvent QuestMap_StaticBar2Loop 0.7
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_MapLoaded
+event DefaultAnimQuestMap_MapLoaded
 {
 	// Remove the black and fade out
 	Animate DisconnetedContainer alpha 0 Linear 0.2 0
@@ -1983,12 +1983,12 @@ event DefaultAnimDefaultAnimDefaultAnimQuestMap_MapLoaded
 	Animate StaticOverlay	alpha	20	Deaccel 0.6 1.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_LoadingLoop
+event DefaultAnimQuestMap_LoadingLoop
 {
 	Animate DisconnetedContainer alpha 255 Linear 0 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_StaticFadeOut
+event DefaultAnimQuestMap_StaticFadeOut
 {
 	RunEvent QuestMap_StaticBar1Loop 0
 	RunEvent QuestMap_StaticBar2Loop 0
@@ -1998,39 +1998,39 @@ event DefaultAnimDefaultAnimDefaultAnimQuestMap_StaticFadeOut
 	RunEvent QuestMap_StaticBarOverlayLoop 1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_StaticBar1Loop
+event DefaultAnimQuestMap_StaticBar1Loop
 {
 	Animate StaticBar1	ypos	-50	Linear 0 0 // Reset
 	Animate StaticBar1	ypos	r0	Linear 0 5 
 	RunEvent QuestMap_StaticBar1Loop 5
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_StaticBar2Loop
+event DefaultAnimQuestMap_StaticBar2Loop
 {
 	Animate StaticBar2	ypos	-10	Linear 0 0 // Reset
 	Animate StaticBar2	ypos	r0	Linear 0 15 
 	RunEvent QuestMap_StaticBar2Loop 15
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_StaticBarOverlayLoop
+event DefaultAnimQuestMap_StaticBarOverlayLoop
 {
 	RunEvent QuestMap_StaticBarOverlayBrighten 0
 	RunEvent QuestMap_StaticBarOverlayDarken 1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_StaticBarOverlayBrighten
+event DefaultAnimQuestMap_StaticBarOverlayBrighten
 {
 	Animate StaticOverlay	alpha	30	Linear 0 3 
 	RunEvent QuestMap_StaticBarOverlayBrighten 3
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_StaticBarOverlayDarken
+event DefaultAnimQuestMap_StaticBarOverlayDarken
 {
 	Animate StaticOverlay	alpha	1	Linear 0 2
 	RunEvent QuestMap_StaticBarOverlayDarken 5
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestNodeView_PinTipHighlight
+event DefaultAnimQuestNodeView_PinTipHighlight
 {
 	Animate PinTipLabel fgcolor TanDark Linear 1	0.2
 	Animate PinTipLabel fgcolor TanLight		Linear 1.2	0.2
@@ -2039,7 +2039,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestNodeView_PinTipHighlight
 	Animate PinTipLabel fgcolor TanLight		Linear 1.6	0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMapIntro_StageReveal
+event DefaultAnimQuestMapIntro_StageReveal
 {
 	Animate StageDesc	xpos	300 Linear 0 0 
 	Animate StageDesc	Alpha	0 Linear 0 0 
@@ -2050,22 +2050,22 @@ event DefaultAnimDefaultAnimDefaultAnimQuestMapIntro_StageReveal
 	Animate StageDesc	fgcolor	TanLight Linear 0.4 0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMapIntro_ShowStage
+event DefaultAnimQuestMapIntro_ShowStage
 {
 	Animate IntroDesc	fgcolor	TanDark	Linear 0 0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMapIntro_ClearStage
+event DefaultAnimQuestMapIntro_ClearStage
 {
 	Animate IntroDesc	fgcolor	TanLight	Linear 0 0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestNodeView_QuestPurchased
+event DefaultAnimQuestNodeView_QuestPurchased
 {
 	FireCommand 2 "show_items"
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestViewSubPanel_QuestPurchased
+event DefaultAnimQuestViewSubPanel_QuestPurchased
 {
 	Animate ActivationFlash	Alpha 255 Linear 0 0
 	Animate ActivationFlash	wide f0 Linear 0 0
@@ -2084,35 +2084,35 @@ event DefaultAnimDefaultAnimDefaultAnimQuestViewSubPanel_QuestPurchased
 	SetVisible AcceptButton 0 0 
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestViewSubPanel_SelectMouseOver
+event DefaultAnimQuestViewSubPanel_SelectMouseOver
 {
 	Animate BGImageDarkener Alpha 0 Linear 0 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestViewSubPanel_SelectMouseExit
+event DefaultAnimQuestViewSubPanel_SelectMouseExit
 {
 	Animate BGImageDarkener Alpha 150 Linear 0 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_ShowLegend
+event DefaultAnimQuestMap_ShowLegend
 {
 	Animate Legend ypos 240 Bias 0.6 0 0.2
 	Animate Legend Alpha 255 Linear 0.1 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_HideLegend
+event DefaultAnimQuestMap_HideLegend
 {
 	Animate Legend ypos 290 Bias 0.6 0 0.2
 	Animate Legend Alpha 0 Linear 0 0.1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_CreditNotificationAcknowledge
+event DefaultAnimQuestMap_CreditNotificationAcknowledge
 {
 	RunEventChild CreditNotification QuestMap_CreditHideAnim 0
 	SetVisible CreditNotification 0 3
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_CreditHideAnim
+event DefaultAnimQuestMap_CreditHideAnim
 {
 	SetVisible Body 0 0
 	SetVisible OkButton 0 0
@@ -2125,13 +2125,13 @@ event DefaultAnimDefaultAnimDefaultAnimQuestMap_CreditHideAnim
 	Animate StaticDarken Alpha 0 Bias 0.7 2 1
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_CreditNotificationShow
+event DefaultAnimQuestMap_CreditNotificationShow
 {
 	RunEventChild CreditNotification QuestMap_CreditShowAnim 0
 	SetVisible CreditNotification 1 0
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestMap_CreditShowAnim
+event DefaultAnimQuestMap_CreditShowAnim
 {
 	// Reset everything
 	Animate CreditImage xpos 245 Linear 0 0
@@ -2145,7 +2145,7 @@ event DefaultAnimDefaultAnimDefaultAnimQuestMap_CreditShowAnim
 	SetVisible OkButton 1 0 
 }
 
-event DefaultAnimDefaultAnimDefaultAnimObjectiveCompletedByUser
+event DefaultAnimObjectiveCompletedByUser
 {
 	Animate ScorerLabel xpos -20 Bias 0.8 0 0.4
 	Animate ScorerLabel alpha 0 Linear 1.8 0.2
@@ -2154,19 +2154,19 @@ event DefaultAnimDefaultAnimDefaultAnimObjectiveCompletedByUser
 	Animate ScorerLabelBlur alpha 0 Linear 1.8 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestReport_ContractComplete
+event DefaultAnimQuestReport_ContractComplete
 {
 	RunEventChild QuestCompletionContainer ObjectiveCompletionFanfare 0
 	firecommand				3.2 "soundentry plng_contract_fully_completed" 
 }
 
-event DefaultAnimDefaultAnimDefaultAnimQuestReport_ContractProgress
+event DefaultAnimQuestReport_ContractProgress
 {
 	RunEventChild QuestCompletionContainer ObjectiveCompletionFanfare 0
 	firecommand				3.2 "soundentry plng_contract_partially_completed" 
 }
 
-event DefaultAnimDefaultAnimDefaultAnimObjectiveCompletionFanfare
+event DefaultAnimObjectiveCompletionFanfare
 {
 	//
 	// Reset / hide everything
@@ -2206,7 +2206,7 @@ event DefaultAnimDefaultAnimDefaultAnimObjectiveCompletionFanfare
 	Animate ProgressTitle tall 25 Linear 2.55 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimObjectiveCompletionFanfareEnd
+event DefaultAnimObjectiveCompletionFanfareEnd
 {
 	//
 	// Collapse
@@ -2226,14 +2226,14 @@ event DefaultAnimDefaultAnimDefaultAnimObjectiveCompletionFanfareEnd
 	Animate BottomBar xpos r0		Accel	2.4 0.4
 }
 
-event DefaultAnimDefaultAnimDefaultAnimRegionZoom
+event DefaultAnimRegionZoom
 {
 	FireCommand	0.2 "update_region_visiblity"
 }
 
 // The screen area is 540 x 315
 
-event DefaultAnimDefaultAnimDefaultAnimStartRegionZoomIn
+event DefaultAnimStartRegionZoomIn
 {
 	Animate bgimage xpos -108 Linear 0 0.2
 	Animate bgimage ypos -63 Linear 0 0.2
@@ -2242,7 +2242,7 @@ event DefaultAnimDefaultAnimDefaultAnimStartRegionZoomIn
 	Animate bgimage tall 441 Linear 0 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimStartRegionZoomOut
+event DefaultAnimStartRegionZoomOut
 {
 	Animate bgimage xpos 0 Linear 0 0.2
 	Animate bgimage ypos 0 Linear 0 0.2
@@ -2251,7 +2251,7 @@ event DefaultAnimDefaultAnimDefaultAnimStartRegionZoomOut
 	Animate bgimage tall 315 Linear 0 0.2
 }
 
-event DefaultAnimDefaultAnimDefaultAnimEndRegionZoomIn
+event DefaultAnimEndRegionZoomIn
 {
 	// Snap to full-size
 	Animate bgimage xpos 0 Linear 0 0
@@ -2268,7 +2268,7 @@ event DefaultAnimDefaultAnimDefaultAnimEndRegionZoomIn
 	Animate bgimage tall 335 Linear 0.4 0.6
 }
 
-event DefaultAnimDefaultAnimDefaultAnimEndRegionZoomOut
+event DefaultAnimEndRegionZoomOut
 {
 	// Snap to zoomed
 	Animate bgimage xpos -108 Linear 0 0
@@ -2285,7 +2285,7 @@ event DefaultAnimDefaultAnimDefaultAnimEndRegionZoomOut
 	Animate bgimage tall 335 Deaccel 0.3 0.6
 }
 
-event DefaultAnimDefaultAnimDefaultAnimDelayQuestMapClose
+event DefaultAnimDelayQuestMapClose
 {
 	// Stop everything
 	StopPanelAnimations StaticOverlay 0 

@@ -13,9 +13,5 @@
 	}	
 	"ItemEffectMeterCount"
 	{	
-	}
-	"ItemEffectMeterIcon"
-	{
-		"image"										"../hud/leaderboard_dead"
-	}		
+	}	
 }

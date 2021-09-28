@@ -93,5 +93,19 @@
 		"wide"			"450"
 		"tall"			"100"
 	}	
+	
+
+	CMainTargetID
+	{
+		"ypos"											"c80"
+	}	
+	CSecondaryTargetID
+	{
+		"ypos"											"c100"
+	}		
+	CSpectatorTargetID
+	{
+		"ypos"											"c100"
+	}		
 }
 

@@ -1,5 +1,8 @@
-//menu for wide resolutions
-"resource/ui/mainmenuoverride.res"
+#base "menu_16x9.res"
+#base "enabled_default/menu_4x3.res"
+
+////************************************************how the menu will be sized.
+"Resource/UI/mainmenuoverride.res"
 {
 	"MainMenuOverride"
 	{
@@ -11,10 +14,10 @@
 	{							
 		"controlname"								"imagepanel"
 		"fieldname"									"bgbordercs1"
-		"xpos"										"c-350"
+		//"xpos"										"c-250"
 		"ypos"										"c-200"
 		"zpos"										"-100"
-		"wide"										"350"
+		//"wide"										"250"
 		"tall"										"150"
 		"fillcolor"									"custombgcolor"
 		"border"									"bg_lrtb"
@@ -26,10 +29,10 @@
 	{							
 		"controlname"								"imagepanel"
 		"fieldname"									"bgbordercs2"
-		"xpos"										"-351"
+		//"xpos"										"-251"
 		"ypos"										"0"
 		"zpos"										"-100"
-		"wide"										"350"
+		//"wide"										"250"
 		"tall"										"150"
 		"fillcolor"									"custombgcolor"
 		"border"									"bg_lrtb"
@@ -45,8 +48,8 @@
 		"xpos"										"0"
 		"ypos"										"-151"
 		"zpos"										"-100"
-		"wide"										"350"
-		"tall"										"250"
+		//"wide"										"250"
+		//"tall"										"220"
 		"fillcolor"									"custombgcolor"
 		"border"									"bg_lrtb"
 		"pin_to_sibling"							"bgbordercs1"
@@ -61,8 +64,8 @@
 		"xpos"										"0"
 		"ypos"										"-151"
 		"zpos"										"-100"
-		"wide"										"350"
-		"tall"										"250"
+		//"wide"										"250"
+		//"tall"										"220"
 		"fillcolor"									"custombgcolor"
 		"border"									"bg_lrtb"
 		"pin_to_sibling"							"bgbordercs2"
@@ -74,8 +77,8 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"350"
-		"tall"			"250"
+		//"wide"										"243"
+		//"tall"										"150"
 		"border"					"noborder"
 		"pin_to_sibling"							"bgbordercs3"
 		
@@ -144,8 +147,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"350"
-		"tall"			"250"
+		//"wide"										"250"
+		//"tall"										"150"
 		"paintbackground"		"1"
 		"border"				"bg_lrtb"
 		"bgcolor_override"		"white"
@@ -167,7 +170,7 @@
 		}
 		"MOTD_CloseButton"
 		{
-			"xpos"						"330"
+			//"xpos"						"230"
 			"ypos"						"4"
 			"proportionaltoparent"		"1"
 			
@@ -184,7 +187,7 @@
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"25"
-			"wide"			"350"
+			//"wide"			"250"
 			"centerwrap"	"1"
 		}
 		"MOTD_Label"
@@ -193,7 +196,7 @@
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"40"
-			"wide"			"350"
+			//"wide"			"250"
 		}
 		
 		"MOTD_TitleImageBg"
@@ -215,7 +218,7 @@
 		{
 			"xpos"			"0"
 			"ypos"			"160"
-			"wide"			"350"
+			//"wide"			"250"
 			"tall"			"115"
 			"PaintBackgroundType"	"0"
 			"fgcolor"		"LabelDark"
@@ -358,7 +361,7 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"350"
+		//"wide"			"250"
 		"tall"			"150"
 		"pin_to_sibling"							"bgbordercs1"
 	}	
@@ -366,7 +369,7 @@
 	{
 		"xpos"				"0"
 		"ypos"				"0"
-		"wide"				"350"
+		//"wide"				"250"
 		"tall"				"150"
 		"pin_to_sibling"							"bgbordercs1"
 		"pin_corner_to_sibling"						"0"
@@ -421,8 +424,8 @@
 	"CharacterSetupButton"
 	{
 		"xpos"			"-5"
-		"ypos"			"-5"						//forgive for this.		
-		"wide"			"85"
+		//"ypos"			"-5"
+		//"wide"			"60"
 		"tall"			"69"
 		"labelText"		""
 		"border_default"							"bg_ltb"
@@ -443,9 +446,9 @@
 	}		
 	"GeneralStoreButton"
 	{
-		"xpos"			"-85"
+		//"xpos"			"-60"
 		"ypos"			"0"
-		"wide"			"85"
+		//"wide"			"60"
 		"tall"			"69"
 		"labelText"		""
 		"border_default"							"bg_lrtb"
@@ -466,10 +469,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButtonFixed"
-		"xpos"			"-85"
+		//"xpos"			"-60"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"85"
+		//"wide"			"60"
 		"tall"			"69"
 		"visible"		"1"
 		"enabled"		"1"
@@ -499,17 +502,17 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AdvancedSettingsButtonFixed"
-		"xpos"			"-85"
+		//"xpos"			"-60"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"85"
+		//"wide"			"60"
 		"tall"			"69"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"+"
 		"border_default"							"bg_lrtb"
 		"font"			"tea40"
-		"textinsetx"	"20"
+		//"textinsetx"	"5"
 		"textinsety"	"-20"
 		"Command"		"opentf2options"
 		"image_drawcolor"	"white"
@@ -536,9 +539,9 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButtonFixed"
 		"xpos"			"0"
-		"ypos"			"-72"
+		//"ypos"			"-71"
 		"zpos"			"1"
-		"wide"			"85"
+		//"wide"			"60"
 		"tall"			"69"
 		"visible"		"1"
 		"enabled"		"1"
@@ -568,10 +571,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReplaysButtonFixed"
-		"xpos"			"-85"
+		//"xpos"			"-60"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"85"
+		//"wide"			"60"
 		"tall"			"69"
 		"visible"		"1"
 		"enabled"		"1"
@@ -601,10 +604,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WorkshopButtonFixed"
-		"xpos"			"-85"
+		//"xpos"			"-60"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"85"
+		//"wide"			"60"
 		"tall"			"69"
 		"visible"		"1"
 		"enabled"		"1"
@@ -635,11 +638,11 @@
 		"controlname"								"CExButton"
 		"fieldname"									"Console"
 		"labeltext"									">_"		
-		"xpos"										"-85"
+		//"xpos"										"-60"
 		"ypos"										"0"
 		"font"										"tea40"
 		"zpos"										"10"
-		"wide"										"85"
+		//"wide"										"60"
 		"tall"										"69"
 		"visible"									"1"	
 		"enabled"									"1"
@@ -763,4 +766,4 @@
 		}
 	}
 	//buttons in-game	
-}	
+}

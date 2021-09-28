@@ -27,6 +27,75 @@
 		"border"		"bg_lrtb"
 		"bgcolor_override"		"custombgcolor"
 	}
+	"quickbind"	
+	{
+		"controlname"								"cexbutton"
+		"fieldname"									"quickbind"
+		"xpos"										"9999"
+		"ypos"										"0"
+		"tall"										"0"
+		"visible"									"1"	
+		"enabled"									"1"
+		"labeltext"									"&e"
+		"command"									"continue"
+	}
+	"quickbind2"	
+	{
+		"controlname"								"cexbutton"
+		"fieldname"									"quickbind2"
+		"xpos"										"9999"
+		"ypos"										"0"
+		"tall"										"0"
+		"visible"									"1"	
+		"enabled"									"1"
+		"labeltext"									"&q"
+		"command"									"back"
+	}
+	"MapInfoContinue"
+	{
+		"xpos"			"0"
+		"ypos"			"40"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"textAlignment"	"center"
+		"command"		"continue"
+		"font"			"tea14"
+		"fgcolor"		"white"
+		"pin_to_sibling"							"MapInfoText"
+		"pin_corner_to_sibling"						"3"
+		"pin_to_sibling_corner"						"3"
+	}
+	"MapInfoWatchIntro"
+	{
+		"xpos"			"0"
+		"ypos"			"40"
+		"zpos"			"6"
+		"wide"			"70"
+		"tall"			"30"
+		"textAlignment"	"center"
+		"command"		"intro"
+		"font"			"tea12"
+		"fgcolor"		"white"
+		"pin_to_sibling"							"MapInfoText"
+		"pin_corner_to_sibling"						"6"
+		"pin_to_sibling_corner"						"6"
+	}
+	"MapInfoBack"
+	{
+		"xpos"			"0"
+		"ypos"			"40"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"textAlignment"	"center"
+		"font"			"tea14"
+		"fgcolor"		"white"
+		"pin_to_sibling"							"MapInfoText"
+		"pin_corner_to_sibling"						"2"
+		"pin_to_sibling_corner"						"2"
+	}
+
 	
 	"MapInfoType"
 	{
@@ -39,44 +108,7 @@
 		"xpos"			"9999"
 		"visible"		"0"
 		"enabled"		"0"	
-	}
-
-	"MapInfoContinue"
-	{
-		"xpos"			"c50"
-		"ypos"			"370"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"textAlignment"	"center"
-		"command"		"continue"
-		"font"			"tea14"
-		"fgcolor"		"white"
-	}
-	"MapInfoWatchIntro"	//investigue if it works
-	{
-		"xpos"			"c-50"
-		"ypos"			"370"
-		"zpos"			"6"
-		"wide"			"50"
-		"tall"			"30"
-		"textAlignment"	"center"
-		"command"		"intro"
-		"font"			"tea14"
-		"fgcolor"		"white"
-	}
-	"MapInfoBack"
-	{
-		"xpos"			"c-200"
-		"ypos"			"370"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"textAlignment"	"center"
-		"font"			"tea14"
-		"fgcolor"		"white"
-	}
-	
+	}	
 	"MenuBG"
 	{
 		"xpos"			"9999"

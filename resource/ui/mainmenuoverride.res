@@ -8,9 +8,9 @@
 #base "../../customization/enabled/bookmarks_16x9.res"
 #base "../../customization/enabled/bookmarks_4x3.res"
 
-//define resolution		(if not set, 4x3 will be the default)
-#base "../../customization/enabled/menu_16x9.res"
-#base "../../customization/enabled/menu_4x3.res"
+//define resolution
+#base "../../customization/enabled/mainmenu_bookmarks.res"
+#base "../../customization/enabled/mainmenu_resolution.res"
 #base "base/mainmenuoverride.res"
 
 "resource/ui/mainmenuoverride.res"
