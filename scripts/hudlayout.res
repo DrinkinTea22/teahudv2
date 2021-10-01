@@ -3,6 +3,9 @@
 #base "../resource/ui/custom/closecaptions.res"
 #base "../resource/ui/custom/crosshair.res"
 
+//transparent viewmodels
+#base "../customization/enabled/transparent_viewmodels.res"
+
 #base "base/hudlayout.res"
 
 "Resource/HudLayout.res"
@@ -29,7 +32,7 @@
 		"xpos"											"c-75"	
 		"ypos"											"c150"	
 		"wide"											"150"
-		"tall"											"8"
+		"tall"											"20"
 		//"border"										"bg_lrtb" //testing
 	}	
 	
@@ -94,7 +97,6 @@
 		"tall"			"100"
 	}	
 	
-
 	CMainTargetID
 	{
 		"ypos"											"c80"
@@ -106,6 +108,12 @@
 	CSpectatorTargetID
 	{
 		"ypos"											"c100"
+	}
+	
+	HudKothTimeStatus		//controls "ActiveTimerBG" xpos from "HudObjectiveKothTimePanel.res"
+	{
+		"blue_active_xpos"	"55"
+		"red_active_xpos"		"105"
 	}		
 }
 

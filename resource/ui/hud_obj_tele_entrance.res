@@ -5,7 +5,7 @@
 	"BuildingStatusItem"
 	{
 		"wide"			"160"
-		"tall"			"30"
+		"tall"			"31"
 	}
 	
 	"Icon_Teleport_Entrance"
@@ -26,7 +26,7 @@
 			"ypos"										"0"
 			"zpos"										"-100"
 			"wide"										"115"
-			"tall"										"f0"
+			"tall"										"30"
 			"visible"									"1"
 			"enabled"									"1"
 			"scaleimage"								"1"	
@@ -41,7 +41,7 @@
 			"ypos"										"0"
 			"zpos"										"-100"
 			"wide"										"20"
-			"tall"										"f0"
+			"tall"										"30"
 			"visible"									"1"
 			"enabled"									"1"
 			"scaleimage"								"1"	

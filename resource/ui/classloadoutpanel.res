@@ -7,9 +7,9 @@
 {
 	"reloadschemebutton"
 	{
-		"xpos"																"c0"
+		"xpos"																"c-50"
 		"ypos"																"0"
-		"visible"															"0"
+		"visible"															"1"
 		"command"															"reloadscheme"
 	}
 	"class_loadout_panel"
@@ -58,8 +58,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"600"
-		"fov"			"90"
+		"tall"			"f0"
+		"fov"			"60"
 		"allow_manip"								"1"	//this makes everything bellow WORK
 		
 		"model"

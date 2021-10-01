@@ -3,8 +3,8 @@ Scheme
 	Colors
 	{
 		"TFOrange"									"92 128 166 255"		//backpack buttons
-		"Button"									"46 43 42 255"
-		"ButtonHover"								"86 88 90 255"
+		"Button"									"66 63 62 255"			//"46 43 42 255"	//dont make them fully black
+		"ButtonHover"								"126 128 130 255"		//"86 88 90 255"
 		"ButtonDull"								"104 104 104 255"
 		"ButtonSelected"							"92 128 166 255"
 		"ButtonSelected2"							"92 128 166 155"

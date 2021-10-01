@@ -2,6 +2,7 @@ hudanimations_manifest
 {
 	// custom animations
 	"file"		"scripts/anim_custom.txt"
+	"file"		"scripts/anim_uncommon_fixes.txt"
 
 	// general animations
 	"file"		"scripts/anim_deathfix.txt"

@@ -16,11 +16,27 @@
 	{
 		"xpos"			"15"
 		"ypos"			"0"
-		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"10"
 		"textAlignment"	"west"
 		"font"			"numtea16"
+	}
+	"AccountValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AccountValueShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"0"
+		"wide"			"50"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"	"west"
+		"font"			"numtea16"
+		"fgcolor"		"black"
+		"pin_to_sibling""AccountValue"
 	}
 	"MetalIcon"	
 	{

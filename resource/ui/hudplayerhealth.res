@@ -12,7 +12,6 @@
 		"ypos"											"c100"	
 		"wide"											"150"
 		"tall"											"100"
-		
 		//"border"										"bg_lrtb" //testing
 		
 		"HealthBonusPosAdj"								"35"
@@ -22,16 +21,17 @@
 	"PlayerStatusHealthImage"
 	{
 		//"xpos"										"cs-0.5"
-		"xpos"										"9999"
+		//"xpos"										"9999"
+		"wide"										"0"	//deleting this with xpos will result in unusable status icons
+		"tall"										"0"	//deleting this with xpos will result in unusable status icons
 		"proportionaltoparent"						"1"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		//"xpos"										"cs-0.5"
-		"xpos"										"9999"
-		"ypos"										"cs-0.5"
-		"wide"			"35"
-		"tall"			"35"
+		//"xpos"										"9999"
+		"wide"										"0"	//deleting this with xpos will result in unusable status icons
+		"tall"										"0"	//deleting this with xpos will result in unusable status icons
 		"proportionaltoparent"						"1"
 	}	
 	"PlayerStatusHealthBonusImage"
@@ -215,8 +215,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"StatusIconFix"
-		"xpos"										"cs-0.5"
-		"ypos"										"0"
+		"xpos"										"-8"
+		"ypos"										"10"
 		"zpos"										"5"
 		"wide" 										"0"	
 		"tall" 										"0"
@@ -226,91 +226,63 @@
 	}
 	"PlayerStatusBleedImage"
 	{
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatusHookBleedImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHookBleedImage"
-		"xpos"			"85"
-		"ypos"			"0"
-		"zpos"			"8"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatusMilkImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusMilkImage"
-		"xpos"			"117"
-		"ypos"			"0"
-		"image"			"../vgui/bleed_drop"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatusGasImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusGasImage"
-		"xpos"			"117"
-		"ypos"			"0"
-		"image"			"../vgui/covered_in_gas"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusMarkedForDeathImage"
-		"xpos"			"0"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"0"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_MedicUberBlastResistImage"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_MedicUberFireResistImage"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
@@ -318,225 +290,153 @@
 
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_MedicSmallBulletResistImage"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_MedicSmallBlastResistImage"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_MedicSmallFireResistImage"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
-	
-
 	"PlayerStatus_WheelOfDoom"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"130"
-		"ypos"			"38"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
-
 	"PlayerStatus_SoldierOffenseBuff"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_SoldierOffenseBuff"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
-
 	"PlayerStatus_SoldierDefenseBuff"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_SoldierDefenseBuff"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
-
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_SoldierHealOnHitBuff"
-		"xpos"			"85"
-		"ypos"			"0"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_SpyMarked"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_SpyMarked"
-		"xpos"			"115"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_Parachute"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_Parachute"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_RuneStrength"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneStrength"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_RuneHaste"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneHaste"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_RuneRegen"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneRegen"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_RuneResist"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneResist"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_RuneVampire"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneVampire"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_RuneReflect"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneReflect"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_RunePrecision"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RunePrecision"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_RuneAgility"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneAgility"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_RuneKnockout"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneKnockout"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_RuneKing"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneKing"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_RunePlague"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RunePlague"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatus_RuneSupernova"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneSupernova"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"
 	}
 	"PlayerStatusSlowed"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusSlowed"
-		"xpos"			"85"
-		"ypos"			"0"
+		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"1"
 		"pin_to_sibling_corner"						"1"

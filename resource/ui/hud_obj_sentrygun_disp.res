@@ -6,7 +6,7 @@
 	"BuildingStatusItem"
 	{
 		"wide"			"160"
-		"tall"			"20"
+		"tall"			"21"
 	}
 	
 	"Icon_Sentry_1"

@@ -4,18 +4,20 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"										"rs1-10"	
+		"xpos"										"rs1-0"	
 		"ypos"										"0"	
 	}
 	"ItemEffectMeterCount"
 	{
 		"xpos"				"-15"
 		"ypos"				"2"
+		"font"				"numtea20"
 		"textAlignment"		"west"
 		"pin_to_sibling"	"ItemEffectMeterIcon"
 	}
 	"ItemEffectMeterCountShadow"
 	{
+		"font"				"numtea20"
 		"textAlignment"		"west"
 	}
 	"ItemEffectMeterIcon"

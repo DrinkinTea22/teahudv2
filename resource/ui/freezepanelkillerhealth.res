@@ -1,13 +1,13 @@
-#base "base/SpectatorGUIHealth.res"
+#base "base/FreezePanelKillerHealth.res"
 
-"Resource/UI/SpectatorGUIHealth.res"
+"Resource/UI/FreezePanelKillerHealth.res"
 {
 	"PlayerStatusHealthValueFixed"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueFixed"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"16"
@@ -18,12 +18,6 @@
 		"textAlignment"	"center"	
 		"font"			"tea12"
 		"fgcolor"		"white"
-	}
-	"PlayerStatusHealthValue"
-	{
-		"xpos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"	
 	}
 	"PlayerStatusHealthImage"
 	{
@@ -36,14 +30,20 @@
 		"xpos"			"9999"
 		"visible"		"0"
 		"enabled"		"0"	
-	}
-	"PlayerStatusHealthBonusImage"
+	}	
+	"BuildingStatusHealthImageBG"
 	{
 		"xpos"			"9999"
 		"visible"		"0"
 		"enabled"		"0"	
 	}	
-	"BuildingStatusHealthImageBG"
+	"PlayerStatusHealthBonusImage"
+	{
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"	
+	}
+	"PlayerStatusHealthValue"
 	{
 		"xpos"			"9999"
 		"visible"		"0"

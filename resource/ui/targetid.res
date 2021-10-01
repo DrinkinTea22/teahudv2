@@ -74,7 +74,7 @@
 	"SpectatorGUIHealth"
 	{
 		"xpos"			"0"
-		"ypos"			"10"
+		"ypos"			"17"
 		"wide"			"32"
 		"tall"			"32"
 		"TFFont"		"tea12"

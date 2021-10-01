@@ -1,0 +1,28 @@
+// fixes that are not the main thing
+
+////************************************************Local player flag pickup/drop
+event FlagOutline
+{
+	RunEvent FlagOutlineHide 0.0
+	Animate OutlineImage	Alpha		"255"			Linear 0.1 0.2
+	
+	Animate OutlineImage	Position	"c-50 c20"		Linear 0.1 0.2
+	Animate OutlineImage	Size		"100 50"		Linear 0.1 0.2
+
+	Animate OutlineImage	Position	"c-25 r50"		Linear 0.7 0.2	[$WIN32]
+	Animate OutlineImage	Size		"50 25"		Linear 0.7 0.2
+	
+	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
+}
+////************************************************Local player flag pickup/drop
+
+////************************************************Matchstatus respawntime
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  0 0	//why?
+	SetVisible SkullPanel  0 0	//why?
+	SetVisible respawntime  1 0
+
+	Animate respawntime ypos 0 Accel 0 0.2
+}
+////************************************************Matchstatus respawntime

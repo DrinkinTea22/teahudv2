@@ -5,7 +5,7 @@
 	"BuildingStatusItem"
 	{
 		"wide"			"160"
-		"tall"			"40"
+		"tall"			"41"
 	}
 	"Icon_Sentry_1"
 	{
@@ -34,7 +34,7 @@
 			"ypos"										"0"
 			"zpos"										"-100"
 			"wide"										"115"
-			"tall"										"f0"
+			"tall"										"40"
 			"visible"									"1"
 			"enabled"									"1"
 			"scaleimage"								"1"	
@@ -49,7 +49,7 @@
 			"ypos"										"0"
 			"zpos"										"-100"
 			"wide"										"20"
-			"tall"										"f0"
+			"tall"										"40"
 			"visible"									"1"
 			"enabled"									"1"
 			"scaleimage"								"1"	

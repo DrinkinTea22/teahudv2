@@ -195,4 +195,14 @@
 	//	7         5
 	//	|         |
 	//	3 -- 6 -- 2
+	
+	//	TextAlignment guide						.7
+	//	definitions:
+	//	north, north-west, west, south-west, south, south-east, east, north-east, center
+	
+	//	NW -- N -- NE
+	//	|		   |
+	//	W -- C  -- E
+	//	|		   |
+	//	SW -- S -- SE	
 }

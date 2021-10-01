@@ -10,6 +10,6 @@
 		"PositiveColor"			"HealthHigh"
 		"NegativeColor"			"Negative"
 		"delta_lifetime"		"1"
-		"delta_item_font"		"tea30"
+		"delta_item_font"		"tea24"
 	}
 }

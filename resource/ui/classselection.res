@@ -58,8 +58,10 @@
 	
 		"model"
 		{
-			//"origin_y" "-50"	//fix
-			//"origin_z" "-44"	//fix
+
+            "angles_x"	"0"
+            "angles_y"	"170"
+            "angles_z"	"0"
 		}
 	}	
 	"scout"

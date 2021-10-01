@@ -4,28 +4,19 @@
 {
 	"ItemQuickSwitchPanel"
 	{
-		"xpos"			"c-125"
-		"ypos"			"c20"
-		"wide"			"275"
-		"tall"			"160"
-		
-		"settitlebarvisible"	"0"
+		"xpos"			"c-135"
+		"ypos"			"c10"
+		"wide"			"270"
+		"tall"			"120"
 		
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"		"custombgcolor"
 		"border"				"bg_lrtb"
 		
-		"itempanel_xpos"	"0"
-		"itempanel_ydelta"	"0"
-		
-		"itemskv"	
+		"itemskv"			//weapons shown
 		{
-			"wide"			"220"
+			"wide"			"200"
 			"tall"			"40"
-			"bgcolor_override"		"59 54 48 255"
-			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			"text_forcesize" "2"
 			
 			"model_xpos"	"25"
 			"model_ypos"	"3"
@@ -40,6 +31,36 @@
 			"noitem_textcolor"		"117 107 94 255"
 		}
 	}
+	"itemcontainerscroller"		//this appears to control weapons models panel (????)
+	{
+		"xpos"			"30"
+		"ypos"			"0"
+		"wide"			"235"
+		"tall"			"120"
+		"PaintBackgroundType"	"0"
+		"fgcolor_override"		"white"
+	}	
+	"itemcontainer"
+	{
+		"xpos"			"0"
+		"tall"			"120"
+		
+		"CurrentlyEquippedBackground"
+		{
+			"font"				"tea12"
+			"fgcolor_override" "white"
+		}
+	}
+	"NoItemsLabel"
+	{
+		"font"			"tea14"
+	}
+	"loadout_preset_panel"
+	{
+		"xpos"			"5"
+		"ypos"			"5"
+	}
+
 	
 	"CaratLabel"
 	{
@@ -59,49 +80,10 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
 	"TopLine"
 	{
-		"wide"			"0"
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}		
-	"itemcontainerscroller"
-	{
-		"xpos"					"30"
-		"ypos"					"0"
-		"wide"					"265"
-		"tall"					"125"
-		"PaintBackgroundType"	"0"
-		"fgcolor_override"		"white"
-	}
-	"itemcontainer"
-	{
-		"xpos"			"30"
-		"ypos"			"0"
-		"wide"			"240"
-		"tall"			"125"
-		"PaintBackgroundType"	"0"
-		
-		"CurrentlyEquippedBackground"
-		{
-			"font"			"tea12"
-			
-			"PaintBackgroundType"	"0"
-			"fgcolor_override" "white"
-		}
-	}
-	
-	"NoItemsLabel"
-	{
-		"font"			"tea14"
-		"fgcolor_override" "white"
-	}
-	
-	"loadout_preset_panel"
-	{
-		"xpos"			"5"
-		"ypos"			"28"
-		"zpos"			"20"
-		"wide"			"25"
-		"tall"			"120"
-	}
 }

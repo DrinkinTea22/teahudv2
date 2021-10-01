@@ -1,9 +1,9 @@
 1 finish mvm scoreboard
-2 
+2 finish matchstatus endgame screen
 3 make training engi build menu
-4 fix hudplayerstatus icons
+4 redo spectatorguihealth
 5 make pipboy menu
-6 
+6 remove matchstatus bg outline
 7 
 8 
 9
