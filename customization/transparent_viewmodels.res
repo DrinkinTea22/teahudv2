@@ -1,5 +1,5 @@
 ////************************************************Transparent Viewmodels.
-"Resource/UI/Transparent Viewmodels.res"
+"Resource/UI/transparent_viewmodels.res"
 {
 	"IwantToSeeMyScreen"
 	{
@@ -12,7 +12,7 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"../transparentviewmodels"
+		"image"										"..\vgui\replay\thumbnails\transparentviewmodels"
 		"scaleImage"								"1"
 	}
 }
