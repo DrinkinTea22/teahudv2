@@ -24,14 +24,14 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"18"
 		"textAlignment"	"Center"
 	}
 	"CostLabel"
 	{	
 		"font"			"tea16"
-		"xpos"			"48"
+		"xpos"			"35"
 		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"50"

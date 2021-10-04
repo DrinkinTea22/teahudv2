@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"450"
+		"wide"			"300"
 		"tall"			"100"
 		"border"		"bg_lrtb"
 		"fillcolor"		"custombgcolor"
@@ -18,7 +18,7 @@
 		"xpos"			"0"			
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"450"
+		"wide"			"300"
 		"tall"			"20"
 		"textAlignment"	"center"
 	}	
@@ -28,7 +28,7 @@
 		"xpos"			"2"			
 		"ypos"			"2"
 		"zpos"			"2"
-		"wide"			"450"
+		"wide"			"300"
 		"tall"			"20"
 		"textAlignment"	"center"
 	}
@@ -53,78 +53,78 @@
 	
 	"active_item_1"
 	{
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"80"
 		"visible"		"0"
 	}	
 	
 	"active_item_2"
 	{
-		"xpos"			"125"
+		"xpos"			"75"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"80"
 		"visible"		"0"
 	}	
 	"active_item_3"
 	{
-		"xpos"			"225"
+		"xpos"			"150"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"80"
 		"visible"		"0"
 	}	
 	
 	"active_item_4"
 	{
-		"xpos"			"345"
+		"xpos"			"225"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"80"
 		"visible"		"0"
 	}
 	
 	"inactive_item_1"
 	{
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"80"
 		"visible"		"1"
 	}	
 	
 	"inactive_item_2"
 	{
-		"xpos"			"125"
+		"xpos"			"75"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"80"
 		"visible"		"1"
 	}	
 	"inactive_item_3"
 	{
-		"xpos"			"225"
+		"xpos"			"150"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"80"
 		"visible"		"1"
 	}	
 	
 	"inactive_item_4"
 	{
-		"xpos"			"345"
+		"xpos"			"225"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"80"
 		"visible"		"1"
 	}	

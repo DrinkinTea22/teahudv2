@@ -4,9 +4,16 @@
 {	
 	"TimePanelBG"
 	{
-		"xpos"	"35"
-		"wide"	"38"
-		"tall"	"23"
+		"xpos"					"cs-0.5"
+		"ypos"					"-7"
+		"wide"					"38"
+		"tall"					"23"
+		"proportionaltoparent"	"1"
+
+		if_match
+		{
+			"visible"			"0"
+		}
 	}
 	"TimePanelProgressBar"
 	{
@@ -15,7 +22,7 @@
 		"zpos"				"4"	
 		"wide"				"20"
 		"tall"				"20"
-		"visible"	"0"
+		"visible"			"0"
 		"color_active"			"TimerProgress.Active"
 		"color_inactive"		"TimerProgress.InActive"
 		"color_warning"			"TimerProgress.Warning"
@@ -23,14 +30,21 @@
 	}
 	"WaitingForPlayersLabel"
 	{
-		"xpos"			"16"
-		"ypos"	"24"
-		"font"			"tea9"
+		"xpos"					"cs-0.5"
+		"ypos"					"15"
+		"wide"					"f0"
+		"tall"					"12"
+		"font"					"tea9"
+		"proportionaltoparent"	"1"
 
 		if_match
 		{
-			"ypos"			"21"
-			"font"					"tea14"
+			"xpos"					"cs-0.5"
+			"ypos"					"22"
+			"wide"					"f0"
+			"tall"					"12"
+			"font"					"tea11"
+			"proportionaltoparent"	"1"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -39,13 +53,21 @@
 	}
 	"OvertimeLabel"
 	{
-		"ypos"	"24"
-		"font"			"tea9"
+		"xpos"					"cs-0.5"
+		"ypos"					"15"
+		"wide"					"f0"
+		"tall"					"12"
+		"font"					"tea9"
+		"proportionaltoparent"	"1"
 		
 		if_match
 		{
-			"ypos"			"21"
-			"font"					"tea14"
+			"xpos"					"cs-0.5"
+			"ypos"					"22"
+			"wide"					"f0"
+			"tall"					"12"
+			"font"					"tea11"
+			"proportionaltoparent"	"1"
 		}
 	}			
 	"OvertimeBG"
@@ -54,12 +76,21 @@
 	}
 	"SuddenDeathLabel"
 	{
-		"ypos"	"24"
-		"font"			"tea9"
+		"xpos"					"cs-0.5"
+		"ypos"					"15"
+		"wide"					"f0"
+		"tall"					"12"
+		"font"					"tea9"
+		"proportionaltoparent"	"1"
+
 		if_match
 		{
-			"ypos"			"21"
-			"font"					"tea14"
+			"xpos"					"cs-0.5"
+			"ypos"					"22"
+			"wide"					"f0"
+			"tall"					"12"
+			"font"					"tea11"
+			"proportionaltoparent"	"1"
 		}
 	}			
 	"SuddenDeathBG"
@@ -68,13 +99,21 @@
 	}	
 	"SetupLabel"
 	{
-		"ypos"	"24"
-		"font"			"tea9"
+		"xpos"					"cs-0.5"
+		"ypos"					"15"
+		"wide"					"f0"
+		"tall"					"12"
+		"font"					"tea9"
+		"proportionaltoparent"	"1"
 
 		if_match
 		{
-			"ypos"					"21"
-			"font"					"tea14"
+			"xpos"					"cs-0.5"
+			"ypos"					"22"
+			"wide"					"f0"
+			"tall"					"12"
+			"font"					"tea11"
+			"proportionaltoparent"	"1"
 		}
 	}	
 	"SetupBG"
@@ -83,12 +122,20 @@
 	}
 	"ServerTimeLimitLabel"
 	{
-		"ypos"	"24"
-		"font"			"tea9"
+		"xpos"					"cs-0.5"
+		"ypos"					"15"
+		"wide"					"f0"
+		"tall"					"10"
+		"font"					"tea9"
+		"proportionaltoparent"	"1"
+
 		if_match
 		{
-			"ypos"			"21"
-			"font"					"tea14"
+			"xpos"				"cs-0.5"
+			"ypos"				"20"
+			"wide"				"f0"
+			"tall"				"20"
+			"font"				"tea14"
 		}
 	}	
 	"ServerTimeLimitLabelBG"

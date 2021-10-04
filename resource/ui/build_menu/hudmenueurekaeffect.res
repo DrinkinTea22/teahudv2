@@ -29,7 +29,7 @@
 		"xpos"			"0"			
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"225"
+		"wide"			"150"
 		"tall"			"20"
 		"textAlignment"	"center"
 	}
@@ -39,7 +39,7 @@
 		"xpos"			"2"			
 		"ypos"			"2"
 		"zpos"			"2"
-		"wide"			"225"
+		"wide"			"150"
 		"tall"			"20"
 		"textAlignment"	"center"
 		"fgcolor"		"Black"
@@ -54,20 +54,20 @@
 	
 	"available_target_1"
 	{
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"10"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"80"
 		"visible"		"1"
 		//"border"										"bg_lrtb" //testing	
 	}	
 	"available_target_2"
 	{
-		"xpos"			"125"
+		"xpos"			"75"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"80"
 		"visible"		"1"
 		//"border"										"bg_lrtb" //testing	
@@ -75,10 +75,10 @@
 
 	"unavailable_target_1"
 	{
-		"xpos"			"25"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"80"
 		"visible"		"0"
 		//"border"										"bg_lrtb" //testing	
@@ -86,10 +86,10 @@
 	
 	"unavailable_target_2"
 	{
-		"xpos"			"125"
+		"xpos"			"75"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"80"
 		"visible"		"0"
 		//"border"										"bg_lrtb" //testing	

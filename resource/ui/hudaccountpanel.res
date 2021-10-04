@@ -4,7 +4,7 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"10"
+		"delta_item_x"			"12"
 		"delta_item_start_y"	"10"
 		"delta_item_end_y"		"20"
 		"PositiveColor"			"positive"
@@ -14,11 +14,11 @@
 	}
 	"AccountValue"
 	{
-		"xpos"			"15"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"50"
 		"tall"			"10"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"font"			"numtea16"
 	}
 	"AccountValueShadow"
@@ -33,20 +33,22 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"font"			"numtea16"
 		"fgcolor"		"black"
 		"pin_to_sibling""AccountValue"
 	}
 	"MetalIcon"	
 	{
-		"xpos"			"12"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"-10"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
 		"iconColor"		"white"
 		"pin_to_sibling"	"AccountValue"
+		"pin_corner_to_sibling"			"4"
+		"pin_to_sibling_corner"			"4"
 	}
 	
 	"AccountBG"

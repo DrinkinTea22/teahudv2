@@ -4,17 +4,17 @@
 {
 	"CantDestroyIcon"
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"imagePanel"
 		"fieldName"		"CantDestroyIcon"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"10"
-		"wide"			"34"
-		"tall"			"34"
+		"wide"			"54"
+		"tall"			"54"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"icon"			"cappoint_progressbar_blocked"
+		"image"			"../hud/obj_lock"
 		"proportionaltoparent"	"1"
 	}
 	"NumberLabel"
@@ -24,7 +24,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"75"
 		"tall"			"18"
 		"textAlignment"	"Center"
 	}

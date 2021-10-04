@@ -6,6 +6,8 @@
 //transparent viewmodels
 #base "../customization/enabled/transparent_viewmodels.res"
 
+//panel test (dev tool)
+//#base "../resource/tools/panels.res"
 #base "base/hudlayout.res"
 
 "Resource/HudLayout.res"
@@ -67,26 +69,26 @@
 	}	
 	"HudMenuEngyBuild"
 	{
-		"xpos"			"c-225"
+		"xpos"			"c-150"
 		"ypos"			"c35"
-		"wide"			"450"
-		"tall"			"100"
-	}
-	"HudMenuEngyDestroy"
-	{
-		"xpos"			"c-225"
-		"ypos"			"c35"
-		"wide"			"450"
+		"wide"			"300"
 		"tall"			"100"
 	}
 	"HudEurekaEffectTeleportMenu"
 	{
-		"xpos"			"c-112.5"
+		"xpos"			"c-75"
 		"ypos"			"c35"
-		"wide"			"225"
+		"wide"			"150"
 		"tall"			"100"
 		"border"				"bg_lrtb" 
 		"bgcolor_override"		"custombgcolor"
+	}
+	"HudMenuEngyDestroy"
+	{
+		"xpos"			"c-150"
+		"ypos"			"c35"
+		"wide"			"300"
+		"tall"			"100"
 	}
 	
 	"HudMenuSpyDisguise"
@@ -112,8 +114,22 @@
 	
 	HudKothTimeStatus		//controls "ActiveTimerBG" xpos from "HudObjectiveKothTimePanel.res"
 	{
-		"blue_active_xpos"	"55"
-		"red_active_xpos"		"105"
-	}		
+		"xpos"				"cs-0.5"
+		"wide"				"100"
+		"tall"				"50"
+
+		"blue_active_xpos"	"7"
+		"red_active_xpos"	"60"
+	}
+	
+	WinPanel
+	{
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
+	}	
 }
 

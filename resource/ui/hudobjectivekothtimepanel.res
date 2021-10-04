@@ -4,44 +4,52 @@
 {	
 	"BlueTimer"
 	{
-		"xpos"		"20"
-		"ypos"		"-14"
+		"xpos"					"5"
+		"wide"					"38"
+		"tall"					"f0"
 		
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"26"
+		"delta_item_start_y"	"28"
+		"delta_item_end_y"		"28"
 		"PositiveColor"			"positive"
 		"NegativeColor"			"negative"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"tea24"
+		"delta_item_font"		"tea14"
+		"proportionaltoparent"	"1"
 
-		if_match
+		if_match				//tf_use_match_hud 1 (timer)
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"0"
+			"xpos"					"10"
+			"ypos"					"0"
+			"wide"					"40"
+			"tall"					"f0"
 			
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
+			"delta_item_x"			"26"
+			"delta_item_start_y"	"37"
+			"delta_item_end_y"		"37"
 			"PositiveColor"			"positive"
 			"NegativeColor"			"negative"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"tea18"
+			"delta_item_font"		"tea12"
+			"proportionaltoparent"	"1"
 		}
 		
 		"TimePanelValue"
 		{
-			"font"	"tea14"
-			"fgcolor"		"white"
-			"xpos"	"39"
-			"ypos"	"6"
-			"wide"	"30"
+			"font"		"tea14"
+			"fgcolor"	"white"
+			"xpos"		"cs-0.5"
+			"ypos"		"-5"
+			"wide"		"f0"
+			"tall"		"20"
+			"proportionaltoparent"	"1"
 
 			if_match
 			{
-				"xpos"	"15"
-				"ypos"	"12"
-				"wide"	"35"
+				"xpos"	"cs-0.5"
+				"ypos"	"5"
+				"wide"	"f0"
+				"tall"	"20"
 				"font"	"tea14"
 			}
 		}	
@@ -49,21 +57,25 @@
 
 	"RedTimer"
 	{
-		"xpos"		"70"
-		"ypos"		"-14"
+		"xpos"					"rs1-5"
+		"wide"					"38"
+		"tall"					"f0"
 		
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"26"
+		"delta_item_start_y"	"28"
+		"delta_item_end_y"		"28"
 		"PositiveColor"			"positive"
 		"NegativeColor"			"negative"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"tea24"
+		"delta_item_font"		"tea14"
+		"proportionaltoparent"	"1"
 
-		if_match
+		if_match		//tf_use_match_hud 1 (timer)
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"0"
+			"xpos"					"rs1-10"
+			"ypos"					"0"
+			"wide"					"40"
+			"tall"					"f0"
 			
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
@@ -76,25 +88,29 @@
 		
 		"TimePanelValue"
 		{
-			"font"	"tea14"
-			"fgcolor"		"white"
-			"xpos"	"39"
-			"ypos"	"6"
-			"wide"	"30"
+			"font"		"tea14"
+			"fgcolor"	"white"
+			"xpos"		"cs-0.5"
+			"ypos"		"-5"
+			"wide"		"f0"
+			"tall"		"20"
+			"proportionaltoparent"	"1"
 
 			if_match
 			{
-				"xpos"	"rs1-15"
-				"ypos"	"12"
-				"wide"	"35"
+				"xpos"	"cs-0.5"
+				"ypos"	"5"
+				"wide"	"f0"
+				"tall"	"20"
 				"font"	"tea14"
 			}
 		}	
 	}
 	"ActiveTimerBG"
 	{
-		"ypos"		"-4"
-		"wide"		"37"
-		"tall"		"21"
+		"ypos"		"15"
+		"wide"		"33"
+		"tall"		"2"
+		"image"		"../hud/cart_track_neutral_opaque"
 	}
 }
