@@ -145,7 +145,7 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"										"250"
-		"tall"										"150"
+		"tall"										"220"
 		"paintbackground"		"1"
 		"border"				"bg_lrtb"
 		"bgcolor_override"		"white"
@@ -159,7 +159,7 @@
 			{
 				"font"			"tea14"
 				"textAlignment"	"center"
-				"wide"			"350"
+				"wide"			"250"
 				"PaintBackgroundType" "0"
 				"fgcolor_override"	"white"
 				"bgcolor_override"	"141 178 61 255"
@@ -210,7 +210,6 @@
 			"wide"			"150"
 			"tall"			"100"
 		}
-			
 		"MOTD_TextScroller"
 		{
 			"xpos"			"0"
@@ -222,14 +221,14 @@
 			
 			"MOTD_TextPanel"
 			{
-				"wide"			"350"	//this gets ignored lol
+				"wide"			"250"	//this gets ignored lol
 			
 				"MOTD_TextLabel"
 				{
 					"font"			"tea14"
 					"textAlignment"	"center"
 					"xpos"			"0"
-					"wide"			"350"
+					"wide"			"250"
 					"fgcolor"		"LabelDark"
 					"centerwrap"			"1"
 				}

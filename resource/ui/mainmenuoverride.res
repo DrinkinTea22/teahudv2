@@ -6,7 +6,9 @@
 
 // part of the menu		(if not set, 4x3 will be the default)
 #base "../../customization/enabled/bookmarks_16x9.res"
-#base "../../customization/enabled/bookmarks_4x3.res"
+#base "../../customization/enabled/menu_16x9.res"
+#base "../../customization/enabled/enabled_default/bookmarks_4x3.res"
+#base "../../customization/enabled/enabled_default/menu_4x3.res"
 
 //define resolution
 #base "../../customization/enabled/mainmenu_bookmarks.res"
