@@ -85,11 +85,14 @@
 	{
 		"max_size"	"24"	//wide size for every icon.
 
+		"team1_max_expand"	"300"
+		"team2_max_expand"	"300"
+
 		"playerpanels_kv"
 		{
-			"color_portrait_bg_blue"			"MainBlue"
+			"color_portrait_bg_blue"			"MainBlueHover"
 			"color_portrait_bg_blue_dead"		"tandark"
-			"color_portrait_bg_red"			"MainRed"
+			"color_portrait_bg_red"			"MainRedHover"
 			"color_portrait_bg_red_dead"		"tandark"
 			
 			"color_bar_health_high"			"20 255 20 255"
@@ -103,6 +106,12 @@
 			"color_portrait_blend_dead_blue"	"white"
 			
 			//health and respawntime
+			"classimage"
+			{
+				"ypos"			"2"
+				"wide"			"15"
+				"tall"			"15"
+			}
 			"healthbar"
 			{
 				"ypos"					"19"
