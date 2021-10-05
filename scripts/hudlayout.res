@@ -6,8 +6,6 @@
 //transparent viewmodels
 #base "../customization/enabled/transparent_viewmodels.res"
 
-//panel test (dev tool)
-//#base "../resource/tools/panels.res"
 #base "base/hudlayout.res"
 
 "Resource/HudLayout.res"
@@ -124,12 +122,7 @@
 	
 	WinPanel
 	{
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"f0"
+		"ypos"					"230"
 	}	
 }
 
