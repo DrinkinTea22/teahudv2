@@ -22,6 +22,21 @@
 		"proportionaltoparent""1"
 		"image"			"..\hud\leaderboard_class_scout"
 	}
+	"TeamLine"
+	{
+		"controlname"								"imagepanel"
+		"fieldname"									"TeamLine"
+		"xpos"										"cs-0.5"
+		"ypos"										"53"
+		"zpos"										"-100"
+		"wide"										"10"
+		"tall"										"2"
+		"visible"									"1"
+		"enabled"									"1"
+		"scaleimage"								"1"	
+		"proportionaltoparent"						"1"
+		"fillcolor"									"MainBlue"
+	}
 	"NewNumberLabel"
 	{	
 		"ypos"			"55"
