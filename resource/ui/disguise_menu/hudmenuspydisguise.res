@@ -73,43 +73,29 @@
 	"class_item_blue_9"
 	{		"ypos"			"-5"		}
 	
-	"NumberBg1"	
-	{
-		"xpos"			"9999"
-		"enabled"		"0"
-	}
-	"NumberBg2"
-	{
-		"xpos"			"9999"
-		"enabled"		"0"
-	}
-	"NumberBg3"
-	{
-		"xpos"			"9999"
-		"enabled"		"0"
-	}
-	
+	//this need a game launch to be updated
 	"NumberLabel1"
 	{	
 		"xpos"			"75"
-		"ypos"			"80"
+		"ypos"			"55"
 		"font"			"tea16"
 		"fgcolor"		"white"
 	}
 	"NumberLabel2"
 	{	
 		"xpos"			"230"
-		"ypos"			"80"
+		"ypos"			"55"
 		"font"			"tea16"
 		"fgcolor"		"white"
 	}
 	"NumberLabel3"
 	{	
-		"xpos"			"385"
-		"ypos"			"80"
+		"xpos"			"380"
+		"ypos"			"55"
 		"font"			"tea16"
 		"fgcolor"		"white"
 	}
+	//this need a game launch to be updated
 
 	//[deleted lol]
 	"MainBackground"	
@@ -129,6 +115,21 @@
 	}
 	"CancelLabel"
 	{	
+		"xpos"			"9999"
+		"enabled"		"0"
+	}	
+	"NumberBg1"	
+	{
+		"xpos"			"9999"
+		"enabled"		"0"
+	}
+	"NumberBg2"
+	{
+		"xpos"			"9999"
+		"enabled"		"0"
+	}
+	"NumberBg3"
+	{
 		"xpos"			"9999"
 		"enabled"		"0"
 	}	
