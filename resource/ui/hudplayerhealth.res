@@ -1,7 +1,28 @@
+#base "../../customization\enabled\thin_outlines.res"
+#base "../../customization\enabled\enabled_default\thicc_outlines.res"
 #base "base/hudplayerhealth.res"
-
 "Resource/UI/HudPlayerHealth.res"
 {
+	//fix labels
+	"AmmoInClipShadow"
+	{		"wide"		"0"		}
+	"AmmoInClipCS"
+	{		"wide"		"0"		}
+	"AmmoInClipCS2"
+	{		"wide"		"0"		}
+	"AmmoInClipCS3"
+	{		"wide"		"0"		}
+	"AmmoInClipCS4"
+	{		"wide"		"0"		}
+	"AmmoInClipCS5"
+	{		"wide"		"0"		}
+	"AmmoInClipCS6"
+	{		"wide"		"0"		}
+	"AmmoInClipCS7"
+	{		"wide"		"0"		}
+	"AmmoInClipCS8"
+	{		"wide"		"0"		}
+	//fix labels
 	"PlayerStatusMaxHealthValue"
 	{
 		"fgcolor"		"blank"
@@ -56,160 +77,7 @@
 		"textAlignment"								"center"	
 		"font"										"numtea40"
 		"fgcolor"									"Health"
-	}
-	"PlayerStatusHealthValueShadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueShadow"
-		"fgcolor"									"Black"
-		"xpos"										"2"
-		"ypos"										"2"
-		"zpos"										"1"
-		"wide"										"150"
-		"tall"										"50"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"%Health%"
-		"textAlignment"								"center"	
-		"font"										"numtea40"
-		"pin_to_sibling"							"PlayerStatusHealthValue"
-	}	
-	"healthCS"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS"
-		"font"										"numtea40"
-		"fgcolor"									"Black"
-		"xpos"										"-2"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"150"
-		"tall"										"50"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"center"	
-		"labelText"									"%Health%"
-		"pin_to_sibling"							"PlayerStatusHealthValueShadow"
-	}
-	"healthCS2"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS2"
-		"font"										"numtea40"
-		"fgcolor"									"Black"
-		"xpos"										"-2"
-		"ypos"										"0"
-		"zpos"										"3"
-		"wide"										"150"
-		"tall"										"50"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"center"	
-		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS"
-	}
-	"healthCS3"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS3"
-		"font"										"numtea40"
-		"fgcolor"									"Black"
-		"xpos"										"0"
-		"ypos"										"-2"
-		"zpos"										"4"
-		"wide"										"150"
-		"tall"										"50"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"center"	
-		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS2"
-	}
-	"healthCS4"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS4"
-		"font"										"numtea40"
-		"fgcolor"									"Black"
-		"xpos"										"0"
-		"ypos"										"-2"
-		"zpos"										"5"
-		"wide"										"150"
-		"tall"										"50"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"center"	
-		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS3"
-	}
-	"healthCS5"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS5"
-		"font"										"numtea40"
-		"fgcolor"									"Black"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"6"
-		"wide"										"150"
-		"tall"										"50"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"center"	
-		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS4"
-	}
-	"healthCS6"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS6"
-		"font"										"numtea40"
-		"fgcolor"									"Black"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"7"
-		"wide"										"150"
-		"tall"										"50"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"center"	
-		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS5"
-	}
-	"healthCS7"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS7"
-		"font"										"numtea40"
-		"fgcolor"									"Black"
-		"xpos"										"0"
-		"ypos"										"2"
-		"zpos"										"8"
-		"wide"										"150"
-		"tall"										"50"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"center"	
-		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS6"
-	}
-	"healthCS8"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS8"
-		"font"										"numtea40"
-		"fgcolor"									"Black"
-		"xpos"										"0"
-		"ypos"										"-2"
-		"zpos"										"9"
-		"wide"										"150"
-		"tall"										"50"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"center"	
-		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS7"
-	}			
+	}		
 	
 	"StatusIconFix"
 	{

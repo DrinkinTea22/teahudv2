@@ -4,7 +4,7 @@
 {
 	"CHealthAccountPanel"
 	{
-		"delta_item_x"			"63"
+		"delta_item_x"			"0"
 		"delta_item_start_y"	"5"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"HealthHigh"

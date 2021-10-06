@@ -1,5 +1,6 @@
 #base "base/HudDamageAccount.res"
-#base "../../customization/enabled/lastdamagedone.res"
+#base "../../customization/enabled/lastdamagedone_above_HP.res"
+#base "../../customization/enabled/lastdamagedone_above_ammo.res"
 
 "Resource/UI/HudDamageAccount.res"
 {

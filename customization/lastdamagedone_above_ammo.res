@@ -1,15 +1,11 @@
-#base "lastdamagedone_above_HP.res"
-#base "enabled_default/lastdamagedone_above_Ammo.res"
-
-////************************************************Custom Damage Numbers.
 "Resource/UI/HudDamageAccount.res"
 {
 	"DamageAccountValue"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DamageAccountValue"
-		//"xpos"									"0"	//controled by customization
-		//"ypos"									"0"	//controled by customization
+		"xpos"										"c110"	
+		"ypos"										"c100"
 		"wide"										"75"
 		"tall"										"50"
 		"zpos"										"2"
@@ -38,4 +34,4 @@
 		"font"										"tea20"
 		"pin_to_sibling"							"DamageAccountValue"
 	}	
-}
+}	

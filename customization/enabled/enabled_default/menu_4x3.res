@@ -225,7 +225,7 @@
 			
 				"MOTD_TextLabel"
 				{
-					"font"			"tea14"
+					"font"			"tea9"
 					"textAlignment"	"center"
 					"xpos"			"0"
 					"wide"			"250"

@@ -1,3 +1,4 @@
+#base "../menu_16x9.res"
 "Resource/ui/bookmarks.res"
 {
 	"bookmarks"

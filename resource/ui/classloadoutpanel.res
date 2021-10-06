@@ -59,7 +59,7 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"fov"			"60"
+		"fov"			"75"
 		"allow_manip"								"1"	//this makes everything bellow WORK
 		
 		"model"
@@ -70,11 +70,7 @@
 			
 			//"origin_x" "190"		//position how close
 			//"origin_y" "0"		//position
-			"origin_z" "-18"		//position up/down wards
-			
-			"spotlight" "1"
-		
-			"modelname"		""
+			"origin_z" "-30"		//position up/down wards
 		}
 	}
 	"mouseoveritempanel"
