@@ -21,8 +21,8 @@
 	
 	CHealthAccountPanel
 	{
-		"xpos"											"c-225"	
-		"ypos"											"c100"	
+		"xpos"											"20"	
+		"ypos"											"r100"	
 		"wide"											"150"
 		"tall"											"100"
 	}
@@ -94,7 +94,7 @@
 		"xpos"			"c-225"
 		"ypos"			"c35"
 		"wide"			"450"
-		"tall"			"100"
+		"tall"			"70"
 	}	
 	
 	CMainTargetID
@@ -123,6 +123,6 @@
 	WinPanel
 	{
 		"ypos"					"230"
-	}	
+	}
 }
 
