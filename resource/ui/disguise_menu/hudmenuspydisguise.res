@@ -7,8 +7,8 @@
 		"xpos"			"17"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"430"
-		"tall"			"100"
+		"wide"			"433"
+		"tall"			"70"
 		"border"		"bg_lrtb"
 		"fillcolor"		"custombgcolor"
 	}

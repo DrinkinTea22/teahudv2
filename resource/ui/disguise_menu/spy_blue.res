@@ -6,7 +6,10 @@
 	}
 	"ClassIcon"	
 	{
-		"icon"			"hud_menu_spy_blu"
+	}	
+	"ClassImage"	
+	{
+		"image"			"..\hud\leaderboard_class_spy"
 	}
 	"NumberBg"	
 	{

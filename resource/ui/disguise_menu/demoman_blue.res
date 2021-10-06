@@ -6,7 +6,10 @@
 	}
 	"ClassIcon"	
 	{
-		"icon"			"hud_menu_demoman_blu"
+	}	
+	"ClassImage"	
+	{
+		"image"			"..\hud\leaderboard_class_demo"
 	}
 	"NumberBg"	
 	{

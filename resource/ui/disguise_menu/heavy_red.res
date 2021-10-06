@@ -6,8 +6,11 @@
 	}
 	"ClassIcon"	
 	{
-		"icon"			"hud_menu_heavy_red"
 	}	
+	"ClassImage"	
+	{
+		"image"			"..\hud\leaderboard_class_heavy"
+	}
 	"NumberBg"	
 	{
 	}

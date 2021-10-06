@@ -6,8 +6,11 @@
 	}
 	"ClassIcon"	
 	{
-		"icon"			"hud_menu_soldier_blu"
 	}	
+	"ClassImage"	
+	{
+		"image"			"..\hud\leaderboard_class_soldier"
+	}
 	"NumberBg"	
 	{
 	}

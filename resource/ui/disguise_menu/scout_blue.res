@@ -3,14 +3,35 @@
 //this file is used for #base porpuses, do not delete
 "Resource/UI/disguise_menu/scout_blue.res"
 {
+	"ClassIcon"	
+	{
+		"wide"	"0"
+	}
+	"ClassImage"	
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ClassImage"
+		"xpos"			"cs-0.5"
+		"ypos"			"28"
+		"zpos"			"1"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"proportionaltoparent""1"
+		"image"			"..\hud\leaderboard_class_scout"
+	}
 	"NewNumberLabel"
 	{	
+		"ypos"			"55"
 		"font"			"tea16"
 		"labelText"		"1"
 		"fgcolor"		"white"
 	}
 	"NumberLabel"
 	{	
+		"ypos"			"55"
 		"font"			"tea16"
 		"labelText"		"1"
 		"fgcolor"		"white"

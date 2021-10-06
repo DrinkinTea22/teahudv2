@@ -6,7 +6,10 @@
 	}
 	"ClassIcon"	
 	{
-		"icon"			"hud_menu_engineer_red"
+	}	
+	"ClassImage"	
+	{
+		"image"			"..\hud\leaderboard_class_engineer"
 	}
 	"NumberBg"	
 	{

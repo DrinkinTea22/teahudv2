@@ -6,7 +6,10 @@
 	}
 	"ClassIcon"	
 	{
-		"icon"			"hud_menu_sniper_red"
+	}	
+	"ClassImage"	
+	{
+		"image"			"..\hud\leaderboard_class_sniper"
 	}
 	"NumberBg"	
 	{
