@@ -257,53 +257,27 @@
 	{
 		"xpos"			"0"
 		"ypos"			"32"
-		"zpos"			"10"
-		"wide"			"32"
-		"tall"			"32"
 		"pin_corner_to_sibling"						"3"
 		"pin_to_sibling_corner"						"3"
 		"pin_to_sibling"							"bgbordercs4"
 		
 		"SubImage"
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"3"
-			"wide"			"16"
-			"tall"			"16"
 			"drawcolor"		"210 125 33 255"
 			"proportionaltoparent"	"1"
-		}				
-		
+		}
 		"Notifications_CountLabel"
 		{
 			"font"			"tea14"
-			"textAlignment"	"center"
-			"xpos"			"16"
-			"ypos"			"0"
-			"zpos"			"4"
-			"wide"			"16"
-			"tall"			"16"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
 		{
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
 			"font"			"tea14"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			
 			"SubImage"
 			{
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
 				"proportionaltoparent"	"1"
 			}
 		}
