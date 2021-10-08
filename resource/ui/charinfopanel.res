@@ -42,11 +42,8 @@
 	}		
 	"NotificationsPresentPanel"
 	{
-		"xpos"			"r200"
-		"ypos"			"10"
-		"zpos"			"10000"
-		"wide"			"190"
-		"tall"			"50"
+		"xpos"			"rs1-0"
+		"proportionaltoparent"	"1"
 	}
 
 	"quickbind"	

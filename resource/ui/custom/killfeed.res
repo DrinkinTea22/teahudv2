@@ -6,7 +6,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"r640"
-		"ypos"						"20"
+		"ypos"						"24"
 		"wide"						"628"
 		"tall"						"468"
 
@@ -14,7 +14,7 @@
 		"IconScale"					"0.35"
 		"LineHeight"				"16"
 		"LineSpacing"				"2"
-		"CornerRadius"				"0"
+		"CornerRadius"				"5"
 		"RightJustify"				"1"	// If 1, draw notices from the right
 		
 		"TextFont"					"tea12"

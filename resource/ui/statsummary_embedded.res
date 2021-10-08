@@ -20,62 +20,12 @@
 	
 	"StatData"
 	{
-		"xpos"		"0"
+		"xpos"		"-10"
 		"ypos"		"-90"
 
-		"NonInteractiveHeaders"
+		"NonInteractiveHeaders"		//loading map stuff
 		{
-			"BarChartLabelA"
-			{
-				"ControlName"		"Label"
-				"fieldName"		"BarChartLabelA"
-				"font"			"ScoreboardVerySmall"
-				"font_hidef"	"Default"
-				"labelText"		"#StatSummary_StatTitle_MostPoints"
-				"textAlignment"		"east"
-				"xpos"			"c-282"
-				"ypos"			"212"
-				"zpos"			"5"
-				"wide"			"150" [!$X360]
-				"tall"			"20"
-			}
-			"BarChartLabelB"
-			{
-				"ControlName"		"Label"
-				"fieldName"		"BarChartLabelB"
-				"font"			"ScoreboardVerySmall"
-				"font_hidef"	"Default"
-				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
-				"textAlignment"		"west"
-				"xpos"			"c-127"
-				"xpos_hidef"			"c-35"
-				"xpos_lodef"			"c-35"
-				"ypos"			"212"
-				"zpos"			"5"
-				"wide"			"150"
-				"tall"			"20"
-			}			
-			"OverallRecordLabel"
-			{
-				"ControlName"		"Label"
-				"fieldName"		"OverallRecordLabel"
-				"font"			"ScoreboardVerySmall"
-				"labelText"		"#StatSummary_Label_AsAnyClass"
-				"textAlignment"		"west"
-				"xpos"			"c+130"
-				"xpos_hidef"			"c+110"
-				"ypos"			"200"
-				"ypos_hidef"			"150"
-				"zpos"			"5"
-				"wide"			"200"
-				"tall"			"20"
-				"visible"		"1"
-				"visible_hidef"		"0"
-				"visible_lodef"		"0"
-				"enabled"		"1"
-				"enabled_hidef"		"0"
-				"enabled_lodef"		"0"
-			}				
+			"Xpos" 					"9999"		
 		}
 		"InteractiveHeaders"		//every single list [shared] setting
 		{
@@ -591,6 +541,8 @@
 			"tall"			"156"
 			"fillcolor"		"custombgcolor"
 		}	
+		//left panel
+		
 		//labels
 		"OverallRecord1Label"
 		{		"font"			"tea9"		}												
@@ -731,6 +683,12 @@
 	}
 
 	//[deleted lol]
+	"MainBackground"
+	{
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+	}
 	"TipImage"
 	{
 		"xpos"			"9999"

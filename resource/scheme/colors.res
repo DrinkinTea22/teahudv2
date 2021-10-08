@@ -9,6 +9,7 @@ Scheme
 		"ButtonSelected"							"92 128 166 255"
 		"ButtonSelected2"							"92 128 166 155"
 		"ButtonDisabled"							"104 104 104 255"
+		"hyperlink"									"10 158 255 255"			//used for links
 		
 		"bodercolor"								"120 120 120 155"		//border color for backgrouds
 		"custombgcolor"								"0 0 0 90"				//color for backgrounds

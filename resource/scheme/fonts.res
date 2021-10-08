@@ -455,5 +455,281 @@ Scheme
 			}
 		}	
 		//**************************************************mostly specific things.			
+		
+		//econ and quest fonts (to reduce number of files needed)
+		
+		//fonts inside resource/ui/
+		"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestLargeText"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"ScoreboardMediumSmall"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestMediumText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestInstructionText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+			"2"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+			"3"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestLargeText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestFlavorText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+			"2"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+			"3"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestObjectiveText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+			"2"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+			"3"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestStickyText"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestFlavorText"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+			"2"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+			"3"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}	
+		"AchievementTracker_Name"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"AchievementTracker_Desc"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestObjectiveTracker_Desc"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"ItemTrackerScore_InGame"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"AchievementTracker_NameGlow"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestObjectiveTracker_DescGlow"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"QuestObjectiveTracker_DescBlur"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		//fonts inside resource/ui/quest
+		
+		//casual font XP
+		"XPSource"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"XPSource_Glow"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}	
+		//casual font XP
+		
+		//econ
+		"EconFontSmall"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"EconFontMedium"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		ControllerHintText
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"MMenuPlayListDesc"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}
+		"MapVotesPercentage"
+		{
+			"1"
+			{
+				"name"		"libre franklin"
+				"weight"	"0"
+			}
+		}	
+		//econ	
+		//econ and quest fonts (to reduce number of files needed)
 	}
 }
