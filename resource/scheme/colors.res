@@ -39,17 +39,27 @@ Scheme
 
 		"Positive"									"130 165 198 255"		//Positive metal, Health		  			
 		"Negative"									"200 14 55 255"			//Negative metal, Health
-
-		"ClassBG"									"59 74 93 255"
-		"stat1"										"26 98 255 255"
-		"stat2"										"51 116 255 255"
-		"stat3"										"77 133 255 255"
-		"stat4"										"102 150 255 255"
-		"stat5"										"128 168 255 255"
-		"stat6"										"153 185 255 255"
-		"stat7"										"179 203 255 255"
-		"stat8"										"204 220 255 255"
-		"stat9"										"230 238 255 255"
+		
+		//reminder									[https://icolorpalette.com/cascade]
+		"ClassBG1"									"195 195 197 255"
+		"ClassBG2"									"178 177 179 255"
+		"ClassBG3"									"160 158 162 255"
+		"ClassBG4"									"142 140 144 255"
+		"ClassBG5"									"124 122 127 255"
+		"ClassBG6"									"106 105 109 255"
+		"ClassBG7"									"88 87 90 255"
+		"ClassBG8"									"70 70 72 255"
+		"ClassBG9"									"53 52 54 255"
+		
+		"stat1"										"195 195 197 255"
+		"stat2"										"178 177 179 255"
+		"stat3"										"160 158 162 255"
+		"stat4"										"142 140 144 255"
+		"stat5"										"124 122 127 255"
+		"stat6"										"106 105 109 255"
+		"stat7"										"88 87 90 255"
+		"stat8"										"70 70 72 255"
+		"stat9"										"53 52 54 255"
 		
 		"ScoreboardKills"							"43 213 134 255"
 		"ScoreboardDeaths"							"200 14 55 255"
