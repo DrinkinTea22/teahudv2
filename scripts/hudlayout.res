@@ -5,6 +5,8 @@
 
 //transparent viewmodels
 #base "../customization/enabled/transparent_viewmodels.res"
+//crosshairs
+#base "../customization/enabled/crosshair.res"
 
 #base "base/hudlayout.res"
 

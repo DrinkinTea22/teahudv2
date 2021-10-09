@@ -365,8 +365,8 @@ Scheme
 			"1"
 			{	
 				"name"										"libre franklin"
-				"tall"										"36"
-				"tall"										"35" [$LINUX]
+				"tall"										"16"
+				"tall"										"15" [$LINUX]
 				"antialias" 								"1"
 				"dropshadow"								"1"
 			}
@@ -463,6 +463,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"10"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -471,6 +472,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"10"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -479,6 +481,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"12"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -487,6 +490,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"13"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -495,6 +499,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"29"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -511,6 +516,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"15"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -519,6 +525,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"14"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -527,6 +534,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"12"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -553,6 +561,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"12"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -571,6 +580,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"12"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -615,6 +625,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"10"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -623,6 +634,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"10"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -631,6 +643,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"10"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -639,6 +652,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"10"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -655,6 +669,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"10"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}
@@ -663,6 +678,7 @@ Scheme
 		{
 			"1"
 			{
+				"tall"		"10"
 				"name"		"libre franklin"
 				"weight"	"0"
 			}

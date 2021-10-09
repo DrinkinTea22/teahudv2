@@ -1,3 +1,4 @@
+#base "scheme/crosshair_scheme.res"
 #base "scheme/fonts.res"
 #base "scheme/colors.res"
 #base "scheme/borders.res"
@@ -19,7 +20,12 @@ Scheme
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
-
+		"100"
+		{
+			"font" "resource/fonts/TF2Crosshairs.ttf"
+			"font" "resource/fonts/tf2crosshairs_linux.ttf" [$LINUX]
+			"name" "TF2Crosshairs"
+		}
 		"110" 
 		{
 			"font" "resource/fonts/librefranklin bold.ttf"
