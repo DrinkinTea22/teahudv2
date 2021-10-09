@@ -1,7 +1,7 @@
 # TeaHudv2
 
 New starting point for TeaHud using Jarateking's "BaseHud", if you want to learn about it, click the link bellow: <br>
-["BaseHud Project"](https://github.com/JarateKing/BaseHud) <br>
+[BaseHud Project](https://github.com/JarateKing/BaseHud) <br>
 All credits to: [Jarateking](https://github.com/JarateKing)
 
 ## Features
@@ -18,6 +18,8 @@ All credits to: [Jarateking](https://github.com/JarateKing)
 * Fixes for certain existing hud materials
 * Custom basic shape materials
 * Custom refract and blur materials with fallbacks
+* Custom crosshairs, from [
+TF2-Hud-Crosshairs](https://github.com/Hypnootize/TF2-Hud-Crosshairs)
 
 Some of these features involve scripting or programs that are intended for windows.<br>
 Where possible, linux is also supported (you may need wine to run the update script).
@@ -28,5 +30,17 @@ Note: this will replace the original project [TeaHud](https://github.com/Drinkin
 my github account.
 
 ## Credits:
-[Menu Backgrounds](https://gamebanana.com/mods/25625) by ¡KROAN , all credits to him/her!!
+* **Fog** for [Fog Crosshair](https://www.teamfortress.tv/14702/release-fogs-crosshairs-v3)<br>
+* **Pete** for [KnucklesCrosses](https://www.teamfortress.tv/26790/official-knucklescrosses-release)<br>
+* **Broesel** for [BroeselHUD Crosshairs](https://sourceforge.net/projects/broeselhud)<br>
+* **Whayay** for [Yahud Crosshairs](https://github.com/whayay/yahud)<br>
+* **Griever** for [ToonHud Crosshairs](https://toonhud.com/)<br>
+* **Seeker** for Seekers Crosshair<br>
+* **Garm3n** for wings Crosshairs<br>
 
+also:
+
+- [**Hypnootize**](https://github.com/Hypnootize)
+- [**Whisker**](https://github.com/rbjaxter)
+- [**omnibombulator**](https://github.com/omnibombulator)
+- [**JarateKing**](https://github.com/JarateKing)

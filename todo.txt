@@ -1,9 +1,9 @@
-1 finish mvm scoreboard
+1 
 2 finish matchstatus endgame screen
 3 make training engi build menu
-4 redo spectatorguihealth
+4 
 5 make pipboy menu
-6 complete winpanel player stats
+6 
 7 
 8 
 9
