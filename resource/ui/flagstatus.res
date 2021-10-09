@@ -10,6 +10,10 @@
 		"wide"			"50"
 		"tall"			"50"
 		"proportionaltoparent"	"1"
+		"if_mvm"
+		{
+			"ypos"			"30"
+		}	
 	}
 	"Briefcase"
 	{
@@ -21,10 +25,7 @@
 		
 		"if_mvm"
 		{
-			"xpos"			"62"
-			"ypos"			"21"
-			"wide"			"38"
-			"tall"			"38"
+			"ypos"			"35"
 		}	
 	}				
 	"StatusIcon"

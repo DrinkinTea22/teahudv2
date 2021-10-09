@@ -11,8 +11,10 @@
 	
 	"Icon_Sentry_1"
 	{
-		"xpos"			"30"
-		"ypos"			"0"
+		"xpos"			"26"
+		"ypos"			"-4"
+		"wide"			"20"
+		"tall"			"20"
 	}
 	
 	"BuiltPanel"

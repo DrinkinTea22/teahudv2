@@ -1,7 +1,100 @@
 #base "statsummary_embedded.res"
 //loading map
-"Resource/UI/winpanel.res"
-{						
+"Resource/UI/statsummary.res"
+{	
+	//necesarry fix
+	"TFStatsSummary"
+	{
+		"visible"	"1" 
+	}
+	"MapInfo"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MapInfo"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"MenuBGColor"
+	
+		"Background"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Background"
+			"xpos"			"9999"
+			"wide"			"0"
+			"tall"			"0"
+		}
+		"MapImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MapImage"
+			"xpos"			"9999"
+			"wide"			"0"
+			"tall"			"0"	
+		}
+		"ContributedLabel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"	"ContributedLabel"
+			"xpos"			"9999"
+			"wide"			"0"
+			"tall"			"0"	
+	
+			"BG"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"BG"
+				"xpos"			"9999"
+				"wide"			"0"
+				"tall"			"0"	
+			}
+			"ActualLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"ActualLabel"
+				"xpos"			"9999"
+				"wide"			"0"
+				"tall"			"0"	
+			}					
+		}
+		"InfoBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"InfoBG"
+			"xpos"			"9999"
+			"wide"			"0"
+			"tall"			"0"	
+		}
+		"Title"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Title"
+			"xpos"			"9999"
+			"wide"			"0"
+			"tall"			"0"	
+		}
+		"MapAuthors"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"MapAuthors"
+			"xpos"			"9999"
+			"wide"			"0"
+			"tall"			"0"	
+		}
+		"MapLeaderboardTitle"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"MapLeaderboardTitle"
+			"xpos"			"9999"
+			"wide"			"0"
+			"tall"			"0"	
+		}
+	}	
+	//necesarry fix
+	
 	"OnYourWayLabel" 							
 	{							
 		"font"										"tea11"
@@ -14,7 +107,7 @@
 	{							
 		"font"										"tea24"
 		"xpos"										"0"
-		"ypos"										"55"
+		"ypos"										"48"
 		"wide"										"f0"
 		"visible"									"1"
 	}												
@@ -35,12 +128,4 @@
 			"Xpos" 									"9999"		
 		}	
 	}
-
-	//[deleted lol]
-	"MapInfo"
-	{
-		"wide"										"0"
-		"tall"										"0"
-	}
-	
 }

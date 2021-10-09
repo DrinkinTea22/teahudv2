@@ -10,17 +10,17 @@
 	"Icon_Sentry_1"
 	{
 		"xpos"			"22"
-		"ypos"			"0"
+		"ypos"			"2"
 	}
 	"Icon_Sentry_2"
 	{
 		"xpos"			"22"
-		"ypos"			"0"
+		"ypos"			"2"
 	}
 	"Icon_Sentry_3"
 	{
 		"xpos"			"22"
-		"ypos"			"0"
+		"ypos"			"2"
 	}
 	"BuiltPanel"
 	{
@@ -126,14 +126,14 @@
 			
 			"KillIcon"	
 			{
-				"ypos"			"0"
+				"ypos"			"3"
 				"drawcolor"		"white"
 			}
 			"KillsLabel"
 			{
 				"font"			"tea12"
 				"xpos"			"-12"
-				"ypos"			"0"
+				"ypos"			"2"
 				"pin_to_sibling"	"KillIcon"
 			}
 			

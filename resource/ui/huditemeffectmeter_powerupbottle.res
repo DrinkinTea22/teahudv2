@@ -4,7 +4,8 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"										"rs1-40"		
+		"xpos"										"c-180"
+		"ypos"										"rs1-30"		
 	}
 	"ItemEffectMeterBG"
 	{			
@@ -20,8 +21,8 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectIcon"
-		"xpos"										"25"
-		"ypos"										"4"
+		"xpos"										"30"
+		"ypos"										"7"
 		"zpos"										"1"
 		"wide"										"20"
 		"tall"										"20"

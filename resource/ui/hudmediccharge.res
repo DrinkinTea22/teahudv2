@@ -11,7 +11,7 @@
 		"tall"										"8"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"numtea16"
+		"font"										"uberFIX"
 		"fgcolor"									"Uber"
 	}
 	"ChargeMeter"
@@ -35,7 +35,7 @@
 		"tall"										"8"
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
-		"font"										"numtea16"
+		"font"										"uberFIX"
 	}		
 	"ChargeMeter1"
 	{	

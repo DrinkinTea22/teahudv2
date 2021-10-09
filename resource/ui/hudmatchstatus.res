@@ -218,277 +218,60 @@
 	//end game screen
 	"BlueTeamPanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"BlueTeamPanel"
-		"xpos"			"-155"
-		"ypos"			"125"
-		"zpos"			"50"
-		"wide"			"150"
-		"tall"			"260"
-		"visible"		"1"
-		"enabled"		"1"
-
-		if_large
-		{
-			"ypos"			"65"
-			"tall"			"385"
-		}
-
 		"BlueTeamBG"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"BlueTeamBG"
-			"xpos"			"0"
-			"ypos"			"10"
-			"zpos"			"2"
-			"wide"			"147"
-			"tall"			"36"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"border"		"TFFatLineBorderBlueBGOpaque"
 		}
 		"BlueTeamImage"
 		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"BlueTeamImage"
-			"xpos"			"9"
-			"ypos"			"0"
-			"zpos"			"5"
-			"wide"			"56"
-			"tall"			"56"
-			"visible"		"1"
-			"enabled"		"1"
 			"image"			"../hud/team_blue"
-			"scaleImage"		"1"
 		}
 		"BlueTeamLabel"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"BlueTeamLabel"
-			"font"			"CompMatchStartTeamNames"
-			"labelText"		"%blueteamname%"
-			"textAlignment"		"center"
-			"xpos"			"48"
-			"ypos"			"13"
-			"zpos"			"20"
-			"wide"			"95"
-			"tall"			"30"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"centerwrap"	"1"
+			"font"			"tea14"
 		}
 		"BlueLeaderAvatar"
 		{
-			"ControlName"		"CAvatarImagePanel"
-			"fieldName"		"BlueLeaderAvatar"
-			"xpos"			"11"
-			"ypos"			"10"
-			"zpos"			"5"	
-			"wide"			"35"
-			"tall"			"35"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			""
-			"scaleImage"	"1"	
-			"color_outline"	"52 48 45 255"
 		}
 		"BlueLeaderAvatarBG"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BlueLeaderAvatarBG"
-			"xpos"			"9"
-			"ypos"			"8"
-			"zpos"			"4"
-			"wide"			"39"
-			"tall"			"39"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"bgcolor_override"	"black"
 		}
 		"BluePlayerList"
 		{
-			"ControlName"	"SectionedListPanel"
-			"fieldName"		"BluePlayerList"
-			"xpos"			"6"
-			"ypos"			"38"
-			"zpos"			"1"
-			"wide"			"136"
-			"tall"			"205"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"autoresize"	"3"
-			"linespacing"	"26"
-			"linegap"		"4"
-			//"show_columns"	"1"
-
-			if_large
-			{
-				"tall"			"315"
-			}
 		}
 		"BluePlayerListBG"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"BluePlayerListBG"
-			"xpos"			"4"
-			"ypos"			"30"
-			"zpos"			"0"
-			"wide"			"139"
-			"tall"			"215"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-
-			if_large
-			{
-				"tall"			"325"
-			}
 		}
 	}
-
 	"RedTeamPanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"RedTeamPanel"
-		"xpos"			"r-5"
-		"ypos"			"125"
-		"zpos"			"50"
-		"wide"			"150"
-		"tall"			"260"
-		"visible"		"0"
-		"enabled"		"1"
-
-		if_large
-		{
-			"ypos"			"65"
-			"tall"			"385"
-		}
-
 		"RedTeamBG"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"RedTeamBG"
-			"xpos"			"0"
-			"ypos"			"10"
-			"zpos"			"2"
-			"wide"			"147"
-			"tall"			"36"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"border"		"TFFatLineBorderRedBGOpaque"
 		}
 		"RedTeamImage"
 		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"RedTeamImage"
-			"xpos"			"84"
-			"ypos"			"-9"
-			"zpos"			"5"
-			"wide"			"70"
-			"tall"			"70"
-			"visible"		"1"
-			"enabled"		"1"
 			"image"			"../hud/team_Red"
-			"scaleImage"		"1"
 		}
 		"RedTeamLabel"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"RedTeamLabel"
-			"font"			"CompMatchStartTeamNames"
-			"labelText"		"%redteamname%"
-			"textAlignment"		"center"
-			"xpos"			"5"
-			"ypos"			"13"
-			"zpos"			"20"
-			"wide"			"95"
-			"tall"			"30"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"centerwrap"	"1"
+			"font"			"tea14"
 		}
 		"RedLeaderAvatar"
 		{
-			"ControlName"		"CAvatarImagePanel"
-			"fieldName"		"RedLeaderAvatar"
-			"xpos"			"102"
-			"ypos"			"10"
-			"zpos"			"5"
-			"wide"			"35"
-			"tall"			"35"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			""
-			"scaleImage"	"1"	
-			"color_outline"	"52 48 45 255"
 		}
 		"RedLeaderAvatarBG"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"RedLeaderAvatarBG"
-			"xpos"			"100"
-			"ypos"			"8"
-			"zpos"			"4"
-			"wide"			"39"
-			"tall"			"39"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"bgcolor_override"	"black"
 		}
 		"RedPlayerList"
 		{
-			"ControlName"	"SectionedListPanel"
-			"fieldName"		"RedPlayerList"
-			"xpos"			"6"
-			"ypos"			"38"
-			"zpos"			"1"
-			"wide"			"136"
-			"tall"			"205"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"autoresize"	"3"
-			"linespacing"	"26"
-			"linegap"		"4"
-			//"show_columns"	"1"
-
-			if_large
-			{
-				"tall"			"315"
-			}
 		}
 		"RedPlayerListBG"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"RedPlayerListBG"
-			"xpos"			"4"
-			"ypos"			"30"
-			"zpos"			"0"
-			"wide"			"139"
-			"tall"			"215"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-
-			if_large
-			{
-				"tall"			"325"
-			}
 		}
 	}
 	//end game screen

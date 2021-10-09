@@ -11,6 +11,8 @@
 	}			
 	"MvMScoreboard"
 	{
+		"xpos"				"0"
+		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"f0"
 		
@@ -32,8 +34,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleimage"								"1"	
-		"border"									"bg_lrt"
-		"fillcolor"									"0 0 0 150"
+		"fillcolor"									"black"
 		
 		if_mvm
 		{
@@ -42,10 +43,10 @@
 	}
 	"MapName"
 	{
-		"font"			"tea12"
+		"font"			"tea11"
 		"textAlignment"	"west"
-		"xpos"			"0"
-		"ypos"			"10"
+		"xpos"			"-2"
+		"ypos"			"12"
 		"wide"										"290"
 		"fgcolor"		"white"
 		"pin_to_sibling"		"BT_bg"
@@ -63,7 +64,6 @@
 		"enabled"									"1"
 		"scaleimage"								"1"	
 		"fillcolor"									"MainBlueHover"
-		"border"									"bg_lb"
 		
 		if_mvm
 		{
@@ -86,10 +86,9 @@
 		"xpos"					"50"
 		"ypos"					"0"
 		"wide"					"50"
-		"tall"					"30"
+		"tall"					"31"
 		"bgcolor_override"		"custombgcolor"
 		"paintbackground"		"1"
-		"border"									"bg_b"
 		"pin_to_sibling"							"BT_bg"
 		"pin_corner_to_sibling"						"5"
 		"pin_to_sibling_corner"						"5"
@@ -105,7 +104,10 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"xpos"			"0"
+			"ypos"			"350"
+			"wide"			"f0"
+			"textAlignment"	"center"
 			"visible"		"1"
 		}
 	}	
@@ -121,7 +123,10 @@
 		
 		if_mvm
 		{
+			"xpos"			"0"
 			"ypos"			"-10"
+			"wide"			"f0"
+			"textAlignment"	"center"
 			"visible"		"1"
 		}
 	}
@@ -138,7 +143,6 @@
 		"enabled"									"1"
 		"scaleimage"								"1"	
 		"fillcolor"									"MainRedHover"
-		"border"									"bg_rb"
 		"pin_to_sibling"							"ServerTimeLeftValue"
 		
 		if_mvm
@@ -148,10 +152,10 @@
 	}
 	"ServerLabelNew"
 	{
-		"font"			"tea12"
+		"font"			"tea11"
 		"textAlignment"	"east"
-		"xpos"			"0"
-		"ypos"			"10"
+		"xpos"			"2"
+		"ypos"			"12"
 		"zpos"			"3"
 		"wide"										"290"
 		"pin_to_sibling"							"RT_bg"
@@ -243,14 +247,32 @@
 		"pin_to_sibling_corner"						"4"
 	}
 
+	"bg_list"
+	{
+		"controlname"								"imagepanel"
+		"fieldname"									"bg_list"
+		"xpos"										"c-310"
+		"ypos"										"70"
+		"zpos"										"-100"
+		"wide"										"620"
+		"tall"										"280"
+		"visible"									"1"
+		"enabled"									"1"
+		"scaleimage"								"1"	
+		"fillcolor"									"custombgcolor"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"BluePlayerList"
 	{
 		"xpos"			"c-310"
 		"ypos"			"67"
 		"wide"			"310"
 		"tall"			"280"
-		"linespacing"	"18"
-		"linegap"		"5"
+		"linegap"		"3"
 	}
 	"RedPlayerList"
 	{
@@ -258,8 +280,7 @@
 		"ypos"			"67"
 		"wide"			"310"
 		"tall"			"280"
-		"linespacing"	"18"
-		"linegap"		"5"
+		"linegap"		"3"
 	}
 
 	"Spectators"
