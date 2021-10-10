@@ -255,7 +255,7 @@
 		"ypos"										"70"
 		"zpos"										"-100"
 		"wide"										"620"
-		"tall"										"280"
+		"tall"										"260"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleimage"								"1"	
@@ -271,7 +271,7 @@
 		"xpos"			"c-310"
 		"ypos"			"67"
 		"wide"			"310"
-		"tall"			"280"
+		"tall"			"260"
 		"linegap"		"3"
 	}
 	"RedPlayerList"
@@ -279,7 +279,7 @@
 		"xpos"			"c0"
 		"ypos"			"67"
 		"wide"			"310"
-		"tall"			"280"
+		"tall"			"260"
 		"linegap"		"3"
 	}
 

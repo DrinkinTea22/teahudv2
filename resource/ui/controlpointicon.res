@@ -38,7 +38,7 @@
 	{
 		"wide"			"7"
 		"tall"			"20"
-		"font"	"ControlPointTimerSmaller"
+		"font"			"tea9"
 	}
 	"CPTimerBG"
 	{

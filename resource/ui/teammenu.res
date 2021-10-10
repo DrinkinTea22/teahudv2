@@ -134,10 +134,9 @@
 	"CancelButton"  
 	{
 		"xpos"			"c-75"
-		"ypos"			"c150"
-		"font"			"tea20"
-		"border_default"								"bg_lrb"
-		"border_armed"									"bg_lrb"
+		"ypos"			"c135"
+		"tall"			"20"
+		"font"			"tea14"
 	}
 	
 	//[deleted lol]

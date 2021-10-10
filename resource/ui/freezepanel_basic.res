@@ -26,6 +26,8 @@
 		}	
 		"NemesisSubPanel"
 		{
+			"ypos"			"120"
+			
 			"NemesisPanelBG"
 			{
 				"tall"					"26"
@@ -44,4 +46,41 @@
 			}
 		}
 	}
+	"ScreenshotPanel"
+	{
+		"bg_custom"
+		{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"bg_custom"
+		"xpos"					"0"
+		"ypos"					"8"
+		"zpos"					"-1"
+		"wide"					"166"
+		"tall"					"38"
+		"visible"				"1"
+		"enabled"				"1"
+		"scaleImage"			"1"	
+		"border"				"bg_lrtb"	
+		"fillcolor"				"TransparentLightBlack"
+		}
+		"ScreenshotIcon"
+		{
+			"ypos"			"cs-0.4"
+			"wide"			"26"
+			"tall"			"26"
+			"proportionaltoparent"	"1"	
+		}		
+		"ScreenshotLabel"
+		{
+			"ypos"			"15"
+			"font"			"tea11"
+		}
+		"ScreenshotPanelBG"
+		{
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+	}		
 }

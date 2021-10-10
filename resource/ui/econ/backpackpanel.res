@@ -136,7 +136,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c-315"
+		"xpos"			"c-318"
 		"ypos"			"154"
 		"zpos"			"-5"
 		"wide"			"25"
@@ -152,7 +152,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c290"
+		"xpos"			"c288"
 		"ypos"			"154"
 		"zpos"			"-5"
 		"wide"			"25"

@@ -216,24 +216,40 @@
 		"xpos"			"-17"		"ypos"			"-60"		"pin_to_sibling"		"spy"
 	}		
 
-	"CancelButton"  
-	{
-		"xpos"			"c-140"
-		"ypos"			"r38"
-		"zpos"			"6"
-		"wide"			"140"
-		"tall"			"25"
-		"font"			"tea14"
-		"fgcolor_override" "white"
-	}
 	"EditLoadoutButton"  
 	{
-		"xpos"			"c5"
-		"ypos"			"r38"
+		"xpos"			"0"
+		"ypos"			"25"
 		"zpos"			"6"
 		"wide"			"140"
-		"tall"			"25"
+		"tall"			"20"
 		"font"			"tea14"
+		"pin_to_sibling"		"bg_classcolor"
+		"pin_corner_to_sibling"						"6"
+		"pin_to_sibling_corner"						"6"
+	}
+	"quickbind"	
+	{
+		"controlname"								"cexbutton"
+		"fieldname"									"quickbind"
+		"xpos"										"9999"
+		"ypos"										"0"
+		"tall"										"0"
+		"visible"									"1"	
+		"enabled"									"1"
+		"labeltext"									"&e"
+		"command"									"openloadout"
+	}	
+	"CancelButton"  
+	{
+		"xpos"			"0"
+		"ypos"			"-22"
+		"zpos"			"6"
+		"wide"			"140"
+		"tall"			"20"
+		"font"			"tea14"
+		"fgcolor_override" "white"
+		"pin_to_sibling"		"EditLoadoutButton"
 	}
 	"ResetButton"  
 	{
