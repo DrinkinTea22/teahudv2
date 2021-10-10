@@ -1,3 +1,5 @@
+#base "../../customization/enabled/matchstatus_16x9_icons.res"
+#base "../../customization/enabled/enabled_default/matchstatus_4x3_icons.res"
 #base "base/HudMatchStatus.res"
 
 "Resource/UI/HudMatchStatus.res"
@@ -83,10 +85,10 @@
 	}
 	"TeamStatus"
 	{
-		"max_size"	"24"	//wide size for every icon.
+		//"max_size"	"30"				//wide size for every icon.
 
-		"team1_max_expand"	"300"
-		"team2_max_expand"	"300"
+		//"team1_max_expand"	"200"		//fixed for 4x3 res
+		//"team2_max_expand"	"200"		//fixed for 4x3 res		
 
 		"playerpanels_kv"
 		{
