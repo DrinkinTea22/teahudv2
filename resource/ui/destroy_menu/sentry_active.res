@@ -1,5 +1,5 @@
 #base "base_active.res"
-
+//pip-boy support
 "Resource/UI/destroy_menu/sentry_active.res"
 {
 	"NumberLabel"

@@ -67,6 +67,10 @@
 		"wide"											"50"
 		"tall"											"30"
 	}	
+	BuildingStatus_Engineer
+	{
+		"ypos"			"20"	//do not mess my hudmatchstatus pls
+	}	
 	"HudMenuEngyBuild"
 	{
 		"xpos"			"c-150"
@@ -80,8 +84,6 @@
 		"ypos"			"c35"
 		"wide"			"150"
 		"tall"			"100"
-		"border"				"bg_lrtb" 
-		"bgcolor_override"		"custombgcolor"
 	}
 	"HudMenuEngyDestroy"
 	{

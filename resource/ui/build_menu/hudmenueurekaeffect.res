@@ -2,6 +2,18 @@
 
 "Resource/UI/build_menu/HudMenuEurekaEffect.res"
 {
+	"Divider"			//allow pip-boy override
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Divider"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"150"
+		"tall"			"100"
+		"border"		"bg_lrtb"
+		"fillcolor"		"custombgcolor"
+	}
 	"MainBackground"	
 	{
 		"xpos"			"9999"
@@ -55,7 +67,7 @@
 	"available_target_1"
 	{
 		"xpos"			"0"
-		"ypos"			"15"
+		"ypos"			"25"
 		"zpos"			"10"
 		"wide"			"75"
 		"tall"			"80"
@@ -65,7 +77,7 @@
 	"available_target_2"
 	{
 		"xpos"			"75"
-		"ypos"			"15"
+		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"75"
 		"tall"			"80"
@@ -76,7 +88,7 @@
 	"unavailable_target_1"
 	{
 		"xpos"			"0"
-		"ypos"			"15"
+		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"75"
 		"tall"			"80"
@@ -87,7 +99,7 @@
 	"unavailable_target_2"
 	{
 		"xpos"			"75"
-		"ypos"			"15"
+		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"75"
 		"tall"			"80"
