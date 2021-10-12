@@ -14,10 +14,11 @@
 	}
 	"AccountValue"
 	{
-		"xpos"			"0"
+		"xpos"			"6"
 		"ypos"			"0"
 		"wide"			"50"
 		"tall"			"10"
+		"fgcolor"		"white"
 		"textAlignment"	"center"
 		"font"			"numtea16"
 	}
@@ -40,8 +41,8 @@
 	}
 	"MetalIcon"	
 	{
-		"xpos"			"0"
-		"ypos"			"-10"
+		"xpos"			"-20"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"

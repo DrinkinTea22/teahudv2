@@ -14,6 +14,20 @@
 		"labeltext"									"&e"
 		"command"									"okay"
 	}
+	"blackish"
+	{
+		"controlname"								"imagepanel"
+		"fieldname"									"blackish"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-100"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"scaleimage"								"1"	
+		"fillcolor"									"0 0 0 195"
+	}	
 	"TFMessageTitle"
 	{
 		"xpos"			"0"
