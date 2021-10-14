@@ -128,5 +128,14 @@
 	{
 		"ypos"					"230"
 	}
+	
+	
+	"HudMenuTauntSelection"
+	{
+		"xpos"			"c-225"
+		"ypos"			"c35"
+		"wide"			"450"
+		"tall"			"70"
+	}	
 }
 
