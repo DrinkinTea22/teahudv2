@@ -28,13 +28,8 @@ Scheme
 		}
 		"110" 
 		{
-			"font" "resource/fonts/librefranklin bold.ttf"
-			"name" "libre franklin"
+			"font" "resource/fonts/librefranklin semibold.ttf"
+			"name" "Libre Franklin SemiBold"
 		}
-		"111" 
-		{
-			"font" "resource/fonts/renogare.ttf"
-			"name" "renogare"
-		}	
 	}
 }

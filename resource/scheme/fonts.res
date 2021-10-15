@@ -16,7 +16,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"9"
 				"tall"										"8"	[$LINUX]
 				"additive"									"0"
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"10"
 				"tall"										"9" [$LINUX]
 				"additive"									"0"
@@ -38,7 +38,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"11"
 				"tall"										"10" [$LINUX]
 				"additive"									"0"
@@ -49,7 +49,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"12"
 				"tall"										"11" [$LINUX]			
 				"additive"									"0"
@@ -60,7 +60,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"14"
 				"tall"										"13" [$LINUX]
 				"additive"									"0"
@@ -71,7 +71,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"16"
 				"tall"										"15" [$LINUX]	
 				"additive"									"0"
@@ -82,7 +82,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"18"
 				"tall"										"17" [$LINUX]
 				"additive"									"0"
@@ -93,7 +93,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"20" 				
 				"tall"										"19" [$LINUX]
 				"additive"									"0"
@@ -104,7 +104,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"24"
 				"tall"										"23" [$LINUX]				
 				"additive"									"0"
@@ -115,7 +115,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"26"
 				"tall"										"25" [$LINUX]				
 				"additive"									"0"
@@ -126,7 +126,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"30"
 				"tall"										"29" [$LINUX]				
 				"additive"									"0"
@@ -137,7 +137,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"32"
 				"tall"										"31" [$LINUX]				
 				"additive"									"0"
@@ -148,7 +148,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"36"
 				"tall"										"35" [$LINUX]				
 				"additive"									"0"
@@ -159,7 +159,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"40"
 				"tall"										"39" [$LINUX]				
 				"additive"									"0"
@@ -170,7 +170,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"48"
 				"tall"										"47" [$LINUX]				
 				"additive"									"0"
@@ -181,7 +181,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"72"
 				"tall"										"71" [$LINUX]				
 				"additive"									"0"
@@ -196,7 +196,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"10"
 				"tall"										"9" [$LINUX]
 				"additive"									"0"
@@ -207,7 +207,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"11"
 				"tall"										"10" [$LINUX]
 				"additive"									"0"
@@ -218,7 +218,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"12"
 				"tall"										"11" [$LINUX]			
 				"additive"									"0"
@@ -229,7 +229,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"14"
 				"tall"										"13" [$LINUX]
 				"additive"									"0"
@@ -240,7 +240,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"16"
 				"tall"										"15" [$LINUX]	
 				"additive"									"0"
@@ -251,7 +251,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"18"
 				"tall"										"17" [$LINUX]
 				"additive"									"0"
@@ -262,7 +262,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"20"
 				"tall"										"19" [$LINUX]
 				"additive"									"0"
@@ -273,7 +273,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"24"
 				"tall"										"23" [$LINUX]				
 				"additive"									"0"
@@ -284,7 +284,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"26"
 				"tall"										"25" [$LINUX]				
 				"additive"									"0"
@@ -295,7 +295,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"30"
 				"tall"										"29" [$LINUX]				
 				"additive"									"0"
@@ -306,7 +306,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"32"
 				"tall"										"31" [$LINUX]				
 				"additive"									"0"
@@ -317,7 +317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"36"
 				"tall"										"35" [$LINUX]				
 				"additive"									"0"
@@ -328,7 +328,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"40"
 				"tall"										"39" [$LINUX]				
 				"additive"									"0"
@@ -339,7 +339,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"48"
 				"tall"										"47" [$LINUX]				
 				"additive"									"0"
@@ -350,7 +350,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"renogare"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"72"
 				"tall"										"71" [$LINUX]				
 				"additive"									"0"
@@ -364,9 +364,9 @@ Scheme
 		{
 			"1"
 			{	
-				"name"										"libre franklin"
-				"tall"										"16"
-				"tall"										"15" [$LINUX]
+				"name"										"Libre Franklin SemiBold"
+				"tall"										"40"
+				"tall"										"39" [$LINUX]
 				"antialias" 								"1"
 				"dropshadow"								"1"
 			}
@@ -376,7 +376,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"16"
 				"outline"									"1"
 				"range"										"0x0000 0x017F"
@@ -384,7 +384,7 @@ Scheme
 			}							
 			"2"							
 			{							
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"22"
 				"outline"									"1"
 				"range"										"0x0000 0x017F"
@@ -393,7 +393,7 @@ Scheme
 			}							
 			"3"							
 			{							
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"28"
 				"outline"									"1"
 				"range"										"0x0000 0x017F"
@@ -403,7 +403,7 @@ Scheme
 			}							
 			"4"							
 			{							
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"28"
 				"outline"									"1"
 				"range"										"0x0000 0x017F"
@@ -412,7 +412,7 @@ Scheme
 			}							
 			"5"							
 			{							
-				"name"										"libre franklin"
+				"name"										"Libre Franklin SemiBold"
 				"tall"										"28"
 				"outline"									"1"
 				"range"										"0x0000 0x017F"
@@ -424,34 +424,34 @@ Scheme
 		"Default"											//scoreboard font [names, scores, ping] THEIR VALUES
 		{		
 			"1"		
-			{		
+			{
 				"tall"										"11"
-				"weight"									"900"
+				"weight"									"0"
 			}								
 			"2"								
 			{								
 				"tall"										"12"
-				"weight"									"900"
+				"weight"									"0"
 			}								
 			"3"								
 			{								
 				"tall"										"13"
-				"weight"									"900"
+				"weight"									"0"
 			}		
 		}		
 		"DefaultVerySmall"									//scoreboard font [names, scores, ping]
 		{		
 			"1"		
 			{		
-				"weight"									"900"
+				"weight"									"0"
 			}								
 			"2"								
 			{								
-				"weight"									"900"
+				"weight"									"0"
 			}								
 			"3"								
 			{								
-				"weight"									"900"
+				"weight"									"0"
 			}
 		}	
 		//**************************************************mostly specific things.			
@@ -464,7 +464,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -473,7 +473,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -482,7 +482,7 @@ Scheme
 			"1"
 			{
 				"tall"		"12"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -491,7 +491,7 @@ Scheme
 			"1"
 			{
 				"tall"		"13"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -500,7 +500,7 @@ Scheme
 			"1"
 			{
 				"tall"		"29"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -508,7 +508,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -517,7 +517,7 @@ Scheme
 			"1"
 			{
 				"tall"		"15"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -526,7 +526,7 @@ Scheme
 			"1"
 			{
 				"tall"		"14"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -535,17 +535,17 @@ Scheme
 			"1"
 			{
 				"tall"		"12"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 			"2"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 			"3"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -553,7 +553,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -562,17 +562,17 @@ Scheme
 			"1"
 			{
 				"tall"		"12"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 			"2"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 			"3"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -581,17 +581,17 @@ Scheme
 			"1"
 			{
 				"tall"		"12"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 			"2"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 			"3"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -599,7 +599,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -607,17 +607,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 			"2"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 			"3"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}	
@@ -626,7 +626,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -635,7 +635,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -644,7 +644,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -653,7 +653,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -661,7 +661,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -670,7 +670,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -679,7 +679,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -690,7 +690,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -698,7 +698,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}	
@@ -709,7 +709,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -717,7 +717,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -725,7 +725,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -733,7 +733,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}
@@ -741,7 +741,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"libre franklin"
+				"name"		"Libre Franklin SemiBold"
 				"weight"	"0"
 			}
 		}	
