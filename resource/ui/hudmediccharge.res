@@ -4,20 +4,21 @@
 {	
 	"ChargeLabel"
 	{
-		"xpos"										"0"
-		"ypos"										"-3"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
 		"zpos"										"1"
 		"wide"										"150"
-		"tall"										"12"
+		"tall"										"50"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"uberFIX"
 		"fgcolor"									"Uber"
+		"proportionaltoparent"						"1"
 	}
 	"ChargeMeter"
 	{	
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"cs-0.5"
 		"proportionaltoparent"						"1"
 		"zpos"										"0"
 		"wide"										"150"
@@ -27,19 +28,20 @@
 	//vac
 	"IndividualChargesLabel"
 	{
-		"xpos"										"0"
-		"ypos"										"-3"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
 		"zpos"										"1"
 		"wide"										"150"
-		"tall"										"12"
+		"tall"										"50"
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
 		"font"										"uberFIX"
+		"proportionaltoparent"						"1"
 	}		
 	"ChargeMeter1"
 	{	
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"cs-0.5"
 		"proportionaltoparent"						"1"
 		"zpos"			"2"
 		"wide"			"37"
@@ -76,8 +78,8 @@
 	{
 		"controlname"								"cexbutton"
 		"fieldname"									"quickpin"
-		"xpos"										"2"
-		"ypos"										"6"
+		"xpos"										"230"
+		"ypos"										"25"
 		"tall"										"0"
 		"visible"									"1"	
 		"enabled"									"1"
@@ -88,8 +90,8 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"15"
-		"tall"			"15"
+		"wide"			"20"
+		"tall"			"20"
 		"pin_to_sibling" 							"quickpin"	
 	}
 

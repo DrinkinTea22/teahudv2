@@ -32,9 +32,9 @@
 	HudMedicCharge
 	{
 		"xpos"											"c-75"	
-		"ypos"											"c150"	
-		"wide"											"150"
-		"tall"											"20"
+		"ypos"											"c100"	
+		"wide"											"450"
+		"tall"											"100"
 		//"border"										"bg_lrtb" //testing
 	}	
 	
