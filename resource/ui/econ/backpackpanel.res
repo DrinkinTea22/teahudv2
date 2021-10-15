@@ -81,50 +81,44 @@
 		"tileVertically" "0"
 		"drawcolor"		"112 176 74 255"
 	}
-
-	"ShowRarityComboBox"
+	
+	//upper tools
+	"NameFilterTextEntry"
 	{
-		"xpos"				"c-290"
-		"ypos"				"25"
-		"fgcolor_override"	"white"
-		"disabledFgColor_override" "Labelsunavailable"
-		"selectionTextColor_override" "white"
-	}	
+		"xpos"			"c-287"
+        "ypos"			"35"
+		"font"		"tea12"
+	}
+	"NameFilterLabel"
+	{		"fgcolor"		"blank"		}
+	
 	"ShowBaseItemsCheckbox"
 	{
 		"Font"			"tea12"
 		"textAlignment"	"east"
-		"xpos"			"c-90"
-		"ypos"			"30"
-	}
-
-	"NameFilterLabel"
-	{
-		"fgcolor"		"blank"
-	}
-
-	"NameFilterTextEntry"
-	{
-		"xpos"		"c135"
-		"ypos"		"25"
-		"wide"		"150"
-		"font"		"tea12"
+		"xpos"			"c-200"
+        "ypos"			"33"
 	}
 	
-	"SortByComboBox"
+	"ShowRarityComboBox"
 	{
-		"Font"				"tea12"
-		"xpos"				"c-290"
-		"ypos"				"42"
-		"zpos"				"1"
-		"wide"				"205"
-		
+		"xpos"				"c-75"
+        "ypos"			"36"
 		"fgcolor_override"	"white"
 		"disabledFgColor_override" "Labelsunavailable"
 		"selectionTextColor_override" "white"
 	}	
+	"SortByComboBox"
+	{
+		"Font"				"tea12"
+        "ypos"			"36"
+		
+		"fgcolor_override"	"white"
+		"disabledFgColor_override" "Labelsunavailable"
+		"selectionTextColor_override" "white"
+	}
+	//upper tools	
 
-	
 	"mouseoveritempanel"
 	{	
 		"attriblabel"
