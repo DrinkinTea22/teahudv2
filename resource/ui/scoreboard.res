@@ -7,7 +7,8 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"spacer"		"5"
+		"avatar_width"	"40"
+		"spacer"		"0"			//this makes name labels to go wider... ¿?
 	}			
 	"MvMScoreboard"
 	{
