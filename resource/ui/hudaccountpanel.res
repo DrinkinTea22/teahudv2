@@ -4,9 +4,9 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"12"
+		"delta_item_x"			"15"
 		"delta_item_start_y"	"10"
-		"delta_item_end_y"		"20"
+		"delta_item_end_y"		"16"
 		"PositiveColor"			"positive"
 		"NegativeColor"			"negative"
 		"delta_lifetime"		"0.7"
@@ -17,7 +17,7 @@
 		"xpos"			"6"
 		"ypos"			"0"
 		"wide"			"50"
-		"tall"			"10"
+		"tall"			"12"
 		"fgcolor"		"white"
 		"textAlignment"	"center"
 		"font"			"numtea16"
@@ -30,7 +30,7 @@
 		"ypos"			"-1"
 		"zpos"			"0"
 		"wide"			"50"
-		"tall"			"10"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
@@ -42,7 +42,7 @@
 	"MetalIcon"	
 	{
 		"xpos"			"-20"
-		"ypos"			"0"
+		"ypos"			"-3"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
