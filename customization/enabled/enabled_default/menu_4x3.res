@@ -293,7 +293,7 @@
 		"PaintBackgroundType"		"0"
 		"border"					"bg_lrtb"
 		"paintbackground"			"1"
-		"bgcolor_override"			"custombgcolor"
+		"bgcolor_override"			"black"
 		
 		"pin_corner_to_sibling"						"3"
 		"pin_to_sibling_corner"						"3"
