@@ -55,14 +55,14 @@
 			"xpos"			"5"
 			"ypos"			"0"
 			"wide"			"8"
-			"tall"			"20"
+			"tall"			"19"
 		}	
 		"Icon_Upgrade_1"
 		{
 			"xpos"			"9999"
 		}
 	
-		"AlertTray"
+		"AlertTray"			//togle this with "cl_obj_fake_alert 1"
 		{
 			"xpos"			"15"
 			"wide"			"3"
