@@ -54,7 +54,7 @@
 	{
 		"font"			"tea14"
 		"xpos"			"rs1-15"
-		"fgcolor"		"MVMsubPositive"
+		"fgcolor"		"MVMsubBonus"
 		"proportionaltoparent"					"1"
 	}
 
