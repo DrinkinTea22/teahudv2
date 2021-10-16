@@ -12,6 +12,12 @@
 
 "Resource/HudLayout.res"
 {
+	HudWeaponSelection	//when you dislike quickswitch
+	{
+		"TextColor"		"white"
+		"NumberFont"	"tea14"
+	}
+	
 	HudWeaponAmmo
 	{
 		"xpos"											"c75"	
@@ -128,7 +134,11 @@
 	{
 		"ypos"					"230"
 	}
-	
+	PVEWinPanel
+	{
+		"xpos"					"c-150"
+		"ypos"					"c-40"
+	}
 	
 	"HudMenuTauntSelection"
 	{
