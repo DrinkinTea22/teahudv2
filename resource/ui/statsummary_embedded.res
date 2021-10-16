@@ -672,17 +672,18 @@
 	}
 	"ResetStatsButton" [$WIN32]
 	{
-		"xpos"			"c124"
+		"xpos"			"c175"
 		"ypos"			"c46"
 		"font"			"tea10"
 	}
-	"CloseButton" [$WIN32]
-	{
-		"xpos"			"c174"
-		"ypos"			"226"
-	}
 
 	//[deleted lol]
+	"CloseButton" [$WIN32]
+	{
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+	}
 	"MainBackground"
 	{
 		"xpos"			"9999"
