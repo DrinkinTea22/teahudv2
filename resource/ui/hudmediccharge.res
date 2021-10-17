@@ -18,7 +18,7 @@
 	"ChargeMeter"
 	{	
 		"xpos"										"0"
-		"ypos"										"cs-0.5"
+		"ypos"										"cs-0.0"
 		"proportionaltoparent"						"1"
 		"zpos"										"0"
 		"wide"										"150"
