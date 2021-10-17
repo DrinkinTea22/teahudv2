@@ -2,6 +2,8 @@ Scheme
 {
 	Colors
 	{
+		"tanlight"									"255 255 255 255"		//healing sentry made me do this
+		
 		"TFOrange"									"92 128 166 255"		//backpack buttons
 		"Button"									"66 63 62 255"			//"46 43 42 255"	//dont make them fully black
 		"ButtonHover"								"126 128 130 255"		//"86 88 90 255"
