@@ -359,7 +359,71 @@ Scheme
 		}
 		//**************************************************mostly numbers.						
 
-		//**************************************************mostly specific things.		
+		//**************************************************mostly specific things.	
+		"teadefault"										//used for notifications
+		{
+			"1"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"		"480 599"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"		"600 767"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"		"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"		"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"24"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"		"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x00FF"
+				"antialias"	"1"
+			}
+			"7"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x00FF"
+				"antialias"	"1"
+			}
+		}		
 		"uberFIX"
 		{
 			"1"
@@ -381,6 +445,7 @@ Scheme
 				"outline"									"1"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
+				"antialias"	"1"
 			}							
 			"2"							
 			{							
@@ -427,16 +492,19 @@ Scheme
 			{
 				"tall"										"11"
 				"weight"									"0"
+				"antialias"									"1"
 			}								
 			"2"								
 			{								
 				"tall"										"12"
 				"weight"									"0"
+				"antialias"									"1"
 			}								
 			"3"								
 			{								
 				"tall"										"13"
 				"weight"									"0"
+				"antialias"									"1"
 			}		
 		}		
 		"DefaultVerySmall"									//scoreboard font [names, scores, ping]
@@ -444,14 +512,17 @@ Scheme
 			"1"		
 			{		
 				"weight"									"0"
+				"antialias"									"1"
 			}								
 			"2"								
 			{								
 				"weight"									"0"
+				"antialias"									"1"
 			}								
 			"3"								
 			{								
 				"weight"									"0"
+				"antialias"									"1"
 			}
 		}	
 		//**************************************************mostly specific things.			
