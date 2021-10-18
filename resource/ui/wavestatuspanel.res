@@ -1,14 +1,27 @@
 #base "base/WaveStatusPanel.res"
-
+//current mvm wave status
 "Resource/UI/WaveStatusPanel.res"
 {
-	"Background"
+	"Background"		//hardcoded, cant modify tall values
 	{
-		"border"				"bg_lrtb"
-		"src_corner_height"		"25"
-		"src_corner_width"		"25"	
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"BackgroundFixed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFixed"
+		"xpos"			"cs-0.5"
+		"ypos"			"2"
+		"zpos"			"-1"
+		"wide"			"200"
+		"tall"			"62"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"border"		"bg_lrtb"
+		"fillcolor"		"custombgcolor"
 	}
 	"WaveCountLabel"
 	{
@@ -27,16 +40,8 @@
 	}
 	"ProgressBar"
 	{
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"	
-		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
 	}
 	"ProgressBarBG"
 	{
-		"src_corner_height"		"25"
-		"src_corner_width"		"25"	
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
 	}
 }
