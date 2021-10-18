@@ -1,4 +1,4 @@
-#base "base/MvMWaveLossPanel.res"
+#base "base/mvmwavelosspanel.res"
 //mvm losspanel (toggle this with #base in hudlayout)
 "Resource/UI/MvMWaveLossPanel.res"
 {
@@ -13,7 +13,8 @@
 	"WaveFailHeader"
 	{
 		"font"			"tea26"					
-		"fgcolor"		"white"					
+		"fgcolor"		"white"				
+		"zpos"			"100"					
 	}
 	"WaveFailHeaderShadow"
 	{
@@ -31,8 +32,8 @@
 	}
 	"CollectionContainer"
 	{
-		//"xpos"			"250"	//check this						
-		"border"		"bg_lrtb"					
+		"xpos"			"c-250"		
+		
 		"Header"
 		{
 			"font"			"tea20"					
@@ -71,8 +72,7 @@
 	}
 	"UsageContainer"
 	{
-		//"xpos"			"460"	//check this				
-		"border"		"bg_lrtb"					
+		"xpos"			"c40"			
 
 		"Header"
 		{
