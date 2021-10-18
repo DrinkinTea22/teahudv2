@@ -48,3 +48,29 @@ event DefaultAnimActiveTimerDim
 	Animate TimePanelValue FgColor	"tandark"		Linear 0.0 0.4
 }
 ////************************************************Timer highlight flash
+
+////************************************************Robot Destruction (flash anim)
+event RDPositiveScorePulse
+{
+	Animate Score FgColor	"positive"		Linear 0.0 0.0
+	Animate Score FgColor	"white"			Linear 0.1 0.2
+
+	Animate Score Position	"0 0"		Deaccel 0.0 0.05
+	Animate Score Position	"0 0"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"custombgcolor"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"black"		Accel 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score FgColor	"negative"		Linear 0.0 0.0
+	Animate Score FgColor	"white"			Linear 0.1 0.2
+
+	Animate Score Position	"0 0"		Deaccel 0.0 0.05
+	Animate Score Position	"0 0"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"custombgcolor"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"black"		Accel 0.1 0.2
+}
+////************************************************Robot Destruction (flash anim)
