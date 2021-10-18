@@ -50,7 +50,6 @@
 		"equippedlabel"
 		{
 			"font"					"tea9"
-			"fgcolor"				"white"
 			"bgcolor_override"		"black"
 			"PaintBackgroundType"	"0"
 		}
