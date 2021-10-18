@@ -63,13 +63,28 @@
 		"wide"			"8"
 		"tall"			"8"
 	}
-	"KillStreakIcon"
+	"quickpin"
 	{
-		"xpos"			"38"
-		"ypos"			"25"
+		"controlname"								"cexbutton"
+		"fieldname"									"quickpin"
+		"xpos"										"90"
+		"ypos"										"26"
+		"tall"										"0"
+		"visible"									"1"	
+		"enabled"									"1"
+		"labeltext"									""
+	}		
+	"KillStreakIcon"									//hardcoded element, move using pin
+	{
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
+			
+		"pin_to_sibling"							"quickpin"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
 	}
 	"SpectatorGUIHealth"
 	{
@@ -84,16 +99,33 @@
 	
 	"MoveableSubPanel"		//engineer buildings
 	{	
-		"MoveableIcon"
-		{
-			"ypos"			"14"
-			"drawcolor"		"white"
-		}
 		"MoveableKeyLabel"
 		{	
 			"font"			"tea9"
 			"xpos"			"0"
-			"ypos"			"22"
+			"ypos"			"26"
+		}
+		"quickpin"
+		{
+			"controlname"								"cexbutton"
+			"fieldname"									"quickpin"
+			"xpos"										"cs-0.6"
+			"ypos"										"rs1-20"
+			"tall"										"0"
+			"visible"									"1"	
+			"enabled"									"1"
+			"labeltext"									""
+			"proportionaltoparent"						"1"
+		}		
+		"MoveableIcon"									//hardcoded element, move using pin
+		{
+			//"xpos"			"0"
+			//"ypos"			"0"
+			"drawcolor"		"white"
+			
+			"pin_to_sibling"							"quickpin"
+			"pin_corner_to_sibling"						"4"
+			"pin_to_sibling_corner"						"4"
 		}
 		"MoveableSymbolIcon"
 		{
