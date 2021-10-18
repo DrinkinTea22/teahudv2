@@ -196,23 +196,35 @@
 	//Training
 	"unavailable_item_1"
 	{
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"75"
 		"tall"			"80"
 		"visible"		"0"
+		//"border"										"bg_lrtb" //testing	
 	}	
 	"unavailable_item_2"
 	{
-		"xpos"			"125"
+		"xpos"			"75"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"75"
 		"tall"			"80"
 		"visible"		"0"
+		//"border"										"bg_lrtb" //testing	
 	}	
 	"unavailable_item_3"
+	{
+		"xpos"			"150"
+		"ypos"			"15"
+		"zpos"			"1"
+		"wide"			"75"
+		"tall"			"80"
+		"visible"		"0"
+		//"border"										"bg_lrtb" //testing	
+	}	
+	"unavailable_item_4"
 	{
 		"xpos"			"225"
 		"ypos"			"15"
@@ -220,14 +232,6 @@
 		"wide"			"75"
 		"tall"			"80"
 		"visible"		"0"
-	}	
-	"unavailable_item_4"
-	{
-		"xpos"			"345"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"75"
-		"tall"			"80"
-		"visible"		"0"
+		//"border"										"bg_lrtb" //testing	
 	}	
 }
