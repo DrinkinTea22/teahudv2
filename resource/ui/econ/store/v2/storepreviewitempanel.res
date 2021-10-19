@@ -51,19 +51,19 @@
 			{
 				"ItemLevelInfoLabel"
 				{
-					"font"			"tea12"		"fgcolor"		"white"
+					"font"			"tea12"		"fgcolor"		"hudoffwhite"
 				}		
 				"RestrictionsLabel"
 				{
-					"font"			"tea12"		"fgcolor"		"white"
+					"font"			"tea12"		"fgcolor"		"MainRed"
 				}		
 				"RestrictionsTextLabel"
 				{
-					"font"			"tea12"		"fgcolor"		"white"
+					"font"			"tea12"		"fgcolor"		"MainRed"
 				}	
 				"UsedByLabel"
 				{
-					"font"			"tea12"		"fgcolor"		"white"
+					"font"			"tea12"		"fgcolor"		"hudoffwhite"
 				}		
 				"UsedByTextLabel"
 				{
@@ -71,7 +71,7 @@
 				}		
 				"SlotLabel"
 				{
-					"font"			"tea12"		"fgcolor"		"white"
+					"font"			"tea12"		"fgcolor"		"hudoffwhite"
 				}		
 				"SlotTextLabel"
 				{
