@@ -357,7 +357,108 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		//**************************************************mostly numbers.						
+		//**************************************************mostly numbers.		
+		
+		//**************************************************Item properties fonts.		
+		"ItemFontNameSmallest"
+		{
+			"1"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"8"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameSmall"
+		{
+			"1"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"9"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameLarge"
+		{
+			"1"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"12"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"18"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontAttribSmallest"
+		{
+			"1"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"7"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		ItemFontAttribSmallv2
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"antialias" "1"
+				"weight"	"0"
+			}
+		}
+		"ItemFontAttribSmall"
+		{
+			"1"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"8"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"ItemFontAttribLarge"
+		{
+			"1"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"11"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"ItemFontAttribLarger"
+		{
+			"1"
+			{
+				"name"		"Libre Franklin SemiBold"
+				"tall"		"14"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}		
+		//**************************************************Item properties fonts.					
 
 		//**************************************************mostly specific things.	
 		"teadefault"										//used for notifications
