@@ -14,14 +14,14 @@
 		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"	
-		"font"										"numtea40"
+		"font"										"tea40"
 		"pin_to_sibling"							"PlayerStatusHealthValue"
 	}	
 	"healthCS"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"healthCS"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"-2"
 		"ypos"										"0"
@@ -38,7 +38,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"healthCS2"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"-2"
 		"ypos"										"0"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"healthCS3"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"-2"
@@ -72,7 +72,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"healthCS4"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"-2"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"healthCS5"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"2"
 		"ypos"										"0"
@@ -106,7 +106,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"healthCS6"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"2"
 		"ypos"										"0"
@@ -123,7 +123,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"healthCS7"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"2"
@@ -140,7 +140,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"healthCS8"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"-2"
@@ -158,7 +158,7 @@
 	
 	"AmmoInClipShadow"
 	{
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"2"
 		"ypos"										"2"
@@ -173,7 +173,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipCS"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"-2"
 		"ypos"										"0"
@@ -190,7 +190,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipCS2"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"-2"
 		"ypos"										"0"
@@ -207,7 +207,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipCS3"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"-2"
@@ -224,7 +224,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipCS4"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"-2"
@@ -241,7 +241,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipCS5"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"2"
 		"ypos"										"0"
@@ -258,7 +258,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipCS6"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"2"
 		"ypos"										"0"
@@ -275,7 +275,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipCS7"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"2"
@@ -292,7 +292,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipCS8"
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Black"
 		"xpos"										"0"
 		"ypos"										"-2"

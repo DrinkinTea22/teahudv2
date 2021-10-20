@@ -49,7 +49,7 @@
 			"wide"									"150"
 			"tall"									"20"
 			"textAlignment"							"center"
-			"font"									"numtea24"
+			"font"									"tea24"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -59,7 +59,7 @@
 			"wide"									"150"
 			"tall"									"20"
 			"textAlignment"							"center"			
-			"font"									"numtea24"
+			"font"									"tea24"
 			"fgcolor"								"black"
 		}		
 	}

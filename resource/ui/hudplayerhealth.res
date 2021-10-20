@@ -75,7 +75,7 @@
 		"zpos"										"50"
 		"proportionaltoparent"						"1"	
 		"textAlignment"								"center"	
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Health"
 	}		
 	

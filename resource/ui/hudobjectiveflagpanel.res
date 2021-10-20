@@ -100,7 +100,7 @@
 		"wide"			"75"
 		"tall"			"30"
 		"textAlignment"	"south-east"	
-		"font"			"numtea30"
+		"font"			"tea30"
 		"fgcolor"		"MainBlue"
 		//"border"		"bg_lrtb"	//testing
 	}	
@@ -111,7 +111,7 @@
 		"wide"			"75"
 		"tall"			"30"
 		"textAlignment"	"south-east"	
-		"font"			"numtea30"
+		"font"			"tea30"
 		"fgcolor"		"Black"
 		"pin_to_sibling""BlueScore"
 	}	
@@ -122,7 +122,7 @@
 		"wide"			"75"
 		"tall"			"30"
 		"textAlignment"	"south-west"	
-		"font"			"numtea30"
+		"font"			"tea30"
 		"fgcolor"		"MainRed"	
 		//"border"		"bg_lrtb"	//testing
 	}	
@@ -133,7 +133,7 @@
 		"wide"			"75"
 		"tall"			"30"
 		"textAlignment"	"south-west"	
-		"font"			"numtea30"
+		"font"			"tea30"
 		"fgcolor"		"Black"
 		"pin_to_sibling""RedScore"
 	}	

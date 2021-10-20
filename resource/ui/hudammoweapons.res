@@ -43,7 +43,7 @@
 	//ammo	
 	"AmmoInClip"
 	{
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Ammo"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
@@ -59,7 +59,7 @@
 	//reserve ammo								
 	"AmmoInReserve"
 	{
-		"font"										"numtea24"
+		"font"										"tea24"
 		"fgcolor"									"Ammo"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.1"
@@ -70,7 +70,7 @@
 	}		
 	"AmmoInReserveShadow"
 	{
-		"font"										"numtea24"
+		"font"										"tea24"
 		"fgcolor"									"Black"
 		"xpos"										"-2"
 		"ypos"										"-2"
@@ -81,7 +81,7 @@
 	}									
 	"AmmoNoClip"
 	{
-		"font"										"numtea40"
+		"font"										"tea40"
 		"fgcolor"									"Ammo"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"

@@ -38,13 +38,13 @@
 	{
 		"xpos"				"50"
 		"ypos"				"4"
-		"font"				"numtea20"
+		"font"				"tea20"
 		"textAlignment"		"north-east"
 		"pin_to_sibling"	"ItemEffectMeterIcon"
 	}
 	"ItemEffectMeterCountShadow"
 	{
-		"font"				"numtea20"
+		"font"				"tea20"
 		"textAlignment"		"north-east"
 	}
 	"ItemEffectMeterBG"

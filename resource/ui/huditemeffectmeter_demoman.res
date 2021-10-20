@@ -31,7 +31,7 @@
 		"tall"					"20"	
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"font"					"numtea30"
+		"font"					"tea30"
 		"fgcolor"				"white"
 	}
 	"ItemEffectMeterCountShadow"
@@ -47,7 +47,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"font"					"numtea30"
+		"font"					"tea30"
 		"fgcolor"				"black"
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}

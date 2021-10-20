@@ -54,7 +54,7 @@
 	}
 	"CountText"
 	{
-		"font"			"numtea30"
+		"font"			"tea30"
 		"textAlignment" "west"
 		"xpos"			"28"
 		"ypos"			"0"
@@ -64,7 +64,7 @@
 	}	
 	"CountTextShadow"
 	{
-		"font"			"numtea30"
+		"font"			"tea30"
 		"textAlignment" "west"
 		"xpos"			"-2"
 		"ypos"			"-2"

@@ -10,7 +10,7 @@
 		"PositiveColor"			"positive"
 		"NegativeColor"			"negative"
 		"delta_lifetime"		"0.7"
-		"delta_item_font"		"numtea16"
+		"delta_item_font"		"tea16"
 	}
 	"AccountValue"
 	{
@@ -20,7 +20,7 @@
 		"tall"			"12"
 		"fgcolor"		"white"
 		"textAlignment"	"center"
-		"font"			"numtea16"
+		"font"			"tea16"
 	}
 	"AccountValueShadow"
 	{
@@ -35,7 +35,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"font"			"numtea16"
+		"font"			"tea16"
 		"fgcolor"		"black"
 		"pin_to_sibling""AccountValue"
 	}
