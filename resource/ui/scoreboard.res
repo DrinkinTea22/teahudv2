@@ -457,7 +457,7 @@
 			"labelText"								"%kills%"
 			"textAlignment"							"west"
 			"xpos"									"5"
-			"ypos"									"-15"
+			"ypos"									"-12"
 			"zpos"									"3"
 			"wide"									"50"
 			"tall"									"50"

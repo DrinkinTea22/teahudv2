@@ -42,7 +42,7 @@
 	"MetalIcon"	
 	{
 		"xpos"			"-20"
-		"ypos"			"-3"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"

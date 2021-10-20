@@ -3,19 +3,40 @@
 {
 	"ConfirmDialog"
 	{
-		"border"			"bg_lrtb"
-		"border_override"	"bg_lrtb"
-		"bgcolor_override"	"black"
-		"paintborder"		"1"
+		//"ypos"			"c-100"
+		"border"		"NoBorder"
+		"bgcolor_override"	"0 0 0 0"
+		"paintbackgroundtype"	"0"
+		"paintbackground"	"0"
+		"paintborder"		"0"
+	}
+	"ConfirmDialogBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"ConfirmDialogBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"324"
+		"tall"					"p0.50"	//border fix
+		"zpos"					"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"proportionaltoparent"	"1"
+		"border"				"bg_lrtb"
+		"bgcolor_override"		"black"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"paintborder"			"1"
 	}
 	"TitleLabel"
 	{
 		"font"				"tea16"
-		"fgcolor_override"	"white"
+		"fgcolor_override"	"MainRed"
 	}
 	"ExplanationLabel"
 	{
 		"font"				"tea12"
+		"centerwrap"		"1"
 		"fgcolor_override"	"white"
 	}
 	"CancelButton"

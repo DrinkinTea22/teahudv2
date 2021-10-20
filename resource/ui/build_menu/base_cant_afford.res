@@ -41,7 +41,7 @@
 	"MetalIcon"	
 	{
 		"xpos"			"15"
-		"ypos"			"-4"
+		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"

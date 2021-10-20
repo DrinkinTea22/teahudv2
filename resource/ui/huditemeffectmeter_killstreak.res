@@ -37,7 +37,7 @@
 	"ItemEffectMeterCount"
 	{
 		"xpos"				"50"
-		"ypos"				"4"
+		"ypos"				"1"
 		"font"				"tea20"
 		"textAlignment"		"north-east"
 		"pin_to_sibling"	"ItemEffectMeterIcon"
