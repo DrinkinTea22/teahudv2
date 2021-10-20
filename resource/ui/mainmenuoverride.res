@@ -24,6 +24,23 @@
 		"visible"	"1"	//1 to set it on
 		"command"	"engine toggle mat_antialias 0 2"
 	}
+	"TooltipPanel"
+	{
+		"tall"					"30"
+		"border"				"bg_lrtb"
+		"bgcolor_override"		"custombgcolor"
+		
+		"TipSubLabel"
+		{
+			"font"				"tea10"
+			"fgcolor_override"	"white"
+		}
+		"TipLabel"
+		{
+			"font"				"tea10"
+			"fgcolor_override"	"white"
+		}
+	}	
 	
 	//	[deleted]
 	"SettingsButton"
