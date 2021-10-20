@@ -13,6 +13,6 @@
 	{
 		"fgcolor"		"white"
 		"xpos"			"cs-0.5"
-		"font"			"tea11"
+		"font"			"tea10"
 	}
 }
