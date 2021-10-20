@@ -10,14 +10,18 @@
 		"ControlName"			"ImagePanel"
 		"image"					"../vgui/replay/thumbnails/null"
 		"border"				"bg_lrtb"
+		"tall"					"30"
 		"fillcolor"				"MainBlueHover"
 		"paintbackground"		"1"
 	}
 	"Notification_Icon"	
 	{
+		"ypos"			"5"
 	}
 	"Notification_Label"
 	{
+		"ypos"			"10"
+		"textAlignment"	"north-west"
 		"font"			"teadefault"
 		"labelText"		"60 seconds until gates open"
 	}
