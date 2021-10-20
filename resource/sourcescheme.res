@@ -169,7 +169,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"tall"		"18"
 				"weight"	"0"
 			}
@@ -179,7 +179,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"tall"		"35"
 				"weight"	"0"
 			}
@@ -189,7 +189,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"tall"		"14"
 				"weight"	"0"
 			}
@@ -198,8 +198,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold" [!$OSX]
-				"name"		"Libre Franklin SemiBold" [$OSX]
+				"name"		"rubik semibold" [!$OSX]
+				"name"		"rubik semibold" [$OSX]
 				"weight"	"0"	//no blur allowed
 			}
 		}
@@ -207,8 +207,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold" [!$OSX]
-				"name"		"Libre Franklin SemiBold" [$OSX]
+				"name"		"rubik semibold" [!$OSX]
+				"name"		"rubik semibold" [$OSX]
 				"weight"	"0"	//no blur allowed
 			}
 		}
@@ -216,8 +216,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold" [!$OSX]
-				"name"		"Libre Franklin SemiBold" [$OSX]
+				"name"		"rubik semibold" [!$OSX]
+				"name"		"rubik semibold" [$OSX]
 				"weight"	"0"	//no blur allowed
 			}
 		}
@@ -226,8 +226,8 @@ Scheme
 	{
 		"110" 
 		{
-			"font" "resource/fonts/librefranklin semibold.ttf"
-			"name" "Libre Franklin SemiBold"
+			"font" "resource/fonts/rubik semibold.ttf"
+			"name" "Rubik SemiBold"
 		}
 	}	
 }

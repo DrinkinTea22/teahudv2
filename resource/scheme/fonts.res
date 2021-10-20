@@ -16,7 +16,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"9"
 				"tall"										"8"	[$LINUX]
 				"additive"									"0"
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"10"
 				"tall"										"9" [$LINUX]
 				"additive"									"0"
@@ -38,7 +38,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"11"
 				"tall"										"10" [$LINUX]
 				"additive"									"0"
@@ -49,9 +49,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"12"
-				"tall"										"11" [$LINUX]			
+				"name"										"rubik semibold"
+				"tall"										"10"
+				"tall"										"9" [$LINUX]			
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -60,9 +60,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"14"
-				"tall"										"13" [$LINUX]
+				"name"										"rubik semibold"
+				"tall"										"12"
+				"tall"										"11" [$LINUX]
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -71,9 +71,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"16"
-				"tall"										"15" [$LINUX]	
+				"name"										"rubik semibold"
+				"tall"										"14"
+				"tall"										"14" [$LINUX]	
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -82,9 +82,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"18"
-				"tall"										"17" [$LINUX]
+				"name"										"rubik semibold"
+				"tall"										"16"
+				"tall"										"15" [$LINUX]
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -93,9 +93,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"20" 				
-				"tall"										"19" [$LINUX]
+				"name"										"rubik semibold"
+				"tall"										"18" 				
+				"tall"										"17" [$LINUX]
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -104,9 +104,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"24"
-				"tall"										"23" [$LINUX]				
+				"name"										"rubik semibold"
+				"tall"										"22"
+				"tall"										"21" [$LINUX]				
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -115,8 +115,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"26"
+				"name"										"rubik semibold"
+				"tall"										"24"
 				"tall"										"25" [$LINUX]				
 				"additive"									"0"
 				"antialias" 								"1"
@@ -126,9 +126,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"30"
-				"tall"										"29" [$LINUX]				
+				"name"										"rubik semibold"
+				"tall"										"28"
+				"tall"										"27" [$LINUX]				
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -137,9 +137,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"32"
-				"tall"										"31" [$LINUX]				
+				"name"										"rubik semibold"
+				"tall"										"30"
+				"tall"										"29" [$LINUX]				
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -148,9 +148,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"36"
-				"tall"										"35" [$LINUX]				
+				"name"										"rubik semibold"
+				"tall"										"34"
+				"tall"										"33" [$LINUX]				
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -159,9 +159,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"40"
-				"tall"										"39" [$LINUX]				
+				"name"										"rubik semibold"
+				"tall"										"38"
+				"tall"										"36" [$LINUX]				
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -170,9 +170,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"48"
-				"tall"										"47" [$LINUX]				
+				"name"										"rubik semibold"
+				"tall"										"46"
+				"tall"										"45" [$LINUX]				
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -181,9 +181,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
-				"tall"										"72"
-				"tall"										"71" [$LINUX]				
+				"name"										"rubik semibold"
+				"tall"										"70"
+				"tall"										"69" [$LINUX]				
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -196,7 +196,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"10"
 				"tall"										"9" [$LINUX]
 				"additive"									"0"
@@ -207,7 +207,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"11"
 				"tall"										"10" [$LINUX]
 				"additive"									"0"
@@ -218,7 +218,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"12"
 				"tall"										"11" [$LINUX]			
 				"additive"									"0"
@@ -229,7 +229,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"14"
 				"tall"										"13" [$LINUX]
 				"additive"									"0"
@@ -240,7 +240,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"16"
 				"tall"										"15" [$LINUX]	
 				"additive"									"0"
@@ -251,7 +251,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"18"
 				"tall"										"17" [$LINUX]
 				"additive"									"0"
@@ -262,7 +262,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"20"
 				"tall"										"19" [$LINUX]
 				"additive"									"0"
@@ -273,7 +273,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"24"
 				"tall"										"23" [$LINUX]				
 				"additive"									"0"
@@ -284,7 +284,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"26"
 				"tall"										"25" [$LINUX]				
 				"additive"									"0"
@@ -295,7 +295,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"30"
 				"tall"										"29" [$LINUX]				
 				"additive"									"0"
@@ -306,7 +306,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"32"
 				"tall"										"31" [$LINUX]				
 				"additive"									"0"
@@ -317,7 +317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"36"
 				"tall"										"35" [$LINUX]				
 				"additive"									"0"
@@ -328,7 +328,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"40"
 				"tall"										"39" [$LINUX]				
 				"additive"									"0"
@@ -339,7 +339,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"48"
 				"tall"										"47" [$LINUX]				
 				"additive"									"0"
@@ -350,7 +350,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"72"
 				"tall"										"71" [$LINUX]				
 				"additive"									"0"
@@ -364,8 +364,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
-				"tall"		"8"
+				"name"		"rubik semibold"
+				"tall"		"7"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -375,8 +375,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
-				"tall"		"9"
+				"name"		"rubik semibold"
+				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -386,8 +386,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
-				"tall"		"12"
+				"name"		"rubik semibold"
+				"tall"		"11"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -397,8 +397,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
-				"tall"		"18"
+				"name"		"rubik semibold"
+				"tall"		"17"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -408,7 +408,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"0"
@@ -429,7 +429,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"
@@ -440,8 +440,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
-				"tall"		"11"
+				"name"		"rubik semibold"
+				"tall"		"10"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -451,8 +451,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
-				"tall"		"14"
+				"name"		"rubik semibold"
+				"tall"		"13"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -465,7 +465,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -474,7 +474,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -483,7 +483,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -492,7 +492,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -501,7 +501,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"tall"		"24"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -510,7 +510,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x00FF"
@@ -518,7 +518,7 @@ Scheme
 			}
 			"7"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x00FF"
@@ -529,7 +529,7 @@ Scheme
 		{
 			"1"
 			{	
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"40"
 				"tall"										"39" [$LINUX]
 				"antialias" 								"1"
@@ -541,7 +541,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"16"
 				"outline"									"1"
 				"range"										"0x0000 0x017F"
@@ -550,7 +550,7 @@ Scheme
 			}							
 			"2"							
 			{							
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"22"
 				"outline"									"1"
 				"range"										"0x0000 0x017F"
@@ -559,7 +559,7 @@ Scheme
 			}							
 			"3"							
 			{							
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"28"
 				"outline"									"1"
 				"range"										"0x0000 0x017F"
@@ -569,7 +569,7 @@ Scheme
 			}							
 			"4"							
 			{							
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"28"
 				"outline"									"1"
 				"range"										"0x0000 0x017F"
@@ -578,7 +578,7 @@ Scheme
 			}							
 			"5"							
 			{							
-				"name"										"Libre Franklin SemiBold"
+				"name"										"rubik semibold"
 				"tall"										"28"
 				"outline"									"1"
 				"range"										"0x0000 0x017F"
@@ -630,13 +630,13 @@ Scheme
 		
 		//econ and quest fonts (to reduce number of files needed)
 		
-		//fonts inside resource/ui/
+		//fonts inside resource/ui/quest
 		"QuestMap_Small_Blur"
 		{
 			"1"
 			{
 				"tall"		"10"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -645,7 +645,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -654,7 +654,7 @@ Scheme
 			"1"
 			{
 				"tall"		"12"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -663,7 +663,7 @@ Scheme
 			"1"
 			{
 				"tall"		"13"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -672,7 +672,7 @@ Scheme
 			"1"
 			{
 				"tall"		"29"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -680,7 +680,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -689,7 +689,7 @@ Scheme
 			"1"
 			{
 				"tall"		"15"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -698,7 +698,7 @@ Scheme
 			"1"
 			{
 				"tall"		"14"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -707,17 +707,17 @@ Scheme
 			"1"
 			{
 				"tall"		"12"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 			"2"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 			"3"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -725,7 +725,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -734,17 +734,17 @@ Scheme
 			"1"
 			{
 				"tall"		"12"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 			"2"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 			"3"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -753,17 +753,17 @@ Scheme
 			"1"
 			{
 				"tall"		"12"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 			"2"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 			"3"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -771,7 +771,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -779,17 +779,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 			"2"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 			"3"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}	
@@ -798,7 +798,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -807,7 +807,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -816,7 +816,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -825,7 +825,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -833,7 +833,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -842,7 +842,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -851,7 +851,7 @@ Scheme
 			"1"
 			{
 				"tall"		"10"
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -862,7 +862,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -870,7 +870,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}	
@@ -881,7 +881,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -889,7 +889,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -897,7 +897,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -905,7 +905,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}
@@ -913,11 +913,22 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Libre Franklin SemiBold"
+				"name"		"rubik semibold"
 				"weight"	"0"
 			}
 		}	
 		//econ	
 		//econ and quest fonts (to reduce number of files needed)
+
+		//killstreak notice, and combobox font
+		"HudFontSmallestbold"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"weight"	"0"
+			}
+		}
+		//killstreak notice
 	}
 }

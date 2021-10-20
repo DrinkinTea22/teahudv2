@@ -28,8 +28,8 @@ Scheme
 		}
 		"110" 
 		{
-			"font" "resource/fonts/librefranklin semibold.ttf"
-			"name" "Libre Franklin SemiBold"
+			"font" "resource/fonts/rubik semibold.ttf"
+			"name" "Rubik SemiBold"
 		}
 	}
 }
