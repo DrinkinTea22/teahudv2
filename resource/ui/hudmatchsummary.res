@@ -36,6 +36,7 @@
 		}
 		"TeamScoresPanel"
 		{
+			"ypos"			"20"			//"HudMatchSummary_SlideInPanels" controls the xpos, not the ypos
 			"BlueTeamPanel"
 			{
 				"BlueTeamScoreBG"
@@ -219,6 +220,8 @@
 			}
 			"BlueMedals"
 			{
+				"ypos"			"0"
+				
 				if_large
 				{
 					"visible"		"0"
@@ -248,6 +251,8 @@
 			}
 			"RedMedals"
 			{
+				"ypos"			"0"
+				
 				if_large
 				{
 					"visible"		"0"
