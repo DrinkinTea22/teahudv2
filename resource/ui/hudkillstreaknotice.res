@@ -1,15 +1,14 @@
 #base "base/HudKillStreakNotice.res"
-//idk
+//someone's on killstreak server notice
 "Resource/UI/HudKillStreakNotice.res"
 {	
 	"Background"
 	{
-		"PaintBackgroundType"	"2"
+		"border"				"bg_lrtb"
 		"bgcolor_override"		"custombgcolor"	
 	}
-	"SplashLabel"
+	"SplashLabel"			//override this font entry, is hardcoded
 	{
-		"font"					"tea14"
-		"fgcolor"				"white"
+		//"font"			"HudFontSmallestBold"
 	}
 }
