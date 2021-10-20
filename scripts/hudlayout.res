@@ -109,7 +109,7 @@
 	
 	CMainTargetID
 	{
-		"ypos"											"c80"
+		"ypos"											"c78"
 	}	
 	CSecondaryTargetID
 	{
@@ -117,7 +117,7 @@
 	}		
 	CSpectatorTargetID
 	{
-		"ypos"											"c100"
+		"ypos"											"c121"
 	}
 	
 	HudKothTimeStatus		//controls "ActiveTimerBG" xpos from "HudObjectiveKothTimePanel.res"
