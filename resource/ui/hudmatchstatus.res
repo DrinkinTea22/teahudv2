@@ -4,6 +4,17 @@
 
 "Resource/UI/HudMatchStatus.res"
 {
+	//test fix
+	"MatchDoors"
+	{
+		"fov"			"65"	//this fixes doors anim in wide res
+		
+		"model"
+		{
+			"origin_x"	"100"	//this fixes doors anim in wide res
+		}
+	}	
+	//test fix
 	"CountdownLabel"
 	{	
 		"font"			"tea24"
@@ -24,13 +35,11 @@
 		"font"			"tea18"
 		"fgcolor"		"white"
 	}
-
 	"RankUpShadowLabel"
 	{
 		"font"			"tea18"
 		"fgcolor"		"Black"
 	}
-
 	"ObjectiveStatusTimePanel"
 	{
 		"xpos"					"cs-0.5"
@@ -171,48 +180,13 @@
 			}
 			"ReadyImage"
 			{
-				"ControlName"		"ImagePanel"
-				"fieldName"		"ReadyImage"
-				"xpos"			"32"
-				"ypos"			"8"
-				"zpos"			"0"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"hud/checkmark"
-				"scaleImage"	"1"
 			}
 			//comp settings
 			"chargeamount"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
-				"xpos"			"25"
-				"ypos"			"17"
-				"zpos"			"6"
-				"wide"			"25"
-				"tall"			"15"
-				"visible"		"0"
-				"labelText"		"%chargeamount%"
-				"textAlignment"	"north"
-				"fgcolor"		"positive"
 			}
 			"specindex"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"specindex"
-				"font"			"DefaultVerySmall"
-				"xpos"			"4"
-				"ypos"			"2"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"visible"		"0"
-				"labelText"		"%specindex%"
-				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
 			}
 		}
 	}
@@ -222,7 +196,8 @@
 	{
 		"BlueTeamBG"
 		{
-			"border"		"TFFatLineBorderBlueBGOpaque"
+			"border"				"bg_lrtb"
+			"bgcolor_override"		"MainBlue"
 		}
 		"BlueTeamImage"
 		{
@@ -244,14 +219,15 @@
 		}
 		"BluePlayerListBG"
 		{
-			"border"		"TFFatLineBorderClearBG"
+			"border"		"bg_lrtb"
 		}
 	}
 	"RedTeamPanel"
 	{
 		"RedTeamBG"
 		{
-			"border"		"TFFatLineBorderRedBGOpaque"
+			"border"				"bg_lrtb"
+			"bgcolor_override"		"MainRed"
 		}
 		"RedTeamImage"
 		{
@@ -273,7 +249,7 @@
 		}
 		"RedPlayerListBG"
 		{
-			"border"		"TFFatLineBorderClearBG"
+			"border"		"bg_lrtb"
 		}
 	}
 	//end game screen
