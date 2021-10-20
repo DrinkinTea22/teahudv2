@@ -120,7 +120,6 @@
 			"fgcolor_override"	"white"
 			"textAlignment"		"center"
 		}
-
 		"DescLine1"
 		{
 			"xpos"				"0"
@@ -131,19 +130,21 @@
 			"fgcolor_override"	"white"
 			"textAlignment"		"center"
 
-			if_mini
+			if_mini				//this is used for casual endgame
 			{
-				"xpos"	"67"
-				"ypos"	"4"
+				"xpos"			"67"
+				"ypos"			"4"
+				"wide"			"195"
+				"tall"			"20"
+				"textAlignment"	"north-west"
 			}
 			"fonts"
 			{
 				"0"		"tea14"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"1"		"tea16"
+				"2"		"tea18"
 			}
 		}
-
 		"DescLine2"
 		{
 			"xpos"				"0"
@@ -156,17 +157,19 @@
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
+				"xpos"			"67"
+				"ypos"			"4"
+				"wide"			"195"
+				"zpos"			"100"
+				"textAlignment"	"north-west"
 			}
 
 			"fonts"
 			{
 				"0"		"tea14"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"1"		"tea16"
+				"2"		"tea18"
 			}
-
 			"colors"
 			{
 				"1"		"CreditsGreen"
@@ -179,12 +182,26 @@
 			"xpos"			"0"
 			"wide"			"f0"
 
+			if_mini						//this is used for casual endgame
+			{
+				"xpos"			"rs1-10"
+				"ypos"			"0"
+				"wide"			"p0.85"
+			}
 			"XPBar"
 			{
 				"xpos"			"5"
 				"ypos"			"75"
 				"wide"			"p0.97"	//low and high res fix
-
+				
+				if_mini						//this is used for casual endgame
+				{
+					"xpos"			"cs-0.5"
+					"ypos"			"rs1-3"
+					"wide"			"p1"
+					"tall"			"30"
+				}	
+				
 				"CurrentXPLabel"
 				{
 					"font"				"tea12"
