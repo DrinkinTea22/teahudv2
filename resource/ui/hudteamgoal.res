@@ -4,7 +4,7 @@
 {
 	"HudTeamGoalBG"
 	{
-		"tall"					"70"
+		"tall"					"30"
 		"border"				"bg_lrtb"
 		"src_corner_height"		"25"
 		"src_corner_width"		"25"
@@ -16,21 +16,21 @@
 	}
 	"SwitchLabel"
 	{	
-		"ypos"			"12"
-		"font"			"tea14"
+		"ypos"			"5"
+		"font"			"tea12"
 		"textAlignment"	"North"
 	}
 	"GoalLabel"
 	{
-		"ypos"			"25"
+		"ypos"			"10"
 		"font"			"tea12"
 		"textAlignment"	"North"
 	}
 	"GoalImage"
 	{
 		"xpos"			"25"
-		"ypos"			"15"
-		"wide"			"40"
-		"tall"			"40"
+		"ypos"			"5"
+		"wide"			"20"
+		"tall"			"20"
 	}
 }
