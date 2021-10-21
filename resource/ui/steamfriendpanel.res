@@ -1,5 +1,5 @@
+#base "../../customization/enabled/enabled_default/streamermode.res"
 #base "base/SteamFriendPanel.res"
-
 "Resource/UI/SteamFriendPanel.res"
 {	
 	"InteractButton"

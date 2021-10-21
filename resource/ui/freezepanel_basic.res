@@ -1,3 +1,4 @@
+#base "../../customization/enabled/enabled_default/streamermode.res"
 #base "base/FreezePanel_Basic.res"
 
 "Resource/UI/FreezePanel_Basic.res"

@@ -1,3 +1,4 @@
+#base "../../customization/enabled/enabled_default/streamermode.res"
 #base "base/SpectatorTournament.res"
 //spectator tournament panel
 "Resource/UI/SpectatorTournament.res"

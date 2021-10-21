@@ -1,3 +1,4 @@
+#base "../../customization/enabled/enabled_default/streamermode.res"
 #base "base/HudMatchSummary.res"
 //casual match endscreen
 "Resource/UI/HudMatchSummary.res"

@@ -1,3 +1,4 @@
+#base "../../customization/enabled/enabled_default/streamermode.res"
 #base "base/Scoreboard.res"
 "Resource/UI/Scoreboard.res"
 {

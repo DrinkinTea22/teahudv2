@@ -1,3 +1,4 @@
+#base "../../customization/enabled/enabled_default/streamermode.res"
 #base "base/Targetid.res"
 
 "Resource/UI/TargetID.res"

@@ -1,3 +1,4 @@
+#base "../../customization/enabled/enabled_default/streamermode.res"
 #base "base/disguisestatuspanel.res"
 
 "Resource/UI/disguisestatuspanel.res"
