@@ -52,7 +52,7 @@
 				
 				if_mvm
 				{
-					"xpos"							"28"
+					"xpos"							"48"
 					"ypos"							"2"
 					"wide"							"12"
 					"tall"							"12"
@@ -68,7 +68,7 @@
 				
 				if_mvm
 				{
-					"xpos"							"28"
+					"xpos"							"48"
 					"ypos"							"2"
 					"wide"							"12"
 					"tall"							"12"
@@ -85,9 +85,9 @@
 
 				if_mvm
 				{
-					"font"							"tea10"
+					"font"							"tea9"
 					"textAlignment"					"west"
-					"xpos"							"20"
+					"xpos"							"64"
 					"ypos"							"0"
 					"wide"							"100"
 					"tall"							"15"
@@ -136,12 +136,15 @@
 			{
 				"visible"							"0"
 			}
-			
+			if_mvm
+			{
+				"wide"								"155"
+			}
 		}
 		if_mvm
 		{
 			"team1_player_base_offset_x"			"0"
-			"team1_player_base_y"					"149"
+			"team1_player_base_y"					"260"
 			"team1_player_delta_x"					"0"
 			"team1_player_delta_y"					"15"
 		}	
@@ -157,12 +160,12 @@
 		
 		if_mvm
 		{
-			"ypos"									"80"
+			"ypos"									"0"
 		}
 	}
-	"BuyBackLabel"
+	"BuyBackLabel"									//pay to respawn instantly, mvm
 	{
-		"ypos"										"70"
+		"ypos"										"15"
 		"font"										"tea10"
 	}
 	"itempanel"
