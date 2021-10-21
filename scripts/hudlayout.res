@@ -55,10 +55,10 @@
 	}
 	HudDemomanCharge
 	{
-		"xpos"					"c-75"	
-		"ypos"					"c142"
-		"wide"					"150"
-		"tall"					"8"
+		"xpos"											"c-75"	
+		"ypos"											"c142"
+		"wide"											"150"
+		"tall"											"8"
 	}	
 	HudBowCharge
 	{
@@ -75,36 +75,36 @@
 	}	
 	BuildingStatus_Engineer
 	{
-		"ypos"			"20"	//do not mess my hudmatchstatus pls
+		"ypos"											"20"	//do not mess my hudmatchstatus pls
 	}	
 	"HudMenuEngyBuild"
 	{
-		"xpos"			"c-150"
-		"ypos"			"c35"
-		"wide"			"300"
-		"tall"			"100"
+		"xpos"											"c-150"
+		"ypos"											"c35"
+		"wide"											"300"
+		"tall"											"100"
 	}
 	"HudEurekaEffectTeleportMenu"
 	{
-		"xpos"			"c-75"
-		"ypos"			"c35"
-		"wide"			"150"
-		"tall"			"100"
+		"xpos"											"c-75"
+		"ypos"											"c35"
+		"wide"											"150"
+		"tall"											"100"
 	}
 	"HudMenuEngyDestroy"
 	{
-		"xpos"			"c-150"
-		"ypos"			"c35"
-		"wide"			"300"
-		"tall"			"100"
+		"xpos"											"c-150"
+		"ypos"											"c35"
+		"wide"											"300"
+		"tall"											"100"
 	}
 	
 	"HudMenuSpyDisguise"
 	{
-		"xpos"			"c-225"
-		"ypos"			"c35"
-		"wide"			"450"
-		"tall"			"70"
+		"xpos"											"c-225"
+		"ypos"											"c35"
+		"wide"											"450"
+		"tall"											"70"
 	}	
 	
 	CMainTargetID
@@ -122,30 +122,36 @@
 	
 	HudKothTimeStatus		//controls "ActiveTimerBG" xpos from "HudObjectiveKothTimePanel.res"
 	{
-		"xpos"				"cs-0.5"
-		"wide"				"100"
-		"tall"				"50"
-
-		"blue_active_xpos"	"7"
-		"red_active_xpos"	"60"
+		"xpos"											"cs-0.5"
+		"wide"											"100"
+		"tall"											"50"
+		"blue_active_xpos"								"7"
+		"red_active_xpos"								"60"
 	}
 	
 	WinPanel
 	{
-		"ypos"					"230"
+		"ypos"											"230"
 	}
 	PVEWinPanel
 	{
-		"xpos"					"c-150"
-		"ypos"					"c-40"
+		"xpos"											"c-150"
+		"ypos"											"c-40"
 	}
 	
 	"HudMenuTauntSelection"
 	{
-		"xpos"			"c-225"
-		"ypos"			"c35"
-		"wide"			"450"
-		"tall"			"70"
+		"xpos"											"c-225"
+		"ypos"											"c35"
+		"wide"											"450"
+		"tall"											"70"
+	}	
+	
+	HudStopWatch
+	{
+		"xpos"											"c-60"
+		"ypos"											"35"
+		"wide"											"120"
 	}	
 }
 
