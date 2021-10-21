@@ -2,22 +2,15 @@
 //mvm tank background (toggle with "ent_create tank_boss")
 "Resource/UI/TankStatusPanel.res"
 {
-	"Background"		//hardcoded, cant modify tall values
+	"Background"
 	{
-		"xpos"			"9999"
-	}
-	"BackgroundFixed"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundFixed"
-		"xpos"			"0"
-		"ypos"			"3"
-		"zpos"			"-1"
-		"wide"			"200"
-		"tall"			"21"
-		"visible"		"1"
-		"enabled"		"1"
-		"border"		"bg_lrtb"
-		"fillcolor"		"custombgcolor"
+		"border"				"bg_lrtb"
+		"image"					"../HUD/tournament_panel_brown"
+
+		"src_corner_height"		"25"
+		"src_corner_width"		"25"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
+		"alpha"					"200"
 	}
 }

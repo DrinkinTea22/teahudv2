@@ -5,38 +5,23 @@
 {
 	"BorderImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BorderImage"	
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/halloween_bar_surround"
-		"scaleImage"	"0"					
-	}
-	"BorderImageFixed"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BorderImageFixed"
-		"xpos"			"0"
-		"ypos"			"10"
-		"zpos"			"5"
-		"wide"			"200"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
+		"xpos"			"10"
+		"ypos"			"12"
+		"zpos"			"4"
+		"wide"			"178"
+		"tall"			"26"
+		"image"			"../vgui/replay/thumbnails/null"
 		"border"		"bg_lrtb"
-		"fillcolor"		"custombgcolor"
+		"fillcolor"		"custombgcolor"				
 	}
 	"HealthBarPanel"
 	{
 	}	
 	"StunMeter"
 	{
+		"ypos"				"40"
 		"font"				"teaDefault"
 		"fgcolor_override"	"255 255 0 255"
-		"bgcolor_override"	"MainRedHover"
+		"bgcolor_override"	"50 0 0 255"
 	}					
 }
