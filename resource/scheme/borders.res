@@ -358,12 +358,12 @@ scheme
 			"draw_corner_width"						"0"				
 			"draw_corner_height" 					"0"	
 		}
-		EconItemBorder
+		EconItemBorder								//classloadout no item border
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"3"				
-			"draw_corner_height" 					"3"	
+			"src_corner_height"						"25"
+			"src_corner_width"						"25"
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"	
 		}		
 		//*******************************************Loadout Default Item Fixes	
 		
@@ -391,7 +391,7 @@ scheme
 		}	
 		//*******************************************Spectatour Borders
 		
-		//*******************************************Item Borders (backpack, etc) [Default NoQualityBorders
+		//*******************************************Item Borders (backpack, etc) [Default NoQualityBorders]
 		BackpackItemBorder
 		{
 			"src_corner_height"						"25"
