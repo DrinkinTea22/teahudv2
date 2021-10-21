@@ -2,7 +2,7 @@
 //loadout /stats panel
 
 //tools
-#base "../tools/tools.res"
+//#base "../tools/tools.res"
 
 "Resource/UI/winpanel.res"
 {
