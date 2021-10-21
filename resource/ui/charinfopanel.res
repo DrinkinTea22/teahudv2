@@ -46,6 +46,50 @@
 		"proportionaltoparent"	"1"
 	}
 
+	//	secret hints
+	"classShortcut"
+	{		
+		"controlname"								"cexButton"
+		"fieldname"									"classShortcut"
+		"labeltext"									"Tip: use numbers to switch between classes (1-9)"
+		"font"										"tea12"
+		"zpos"										"10"
+		"auto_wide_tocontents" 						"1"	
+		"auto_tall_tocontents" 						"1"			
+		"xpos"										"c-100"
+		"ypos"										"r35"
+		"visible"									"1"	
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		
+		"textalignment"								"center"		
+		"defaultfgcolor_override" 					"0 0 0 0"
+		"armedfgcolor_override" 					"white"
+		
+		"paintbackground"							"0"
+	}
+	"maniplabel"
+	{		
+		"controlname"								"cexButton"
+		"fieldname"									"maniplabel"
+		"labeltext"									"Tip: ctrl (light), shift (body movement),mouse1 (rotate), mouse2 (zoom)"
+		"font"										"tea12"
+		"zpos"										"10"
+		"auto_wide_tocontents" 						"1"	
+		"auto_tall_tocontents" 						"1"			
+		"xpos"										"c-100"
+		"ypos"										"r25"
+		"visible"									"1"	
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		
+		"textalignment"								"center"		
+		"defaultfgcolor_override" 					"0 0 0 0"
+		"armedfgcolor_override" 					"white"
+		
+		"paintbackground"							"0"
+	}
+	//	secret hints
 	"quickbind"	
 	{
 		"controlname"								"cexbutton"
