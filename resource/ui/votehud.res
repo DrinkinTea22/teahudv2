@@ -67,6 +67,7 @@
 		}
 		"Option2CountLabel"
 		{
+			"xpos"				"95"	//#base fix
 			"font"				"tea14"
 			"fgcolor_override"	"white"
 		}
