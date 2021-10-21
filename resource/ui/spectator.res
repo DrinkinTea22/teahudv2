@@ -7,10 +7,22 @@
 		"font"			"tea16"
 	}
 	"itempanel"
-	{	
-		"ItemLabel"
-		{	
-			"fieldName"		"ItemLabel"
+	{
+		"border"			"bg_lrtb"
+		"bgcolor_override"	"0 0 0 200"
+		"paintbackground"	"1"
+		
+		"ItemLabel"			//current owner
+		{
+			"xpos"			"2"
+			"ypos"			"2"
+			"font"			"tea9"
+			"textAlignment"	"north-west"
+		}
+		"attriblabel"		//[unknown] label
+		{
+			"wide"			"0"
+			"tall"			"0"
 		}
 	}	
 	"topbar"
