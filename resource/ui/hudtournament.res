@@ -620,14 +620,14 @@
 
 	"CountdownLabel"
 	{
-		"font"			"tea30"
+		"font"			"tea24"
 		"xpos"			"230"
 		"ypos"			"r55"
 
 		if_competitive
 		{
 			"fgcolor"		"white"
-			"font"			"tea30"
+			"font"			"tea24"
 		}
 		if_readymode
 		{
@@ -638,11 +638,11 @@
 	
 	"CountdownLabelShadow"
 	{	
-		"font"			"tea30"
+		"font"			"tea24"
 
 		if_competitive
 		{
-			"font"			"tea30"
+			"font"			"tea24"
 		}
 
 		if_readymode
