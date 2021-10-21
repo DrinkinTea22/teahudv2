@@ -1,14 +1,14 @@
 #base "../../../base/econ/store/v2/StoreViewCartPanel.res"
 //when checkout screen
 //tools
-#base "../../../../tools/tools.res"
+//#base "../../../../tools/tools.res"
 "Resource/UI/StoreViewCartPanel.res"
 {
 	"reloadschemebutton"	//this file already has a reloadscheme button, override the visible value
 	{
 		"xpos"		"c0"
 		"ypos"		"60"
-		"visible"	"1"	//1 to set it on
+		"visible"	"0"	//1 to set it on
 		"command"	"reloadscheme"	//1 to set it on
 	}
 	"store_viewcart_panel"

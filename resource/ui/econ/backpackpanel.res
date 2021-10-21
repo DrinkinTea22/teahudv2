@@ -1,5 +1,5 @@
 #base "../base/econ/backpackpanel.res"
-#base "../../tools/tools.res"
+//#base "../../tools/tools.res"
 
 "Resource/UI/FullLoadoutPanel.res"
 {

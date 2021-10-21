@@ -2,7 +2,7 @@
 //gamemode was selected, now the map settings
 
 //tools
-#base "../../../tools/tools.res"
+//#base "../../../tools/tools.res"
 "Resource/training/offlinepractice/mapselection.res"
 {
 	"reloadschemebutton"

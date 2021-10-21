@@ -1,7 +1,7 @@
 #base "base/classloadoutpanel.res"
 
 //tools
-#base "../tools/tools.res"
+//#base "../tools/tools.res"
 
 "Resource/UI/FullLoadoutPanel.res"
 {

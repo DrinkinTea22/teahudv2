@@ -1,7 +1,7 @@
 #base "base/charinfoloadoutsubpanel.res"
 
 //tools
-#base "../tools/tools.res"
+//#base "../tools/tools.res"
 
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {

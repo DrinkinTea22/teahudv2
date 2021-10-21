@@ -1,7 +1,7 @@
 #base "../base/training/main.res"
 
 //tools
-#base "../../tools/tools.res"
+//#base "../../tools/tools.res"
 "Resource/training/main.res"
 {
 	"reloadschemebutton"

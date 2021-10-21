@@ -2,7 +2,7 @@
 //main replays panel
 
 //tools
-#base "../../tools/tools.res"
+//#base "../../tools/tools.res"
 "resource/ui/basepage.res"
 {
 	"reloadschemebutton"

@@ -2,7 +2,7 @@
 //Killsteak Kits recipe menu
 
 //tools
-#base "../tools/tools.res"
+//#base "../tools/tools.res"
 "Resource/UI/DynamicRecipe.res"
 {
 	"reloadschemebutton"

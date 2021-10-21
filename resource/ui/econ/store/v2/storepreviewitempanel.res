@@ -1,7 +1,7 @@
 #base "../../../base/econ/store/v2/StorePreviewItemPanel.res"
 //file used for subpanel when an item is selected
 //tools
-#base "../../../../tools/tools.res"
+//#base "../../../../tools/tools.res"
 "Resource/UI/StorePreviewItemPanel.res"
 {
 	"reloadschemebutton"

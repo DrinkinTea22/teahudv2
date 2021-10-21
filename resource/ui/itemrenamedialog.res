@@ -1,7 +1,7 @@
 #base "base/ItemRenameDialog.res"
 //Texture application menu, used for The Conscientious Objector
 //tools
-#base "../tools/tools.res"
+//#base "../tools/tools.res"
 "Resource/UI/ItemRenameDialog.res"
 {
 	"reloadschemebutton"

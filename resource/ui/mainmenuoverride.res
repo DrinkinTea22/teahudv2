@@ -2,7 +2,7 @@
 //#base "custom/remove_dimmer.res"
 
 //tool
-#base "../../resource/tools/tools.res"
+//#base "../../resource/tools/tools.res"
 
 // part of the menu		(if not set, 4x3 will be the default)
 #base "../../customization/enabled/menu_16x9.res"						//1

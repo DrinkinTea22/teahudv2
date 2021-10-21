@@ -1,7 +1,7 @@
 #base "../base/econ/ConfirmCustomizeTextureDialog.res"
 //Texture application menu, used for The Conscientious Objector
 //tools
-#base "../../tools/tools.res"
+//#base "../../tools/tools.res"
 "Resource/UI/econ/ConfirmCustomizeTextureDialog.res"
 {
 	"reloadschemebutton"

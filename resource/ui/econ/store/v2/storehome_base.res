@@ -1,14 +1,14 @@
 #base "../../../base/econ/store/v2/StoreHome_Base.res"
 //this file controls the inner store stuff (mid screen range)
 //tools
-#base "../../../../tools/tools.res"
+//#base "../../../../tools/tools.res"
 "Resource/UI/StoreHome_Base.res"
 {
 	"reloadschemebutton"	//this file already has a reloadscheme button, override the visible value
 	{
 		"xpos"		"c0"
 		"ypos"		"0"
-		"visible"	"1"	//1 to set it on
+		"visible"	"0"	//1 to set it on
 	}
 	"StorePage"
 	{

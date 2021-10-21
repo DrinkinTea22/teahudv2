@@ -8,7 +8,7 @@
 		"ypos"			"10"
 		"wide"			"20"
 		"tall"			"20"
-		"visible"		"1"			//set to 1 to enable
+		"visible"		"0"			//set to 1 to enable
 		"labelText"		"reloadscheme"
 		"Command"		"reloadscheme"
 	}

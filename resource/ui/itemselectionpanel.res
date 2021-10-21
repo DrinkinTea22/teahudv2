@@ -1,7 +1,7 @@
 #base "base/ItemSelectionPanel.res"
 
 //tools
-#base "../tools/tools.res"
+//#base "../tools/tools.res"
 
 "Resource/UI/ItemSelectionPanel.res"
 {

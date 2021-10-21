@@ -2,7 +2,7 @@
 //Training class image and progress label
 
 //tools
-#base "../../../tools/tools.res"
+//#base "../../../tools/tools.res"
 "Resource/training/basictraining/classpanel.res"
 {
 	"reloadschemebutton"

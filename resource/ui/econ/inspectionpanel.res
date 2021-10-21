@@ -1,7 +1,7 @@
 #base "../base/econ/inspectionpanel.res"
 //inspect panel, for items and warpaints
 //tools
-#base "../../tools/tools.res"
+//#base "../../tools/tools.res"
 "Resource/UI/econ/QuestEditorPanel.res"
 {
 	"reloadschemebutton"

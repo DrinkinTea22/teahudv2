@@ -2,7 +2,7 @@
 //Training menu, when selected a class
 
 //tools
-#base "../../../tools/tools.res"
+//#base "../../../tools/tools.res"
 "Resource/training/basictraining/classdetails.res"
 {
 	"reloadschemebutton"

@@ -1,14 +1,14 @@
 #base "../../../base/econ/store/v2/StorePage.res"
 //this file controls the inner store stuff (mid screen range) for every tab (items, bundle, maps)
 //tools
-#base "../../../../tools/tools.res"
+//#base "../../../../tools/tools.res"
 "Resource/UI/StorePage.res"
 {
 	"reloadschemebutton"	//this file already has a reloadscheme button, override the visible value
 	{
 		"xpos"		"c0"
 		"ypos"		"0"
-		"visible"	"1"	//1 to set it on
+		"visible"	"0"	//1 to set it on
 	}
 	"StorePage"
 	{

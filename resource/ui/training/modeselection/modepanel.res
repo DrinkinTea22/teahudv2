@@ -2,7 +2,7 @@
 //Mode selection properties
 
 //tools
-#base "../../../tools/tools.res"
+//#base "../../../tools/tools.res"
 "Resource/training/modeselection/modepanel.res"
 {
 	"reloadschemebutton"
