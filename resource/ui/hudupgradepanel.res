@@ -156,7 +156,7 @@
 		"RespecButton"
 		{
 			"xpos"			"10"
-			"font"			"tea14"
+			"font"			"tea12"
 		}
 	}	
 	
