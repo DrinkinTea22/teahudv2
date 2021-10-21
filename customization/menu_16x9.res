@@ -163,7 +163,7 @@
 		"xpos"			"-85"
 		"wide"			"85"			
 	}		
-	"WorkshopButtonFixed"
+	"ServersButtonFixed"
 	{
 		"xpos"			"-85"
 		"wide"			"85"

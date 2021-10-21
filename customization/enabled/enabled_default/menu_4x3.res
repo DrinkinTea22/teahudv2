@@ -570,10 +570,10 @@
 			"proportionaltoparent"	"1"
 		}			
 	}		
-	"WorkshopButtonFixed"
+	"ServersButtonFixed"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"WorkshopButtonFixed"
+		"fieldName"		"ServersButtonFixed"
 		"xpos"			"-60"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -583,7 +583,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"border_default"							"bg_tb"
-		"Command"		"engine OpenSteamWorkshopDialog"
+		"Command"		"OpenServerBrowser"
 		"image_drawcolor"	"white"
 		"pin_to_sibling"	"ReplaysButtonFixed"
 		
@@ -599,7 +599,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"glyph_steamworkshop"
+			"image"			"glyph_server"
 			"proportionaltoparent"	"1"
 		}			
 	}		
@@ -620,7 +620,7 @@
 		"border_default"							"bg_lrtb"
 		
 		"command"									"engine toggleconsole"	
-		"pin_to_sibling"							"WorkshopButtonFixed"
+		"pin_to_sibling"							"ServersButtonFixed"
 	}		
 	//buttons
 	
