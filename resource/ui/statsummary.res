@@ -97,7 +97,7 @@
 	
 	"OnYourWayLabel" 							
 	{							
-		"font"										"tea11"
+		"font"										"tea14"
 		"xpos"										"0"
 		"ypos"										"30"
 		"wide"										"f0"
