@@ -7,6 +7,8 @@
 #base "../customization/enabled/transparent_viewmodels.res"
 //crosshairs
 #base "../customization/enabled/crosshair.res"
+//streamer mode
+#base "../customization/enabled/enabled_default/streamermode.res"
 
 #base "base/hudlayout.res"
 
