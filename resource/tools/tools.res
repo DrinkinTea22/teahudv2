@@ -4,10 +4,12 @@
 //4.buttons properties
 //5.special panels 
 //6. pin guide
+//7. textalignment guide
+//8. consistent hud working
 
 "resource/ui/tools.res"
 {
-	//button template								1.	
+	//button template								.1	
 	"namefile"
 	{		
 		"controlname"								"cexbutton"
@@ -30,7 +32,7 @@
 		"command"									"namefi"	
 	}
 	
-	//button with image template 					2.
+	//button with image template 					.2
 	"template"
 	{
 		"controlname"								"editablepanel"
@@ -65,7 +67,7 @@
 		}
 	}	
 	
-	//primary tools 								3.
+	//primary tools 								.3
 	"quickbind"	
 	{
 		"controlname"								"cexbutton"
@@ -118,7 +120,7 @@
 	//"enabled"			"0"
 
 
-	//button/elements properties					4.
+	//button/elements properties					.4
 	//	"border_default"							"quickplayborder"
 	//	"border_armed"								"quickplayborder"
 	//	"border"									"quickplayborder"	
@@ -205,4 +207,19 @@
 	//	W -- C  -- E
 	//	|		   |
 	//	SW -- S -- SE	
+
+	//	consistent hud working					.8
+	//	menu background color	=	MENUBGCOLOR	
+	//	ingame-menu background color	=	custombgcolor
+	//	button font	=	tea14
+	
+	//	combobox style
+	//	"Font"								"tea14"
+	//	"fgcolor_override"					"hudoffwhite"
+	//	"bgcolor_override"					"custombgcolor"
+	//	"disabledFgColor_override"			"tandark"
+	//	"selectionTextColor_override"		"buttonselected"
+	//	"disabledBgColor_override"			"blank"
+	//	"selectionColor_override"			"blank"		//ugly bg color when selected
+	//	"defaultSelectionBG2Color_override"	"blank"
 }
