@@ -1,5 +1,5 @@
 #base "base/MatchmakingCasualCriteria.res"
-
+//casual settings and window settings
 "Resource/UI/MatchmakingCasualCriteria.res"
 {
 	"PlaylistBGPanel"
@@ -25,7 +25,7 @@
 			"pin_to_sibling"							"Title"
 			"pin_corner_to_sibling"						"6"
 			"pin_to_sibling_corner"						"6"
-		}		
+		}
 		"RestoreCasualSearchCriteria"
 		{
 			"xpos"			"c-20"
@@ -36,9 +36,16 @@
 			"xpos"			"c5"
 			"ypos"			"50"
 		}
+		"QueueEstimation"
+		{
+			"font"			"tea12"
+		}
+		"PlayListDropShadow"
+		{
+			"border"		"noborder"
+		}
 		"GameModesList"
 		{
-			"tall"			"f70"
 			"border"		"bg_lrtb"
 
 			"ScrollBar"
@@ -49,29 +56,12 @@
 				}
 			}
 		}
-		"QueueEstimation"
-		{
-			"ControlName"			"Label"
-			"fieldName"				"QueueEstimation"
-			"xpos"					"rs1-5"
-			"ypos"					"18"
-			"zpos"					"0"
-			"wide"					"f0"
-			"tall"					"20"
-			"proportionaltoparent"	"1"
-			"labeltext"				"#TF_Casual_QueueEstimation"
-			"textAlignment"			"east"
-			"font"					"tea12"
-			"fgcolor_override"		"white"
-			"textinsetx"			"5"
-			"visible"				"0"
-		
-			"mouseinputenabled"	"0"
-		}
 
-		"PlayListDropShadow"
+		"ShowExplanationsButton"
 		{
-			"border"		"noborder"
+			"xpos"			"9999"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		"RankImage"
 		{
@@ -84,12 +74,6 @@
 			"xpos"			"9999"
 			"visible"		"0"
 			"enabled"		"0"
-		}
-		"ShowExplanationsButton"
-		{
-			"xpos"			"9999"
-			"visible"		"0"
-			"enabled"		"0"
-		}
+		}		
 	}
 }

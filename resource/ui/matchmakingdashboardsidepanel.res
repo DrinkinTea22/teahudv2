@@ -1,50 +1,33 @@
 #base "base/MatchMakingDashboardSidePanel.res"
-
+//inner panel when gamemode selecter
+//works as base, DO NOT DELETE
 "Resource/UI/MatchMakingDashboardSidePanel.res"
 {
-	"CloseButton"
-	{
-		"font"										"tea18"
-		"DefaultBgColor_override"					"black"
-		"armedBgColor_override"						"black"
-		"defaultFgColor_override"					"gray"
-		"armedFgColor_override"						"white"
-		
-		"border_default"							"bg_lrtb"
-		"border_armed"								"bg_lrtb"
-	}					
-	"ReturnButton"					
-	{				
-		"xpos"										"7"	
-		"wide"										"15"
-		"font"										"tea18"
-		"DefaultBgColor_override"					"black"
-		"armedBgColor_override"						"black"
-		"defaultFgColor_override"					"gray"
-		"armedFgColor_override"						"white"
-		
-		"border_default"							"bg_lrtb"
-		"border_armed"								"bg_lrtb"
-	}					
-	"BGPanel"					
-	{					
-		"border"									"bg_lrtb"
-		"bgcolor_override"							"0 0 0 255"
-	}
 	"Shade"
 	{
-		"xpos" 										"9999" 
+		"bgcolor_override"		"black"
+	}
+	"BGPanel"
+	{
+		"border"				"bg_lrtb"
+		"bgcolor_override"		"black"
 	}
 	"TitleGradient"
 	{
-		"xpos" 										"9999" 
+		"image"		"..\vgui\replay\thumbnails\null"
 	}
 	"InnerGradient"
 	{
-		"xpos" 										"9999" 
+		"image"		"..\vgui\replay\thumbnails\null"
 	}
 	"OuterGradient"
 	{
-		"xpos" 										"9999" 
+		"image"		"..\vgui\replay\thumbnails\null"
+	}
+	"CloseButton"
+	{
+	}
+	"ReturnButton"
+	{
 	}
 }

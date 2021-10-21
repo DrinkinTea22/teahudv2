@@ -22,15 +22,9 @@
 
 		"QueueContainer"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"QueueContainer"
-			"xpos"			"cs-0.5"
-			"ypos"			"-50"
-			"zpos"			"111"
-			"wide"			"220"
-			"tall"			"f0"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
+			"paintbackground"		"1"
+			"bgcolor_override"		"black"
+			"border"				"bg_lrtb"
 
 			"OuterShadow"
 			{

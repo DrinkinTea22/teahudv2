@@ -1,66 +1,47 @@
 #base "MatchMakingDashboardSidePanel.res"
-//note: this controles more settings on, casual/
+//extra settings in casual dashboard
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"
 {
 	"CasualCriteria"
 	{
-		"fieldName"				"CasualCriteria"
-		"xpos"					"r0"
-		"ypos"					"10"
-		"zpos"					"1002"
-		"wide"					"270"
-		"tall"					"f70"
-		"visible"				"1"
-		"proportionaltoparent"	"1"
-	}
-
-	"Title"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"Title"
-		"xpos"					"0"
-		"ypos"					"20"
-		"zpos"					"99"
-		"wide"					"f0"
-		"tall"					"20"
-		"proportionaltoparent"	"1"
-		"labeltext"				"#TF_Matchmaking_HeaderCasual"
-		"textAlignment"			"center"
-		"font"					"tea24"
-		"fgcolor_override"		"white"
-		"mouseinputenabled"		"0"
-	}
-
-	"criteria"			//moves the map list //controls matchmakingcasualcriteria
-	{
-		"ControlName"	"CCasualCriteriaPanel"
-		"fieldName"		"criteria"
-		"xpos"			"-7"
-		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"f0"
+		"fieldName"		"CasualCriteria"
+		"xpos"			"r0"
+		"ypos"			"10"
+		"zpos"			"1002"
+		"wide"			"270"
 		"tall"			"f70"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
-
-	"ToolTipButtonHack"
+	"Title"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ToolTipButtonHack"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
-		"zpos"			"101"
-		"wide"			"f20"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
+		"xpos"					"0"
+		"textAlignment"			"center"
+		"font"					"tea24"
+		"fgcolor_override"		"white"
+		
+		"ypos"					"40"
+		"zpos"					"99"
+		"wide"					"f0"
+		"tall"					"20"
+		"mouseinputenabled"		"0"
+		"proportionaltoparent"	"1"
+		"labeltext"				"#TF_Matchmaking_HeaderCasual"
+		"ControlName"			"Label"
+		"fieldName"				"Title"
 	}
-
+	"criteria"
+	{
+		"ControlName"			"CCasualCriteriaPanel"
+		"fieldName"				"criteria"
+		"xpos"					"-3"
+		"ypos"					"40"
+		"zpos"					"100"
+		"wide"					"f0"
+		"tall"					"f73"
+		"visible"				"1"
+		"proportionaltoparent"	"1"
+	}
 	"QueueButton"
 	{
 		"ControlName"			"CExButton"
@@ -68,11 +49,11 @@
 		"xpos"					"cs-0.5"
 		"ypos"					"rs1-8"
 		"zpos"					"100"
-		"wide"					"f0"
+		"wide"					"f20"
 		"tall"					"20"
 		"visible"				"1"
 		"enabled"				"1"
-		"font"					"tea14"
+		"font"					"tea18"
 		"textAlignment"			"center"
 		"Command"				"find_game"
 		"proportionaltoparent"	"1"
@@ -84,9 +65,16 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		//"defaultBgColor_override"	"Button"
-		//"armedBgColor_override"		"ButtonHover"
-		"border_default"			"bg_lrtb"
-		"border_armed"				"bg_lrtb"
+		"armedBgColor_override"		"CreditsGreen"
+		"defaultBgColor_override"	"GreenSolid"
 	}
+	
+	//[deleted lol]
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"9999"
+	}
+
 }
