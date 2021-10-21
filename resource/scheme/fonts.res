@@ -289,7 +289,93 @@ Scheme
 				"antialias" 	"1"
 			}
 		}		
-		//**************************************************Item properties fonts.					
+		//**************************************************Item properties fonts.
+		
+		//**************************************************store fonts.	
+		//HudFontSmallestbold	already overriden
+		"HudFontSmallest"
+		{
+			"1"
+			{
+				"name"										"rubik semibold"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}	
+		"HudfontSmall"
+		{
+			"1"
+			{
+				"name"										"rubik semibold"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"HudfontSmallbold"
+		{
+			"1"
+			{
+				"name"										"rubik semibold"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"ScoreboardSmall"
+		{
+			"1"
+			{
+				"name"										"rubik semibold"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"FontStorePrice"
+		{
+			"1"
+			{
+				"name"										"rubik semibold"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"FontStoreOriginalPrice"
+		{
+			"1"
+			{
+				"name"										"rubik semibold"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"FontCartPrice"
+		{
+			"1"
+			{
+				"name"										"rubik semibold"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"StorePromotionsTitle"
+		{
+			"1"
+			{
+				"name"										"rubik semibold"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"HudFontMediumSmallBold"
+		{
+			"1"
+			{
+				"name"										"rubik semibold"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		
+		//**************************************************store fonts.					
 
 		//**************************************************mostly specific things.	
 		"teadefault"										//used for notifications
