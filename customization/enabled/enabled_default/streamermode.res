@@ -52,6 +52,10 @@
 	////********************************************MVM Scoreboard.
 
 	////********************************************Scoreboard.	
+	"bg_list"
+	{
+		"wide_minmode"								"0"
+	}
 	"BluePlayerList"
 	{
 		"wide_minmode"								"0"
@@ -165,6 +169,7 @@
 				{
 					BluePlayerList
 					{
+						"medal_minmode"					"0"
 						"wide_minmode"					"0"
 						"tall_minmode"					"0"
 					}
@@ -179,6 +184,7 @@
 				{
 					RedPlayerListParent
 					{
+						"medal_minmode"					"0"
 						"wide_minmode"					"0"
 						"tall_minmode"					"0"
 					}
