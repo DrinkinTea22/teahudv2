@@ -6,6 +6,39 @@ New starting point for TeaHud using Jarateking's "BaseHud", if you want to learn
 [BaseHud Project](https://github.com/JarateKing/BaseHud) <br>
 All credits to: [Jarateking](https://github.com/JarateKing)
 
+## customizations
+
+You shall drop what you want in the hud in the following path:
+
+```
+tf
+└── custom
+    └── TeaHudv2-main
+        └── customization
+            └── Enabled
+```
+
+* Crosshairs: enables label crosshairs
+* Last Damage Done: enables damage done text
+* 16x9: makes stuff bigger tor wide resolutions
+* Thin Outlines: makes ammo/health outlines thinner
+* Transparent Viewmodels: enables transparent viewmodels (only works on dxlevel 90 or higher)
+
+## Supported GameModes
+
+* [✔] any cp mode (Attack/Defend, King of the Hill, etc)
+* [✔] Mann Vs. Machine
+* [✔] PlayerDestruction and RobotDestruction	
+* [✔] Capture The Flag	
+* [✔] Halloween
+* [✔] Special Delivery
+* [✔] Payload and Payload Race
+* [✔] Territorial Control and Domination
+* [✔] Mannpower
+* [✘] passtime
+* [✘] arena
+* [✘] valve competitive
+
 ## Features
 
 * Auto-update script
