@@ -29,37 +29,21 @@
 	}
 	"HudPlayerHealth"
 	{
-		"xpos"											"c-225"	
-		"ypos"											"c100"	
-		"wide"											"150"
-		"tall"											"100"
+		"xpos"											"0"	
+		"ypos"											"c20"	
+		"wide"											"p0.50"
+		"tall"											"p0.50"
 		//"border"										"bg_lrtb" //testing
+		"proportionaltoparent"							"1"
 		
 		"HealthBonusPosAdj"								"35"
 		"HealthDeathWarning"							"0.49"
 		"HealthDeathWarningColor"						"HUDDeathWarning"
-	}	
-	"PlayerStatusHealthImage"
-	{
-		//"xpos"										"cs-0.5"
-		//"xpos"										"9999"
-		"wide"										"0"	//deleting this with xpos will result in unusable status icons
-		"tall"										"0"	//deleting this with xpos will result in unusable status icons
-		"proportionaltoparent"						"1"
 	}		
-	"PlayerStatusHealthImageBG"
-	{
-		//"xpos"										"cs-0.5"
-		//"xpos"										"9999"
-		"wide"										"0"	//deleting this with xpos will result in unusable status icons
-		"tall"										"0"	//deleting this with xpos will result in unusable status icons
-		"proportionaltoparent"						"1"
-	}	
 	"PlayerStatusHealthBonusImage"
 	{
-		//"xpos"										"cs-0.5"
-		"xpos"										"9999"
-		"ypos"										"cs-0.5"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.60"
 		"zpos"			"2"
 		"wide"			"20"	
 		"tall"			"20"
@@ -70,12 +54,12 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"10"
-		"wide"										"150"
-		"tall"										"50"
+		"wide"										"f0"
+		"tall"										"f0"
 		"zpos"										"50"
 		"proportionaltoparent"						"1"	
 		"textAlignment"								"center"	
-		"font"										"tea40"
+		"font"										"tea48"
 		"fgcolor"									"Health"
 	}		
 	
@@ -83,11 +67,11 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"StatusIconFix"
-		"xpos"										"-8"
-		"ypos"										"10"
+		"xpos"										"37"
+		"ypos"										"c-50"
 		"zpos"										"5"
-		"wide" 										"0"	
-		"tall" 										"0"
+		"wide" 										"p0.50"	
+		"tall" 										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -96,217 +80,231 @@
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatusHookBleedImage"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatusMilkImage"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatusGasImage"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_WheelOfDoom"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_SoldierOffenseBuff"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_SoldierDefenseBuff"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_SpyMarked"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_Parachute"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_RuneStrength"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_RuneHaste"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_RuneRegen"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_RuneResist"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_RuneVampire"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_RuneReflect"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_RunePrecision"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_RuneAgility"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_RuneKnockout"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_RuneKing"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_RunePlague"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatus_RuneSupernova"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
 	"PlayerStatusSlowed"
 	{
 		"wide"			"20"		"tall"			"20"
 		"pin_to_sibling"							"StatusIconFix"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"pin_corner_to_sibling"						"4"
+		"pin_to_sibling_corner"						"4"
 	}
+	"PlayerStatusHealthImage"
+	{
+		//"xpos"										"cs-0.5"
+		"wide"										"0"	//deleting this with xpos will result in unusable status icons
+		"tall"										"0"	//deleting this with xpos will result in unusable status icons
+		"proportionaltoparent"						"1"
+	}	
+	"PlayerStatusHealthImageBG"
+	{
+		//"xpos"										"cs-0.5"
+		"wide"										"0"	//deleting this with xpos will result in unusable status icons
+		"tall"										"0"	//deleting this with xpos will result in unusable status icons
+		"proportionaltoparent"						"1"
+	}	
 }

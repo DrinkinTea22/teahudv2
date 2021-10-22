@@ -4,18 +4,18 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DamageAccountValue"
-		"xpos"										"c-190"	
-		"ypos"										"c100"	
-		"wide"										"75"
-		"tall"										"50"
+		"xpos"										"30"	
+		"ypos"										"c-10"
+		"wide"										"p0.50"
+		"tall"										"p0.50"
 		"zpos"										"2"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Last Damage Done"
 		"font"										"tea20"
-		"pin_to_sibling"							"AmmoInClip"
 	}
 	"DamageAccountValue2"
 	{
@@ -23,15 +23,16 @@
 		"fieldName"									"DamageAccountValue2"
 		"xpos"										"-2"	
 		"ypos"										"-2"	
-		"wide"										"75"
-		"tall"										"50"
+		"wide"										"p0.50"
+		"tall"										"p0.50"
 		"zpos"										"1"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Black"
 		"font"										"tea20"
 		"pin_to_sibling"							"DamageAccountValue"
-	}
-}
+	}	
+}	

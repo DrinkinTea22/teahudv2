@@ -43,14 +43,14 @@
 	//ammo	
 	"AmmoInClip"
 	{
-		"font"										"tea40"
+		"font"										"tea48"
 		"fgcolor"									"Ammo"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
-		"proportionaltoparent"						"1"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"50"
-		"wide"										"75"
-		"tall"										"50"
+		"wide"										"f0"
+		"tall"										"p0.50"
+		"proportionaltoparent"						"1"
 		"textAlignment"								"center"	
 	}		
 	//ammo	
@@ -61,11 +61,11 @@
 	{
 		"font"										"tea24"
 		"fgcolor"									"Ammo"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.1"
+		"xpos"										"0"
+		"ypos"										"25"
+		"wide"										"f0"
+		"tall"										"p0.50"
 		"proportionaltoparent"						"1"
-		"wide"										"75"
-		"tall"										"50"
 		"textAlignment"								"center"		
 	}		
 	"AmmoInReserveShadow"
@@ -74,21 +74,22 @@
 		"fgcolor"									"Black"
 		"xpos"										"-2"
 		"ypos"										"-2"
-		"wide"										"75"
-		"tall"										"50"
+		"wide"										"f0"
+		"tall"										"p0.50"
+		"proportionaltoparent"						"1"
 		"textAlignment"								"center"	
 		"pin_to_sibling"							"AmmoInReserve"	
 	}									
 	"AmmoNoClip"
 	{
-		"font"										"tea40"
+		"font"										"tea48"
 		"fgcolor"									"Ammo"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
-		"zpos"										"20"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"50"
+		"wide"										"f0"
+		"tall"										"p0.50"
 		"proportionaltoparent"						"1"
-		"wide"										"75"
-		"tall"										"50"
 		"textAlignment"								"center"	
 	}									
 }
