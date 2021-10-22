@@ -169,6 +169,8 @@ event HudMedicChargedStop
 ////************************************************SpyDisguise Animation.
 event HudSpyDisguiseChanged	//origin
 {
+	Animate PlayerStatusClassImage					Alpha		"255"		Linear 0.0 0.2
+	
 	Animate PlayerStatusSpyOutlineImage				Alpha		"255"		Linear 0.0 0.2
 	
 	Animate PlayerStatusSpyOutlineImage				Position	"35 350"	Linear 0.0 0.2
@@ -178,8 +180,9 @@ event HudSpyDisguiseChanged	//origin
 }
 
 event HudSpyDisguiseHide	//end
-{
-	Animate PlayerStatusSpyOutlineImage				Position	"35 390"		Linear 0.0 0.2
+{	
+	Animate PlayerStatusClassImage					Alpha		"0"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage				Position	"35 390"	Linear 0.0 0.2
 	Animate PlayerStatusSpyOutlineImage				Size		"55 55"		Linear 0.0 0.2
 	
 	Animate PlayerStatusSpyOutlineImage				Alpha		"0"			Linear 0.2 0.1
