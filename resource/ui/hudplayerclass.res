@@ -1,5 +1,5 @@
 #base "base/HudPlayerClass.res"
-
+//bottom-left class image/model panel
 "Resource/UI/HudPlayerClass.res"
 {
 	"PlayerStatusClassImage"
