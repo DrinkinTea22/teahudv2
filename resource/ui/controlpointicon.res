@@ -27,9 +27,9 @@
 		"tall"			"21"
 		"textAlignment"		"center"
 	}
-	"OverlayImage"
+	"OverlayImage"	//cp_steel label
 	{
-		"ypos"		"0"
+		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"9"
 		"tall"		"9"
