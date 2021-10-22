@@ -32,10 +32,11 @@
 	
 	CHealthAccountPanel
 	{
-		"xpos"											"20"	
-		"ypos"											"r100"	
+		"xpos"											"0"	
+		"ypos"											"rs1-0"	
 		"wide"											"150"
-		"tall"											"100"
+		"tall"											"20"
+		"proportionaltoparent"							"1"
 	}
 	
 	HudMedicCharge
