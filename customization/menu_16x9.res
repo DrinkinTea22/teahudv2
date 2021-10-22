@@ -41,8 +41,8 @@
 	//friends (none)
 	"FriendsContainer"
 	{
-		"wide"			"350"
-		"tall"			"250"
+		"wide"			"340"
+		"tall"			"240"	
 	}
 	//friends (none)
 	

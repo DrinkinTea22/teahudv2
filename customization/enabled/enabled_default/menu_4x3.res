@@ -103,8 +103,9 @@
 
 			"friendpanel_kv"
 			{
-				"wide"		"330"
-				"tall"		"20"
+				"wide"		"p0.99"
+				"tall"		"22"
+				"proportionaltoparent"	"1"
 			}
 		}
 		"BelowDarken"
