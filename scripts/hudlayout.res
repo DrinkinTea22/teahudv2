@@ -136,8 +136,13 @@
 	
 	WinPanel
 	{
-		"ypos"											"230"
+		"xpos"											"cs-0.5"
+		"ypos"											"c-100"
+		"wide"											"300"
+		"tall"											"400"
+		"proportionaltoparent"							"1"
 	}
+	
 	PVEWinPanel
 	{
 		"xpos"											"c-150"
