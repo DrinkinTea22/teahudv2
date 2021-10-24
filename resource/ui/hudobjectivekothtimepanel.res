@@ -1,5 +1,5 @@
 #base "base/HudObjectiveKothTimePanel.res"
-
+//koth timers panel
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {	
 	"BlueTimer"
@@ -34,23 +34,27 @@
 			"proportionaltoparent"	"1"
 		}
 		
-		"TimePanelValue"
+		"TimePanelValue"		//tf_use_match_hud 0 (timer)
 		{
-			"font"		"tea14"
-			"fgcolor"	"white"
-			"xpos"		"cs-0.5"
-			"ypos"		"-5"
-			"wide"		"f0"
-			"tall"		"20"
+			"font"					"tea14"
+			"fgcolor"				"white"
+			"xpos"					"cs-0.5"
+			"ypos"					"0"
+			"wide"					"f0"
+			"tall"					"20"
+			"border"				"bg_lrtb"
+			"bgcolor_override"		"MainBlue"
 			"proportionaltoparent"	"1"
 
-			if_match
+			if_match				//tf_use_match_hud 1 (timer)
 			{
-				"xpos"	"cs-0.5"
-				"ypos"	"5"
-				"wide"	"f0"
-				"tall"	"20"
-				"font"	"tea14"
+				"border"			"noborder"
+				"bgcolor_override"	"blank"
+				"xpos"				"cs-0.5"
+				"ypos"				"5"
+				"wide"				"f0"
+				"tall"				"20"
+				"font"				"tea14"
 			}
 		}	
 	}
@@ -86,31 +90,36 @@
 			"delta_item_font"		"tea18"
 		}
 		
-		"TimePanelValue"
+		"TimePanelValue"		//tf_use_match_hud 0 (timer)
 		{
-			"font"		"tea14"
-			"fgcolor"	"white"
-			"xpos"		"cs-0.5"
-			"ypos"		"-5"
-			"wide"		"f0"
-			"tall"		"20"
+			"font"					"tea14"
+			"fgcolor"				"white"
+			"xpos"					"cs-0.5"
+			"ypos"					"0"
+			"wide"					"f0"
+			"tall"					"20"
+			"border"				"bg_lrtb"
+			"bgcolor_override"		"MainRed"
 			"proportionaltoparent"	"1"
 
-			if_match
+			if_match				//tf_use_match_hud 1 (timer)
 			{
-				"xpos"	"cs-0.5"
-				"ypos"	"5"
-				"wide"	"f0"
-				"tall"	"20"
-				"font"	"tea14"
+				"border"			"noborder"
+				"bgcolor_override"	"blank"
+				"xpos"				"cs-0.5"
+				"ypos"				"5"
+				"wide"				"f0"
+				"tall"				"20"
+				"font"				"tea14"
 			}
 		}	
 	}
 	"ActiveTimerBG"
 	{
-		"ypos"		"15"
-		"wide"		"33"
-		"tall"		"2"
-		"image"		"../hud/cart_track_neutral_opaque"
+		"ypos"		"22"
+		"wide"		"38"
+		"tall"		"5"
+		"image"		"../vgui/replay/thumbnails/null"
+		"fillcolor"	"white"
 	}
 }

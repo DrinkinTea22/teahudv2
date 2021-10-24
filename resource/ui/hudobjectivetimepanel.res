@@ -4,11 +4,7 @@
 {	
 	"TimePanelBG"
 	{
-		"xpos"					"cs-0.5"
-		"ypos"					"-7"
-		"wide"					"38"
-		"tall"					"23"
-		"proportionaltoparent"	"1"
+		"visible"			"0"
 
 		if_match
 		{

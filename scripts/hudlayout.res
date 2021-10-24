@@ -125,13 +125,13 @@
 		"ypos"											"c121"
 	}
 	
-	HudKothTimeStatus		//controls "ActiveTimerBG" xpos from "HudObjectiveKothTimePanel.res"
+	HudKothTimeStatus									//controls "ActiveTimerBG" xpos from "HudObjectiveKothTimePanel.res"
 	{
 		"xpos"											"cs-0.5"
 		"wide"											"100"
 		"tall"											"50"
-		"blue_active_xpos"								"7"
-		"red_active_xpos"								"60"
+		"blue_active_xpos"								"5"
+		"red_active_xpos"								"58"
 	}
 	
 	WinPanel
