@@ -4,7 +4,8 @@
 {
 	"PlayerStatusClassImage"
 	{
-		"xpos"			"5"		
+		"xpos"			"5"	
+		"alpha"			"0"		//make it only appear when class = spy	
 	}
 	"PlayerStatusSpyOutlineImage"
 	{
