@@ -30,7 +30,7 @@
 	}
 	"ProgressText"
 	{	
-		"font"			"tea11"
+		"font"			"tea10"
 		"xpos"			"10"
 		"ypos"			"0"
 		"wide"			"49"
