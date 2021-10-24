@@ -20,24 +20,24 @@
 		"wide"			"254"
 		"tall"			"4"
 		"labelText"		""
-		"image"			"../hud/cart_track"
+		"image"			"../vgui/replay/thumbnails/null"
+		"fillcolor"		"custombgcolor"
 		"scaleImage"	"1"
 		
-		"if_multiple_trains"
+		"if_multiple_trains"		//map plr_hightower
 		{
-			"ypos"			"114"
+			"ypos"			"118"
 			"zpos"			"3"
-			"tall"			"12"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"tall"			"4"
+			"image"			"../vgui/replay/thumbnails/null"
+			"fillcolor"		"custombgcolor"
 		}
-		
-		"if_single_with_hills"
+		"if_single_with_hills"		//map pl_upward
 		{
-			"ypos"			"116"
-			"ypos"	"120"
-			"tall"			"18"
-			"tall"	"10"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"ypos"			"122"
+			"tall"			"4"
+			"image"			"../vgui/replay/thumbnails/null"
+			"fillcolor"		"custombgcolor"
 		}		
 	}	
 	
@@ -48,78 +48,71 @@
 		"zpos"			"4"
 		"wide"			"254"
 		"tall"			"4"
-		"scaleImage"	"1"
+		"image"			"../vgui/replay/thumbnails/null"
+		"fillcolor"		"custombgcolor"
 		
 		"if_multiple_trains"
 		{
-			"ypos"			"114"
+			"ypos"			"118"
 			"zpos"			"6"
-			"tall"			"12"
+			"tall"			"4"
 			"visible"		"1"
 		}
 	}		
 	
 	"HomeCPIcon"
 	{
-		"xpos"		"64"	
-		"ypos"		"116"
-		"wide"		"18"
-		"tall"		"18"
+		"xpos"		"66"	
+		"ypos"		"118"
+		"wide"		"14"
+		"tall"		"14"
 		
-		"image"			"../hud/cart_home_blue_opaque"
+		"image"				"../hud/tournament_panel_blu"
 		
 		"if_team_red"
 		{
-			"image"			"../hud/cart_home_red_opaque"
+			"image"			"../hud/tournament_panel_red"
 		}
 		"if_single_with_hills_blue"
 		{
-			"image"			"../hud/cart_home_blue_opaque"
+			"image"			"../hud/tournament_panel_blu"
 		}	
 		"if_single_with_hills_red"
 		{
-			"image"			"../hud/cart_home_red_opaque"
+			"image"			"../hud/tournament_panel_red"
 		}		
 		
-		"if_multiple_trains"
+		"if_multiple_trains"		//Paylaod Race settings
 		{
-			"xpos"			"59"
-			"zpos"			"5"
+			"xpos"			"65"
 			"wide"			"14"
-			"tall"			"14"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"tall"			"6"
+			"image"			"../hud/cart_point_neutral_opaque"
 		}
-		
-		"if_multiple_trains_top"
+		"if_multiple_trains_top"		//this moves your current team home icon
 		{
-			"ypos"			"113"
+			"ypos"			"115"
 		}
-		
-		"if_multiple_trains_bottom"
+		"if_multiple_trains_bottom"		//this moves the enemy's team home icon
 		{
-			"ypos"			"113"
+			"ypos"			"120"
 		}
-		
 		"if_multiple_trains_red"
 		{
-			"image"			"../hud/cart_home_red_square"
+			"image"			"../hud/cart_point_red"
 		}
-		
 		"if_multiple_trains_blue"
 		{
-			"image"			"../hud/cart_home_blue_square"
+			"image"			"../hud/cart_point_blue"
 		}
 	}
-	
 	"SimpleControlPointTemplate"
 	{
 		"xpos"		"65"	
-		"ypos"		"116"	
-		"wide"		"18"	
-		"tall"		"18"
+		"ypos"		"118"	
+		"wide"		"12"	
+		"tall"		"12"
 		
-		"image"			"../hud/cart_point_neutral"
-
 		"if_multiple_trains"
 		{
 			"xpos"			"61"
@@ -129,7 +122,6 @@
 			"tall"			"12"
 		}
 	}
-
 	"EscortItemPanel"
 	{
 		"ypos"		"48"
@@ -146,7 +138,7 @@
 		
 		"RecedeTime"
 		{	
-			"font"			"tea12"	
+			"font"		"tea12"	
 			"xpos"		"21"	
 			"ypos"		"50"	
 			"wide"		"10"
@@ -158,19 +150,16 @@
 				"xpos"			"21"
 				"wide"			"11"
 				"tall"			"10"
-			}			
-			
+			}		
 			"if_multiple_trains_top"
 			{
 				"ypos"			"46"
-			}										
-			
+			}		
 			"if_multiple_trains_bottom"
 			{
 				"ypos"			"82"
 			}
 		}
-		
 		"EscortItemImage"
 		{
 			"xpos"		"13"
@@ -184,13 +173,11 @@
 			"if_team_blue"
 			{
 				"image"			"../hud/cart_blue"
-			}		
-			
+			}	
 			"if_team_red"
 			{
 				"image"			"../hud/cart_red"
 			}
-			
 			"if_multiple_trains"
 			{
 				"xpos"			"11"
@@ -199,7 +186,6 @@
 				"tall"			"30"
 			}						
 		}
-		
 		"EscortItemImageBottom"
 		{	
 			"xpos"			"20"
@@ -213,13 +199,11 @@
 			"if_team_blue"
 			{
 				"image"			"../hud/cart_blue_bottom"
-			}			
-			
+			}	
 			"if_team_red"
 			{
 				"image"			"../hud/cart_red_bottom"
 			}
-			
 			"if_multiple_trains"
 			{
 				"xpos"			"11"
@@ -228,7 +212,6 @@
 				"tall"			"30"
 			}			
 		}
-		
 		"EscortItemImageAlert"
 		{
 			"ControlName"	"ImagePanel"
@@ -247,7 +230,6 @@
 				"ypos"			"75"
 			}
 		}
-		
 		"Speed_Backwards"
 		{
 			"xpos"		"23"
@@ -263,22 +245,19 @@
 				"wide"			"8"
 				"tall"			"8"
 			}
-			
 			"if_multiple_trains_top"
 			{
 				"ypos"			"46"
 			}	
-			
 			"if_multiple_trains_bottom"
 			{
 				"ypos"			"83"
 			}	
 		}
-		
 		"CapPlayerImage"
 		{
-			"xpos"		"20"
-			"ypos"		"52"
+			"xpos"		"19"
+			"ypos"		"51"
 			"wide"		"4"
 			"tall"		"8"
 			
@@ -286,51 +265,44 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"20"
+				"xpos"			"17"
 				"wide"			"5"
 				"tall"			"10"
 			}
-			
 			"if_multiple_trains_top"
 			{
 				"ypos"			"45"
 			}	
-			
 			"if_multiple_trains_bottom"
 			{
 				"ypos"			"81"
 			}	
 		}
-
 		"CapNumPlayers"
 		{	
-			"font"			"tea11"
-			"xpos"		"25"
+			"font"		"tea10"
+			"xpos"		"23"
 			"ypos"		"50"
 			"wide"		"20"
 			"tall"		"9"
-			
 			"textAlignment"	"west"
 			
 			"if_multiple_trains"
 			{
-				"font"			"tea11"
-				"xpos"			"25"
+				"font"			"tea10"
+				"xpos"			"23"
 				"wide"			"30"
 				"tall"			"9"
 			}			
-			
 			"if_multiple_trains_top"
 			{
 				"ypos"			"46"
-			}										
-			
+			}
 			"if_multiple_trains_bottom"
 			{
 				"ypos"			"82"
 			}	
 		}
-		
 		"Blocked"
 		{	
 			"xpos"		"23"
@@ -346,18 +318,15 @@
 				"wide"			"8"
 				"tall"			"8"
 			}
-			
 			"if_multiple_trains_top"
 			{
 				"ypos"			"46"
 			}	
-			
 			"if_multiple_trains_bottom"
 			{
 				"ypos"			"83"
 			}
 		}
-	
 		"EscortTeardrop"
 		{
 			"xpos"			"9999"
