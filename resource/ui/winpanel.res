@@ -9,7 +9,7 @@
 		"ypos"			"cs-0.5"
 		"wide"			"300"
 		"tall"			"30"
-		"border"		"bg_lrtb"
+		"border"		"bg_lrt"
 		"proportionaltoparent"		"1"
 
 		"BlueScoreBG"
@@ -40,7 +40,7 @@
 		"BlueTeamScore"
 		{
 			"font"			"tea20"
-			"xpos"			"0"
+			"xpos"			"-5"
 			"ypos"			"0"
 			"wide"			"150"
 			"tall"			"30"
@@ -48,8 +48,8 @@
 		"BlueTeamScoreDropshadow"
 		{
 			"font"			"tea20"
-			"xpos"			"2"
-			"ypos"			"2"
+			"xpos"			"-3"
+			"ypos"			"1"
 			"wide"			"150"
 			"tall"			"30"
 		}
@@ -75,7 +75,7 @@
 		"RedTeamScore"
 		{
 			"font"			"tea20"
-			"xpos"			"150"
+			"xpos"			"155"
 			"ypos"			"0"
 			"wide"			"150"
 			"tall"			"30"
@@ -83,8 +83,8 @@
 		"RedTeamScoreDropshadow"
 		{
 			"font"			"tea20"
-			"xpos"			"152"
-			"ypos"			"2"
+			"xpos"			"153"
+			"ypos"			"1"
 			"wide"			"150"
 			"tall"			"30"
 		}
@@ -105,7 +105,7 @@
 		"ypos"			"c15"
 		"wide"			"300"
 		"tall"			"5"
-		"border"		"bg_lr"
+		"border"		"bg_lrb"
 		"proportionaltoparent"	"1"
 	}
 	"WinningTeamLabel"
@@ -115,6 +115,7 @@
 		"ypos"			"c15"
 		"wide"			"300"
 		"tall"			"20"
+		"proportionaltoparent"	"1"
 	}
 	"WinningTeamLabelDropshadow"
 	{	
@@ -170,7 +171,7 @@
 		"zpos"			"-100"
 		"wide"			"300"
 		"tall"			"105"
-		"fillcolor"		"black"
+		"fillcolor"		"custombgcolor"
 		"border"		"bg_lrtb"
 		"pin_to_sibling""WinPanelBGBorder"
 	}
