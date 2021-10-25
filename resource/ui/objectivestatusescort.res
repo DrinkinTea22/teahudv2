@@ -67,22 +67,7 @@
 		"wide"		"14"
 		"tall"		"14"
 		
-		"image"				"../hud/tournament_panel_blu"
-		
-		"if_team_red"
-		{
-			"image"			"../hud/tournament_panel_red"
-		}
-		"if_single_with_hills_blue"
-		{
-			"image"			"../hud/tournament_panel_blu"
-		}	
-		"if_single_with_hills_red"
-		{
-			"image"			"../hud/tournament_panel_red"
-		}		
-		
-		"if_multiple_trains"		//Paylaod Race settings
+		"if_multiple_trains"			//Paylaod Race settings
 		{
 			"xpos"			"65"
 			"wide"			"14"
@@ -96,14 +81,6 @@
 		"if_multiple_trains_bottom"		//this moves the enemy's team home icon
 		{
 			"ypos"			"120"
-		}
-		"if_multiple_trains_red"
-		{
-			"image"			"../hud/cart_point_red"
-		}
-		"if_multiple_trains_blue"
-		{
-			"image"			"../hud/cart_point_blue"
 		}
 	}
 	"SimpleControlPointTemplate"
@@ -164,20 +141,10 @@
 		{
 			"xpos"		"13"
 			"ypos"		"50"
-			"zpos"			"1"
+			"zpos"		"1"
 			"wide"		"26"
 			"tall"		"26"
 			
-			"image"			"../hud/cart_neutral"
-			
-			"if_team_blue"
-			{
-				"image"			"../hud/cart_blue"
-			}	
-			"if_team_red"
-			{
-				"image"			"../hud/cart_red"
-			}
 			"if_multiple_trains"
 			{
 				"xpos"			"11"
@@ -194,16 +161,6 @@
 			"wide"			"40"
 			"tall"			"40"
 			
-			"image"			"../hud/cart_neutral_bottom"
-			
-			"if_team_blue"
-			{
-				"image"			"../hud/cart_blue_bottom"
-			}	
-			"if_team_red"
-			{
-				"image"			"../hud/cart_red_bottom"
-			}
 			"if_multiple_trains"
 			{
 				"xpos"			"11"
@@ -260,8 +217,6 @@
 			"ypos"		"51"
 			"wide"		"4"
 			"tall"		"8"
-			
-			"image"			"capture_icon_white"
 			
 			"if_multiple_trains"
 			{
