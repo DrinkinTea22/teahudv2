@@ -1,4 +1,5 @@
 #base "../../customization/enabled/enabled_default/streamermode.res"
+#base "../../customization/enabled/matchstatus_playername.res"
 #base "../../customization/enabled/matchstatus_16x9_icons.res"
 #base "../../customization/enabled/enabled_default/matchstatus_4x3_icons.res"
 #base "base/HudMatchStatus.res"
@@ -116,6 +117,16 @@
 			
 			"color_portrait_blend_dead_red"		"white"
 			"color_portrait_blend_dead_blue"	"white"
+			
+			//this is toggled by customizations
+			"playername"
+			{
+				"font"			"tea9"
+				"xpos"			"0"
+				"ypos"			"24"
+				"labelText"		"%playername%"
+			}
+			//this is toggled by customizations
 			
 			//health and respawntime
 			"classimage"
