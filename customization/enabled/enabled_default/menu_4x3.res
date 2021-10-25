@@ -75,7 +75,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"										"243"
-		"tall"										"150"
+		"tall"										"220"
 		"border"					"noborder"
 		"pin_to_sibling"							"bgbordercs3"
 		
