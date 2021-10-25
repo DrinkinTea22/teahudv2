@@ -23,6 +23,7 @@ tf
 * 16x9: makes stuff bigger tor wide resolutions
 * Thin Outlines: makes ammo/health outlines thinner
 * Transparent Viewmodels: enables transparent viewmodels (only works on dxlevel 90 or higher)
+* Player Name: enables player names for match status
 
 ## Supported GameModes
 
