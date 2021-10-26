@@ -28,6 +28,8 @@
 	"SwitchImage"
 	{
 		"xpos"			"25"
-		"ypos"			"23"
+		"ypos"			"5"
+		"wide"			"20"
+		"tall"			"20"
 	}
 }

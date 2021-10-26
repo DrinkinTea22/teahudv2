@@ -67,6 +67,17 @@
 		"wide"		"14"
 		"tall"		"14"
 		
+		"if_team_red"
+		{		"image"			"../hud/cart_point_red"		}
+		"if_single_with_hills_blue"
+		{		"image"			"../hud/cart_point_blue"	}
+		"if_single_with_hills_red"
+		{		"image"			"../hud/cart_point_red"		}
+		"if_multiple_trains_red"
+		{		"image"			"../hud/cart_point_red"		}
+		"if_multiple_trains_blue"
+		{		"image"			"../hud/cart_point_blue"	}
+		
 		"if_multiple_trains"			//Paylaod Race settings
 		{
 			"xpos"			"65"
@@ -84,19 +95,17 @@
 		}
 	}
 	"SimpleControlPointTemplate"
-	{
-		"xpos"		"65"	
-		"ypos"		"118"	
-		"wide"		"12"	
-		"tall"		"12"
+	{	
+		"ypos"		"119"	
+		"wide"		"8"	
+		"tall"		"10"
 		
 		"if_multiple_trains"
 		{
-			"xpos"			"61"
-			"ypos"			"114"
-			"zpos"			"5"	
-			"wide"			"12"
-			"tall"			"12"
+			"ypos"			"115"
+			"ypos"			"115"
+			"wide"			"8"	
+			"tall"			"10"
 		}
 	}
 	"EscortItemPanel"
