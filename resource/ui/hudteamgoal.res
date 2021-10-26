@@ -16,7 +16,7 @@
 	}
 	"SwitchLabel"
 	{	
-		"ypos"			"5"
+		"ypos"			"3"
 		"font"			"tea12"
 		"textAlignment"	"North"
 	}

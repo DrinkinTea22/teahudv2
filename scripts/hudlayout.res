@@ -80,7 +80,7 @@
 	}	
 	BuildingStatus_Engineer
 	{
-		"ypos"											"20"	//do not mess my hudmatchstatus pls
+		"ypos"											"120"	//do not mess my hudmatchstatus pls
 	}	
 	"HudMenuEngyBuild"
 	{
@@ -114,11 +114,11 @@
 	
 	CMainTargetID
 	{
-		"ypos"											"c78"
+		"ypos"											"c58"
 	}	
 	CSecondaryTargetID
 	{
-		"ypos"											"c100"
+		"ypos"											"c80"
 	}		
 	CSpectatorTargetID
 	{
@@ -162,6 +162,14 @@
 		"xpos"											"c-60"
 		"ypos"											"35"
 		"wide"											"120"
+	}	
+
+	StatPanel
+	{
+		"xpos"											"c-130"
+		"ypos"											"c20"
+		"wide"											"260"
+		"tall"											"60"
 	}	
 }
 
