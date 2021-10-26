@@ -74,3 +74,15 @@ event RDNegativeScorePulse
 	Animate ScoreShadow FgColor	"black"		Accel 0.1 0.2
 }
 ////************************************************Robot Destruction (flash anim)
+
+////************************************************Prevent chat from moving
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
+////************************************************Prevent chat from moving
