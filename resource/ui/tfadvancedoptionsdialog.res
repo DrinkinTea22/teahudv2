@@ -8,7 +8,7 @@
 		"ypos"		"c-100"
 		"wide"		"500"
 		"tall"		"400"
-		"bgcolor_override"		"MENUBGCOLOR"
+		"bgcolor_override"		"black"
 		"paintbackground"		"1"
 		"border"				"bg_lrtb"
 	}
