@@ -48,7 +48,7 @@
 		"BlueTeamScoreDropshadow"
 		{
 			"font"			"tea20"
-			"xpos"			"-3"
+			"xpos"			"-4"
 			"ypos"			"1"
 			"wide"			"150"
 			"tall"			"30"
@@ -83,7 +83,7 @@
 		"RedTeamScoreDropshadow"
 		{
 			"font"			"tea20"
-			"xpos"			"153"
+			"xpos"			"157"
 			"ypos"			"1"
 			"wide"			"150"
 			"tall"			"30"
@@ -122,7 +122,7 @@
 		"font"			"tea12"
 		"xpos"			"-2"
 		"ypos"			"-2"
-		"wide"			"300"
+		"wide"			"0"
 		"tall"			"20"
 		"pin_to_sibling"							"WinningTeamLabel"
 		"pin_corner_to_sibling"						"0"
