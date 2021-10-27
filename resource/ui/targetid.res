@@ -68,24 +68,25 @@
 	{
 		"controlname"								"cexbutton"
 		"fieldname"									"quickpin"
-		"xpos"										"90"
+		"xpos"										"0"
 		"ypos"										"24"
-		"tall"										"0"
+		"wide"										"0"
+		"tall"										"10"
 		"visible"									"1"	
 		"enabled"									"1"
+		"paintbackground"							"0"
 		"labeltext"									""
 	}		
 	"KillStreakIcon"									//hardcoded element, move using pin
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"12"
-		"wide"			"10"
-		"tall"			"10"
-			
-		"pin_to_sibling"							"quickpin"
-		"pin_corner_to_sibling"						"0"
-		"pin_to_sibling_corner"						"0"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"12"
+		"wide"						"10"
+		"tall"						"10"
+		"pin_to_sibling"			"quickpin"
+		"pin_corner_to_sibling"		"5"
+		"pin_to_sibling_corner"		"5"
 	}
 	"SpectatorGUIHealth"
 	{
