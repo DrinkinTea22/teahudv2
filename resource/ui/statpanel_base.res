@@ -29,15 +29,17 @@
 	}
 	"titleLable"				//on the bright side...
 	{
-		"xpos"					"-40"
+		"xpos"					"0"
 		"ypos"					"5"
-		"wide"					"260"
+		"wide"					"175"
 		"textalignment"			"north"
 		"font"					"tea10"
 	}
 	"summaryLabel"
 	{
+		"xpos"					"72"
 		"ypos"					"0"
+		"wide"					"175"
 		"font"					"tea12"
 	}
 	StatBox
@@ -47,7 +49,7 @@
 		"tall"					"20"
 		"bgcolor_override"		"custombgcolor"
 	}
-	"StatLabelLarge"
+	"StatLabelLarge"			//shared position
 	{
 		"xpos"					"72"
 		"ypos"					"25"
@@ -56,10 +58,12 @@
 		"textalignment"			"west"
 		"font"					"tea14"
 	}
-	"StatLabelSmall"
+	"StatLabelSmall"			//shared position
 	{
-		"xpos"					"72"
-		"ypos"					"43"
+		"ypos"					"25"
+		"wide"					"175"
+		"tall"					"20"
+		"textalignment"			"west"
 		"font"					"tea12"
 	}
 	"StatPanelClassImage"
