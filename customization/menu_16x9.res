@@ -102,32 +102,9 @@
 	//no internet available
 	"NoGCMessage"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"250"
-		"tall"			"150"
+		"wide"			"350"
 		"textinsetx"		"0"
 		"textinsety"		"-40"
-		"centerwrap"		"1"
-		"font"				"tea18"
-		"fgcolor_override"	"white"
-		"textAlignment"		"center"
-		"bgcolor_override"							"custombgcolor"
-		"border"									"bg_rb"
-		"pin_to_sibling"							"bgbordercs1"
-		"pin_corner_to_sibling"						"0"
-		"pin_to_sibling_corner"						"0"
-	}
-	"NoGCImage"
-	{
-		"xpos"			"0"
-		"ypos"			"-20"
-		"wide"			"30"
-		"tall"			"30"
-		
-		"pin_to_sibling"							"NoGCMessage"
-		"pin_corner_to_sibling"						"6"
-		"pin_to_sibling_corner"						"6"
 	}		
 	//no internet available
 	
