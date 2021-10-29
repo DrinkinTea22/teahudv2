@@ -1,5 +1,4 @@
 #base "base/HudPlayerClass.res"
-//bottom-left class image/model panel
 "Resource/UI/HudPlayerClass.res"
 {
 	"PlayerStatusClassImage"
@@ -41,90 +40,96 @@
 	"classmodelpanel"
 	{
 		"xpos"			"0"	
-		"ypos"			"r204"	
-		"zpos"			"2"
-		
-		"fov"			"12"
-		
-		"model"
-		{
-			"angles_x"			"0"
-			"angles_y"			"172"
-			"angles_z"			"0"
-			"origin_x"			"200"
-			"origin_y"			"0"
-			"origin_z"			"-60"
-			"frame_origin_x"	"0"
-			"frame_origin_y"	"0"
-			"frame_origin_z"	"0"
-		}
+		"ypos"			"r200"	
 
 		"customclassdata"
 		{
 			"undefined"
 			{
+				//this makes everything work, do not delete
 			}
 			"Scout"
 			{
-				"fov"			"45"
-				"angles_x"		"0"
-				"angles_y"		"250"
+				"fov"			"26"
+				"angles_x"		"-17"
+				"angles_y"		"203"
+				"angles_z"		"-5"
+				"origin_x"		"115"
+				"origin_y"		"-1"
+				"origin_z"		"-85"
 			}
 			"Sniper"
 			{
-				"fov"			"45"
-				"angles_x"		"0"
-				"angles_y"		"250"
-				"origin_y"		"0"
+				"fov"			"28"
+				"angles_x"		"-15"
+				"angles_y"		"200"
+				"angles_z"		"-5"
+				"origin_x"		"115"
+				"origin_y"		"-1"
 			}
 			"Soldier"
 			{
-				"fov"			"40"
-				"angles_x"		"0"
-				"angles_y"		"250"
-				"origin_y"		"0"
+				"fov"			"32"
+				"angles_x"		"-15"
+				"angles_y"		"160"
+				"angles_z"		"2"
+				"origin_x"		"115"
+				"origin_y"		"-10"
+				"origin_z"		"-96"
 			}
 			"Demoman"
 			{
-				"fov"			"40"
-				"angles_x"		"0"
-				"angles_y"		"250"
-				"origin_y"		"0"
+				"fov"			"30"
+				"angles_x"		"-15"
+				"angles_y"		"195"
+				"angles_z"		"-5"
+				"origin_x"		"115"
+				"origin_y"		"-1"
 			}
 			"Medic"
 			{
-				"fov"			"40"
-				"angles_x"		"0"
-				"angles_y"		"250"
-				"origin_y"		"0"
+				"fov"			"28"
+				"angles_x"		"-15"
+				"angles_y"		"200"
+				"angles_z"		"-5"
+				"origin_x"		"115"
+				"origin_y"		"-1"
 			}
 			"Heavy"
 			{
-				"fov"			"30"
-				"angles_x"		"0"
-				"angles_y"		"250"
-				"origin_y"		"0"
+				"fov"			"32"
+				"angles_x"		"-15"
+				"angles_y"		"200"
+				"angles_z"		"-5"
+				"origin_x"		"115"
+				"origin_y"		"-1"
 			}
 			"Pyro"
 			{
-				"fov"			"34"
-				"angles_x"		"0"
-				"angles_y"		"250"
-				"origin_y"		"10"
+				"fov"			"30"
+				"angles_x"		"-10"
+				"angles_y"		"195"
+				"angles_z"		"-5"
+				"origin_x"		"115"
+				"origin_y"		"-1"
 			}
 			"Spy"
 			{
-				"fov"			"35"
-				"angles_x"		"0"
-				"angles_y"		"250"
-				"origin_y"		"0"
+				"fov"			"28"
+				"angles_x"		"-15"
+				"angles_y"		"200"
+				"angles_z"		"-5"
+				"origin_x"		"115"
+				"origin_y"		"-1"
 			}
 			"Engineer"
 			{
-				"fov"			"35"
-				"angles_x"		"0"
-				"angles_y"		"250"
-				"origin_y"		"0"
+				"fov"			"28"
+				"angles_x"		"-15"
+				"angles_y"		"200"
+				"angles_z"		"-5"
+				"origin_x"		"115"
+				"origin_y"		"-1"
 			}
 		}
 	}
