@@ -75,15 +75,17 @@
 			"proportionaltoparent"	"1"
 		}
 		
-		"TimePanelValue"
+		"TimePanelValue"							//waiting for players value (and something else)
 		{
 			"xpos"									"cs-0.5"
-			"ypos"									"-5"
+			"ypos"									"1"
 			"wide"									"f0"
 			"tall"									"20"
 			"fgcolor"								"white"
 			"font"									"tea14"
 			"proportionaltoparent"					"1"
+			"bgcolor_override"						"custombgcolor"
+			"border"								"bg_lrtb"
 
 			if_match
 			{
@@ -91,6 +93,8 @@
 				"wide"								"f0"
 				"tall"								"20"
 				"font"								"tea14"
+				"bgcolor_override"					"blank"
+				"border"							"noborder"
 			}
 		}	
 	}
