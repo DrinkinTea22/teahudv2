@@ -117,49 +117,29 @@
 		"tall"			"20"
 		"proportionaltoparent"	"1"
 	}
-	"WinningTeamLabelDropshadow"
-	{	
-		"font"			"tea12"
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"wide"			"0"
-		"tall"			"20"
-		"pin_to_sibling"							"WinningTeamLabel"
-		"pin_corner_to_sibling"						"0"
-		"pin_to_sibling_corner"						"0"
-	}
 	"AdvancingTeamLabel"
 	{	
 		"font"			"tea12"
-		"ypos"			"-6"
+		"xpos"			"0"
+		"ypos"			"-8"
 		"wide"			"300"
 		"tall"			"20"
-		"pin_to_sibling""WinningTeamLabelDropshadow"
-	}
-	"AdvancingTeamLabelDropshadow"
-	{	
-		"font"			"tea12"
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"wide"			"300"
-		"tall"			"20"
-		"pin_to_sibling"							"AdvancingTeamLabel"
-		"pin_corner_to_sibling"						"0"
-		"pin_to_sibling_corner"						"0"
+		"pin_to_sibling""WinningTeamLabel"
 	}
 	"WinReasonLabel"
 	{	
 		"font"			"tea11"
 		"xpos"			"0"
-		"ypos"			"-10"
+		"ypos"			"-8"
 		"wide"			"300"
-		"pin_to_sibling""WinningTeamLabelDropshadow"
+		"tall"			"20"
+		"pin_to_sibling""AdvancingTeamLabel"
 	}
 	"DetailsLabel"
 	{	
 		"font"			"tea11"
 		"xpos"			"0"
-		"ypos"			"-14"
+		"ypos"			"-8"
 		"wide"			"300"
 		"tall"			"20"
 		"pin_to_sibling""WinReasonLabel"
@@ -342,7 +322,15 @@
 	}
 	//stats
 
-	// [removed lol]
+	// [deleted lol]
+	"AdvancingTeamLabelDropshadow"
+	{	
+		"xpos"			"9999"
+	}
+	"WinningTeamLabelDropshadow"
+	{	
+		"xpos"			"9999"
+	}	
 	"KillStreakLeaderLabel"
 	{	
 		"xpos"			"9999"
