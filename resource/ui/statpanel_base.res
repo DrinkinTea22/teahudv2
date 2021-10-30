@@ -2,7 +2,7 @@
 //dialog when you overdo in a life
 "Resource/UI/StatPanel_PlayTime.res"
 {
-	//this were taken from hudlayout
+	//this was taken from hudlayout
 	//StatPanel
 	//{
 	//	"xpos"					"c-130"
@@ -10,7 +10,8 @@
 	//	"wide"					"260"
 	//	"tall"					"60"
 	//}	
-	//this were taken from hudlayout
+	//this was taken from hudlayout
+
 	"StatPanelBG"
 	{
 		"xpos"					"0"
@@ -29,10 +30,10 @@
 	}
 	"titleLable"				//on the bright side...
 	{
-		"xpos"					"0"
+		"xpos"					"72"
 		"ypos"					"5"
 		"wide"					"175"
-		"textalignment"			"north"
+		"textalignment"			"west"
 		"font"					"tea10"
 	}
 	"summaryLabel"
@@ -40,19 +41,20 @@
 		"xpos"					"72"
 		"ypos"					"0"
 		"wide"					"175"
+		//"textalignment"		"west"	//default value
 		"font"					"tea12"
 	}
 	StatBox
 	{
 		"xpos"					"72"
-		"ypos"					"25"
+		"ypos"					"32"
 		"tall"					"20"
 		"bgcolor_override"		"custombgcolor"
 	}
 	"StatLabelLarge"			//shared position
 	{
-		"xpos"					"72"
-		"ypos"					"25"
+		"xpos"					"82"
+		"ypos"					"32"
 		"wide"					"175"
 		"tall"					"20"
 		"textalignment"			"west"
@@ -60,7 +62,7 @@
 	}
 	"StatLabelSmall"			//shared position
 	{
-		"ypos"					"25"
+		"ypos"					"32"
 		"wide"					"175"
 		"tall"					"20"
 		"textalignment"			"west"
@@ -69,7 +71,7 @@
 	"StatPanelClassImage"
 	{
 		"xpos"					"20"
-		"ypos"					"8"
+		"ypos"					"12"
 		"wide"					"32"
 		"tall"					"32"
 	}
