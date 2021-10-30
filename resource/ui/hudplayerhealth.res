@@ -37,16 +37,16 @@
 		"proportionaltoparent"							"1"
 		
 		"HealthBonusPosAdj"								"35"
-		"HealthDeathWarning"							"0.49"
+		"HealthDeathWarning"							"0.60"
 		"HealthDeathWarningColor"						"HUDDeathWarning"
 	}		
 	"PlayerStatusHealthBonusImage"
 	{
 		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.60"
-		"zpos"			"2"
-		"wide"			"20"	
-		"tall"			"20"
+		"ypos"										"cs-0.55"
+		"zpos"										"2"
+		"wide"										"40"	
+		"tall"										"40"
 		"proportionaltoparent"						"1"	
 	}
 	"PlayerStatusHealthValue"
