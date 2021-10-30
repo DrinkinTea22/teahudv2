@@ -7,13 +7,9 @@
 		"xpos"					"5"
 		"wide"					"38"
 		"tall"					"f0"
-		
-		"delta_item_x"			"26"
-		"delta_item_start_y"	"28"
-		"delta_item_end_y"		"28"
+
 		"PositiveColor"			"positive"
 		"NegativeColor"			"negative"
-		"delta_lifetime"		"1.5"
 		"delta_item_font"		"tea14"
 		"proportionaltoparent"	"1"
 
@@ -24,12 +20,8 @@
 			"wide"					"40"
 			"tall"					"f0"
 			
-			"delta_item_x"			"26"
-			"delta_item_start_y"	"37"
-			"delta_item_end_y"		"37"
 			"PositiveColor"			"positive"
 			"NegativeColor"			"negative"
-			"delta_lifetime"		"1.5"
 			"delta_item_font"		"tea12"
 			"proportionaltoparent"	"1"
 		}
@@ -38,7 +30,7 @@
 		{
 			"font"					"tea14"
 			"fgcolor"				"white"
-			"xpos"					"cs-0.5"
+			"xpos"					"cs-0.5"		//cs-0.5
 			"ypos"					"0"
 			"wide"					"f0"
 			"tall"					"20"
@@ -65,13 +57,10 @@
 		"wide"					"38"
 		"tall"					"f0"
 		
-		"delta_item_x"			"26"
-		"delta_item_start_y"	"28"
-		"delta_item_end_y"		"28"
 		"PositiveColor"			"positive"
 		"NegativeColor"			"negative"
-		"delta_lifetime"		"1.5"
 		"delta_item_font"		"tea14"
+		
 		"proportionaltoparent"	"1"
 
 		if_match		//tf_use_match_hud 1 (timer)
@@ -81,12 +70,8 @@
 			"wide"					"40"
 			"tall"					"f0"
 			
-			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
 			"PositiveColor"			"positive"
 			"NegativeColor"			"negative"
-			"delta_lifetime"		"1.5"
 			"delta_item_font"		"tea18"
 		}
 		
@@ -118,7 +103,7 @@
 	{
 		"ypos"		"22"
 		"wide"		"38"
-		"tall"		"5"
+		"tall"		"2"
 		"image"		"../vgui/replay/thumbnails/null"
 		"fillcolor"	"white"
 	}
