@@ -9,6 +9,9 @@
 #base "../customization/enabled/crosshair.res"
 //streamer mode
 #base "../customization/enabled/enabled_default/streamermode.res"
+//custom engineer metal position
+#base "../customization/enabled/lowered_metal_stickies.res"				//2
+#base "../customization/enabled/enabled_default/hudaccountpanel.res"	//1
 
 #base "base/hudlayout.res"
 
@@ -49,7 +52,6 @@
 		//"border"										"bg_lrtb" //testing
 	}	
 	
-
 	HudDemomanPipes
 	{
 		"xpos"											"c-75"		
@@ -69,15 +71,7 @@
 	{
 		"xpos"											"9999"
 	}		
-	
-	
-	CHudAccountPanel
-	{
-		"xpos"											"c-25"	
-		"ypos"											"c20"	
-		"wide"											"50"
-		"tall"											"30"
-	}	
+
 	BuildingStatus_Engineer
 	{
 		"ypos"											"120"	//do not mess my hudmatchstatus pls
