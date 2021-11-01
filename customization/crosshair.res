@@ -18,7 +18,7 @@
 		// Checkout the different options in the TF2Crosshairs.png
 		//=========================================================================
 		
-		"labelText"	"3"
+		"labelText"	"<"
 		
 		//=========================================================================
 		// CROSSHAIR SIZE & PROPERTIES
