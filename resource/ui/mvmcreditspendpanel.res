@@ -2,56 +2,51 @@
 
 "Resource/UI/MvMCreditSpendPanel.res"
 {	
-	"HeaderLabel"		//not needed
+	"HeaderLabel"
 	{
-		"wide"			"0"
-		"tall"			"0"
+		"font"			"tea16"
+		"textAlignment" "center"
+		"ypos"			"-2"
+		"wide"			"200"
+		"fgcolor"		"white"
 	}
 	"TableBackground"
 	{
-		"bgcolor_override"		"custombgcolor"
+		"tall"				"38"
+		"bgcolor_override"	"custombgcolor"
 	}
 	
 	"UpgradesLabel"
 	{
 		"font"			"tea14"
-		"xpos"			"5"
 		"fgcolor"		"MVMsubLabel"
 	}
 	"UpgradesCountLabel"
 	{
 		"font"			"tea14"
-		"xpos"			"rs1-15"
 		"fgcolor"		"MVMsubPositive"
-		"proportionaltoparent"					"1"
 	}
 	
 	"BuyBackLabel"
 	{
 		"font"			"tea14"
-		"xpos"			"5"
 		"fgcolor"		"MVMsubLabel"
 	}
 	"BuyBackCountLabel"
 	{
 		"font"			"tea14"
-		"xpos"			"rs1-15"
 		"fgcolor"		"MVMsubNegative"
-		"proportionaltoparent"					"1"
 	}
 	
 	"BottleLabel"
 	{
 		"font"			"tea14"
-		"xpos"			"5"
 		"fgcolor"		"MVMsubLabel"
 	}
 	
 	"BottleCountLabel"
 	{
 		"font"			"tea14"
-		"xpos"			"rs1-15"
 		"fgcolor"		"MVMsubBonus"
-		"proportionaltoparent"					"1"
 	}
 }

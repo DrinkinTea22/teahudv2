@@ -13,9 +13,9 @@
 	"PopFileLabel"				//map name
 	{
 		"xpos"			"0"
-		"ypos"			"375"
+		"ypos"			"290"
 		"wide"			"f0"
-		"font"			"tea16"
+		"font"			"tea14"
 		"textAlignment"	"center"
 		"fgcolor"		"white"
 	}
@@ -44,6 +44,7 @@
 	"PlayerListBackground"
 	{
 		"xpos"								"cs-0.5"
+		"tall"								"260"
 		"proportionaltoparent"				"1"
 		"border"							"bg_lrtb"	
 		
@@ -61,25 +62,17 @@
 	"CreditStatsContainer"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"224"
-		"wide"			"400"
+		"ypos"			"228"
+		"wide"			"550"
 		"tall"			"205"
 		"proportionaltoparent"	"1"
 		
 		"CreditStatsBackground"
 		{
-			"tall"			"110"
-			"border"							"bg_lrb"	
-			
-			"src_corner_height"					"25"
-			"src_corner_width"					"25"
-			"draw_corner_width"					"0"
-			"draw_corner_height"				"0"	
+			"tall"			"0"
 		}
-		
 		"CreditsLabel"
 		{
-			"wide"			"0"
 			"tall"			"0"
 		}
 		
@@ -101,8 +94,6 @@
 		
 		"PreviousWaveCreditSpendPanel"
 		{
-			"ControlName"	"CCreditSpendPanel"
-			"fieldName"		"PreviousWaveCreditSpendPanel"
 			"xpos"			"5"
 			"ypos"			"50"
 			"tall"			"60"
@@ -120,12 +111,6 @@
 		"RespecStatusLabel"
 		{
 			"font"			"tea14"
-			"xpos"			"0"
-			"ypos"			"rs1-0"
-			"wide"			"f0"
-			"tall"			"20"
-			"fgcolor"		"white"
-			"proportionaltoparent"					"1"
 		}
 	}
 }

@@ -107,9 +107,10 @@
 		if_mvm
 		{
 			"xpos"			"0"
-			"ypos"			"350"
+			"ypos"			"250"
 			"wide"			"f0"
 			"textAlignment"	"center"
+			"zpos"			"100"
 			"visible"		"1"
 		}
 	}	
@@ -129,6 +130,7 @@
 			"ypos"			"-10"
 			"wide"			"f0"
 			"textAlignment"	"center"
+			"zpos"			"100"
 			"visible"		"1"
 		}
 	}
