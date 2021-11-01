@@ -36,8 +36,8 @@ tf
 * [✔] Payload and Payload Race
 * [✔] Territorial Control and Domination
 * [✔] Mannpower
+* [✔] arena
 * [✘] passtime
-* [✘] arena
 * [✘] valve competitive
 
 ## Features
