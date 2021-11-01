@@ -142,7 +142,14 @@
 		"tall"											"400"
 		"proportionaltoparent"							"1"
 	}
-	
+	ArenaWinPanel
+	{
+		"xpos"											"cs-0.5"
+		"ypos"											"0"
+		"wide"											"480"
+		"tall"											"400"
+		"proportionaltoparent"							"1"
+	}
 	PVEWinPanel
 	{
 		"xpos"											"c-150"
@@ -170,6 +177,11 @@
 		"ypos"											"c20"
 		"wide"											"260"
 		"tall"											"60"
+	}	
+	
+	HudArenaPlayerCount
+	{
+		"ypos"											"30"
 	}	
 }
 
