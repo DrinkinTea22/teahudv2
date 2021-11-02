@@ -72,9 +72,26 @@
 		"xpos"											"9999"
 	}		
 
-	BuildingStatus_Engineer
+	"BuildingAnchor"
 	{
-		"ypos"											"120"	//do not mess my hudmatchstatus pls
+		"ControlName"									"EditablePanel"
+		"fieldName"										"BuildingAnchor"
+		"xpos"											"-8"
+		"ypos"											"120"
+		"zpos"											"0"
+		"wide"											"1"
+		"tall"											"1"
+		"visible"										"0"
+		"enabled"										"1"
+		"alpha"											"0"
+	}
+	BuildingStatus_Engineer							//this prevent the panel to reset its ypos (hardcoded anim)
+	{
+		"pin_to_sibling"							"BuildingAnchor"
+	}	
+	BuildingStatus_spy								//this prevent the panel to reset its ypos (hardcoded anim)
+	{
+		"pin_to_sibling"							"BuildingAnchor"
 	}	
 	"HudMenuEngyBuild"
 	{
