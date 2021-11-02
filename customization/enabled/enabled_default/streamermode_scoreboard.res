@@ -273,7 +273,7 @@
 		"xpos"			"c-310"
 		"ypos"			"67"
 		"wide"			"310"
-		"tall"			"260"
+		"tall"			"258"
 		"linegap"		"3"
 	}
 	"RedPlayerList"
@@ -281,7 +281,7 @@
 		"xpos"			"c0"
 		"ypos"			"67"
 		"wide"			"310"
-		"tall"			"260"
+		"tall"			"258"
 		"linegap"		"3"
 	}
 
