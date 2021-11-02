@@ -349,6 +349,13 @@
 		{
 			"ypos"			"200"
 			"wide"			"125"
+			
+			"Description"
+			{
+				"font"			"tea11"
+				"wide"			"125"
+				"tall"			"50"
+			}
 		}	
 		"STM1Button"
 		{

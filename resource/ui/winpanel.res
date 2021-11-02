@@ -1,4 +1,4 @@
-#base "../../customization/enabled/enabled_default/streamermode.res"
+#base "../../customization/enabled/streamer_mode.res"
 #base "base/winpanel.res"
 //winpanel lol
 "Resource/UI/winpanel.res"

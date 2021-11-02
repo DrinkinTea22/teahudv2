@@ -1,4 +1,4 @@
-#base "../../customization/enabled/enabled_default/streamermode.res"
+#base "../../customization/enabled/streamer_mode.res"
 #base "base/spectator.res"
 
 "Resource/UI/Spectator.res"

@@ -1,4 +1,4 @@
-#base "../../customization/enabled/enabled_default/streamermode.res"
+#base "../../customization/enabled/streamer_mode.res"
 #base "../../customization/enabled/matchstatus_playername.res"
 #base "../../customization/enabled/matchstatus_16x9_icons.res"
 #base "../../customization/enabled/enabled_default/matchstatus_4x3_icons.res"

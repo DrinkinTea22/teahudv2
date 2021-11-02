@@ -4,29 +4,29 @@
 	////********************************************HudLayout.
 	HudVoiceStatus
 	{
-		"text_xpos_minmode"							"9999"
+		"text_xpos"							"9999"
 	}
 	HudSpectatorExtras
 	{
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}
 	HudDeathNotice
 	{
-		"TextFont_minmode"							""
+		"TextFont"							""
 	}
 	////********************************************HudLayout.
 	
 	////********************************************Menu Friendlist.
 	"NameLabel"
 	{
-		"labelText_minmode"							":)"
+		"labelText"							":)"
 	}
 	////********************************************Menu Friendlist.
 
 	////********************************************Disguise Status.	
 	"DisguiseNameLabel"
 	{
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}
 	////********************************************Disguise Status.	
 
@@ -35,11 +35,11 @@
 	{
 		"FreezeLabel"
 		{
-			"wide_minmode"							"0"
+			"wide"							"0"
 		}	
 		"FreezeLabelKiller"
 		{
-			"wide_minmode"							"0"
+			"wide"							"0"
 		}
 	}
 	////********************************************Killcam.
@@ -47,57 +47,57 @@
 	////********************************************MVM Scoreboard.
 	"MvMPlayerList"
 	{
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}
 	////********************************************MVM Scoreboard.
 
 	////********************************************Scoreboard.	
 	"bg_list"
 	{
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}
 	"BluePlayerList"
 	{
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}							
 	"RedPlayerList"							
 	{
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}
 	"ServerLabelNew"
 	{
-		"wide_minmode"								"0"	
+		"wide"								"0"	
 	}
 	"Spectators"
 	{
-		"wide_minmode"								"0"	
+		"wide"								"0"	
 	}
 
 	"Player1Name"
 	{
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}	
 	"Player2Name"
 	{
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}
 	"Player3Name"
 	{
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}
 	////********************************************Scoreboard.
 
 	////********************************************TargetID.	
 	"TargetNameLabel"
 	{
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}
 	////********************************************TargetID.
 
 	////********************************************Every itempanel.
 	"itempanel"							
 	{							
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}	
 	////********************************************Every itempanel.
 
@@ -108,11 +108,11 @@
 		{			
 			"playername"
 			{
-				"wide_minmode"						"0"
+				"wide"						"0"
 				
 				if_mvm
 				{
-					"wide_minmode"					"0"
+					"wide"					"0"
 				}
 			}
 		}
@@ -123,21 +123,21 @@
 		{
 			"playername"
 			{
-				"wide_minmode"						"0"	
+				"wide"						"0"	
 				
 				if_mvm
 				{
-					"wide_minmode"					"0"
+					"wide"					"0"
 				}
 
 				if_competitive
 				{
-					"wide_minmode"					"0"
+					"wide"					"0"
 				}
 
 				if_readymode
 				{
-					"wide_minmode"					"0"
+					"wide"					"0"
 				}				
 			}
 		}	
@@ -147,11 +147,11 @@
 	////********************************************matchstatus end screen.	
 	"BlueTeamPanel"
 	{
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}
 	"RedTeamPanel"
 	{
-		"wide_minmode"								"0"
+		"wide"								"0"
 	}	
 	////********************************************matchstatus end screen.
 	
@@ -162,31 +162,31 @@
 		{
 			"BlueTeamPanel"
 			{
-				"wide_minmode"						"0"
-				"tall_minmode"						"0"
+				"wide"						"0"
+				"tall"						"0"
 
 				"BluePlayerListParent"
 				{
 					BluePlayerList
 					{
-						"medal_minmode"					"0"
-						"wide_minmode"					"0"
-						"tall_minmode"					"0"
+						"medal"					"0"
+						"wide"					"0"
+						"tall"					"0"
 					}
 				}
 			}
             "RedTeamPanel"
             {
-				"wide_minmode"						"0"
-				"tall_minmode"						"0"
+				"wide"						"0"
+				"tall"						"0"
 
 				"RedPlayerListParent"
 				{
 					RedPlayerListParent
 					{
-						"medal_minmode"					"0"
-						"wide_minmode"					"0"
-						"tall_minmode"					"0"
+						"medal"					"0"
+						"wide"					"0"
+						"tall"					"0"
 					}
 				}
 			}
@@ -197,16 +197,32 @@
 	////********************************************Arena WinPanel.
 	"ArenaWinPanelWinnersPanel"
 	{						
-		"Name"						
+		"Player1Name"
 		{
-			"wide_minmode"							"0"
+			"wide"							"0"
+		}			
+		"Player2Name"
+		{
+			"wide"							"0"
+		}		
+		"Player3Name"
+		{
+			"wide"							"0"
 		}
 	}
 	"ArenaWinPanelLosersPanel"
 	{						
-		"Name"						
+		"Player1Name"
 		{
-			"wide_minmode"							"0"
+			"wide"							"0"
+		}			
+		"Player2Name"
+		{
+			"wide"							"0"
+		}		
+		"Player3Name"
+		{
+			"wide"							"0"
 		}
 	}
 	////********************************************Arena WinPanel.	

@@ -1,3 +1,4 @@
+#base "../../customization/enabled/streamer_mode.res"
 #base "base/hudarenawinpanel.res"
 //the name of the file.
 //toggle this with #base in hudlayout
