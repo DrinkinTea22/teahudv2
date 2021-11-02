@@ -195,31 +195,60 @@
 	////********************************************matchsummary.
 	
 	////********************************************Arena WinPanel.
+	"ShadedBar"
+	{
+		"xpos"								"cs-0.5"	//this fixes stuff
+		"ypos"								"c95"		//this fixes stuff
+	}	
 	"ArenaWinPanelWinnersPanel"
-	{						
+	{
+		"Player1Avatar"
+		{
+			"wide"							"0"
+		}	
 		"Player1Name"
+		{
+			"wide"							"0"
+		}
+		"Player2Avatar"
 		{
 			"wide"							"0"
 		}			
 		"Player2Name"
 		{
 			"wide"							"0"
-		}		
+		}
+		"Player3Avatar"
+		{
+			"wide"							"0"
+		}			
 		"Player3Name"
 		{
 			"wide"							"0"
 		}
 	}
 	"ArenaWinPanelLosersPanel"
-	{						
+	{
+		"Player1Avatar"
+		{
+			"wide"							"0"
+		}	
 		"Player1Name"
+		{
+			"wide"							"0"
+		}
+		"Player2Avatar"
 		{
 			"wide"							"0"
 		}			
 		"Player2Name"
 		{
 			"wide"							"0"
-		}		
+		}
+		"Player3Avatar"
+		{
+			"wide"							"0"
+		}			
 		"Player3Name"
 		{
 			"wide"							"0"

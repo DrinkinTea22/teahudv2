@@ -1,17 +1,17 @@
-#base "../resource/ui/custom/damageindicator.res"
-#base "../resource/ui/custom/killfeed.res"
-#base "../resource/ui/custom/closecaptions.res"
-#base "../resource/ui/custom/crosshair.res"
-
 //transparent viewmodels
 #base "../customization/enabled/transparent_viewmodels.res"
 //crosshairs
 #base "../customization/enabled/crosshair.res"
 //streamer mode
-#base "../customization/enabled/enabled_default/streamermode.res"
+#base "../customization/enabled/streamer_mode.res"
 //custom engineer metal position
 #base "../customization/enabled/lowered_metal_stickies.res"				//2
 #base "../customization/enabled/enabled_default/hudaccountpanel.res"	//1
+
+#base "../resource/ui/custom/damageindicator.res"
+#base "../resource/ui/custom/killfeed.res"
+#base "../resource/ui/custom/closecaptions.res"
+#base "../resource/ui/custom/crosshair.res"
 
 #base "base/hudlayout.res"
 
