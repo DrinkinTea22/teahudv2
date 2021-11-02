@@ -24,6 +24,8 @@ tf
 * Thin Outlines: makes ammo/health outlines thinner
 * Transparent Viewmodels: enables transparent viewmodels (only works on dxlevel 90 or higher)
 * Player Name: enables player names for match status
+* Lowered Metal Stickies: makes metal and stickies to not be bellow the crosshair
+* Streamer Mode: makes streamer's life easier
 
 ## Supported GameModes
 
