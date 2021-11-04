@@ -1,46 +1,122 @@
 "Resource/UI/FreezePanel_Basic.res"
-{
-	"FreezePanelBase"
+{	
+	"FreezePanelBase"	[$WIN32]
 	{
+		"xpos"			"cs-0.5"
+		"ypos"			"c20"		
+		"wide"			"300"	
+		"proportionaltoparent"		"1"
+
 		"FreezePanelBG"
 		{
+			"xpos"			"0"
+			"ypos"			"0"
+			"tall"			"20"
+			"wide"			"300"
+			"border"				"bg_lrtb"
 			"src_corner_height"		"25"
 			"src_corner_width"		"25"
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"	
 		}
-		
-		"FreezeLabel"
-		{	
-			"font"			"tea12"
-		}
-		"FreezePanelHealth"
+		"FreezePanelHealth"		[$WIN32]
 		{
-			"ypos"			"162"
+			"xpos"			"0"
+			"ypos"			"0"
+			"tall"			"21"
 		}	
-		"FreezeLabelKiller"
+		"FreezeLabelKiller"	//screw this.
 		{
+			"xpos"			"9999"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"FreezeLabel"		//screw this.
+		{
+			"xpos"			"9999"
+		}
+		"FreezeLabelKillerFIXED"
+		{	
+			"ControlName"	"CEXLabel"
+			"fieldName"		"FreezeLabelKillerFIXED"
 			"font"			"tea12"
+			"xpos"			"60"
+			"ypos"			"0"
+			"wide"			"300"
+			"tall"			"20"
+			"textAlignment"	"west"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%killername%"
+		}
+		"AvatarImage"
+		{
+			"xpos"			"40"
+			"ypos"			"3"
+			"wide"			"14"
+			"tall"			"14"
+			"border"			"bg_lrtb"
 		}	
 		"NemesisSubPanel"
 		{
-			"ypos"			"120"
-			
-			"NemesisPanelBG"
+			"ypos"			"20"
+			"wide"			"300"
+			"tall"			"20"
+
+			"bg_custom"
 			{
-				"tall"					"26"
-				"src_corner_height"		"25"
-				"src_corner_width"		"25"
-				"draw_corner_width"		"0"
-				"draw_corner_height" 	"0"	
-			}	
-			"NemesisLabel"
-			{
-				"font"			"tea12"
+				"ControlName"			"ImagePanel"
+				"fieldName"				"bg_custom"
+				"xpos"					"cs-0.5"
+				"ypos"					"20"
+				"zpos"					"-1"
+				"wide"					"150"
+				"tall"					"12"
+				"visible"				"1"
+				"enabled"				"1"
+				"proportionaltoparent"			"1"	
+				"border"				"bg_lrtb"	
+				"fillcolor"				"custombgcolor"
 			}
-			"NemesisLabel2"
-			{
+			"NemesisLabelFIXED"
+			{	
+				"ControlName"	"CEXLabel"
+				"fieldName"		"NemesisLabelFIXED"
 				"font"			"tea12"
+				"xpos"			"75"
+				"ypos"			"19"
+				"wide"			"150"
+				"tall"			"15"
+				"textAlignment"	"center"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"%nemesisname%"
+			}	
+			"NemesisPanelBG"	//screw this.
+			{
+				"xpos"			"9999"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
+			}
+			"NemesisIcon"		//screw this.
+			{
+				"tall"			"0"
+			}	
+			"NemesisLabel"		//screw this.
+			{
+				"xpos"			"9999"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
+			}
+			"NemesisLabel2"		//screw this.
+			{
+				"xpos"			"9999"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 			}
 		}
 	}
@@ -81,7 +157,7 @@
 			"visible"				"0"
 			"enabled"				"0"
 		}
-	}	
+	}
 	"itempanel"
 	{
 		"border"			"bg_lrtb"
@@ -100,5 +176,5 @@
 			"wide"			"0"
 			"tall"			"0"
 		}
-	}	
+	}		
 }
