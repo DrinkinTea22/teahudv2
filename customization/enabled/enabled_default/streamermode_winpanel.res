@@ -37,7 +37,7 @@
 		}							
 		"BlueTeamScore"
 		{
-			"font"			"tea20"
+			"font"			"tea26"
 			"xpos"			"-5"
 			"ypos"			"0"
 			"wide"			"150"
@@ -45,9 +45,9 @@
 		}
 		"BlueTeamScoreDropshadow"
 		{
-			"font"			"tea20"
-			"xpos"			"-4"
-			"ypos"			"1"
+			"font"			"tea26"
+			"xpos"			"-3"
+			"ypos"			"2"
 			"wide"			"150"
 			"tall"			"30"
 		}
@@ -72,7 +72,7 @@
 		}							
 		"RedTeamScore"
 		{
-			"font"			"tea20"
+			"font"			"tea26"
 			"xpos"			"155"
 			"ypos"			"0"
 			"wide"			"150"
@@ -80,9 +80,9 @@
 		}
 		"RedTeamScoreDropshadow"
 		{
-			"font"			"tea20"
+			"font"			"tea26"
 			"xpos"			"157"
-			"ypos"			"1"
+			"ypos"			"2"
 			"wide"			"150"
 			"tall"			"30"
 		}
