@@ -34,7 +34,7 @@
 		}
 		"Issue"
 		{
-			"font"				"tea14"
+			"font"				"tea12"
 			"fgcolor_override"	"white"
 		}
 		"TargetAvatarImage"
