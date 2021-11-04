@@ -28,6 +28,17 @@
 		"tall"			"18"
 		"textAlignment"	"Center"
 	}
+	"NotBuiltLabel"
+	{	
+		"font"			"tea14"
+		"fgcolor"		"white"
+		"xpos"			"0"
+		"ypos"			"65"
+		"zpos"			"1"
+		"wide"			"75"
+		"tall"			"15"
+		"textAlignment"	"center"	
+	}		
 	"ItemNameLabel"
 	{	
 		"xpos"			"9999"
@@ -40,12 +51,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	"NotBuiltLabel"
-	{	
-		"xpos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
-	}		
 	"NumberBg"	
 	{
 		"xpos"			"9999"
