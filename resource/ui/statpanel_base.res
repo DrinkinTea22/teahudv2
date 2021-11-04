@@ -31,7 +31,7 @@
 	"titleLable"				//on the bright side...
 	{
 		"xpos"					"72"
-		"ypos"					"5"
+		"ypos"					"2"
 		"wide"					"175"
 		"textalignment"			"west"
 		"font"					"tea10"
