@@ -44,13 +44,6 @@
 		//"textalignment"		"west"	//default value
 		"font"					"tea12"
 	}
-	StatBox
-	{
-		"xpos"					"72"
-		"ypos"					"32"
-		"tall"					"20"
-		"bgcolor_override"		"custombgcolor"
-	}
 	"StatLabelLarge"			//shared position
 	{
 		"xpos"					"82"
@@ -74,5 +67,12 @@
 		"ypos"					"12"
 		"wide"					"32"
 		"tall"					"32"
+	}
+	StatBox
+	{
+		"xpos"					"72"
+		"ypos"					"32"
+		"tall"					"20"
+		"bgcolor_override"		"custombgcolor"
 	}
 }
