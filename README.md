@@ -25,7 +25,7 @@ tf
 * Transparent Viewmodels: enables transparent viewmodels (only works on dxlevel 90 or higher)
 * Player Name: enables player names for match status
 * Lowered Metal Stickies: makes metal and stickies to not be bellow the crosshair
-* Streamer Mode: makes streamer's life easier
+* Streamer Mode: makes streamer's life easier (needs to be done with the game closed)
 
 ## Supported GameModes
 
@@ -39,7 +39,7 @@ tf
 * [✔] Territorial Control and Domination
 * [✔] Mannpower
 * [✔] arena
-* [✘] passtime
+* [✔] passtime
 * [✘] valve competitive
 
 ## Features
@@ -54,8 +54,6 @@ tf
 * Remove play-button background-dimmer option
 * Preloaded cp icons (sv_pure compatible)
 * Fixes for certain existing hud materials
-* Custom basic shape materials
-* Custom refract and blur materials with fallbacks
 * Custom crosshairs, from [
 TF2-Hud-Crosshairs](https://github.com/Hypnootize/TF2-Hud-Crosshairs)
 
