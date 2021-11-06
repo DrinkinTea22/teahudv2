@@ -358,13 +358,15 @@ scheme
 			"draw_corner_width"						"0"				
 			"draw_corner_height" 					"0"	
 		}
-		EconItemBorder								//classloadout no item border
+		EconItemBorder								//classloadout no item border and quit/disconnect dialog border
 		{
-			"src_corner_height"						"25"
+			"color"									"bodercolor"
+			"bordercolor_override"					"bodercolor"
 			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
-		}		
+			"src_corner_height"						"25"
+			"draw_corner_width"						"4"
+			"draw_corner_height"					"4"
+		}											//to make life easier i wont make a custom bg for each dialog panel.
 		//*******************************************Loadout Default Item Fixes	
 		
 		//*******************************************Spectatour Borders

@@ -799,6 +799,7 @@ Scheme
 			"1"
 			{
 				"name"		"rubik semibold"
+				"tall"		"12"
 				"weight"	"0"
 			}
 		}
@@ -807,6 +808,7 @@ Scheme
 			"1"
 			{
 				"name"		"rubik semibold"
+				"tall"		"22"
 				"weight"	"0"
 			}
 		}
@@ -847,5 +849,132 @@ Scheme
 			}
 		}
 		//killstreak notice
+		
+		//bold fonts override (maximum laziness)
+		"HudFontGiantBold"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"tall"		"42"
+				"weight"	"0"
+			}
+		}
+		MatchmakingDialogTitle
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"tall"		"34"
+				"weight"	"0"
+			}
+		}		
+		"TeamMenuBold"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"tall"		"34"
+				"weight"	"0"
+			}
+		}			
+		"HudFontBiggerBold"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"tall"		"33"
+				"weight"	"0"
+			}
+		}		
+		"HudFontMediumBigBold"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"tall"		"28"
+				"weight"	"0"
+			}
+		}	
+		MatchmakingDialogSessionOptionsTitle
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"tall"		"28"
+				"weight"	"0"
+			}
+		}				
+		"HudFontMediumBold"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"tall"		"22"
+				"weight"	"0"
+			}
+		}
+		"ReplayBrowserTab"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"tall"		"22"
+				"weight"	"0"
+			}
+		}
+		"HudFontSmallishBold"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"tall"		"14"
+				"weight"	"0"
+			}
+		}
+		"HudFontSmallBoldShadow"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"tall"		"12"
+				"weight"	"0"
+			}
+		}		
+		"ReplayMedium"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"tall"		"12"
+				"weight"	"0"
+			}
+		}
+		"ReplayMediumSmall"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"tall"		"9"
+				"weight"	"0"
+			}
+		}	
+		"PerformanceModeSmall"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"weight"	"0"
+			}
+		}
+		"FontStorePriceSmall"
+		{
+			"1"
+			{
+				"name"		"rubik semibold"
+				"weight"	"0"
+			}
+		}
+		//bold fonts override (maximum laziness)
 	}
 }
