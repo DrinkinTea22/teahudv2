@@ -23,11 +23,13 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1"
 		"tall"										"9"
+		"zpos"										"-10"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"font"										"tea9"
 		"fgcolor"									"White"
+		"bgcolor_override"							"custombgcolor"
 	}
 	"PlayingToBG"
 	{		"xpos"										"9999"		}
@@ -125,6 +127,7 @@
 				"ypos"								"-1"
 				"textAlignment"						"east"
 				"font"								"tea18"
+				"bgcolor_override"					"MainBlueHover"
 
 				"pin_to_sibling"					"EscrowBlue"
 			}
@@ -152,6 +155,7 @@
 				"ypos"								"-1"
 				"textAlignment"						"west"
 				"font"								"tea18"
+				"bgcolor_override"					"MainRedHover"
 
 				"pin_to_sibling"					"EscrowRed"
 			}
@@ -345,8 +349,8 @@
 			}
 			"ScoreShadow"
 			{
-				"xpos"								"-1"
-				"ypos"								"-1"
+				"xpos"								"-2"
+				"ypos"								"-2"
 				"wide"								"f0"
 				"tall"								"f0"
 				"textAlignment"						"east"
@@ -375,8 +379,8 @@
 			}
 			"ScoreShadow"
 			{
-				"xpos"								"-1"
-				"ypos"								"-1"
+				"xpos"								"-2"
+				"ypos"								"-2"
 				"wide"								"f0"
 				"tall"								"f0"
 				"textAlignment"						"west"
@@ -459,6 +463,8 @@
 
 		"CountdownImage"							//hardcoded element, move using pin
 		{
+			"wide"									"25"
+			"tall"									"25"
 			"pin_to_sibling"						"quickpin"
 			"pin_corner_to_sibling"					"0"
 			"pin_to_sibling_corner"					"0"
@@ -467,8 +473,8 @@
 		{
 			"controlname"							"cexbutton"
 			"fieldname"								"quickpin"
-			"xpos"									"cs1.999"	//didn't know this existed tbh
-			"ypos"									"86"
+			"xpos"									"cs2.06"	//didn't know this existed tbh
+			"ypos"									"90"
 			"tall"									"0"
 			"visible"								"1"	
 			"enabled"								"1"
