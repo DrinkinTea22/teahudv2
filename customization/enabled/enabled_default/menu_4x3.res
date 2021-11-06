@@ -98,13 +98,11 @@
 			"inset_x"		"10"
 			"inset_y"		"5"
 			"row_gap"		"5"
-			"column_gap"	"10"
-			"restrict_width"	"0"
 
 			"friendpanel_kv"
 			{
 				"wide"		"p0.99"
-				"tall"		"22"
+				"tall"		"20"
 				"proportionaltoparent"	"1"
 			}
 		}
@@ -213,7 +211,7 @@
 		}
 		"MOTD_TextScroller"
 		{
-			"xpos"			"0"
+			"xpos"			"20"	//makes the text look centered
 			"ypos"			"160"
 			"wide"			"250"
 			"tall"			"115"
@@ -231,7 +229,6 @@
 					"xpos"			"0"
 					"wide"			"250"
 					"fgcolor"		"LabelDark"
-					"centerwrap"			"1"
 				}
 			}
 		}

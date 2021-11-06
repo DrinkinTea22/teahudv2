@@ -76,6 +76,7 @@
 		}
 		"MOTD_TextScroller"
 		{
+			"xpos"			"12"	//makes the text look centered
 			"wide"			"350"
 			"MOTD_TextPanel"
 			{
