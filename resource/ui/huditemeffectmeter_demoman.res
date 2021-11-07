@@ -1,5 +1,5 @@
 #base "base/HudItemEffectMeter_Demoman.res"
-
+//base file, DO NOT DELETE
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
@@ -26,12 +26,12 @@
 	"ItemEffectMeterCount"
 	{
 		"xpos"					"0"
-		"ypos"					"8"
+		"ypos"					"5"
 		"wide"					"50"
 		"tall"					"20"	
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"font"					"tea30"
+		"font"					"tea20"
 		"fgcolor"				"white"
 	}
 	"ItemEffectMeterCountShadow"
@@ -47,7 +47,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"font"					"tea30"
+		"font"					"tea20"
 		"fgcolor"				"black"
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
