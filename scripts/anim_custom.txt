@@ -9,7 +9,8 @@ event DamagedPlayer
 
 event AnimateHitmarker
 {
-	
+	SetVisible	hitmarker	1	0
+	SetVisible	hitmarker	0	0.250
 }
 ////************************************************Low Ammo Animations.
 event HudLowAmmoPulse
@@ -67,7 +68,7 @@ event HudHealthBonusPulse
 	Animate	healthCS7 				FgColor		"HealthHigh"			Linear 0.0 0.0
 	Animate	healthCS8 				FgColor		"HealthHigh"			Linear 0.0 0.0
 
-	RunEvent HudHealthBonusPulseLoop		0.3
+	RunEvent HudHealthBonusPulseLoop		0.0250
 }
 
 event HudHealthBonusPulseLoop
@@ -109,7 +110,7 @@ event HudHealthDyingPulse
 	Animate	healthCS7 				FgColor		"HealthLow"			Linear 0.0 0.0
 	Animate	healthCS8 				FgColor		"HealthLow"			Linear 0.0 0.0
 
-	RunEvent HudHealthDyingPulseLoop		0.3
+	RunEvent HudHealthDyingPulseLoop		0.0250
 }
 
 event HudHealthDyingPulseLoop
