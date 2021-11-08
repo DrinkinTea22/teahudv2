@@ -14,8 +14,8 @@
 		"xpos"			"18"
 		"ypos"			"2"
 		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"15"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
@@ -27,8 +27,8 @@
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"15"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/dneg_leaderboard_streak"
@@ -36,15 +36,17 @@
 	}
 	"ItemEffectMeterCount"
 	{
-		"xpos"				"50"
-		"ypos"				"1"
-		"font"				"tea20"
+		"xpos"				"48"
+		"ypos"				"-1"
+		//"labeltext"			"100"	//testing
+		"font"				"tea16"
 		"textAlignment"		"north-east"
 		"pin_to_sibling"	"ItemEffectMeterIcon"
 	}
 	"ItemEffectMeterCountShadow"
 	{
-		"font"				"tea20"
+		//"labeltext"			"100"	//testing
+		"font"				"tea16"
 		"textAlignment"		"north-east"
 	}
 	"ItemEffectMeterBG"
