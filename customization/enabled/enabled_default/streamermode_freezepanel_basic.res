@@ -122,33 +122,36 @@
 	}
 	"ScreenshotPanel"
 	{
+		//lowered its position to not cover anything
+		//also by doing it this way, i dont need to edit anims :)
 		"bg_custom"
 		{
 			"ControlName"			"ImagePanel"
 			"fieldName"				"bg_custom"
 			"xpos"					"0"
-			"ypos"					"8"
+			"ypos"					"rs1-0"
 			"zpos"					"-1"
 			"wide"					"166"
-			"tall"					"p0.78"
+			"tall"					"20"
 			"visible"				"1"
 			"enabled"				"1"
 			"scaleImage"			"1"	
-			"proportionaltoparent"			"1"	
+			"proportionaltoparent"	"1"	
 			"border"				"bg_lrtb"	
-			"fillcolor"				"TransparentLightBlack"
+			"fillcolor"				"custombgcolor"
 		}
 		"ScreenshotIcon"
 		{
-			"ypos"			"cs-0.4"
-			"wide"			"26"
-			"tall"			"26"
+			"ypos"					"rs1-2"
+			"wide"					"18"
+			"tall"					"18"
 			"proportionaltoparent"	"1"	
 		}		
 		"ScreenshotLabel"
 		{
-			"ypos"			"15"
-			"font"			"tea11"
+			"ypos"					"rs1-5"
+			"font"					"tea11"
+			"proportionaltoparent"	"1"	
 		}
 		"ScreenshotPanelBG"
 		{
