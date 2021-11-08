@@ -1,13 +1,20 @@
 #base "base/MapInfoMenu.res"
-
+//map info, before classselection menu
 "Resource/UI/MapInfoMenu.res"
 {
+	"mapinfo"
+	{
+		"ControlName"	"Frame"
+		"fieldName"		"mapinfo"
+		"wide"			"f0"
+		"tall"			"480"
+	}
 	"MapInfoTitle"
 	{
-		"xpos"			"c-100"
+		"xpos"			"0"
 		"ypos"			"95"
 		"zpos"			"1"
-		"wide"			"200"
+		"wide"			"f0"
 		"tall"			"24"
 		"textAlignment"	"center"
 		"font"			"tea26"
@@ -16,7 +23,7 @@
 	"MapInfoText"
 	{
 		"font"			"tea14"
-		"xpos"			"c-200"
+		"xpos"			"cs-0.5"	//center it even when wider
 		"ypos"			"125"
 		"zpos"			"3"
 		"wide"			"400"
@@ -25,6 +32,7 @@
 		"textAlignment"	"center"
 		"fgcolor"		"white"
 		"border"		"bg_lrtb"
+		"proportionaltoparent"	"1"
 		"bgcolor_override"		"custombgcolor"
 	}
 	"quickbind"	
@@ -51,25 +59,21 @@
 		"labeltext"									"&q"
 		"command"									"back"
 	}
-	"MapInfoContinue"
+	"MapInfoBack"
 	{
-		"xpos"			"0"
-		"ypos"			"40"
+		"xpos"			"c-200"
+		"ypos"			"125+250"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
 		"textAlignment"	"center"
-		"command"		"continue"
 		"font"			"tea14"
 		"fgcolor"		"white"
-		"pin_to_sibling"							"MapInfoText"
-		"pin_corner_to_sibling"						"3"
-		"pin_to_sibling_corner"						"3"
 	}
 	"MapInfoWatchIntro"
 	{
-		"xpos"			"0"
-		"ypos"			"40"
+		"xpos"			"-165"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"70"
 		"tall"			"30"
@@ -77,23 +81,20 @@
 		"command"		"intro"
 		"font"			"tea12"
 		"fgcolor"		"white"
-		"pin_to_sibling"							"MapInfoText"
-		"pin_corner_to_sibling"						"6"
-		"pin_to_sibling_corner"						"6"
+		"pin_to_sibling"							"MapInfoBack"
 	}
-	"MapInfoBack"
+	"MapInfoContinue"
 	{
-		"xpos"			"0"
-		"ypos"			"40"
+		"xpos"			"-85"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
 		"textAlignment"	"center"
+		"command"		"continue"
 		"font"			"tea14"
 		"fgcolor"		"white"
-		"pin_to_sibling"							"MapInfoText"
-		"pin_corner_to_sibling"						"2"
-		"pin_to_sibling_corner"						"2"
+		"pin_to_sibling"							"MapInfoWatchIntro"
 	}
 
 	
