@@ -29,7 +29,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleimage"								"1"	
-		"fillcolor"									"custombgcolor"
+		"fillcolor"									"black"
 		"border"									"bg_lrtb"
 		"pin_to_sibling"							"scout"
 	}
@@ -134,51 +134,56 @@
 
 		"pin_to_sibling"	"sniper"		
 	}
+	
+	//note: this label changes when "mp_tournament 1" and "tf_tournament_classlimit_Xclass <number>" is set.
 	"numScout" 
 	{
-		"xpos"			"0"		"ypos"			"-16"		"font"			"tea14"		"fgcolor"		"white"
+		"xpos"			"0"		"ypos"			"-16"		"font"			"tea12"		"fgcolor"		"white"
 		"pin_to_sibling" 							"scout"
 	}	
 	"numSoldier" 
 	{
-		"xpos"			"0"		"ypos"			"-16"		"font"			"tea14"		"fgcolor"		"white"
+		"xpos"			"0"		"ypos"			"-16"		"font"			"tea12"		"fgcolor"		"white"
 		"pin_to_sibling" 							"soldier"
 	}	
 	"numPyro" 
 	{
-		"xpos"			"0"		"ypos"			"-16"		"font"			"tea14"		"fgcolor"		"white"
+		"xpos"			"0"		"ypos"			"-16"		"font"			"tea12"		"fgcolor"		"white"
 		"pin_to_sibling" 							"pyro"
 	}
 	"numDemoman" 
 	{
-		"xpos"			"0"		"ypos"			"-16"		"font"			"tea14"		"fgcolor"		"white"
+		"xpos"			"0"		"ypos"			"-16"		"font"			"tea12"		"fgcolor"		"white"
 		"pin_to_sibling" 							"demoman"
 	}				
 	"numHeavy" 
 	{
-		"xpos"			"0"		"ypos"			"-16"		"font"			"tea14"		"fgcolor"		"white"
+		"xpos"			"0"		"ypos"			"-16"		"font"			"tea12"		"fgcolor"		"white"
 		"pin_to_sibling" 							"heavyweapons"
 	}					
 	"numEngineer" 
 	{
-		"xpos"			"0"		"ypos"			"-16"		"font"			"tea14"		"fgcolor"		"white"
+		"xpos"			"0"		"ypos"			"-16"		"font"			"tea12"		"fgcolor"		"white"
 		"pin_to_sibling" 							"engineer"
 	}						
 	"numMedic" 
 	{
-		"xpos"			"0"		"ypos"			"-16"		"font"			"tea14"		"fgcolor"		"white"
+		"xpos"			"0"		"ypos"			"-16"		"font"			"tea12"		"fgcolor"		"white"
 		"pin_to_sibling" 							"medic"
 	}							
 	"numSniper" 
 	{
-		"xpos"			"0"		"ypos"			"-16"		"font"			"tea14"		"fgcolor"		"white"
+		"xpos"			"0"		"ypos"			"-16"		"font"			"tea12"		"fgcolor"		"white"
 		"pin_to_sibling" 							"sniper"
 	}						
 	"numSpy" 
 	{
-		"xpos"			"0"		"ypos"			"-16"		"font"			"tea14"		"fgcolor"		"white"
+		"xpos"			"0"		"ypos"			"-16"		"font"			"tea12"		"fgcolor"		"white"
 		"pin_to_sibling" 							"spy"
 	}	
+	//note: this label changes when "mp_tournament 1" and "tf_tournament_classlimit_Xclass <number>" is set.
+	
+	//note: this image appears when you change the class without returning previous upgrades in mvm.
 	"MvMUpgradeImageScout"
 	{
 		"xpos"			"-17"		"ypos"			"-60"		"pin_to_sibling"		"scout"
@@ -214,7 +219,8 @@
 	"MvMUpgradeImageSpy"
 	{
 		"xpos"			"-17"		"ypos"			"-60"		"pin_to_sibling"		"spy"
-	}		
+	}
+	//note: this image appears when you change the class without returning previous upgrades in mvm.		
 
 	"EditLoadoutButton"  
 	{
