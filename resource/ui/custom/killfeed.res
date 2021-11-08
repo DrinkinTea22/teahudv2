@@ -14,7 +14,7 @@
 		"IconScale"					"0.15"
 		"LineHeight"				"12"
 		"LineSpacing"				"2"
-		"CornerRadius"				"5"
+		"CornerRadius"				"2"
 		"RightJustify"				"1"	// If 1, draw notices from the right
 		
 		"TextFont"					"tea10"
