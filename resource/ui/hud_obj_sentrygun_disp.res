@@ -49,6 +49,7 @@
 			"enabled"									"1"
 			"scaleimage"								"1"	
 			"fillcolor"									"custombgcolor"
+			"border"									"bg_ltb"
 		}	
 		"Health"
 		{

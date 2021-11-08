@@ -10,12 +10,12 @@
 	"Icon_Sentry_1"
 	{
 		"xpos"			"22"
-		"ypos"			"2"
+		"ypos"			"-4"
 	}
 	"Icon_Sentry_2"
 	{
 		"xpos"			"22"
-		"ypos"			"2"
+		"ypos"			"-2"
 	}
 	"Icon_Sentry_3"
 	{
@@ -54,6 +54,7 @@
 			"enabled"									"1"
 			"scaleimage"								"1"	
 			"fillcolor"									"custombgcolor"
+			"border"									"bg_ltb"
 		}
 		"Health"
 		{
