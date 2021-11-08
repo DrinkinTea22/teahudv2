@@ -232,7 +232,7 @@
 	}
 	"Player1Score"
 	{	
-		"xpos"			"-51"
+		"xpos"			"-49"
 		"ypos"			"0"
 		"wide"			"48"
 		"tall"			"15"
