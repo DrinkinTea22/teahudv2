@@ -2,7 +2,7 @@
 //mvm upgrade station
 
 //tools
-//#base "../tools/tools.res"
+#base "../tools/tools.res"
 "Resource/UI/HudUpgradePanel.res"
 {
 	"reloadschemebutton"
@@ -105,37 +105,43 @@
 		
 		"UpgradeItemsDescriptionBG"
 		{
-			"bgcolor_override"	"black"
+			"bgcolor_override"	"blank"
 		}
 		"UpgradeItemsDescriptionLabel"
 		{
+			"ypos"			"50"
 			"font"			"tea12"
 		}
 		
 		"UpgradeItemsHeaderBG"
 		{
+			"ypos"					"105"
 			"border"				"bg_lrt"
 			"bgcolor_override"		"MENUBGCOLOR"
 		}
 		"UpgradeItemsBG"
 		{
+			"ypos"					"105"
+			"tall"					"160"
 			"border"				"bg_lrb"
 			"bgcolor_override"		"black"
 		}
 		
 		"UpgradeItemsLabel"	//item/class name
 		{
-			"font"			"tea12"
+			"ypos"					"105"
+			"font"					"tea12"
 		}
 		"UpgradeItemStatsLabel"	//item/class stats
 		{
-			"font"			"tea10"
+			"ypos"					"125"
+			"tall"					"140"
 		}
 		
 		"CreditsLabel"
 		{
 			"font"			"tea14"
-			"fgcolor"		"MVMsubPositive"
+			"fgcolor"		"MVMsubBonus"
 		}
 		"CreditsTextLabel"
 		{
