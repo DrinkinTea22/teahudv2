@@ -23,7 +23,7 @@
 	"GoalLabel"
 	{
 		"ypos"			"10"
-		"font"			"tea11"
+		"font"			"tea10"
 		"textAlignment"	"North"
 	}
 	"GoalImage"
