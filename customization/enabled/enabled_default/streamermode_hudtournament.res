@@ -46,17 +46,11 @@
 			"team2_player_base_offset_x"	"5"
 		}
 		
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"						//toggle this with "mp_tournament_readymode 1"
 		{
-			"xpos"							"c-320"
-			"ypos"							"0"
-			"wide"							"640"
-			"tall"							"480"
+			"ypos"							"25"
 
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-			"team2_player_base_offset_x"	"5"
+			"team2_player_delta_x"			"55"	//how far appart each panel is
 		}
 
 		"ModeImage"
@@ -82,14 +76,14 @@
 				"wide"		"55"
 				"tall"		"35"
 			}
-						
+
 			if_competitive
 			{
 				"wide"		"45"
 				"tall"		"29"
 			}
 
-			if_readymode
+			if_readymode		//toggle this with "mp_tournament_readymode 1"
 			{
 				"wide"		"55"
 				"tall"		"35"
@@ -115,20 +109,17 @@
 					"proportionaltoparent" "1"
 				}
 
-				if_readymode
+				if_readymode		//toggle this with "mp_tournament_readymode 1"			//toggle this with "mp_tournament_readymode 1"
 				{
-					"xpos"				"4"
-					"ypos"				"25"
-					"wide"				"48"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"xpos"				"0"
+					"wide"				"55"
+					"font"				"tea9"
 				}
 			}
 			
 			"classimage"
 			{
 			}
-			
 			"classimagebg"
 			{
 				"bgcolor_override"		"custombgcolor"
@@ -137,28 +128,6 @@
 			
 			"HealthIcon"
 			{
-				"ControlName"		"EditablePanel"
-				"fieldName"			"HealthIcon"
-				"xpos"				"22"
-				"ypos"				"-3"
-				"zpos"				"3"
-				"wide"				"32"
-				"tall"				"32"
-				"visible"			"1"
-				"enabled"			"1"	
-				"HealthBonusPosAdj"	"10"
-				"HealthDeathWarning"		"0.49"
-				"TFFont"					"HudFontSmallest"
-				"HealthDeathWarningColor"	"HUDDeathWarning"
-				"TextColor"					"HudOffWhite"
-				
-				if_competitive
-				{
-					"wide"			"p0.64"
-					"tall"			"p0.96"
-					"visible"		"1"
-					"proportionaltoparent" "1"
-				}
 			}
 			
 			"ReadyBG"					//mvm setup
@@ -183,8 +152,6 @@
 				"zpos"			"5"
 				"wide"			"23"
 				"tall"			"10"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
@@ -211,8 +178,6 @@
 				"zpos"			"6"
 				"wide"			"25"
 				"tall"			"15"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
@@ -243,8 +208,6 @@
 				"zpos"			"5"
 				"wide"			"50"
 				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
@@ -281,9 +244,10 @@
 			"visible"		"1"
 		}
 		
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
 		{
 			"xpos"			"195"
+			"border"		"bg_lrtb"
 			"visible"		"1"
 		}		
 	}
@@ -304,10 +268,10 @@
 			"visible"		"0"
 		}
 
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
 		{
 			"xpos"			"200"
-			"visible"		"0"
+			"visible"		"1"
 		}
 	}
 
@@ -332,10 +296,10 @@
 			"visible"		"0"
 		}
 
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
 		{
 			"xpos"			"200"
-			"visible"		"0"
+			"visible"		"1"
 		}
 	}
 	"TournamentBLUELabel"
@@ -359,10 +323,10 @@
 			"visible"		"0"
 		}
 
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
 		{
-			"xpos"			"207"
-			"visible"		"0"
+			"xpos"			"-5"
+			"visible"		"1"
 		}
 	}
 	"TournamentBLUEStateLabel"
@@ -386,10 +350,10 @@
 			"visible"		"0"
 		}
 
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
 		{
-			"xpos"			"251"
-			"visible"		"0"
+			"xpos"			"-5"
+			"visible"		"1"
 		}
 	}
 
@@ -414,10 +378,10 @@
 			"visible"		"0"
 		}
 
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
 		{
 			"xpos"			"320"
-			"visible"		"0"
+			"visible"		"1"
 		}
 	}
 	"TournamentREDLabel"
@@ -441,10 +405,10 @@
 			"visible"		"0"
 		}
 
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
 		{
-			"xpos"			"370"
-			"visible"		"0"
+			"xpos"			"-5"
+			"visible"		"1"
 		}
 	}
 	"TournamentREDStateLabel"
@@ -468,10 +432,10 @@
 			"visible"		"0"
 		}
 
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
 		{
-			"xpos"			"325"
-			"visible"		"0"
+			"xpos"			"-5"
+			"visible"		"1"
 		}
 	}
 	"TournamentConditionLabel"
@@ -496,12 +460,13 @@
 			"font"			"TFFontMedium"
 		}
 
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
 		{
-			"xpos"			"285"
-			"ypos"			"26"
+			"xpos"			"cs-0.5"
+			"ypos"			"40"
 			"visible"		"1"
-			"font"			"TFFontMedium"
+			"font"			"tea12"
+			"proportionaltoparent"			"1"
 		}
 	}
 
@@ -539,14 +504,9 @@
 			"zpos"			"3"
 		}
 
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
 		{
 			"font"			"tea12"
-			"xpos"			"225"
-			"ypos"			"110"
-			"wide"			"190"
-			"tall"			"20"
-			"zpos"			"3"
 		}
 	}
 	
@@ -576,14 +536,9 @@
 			"fgcolor"		"Black"
 		}
 
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
 		{
 			"font"			"tea12"
-			"xpos"			"226"
-			"ypos"			"111"
-			"wide"			"190"
-			"tall"			"20"
-			"visible"		"1"
 			"fgcolor"		"Black"
 		}
 	}
@@ -609,7 +564,7 @@
 			"ypos"			"150"
 		}
 
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
 		{
 			"xpos"			"300"
 			"ypos"			"130"
@@ -627,7 +582,7 @@
 			"fgcolor"		"white"
 			"font"			"tea24"
 		}
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
 		{
 			"xpos"			"300"
 			"ypos"			"130"
@@ -643,7 +598,7 @@
 			"font"			"tea24"
 		}
 
-		if_readymode
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
 		{
 			"xpos"			"300"
 			"ypos"			"130"
