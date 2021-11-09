@@ -12,13 +12,24 @@
 	"MapInfoTitle"
 	{
 		"xpos"			"0"
-		"ypos"			"95"
+		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"24"
 		"textAlignment"	"center"
 		"font"			"tea26"
 		"fgcolor"		"White"
+	}
+	"MapInfoType"
+	{	
+		"xpos"			"0"
+		"ypos"			"95"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"24"
+		"textAlignment"	"center"
+		"font"			"tea18"
+		"fgcolor"		"tandark"
 	}
 	"MapInfoText"
 	{
@@ -97,35 +108,25 @@
 		"pin_to_sibling"							"MapInfoWatchIntro"
 	}
 
-	
-	"MapInfoType"
-	{
-		"xpos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"	
-	}
+	//[deleted lol]
 	"MapImage"
 	{
-		"xpos"			"9999"
+		"wide"			"0"
 		"visible"		"0"
-		"enabled"		"0"	
 	}	
 	"MenuBG"
 	{
-		"xpos"			"9999"
+		"wide"			"0"
 		"visible"		"0"
-		"enabled"		"0"	
 	}	
 	"ShadedBar"
 	{
-		"xpos"			"9999"
+		"wide"			"0"
 		"visible"		"0"
-		"enabled"		"0"	
 	}	
 	"Footer" [$X360]
 	{
-		"xpos"			"9999"
+		"wide"			"0"
 		"visible"		"0"
-		"enabled"		"0"	
 	}	
 }
