@@ -372,6 +372,7 @@ scheme
 		//*******************************************Spectatour Borders
 		TFFatLineBorderRedBG
 		{
+			"image"									"../hud/tournament_panel_red"
 			"src_corner_height"						"25"
 			"src_corner_width"						"25"
 			"draw_corner_width"						"0"				
@@ -379,6 +380,7 @@ scheme
 		}		
 		TFFatLineBorderBlueBG
 		{
+			"image"									"../hud/tournament_panel_blu"
 			"src_corner_height"						"25"
 			"src_corner_width"						"25"
 			"draw_corner_width"						"0"				
@@ -386,6 +388,7 @@ scheme
 		}	
 		TFFatLineBorder								//dead players
 		{
+			"image"									"../hud/tournament_panel_brown"
 			"src_corner_height"						"25"
 			"src_corner_width"						"25"
 			"draw_corner_width"						"0"				
