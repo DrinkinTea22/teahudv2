@@ -27,6 +27,7 @@ tf
 * Lowered Metal Stickies: makes metal and stickies to not be bellow the crosshair
 * Streamer Mode: makes streamer's life easier (needs to be done with the game closed)
 * Hitmarker: shows a white-ish circle when the player does damage
+* No Bonus Image: disables the "cross" image when low/high health
 
 ## Supported GameModes
 
