@@ -2,59 +2,29 @@
 {
 	HudTournament
 	{
-		"xpos"					"c-125"
-		"ypos"					"25"		//fixed with animations
-		"wide"					"250"
-		"tall"					"480"
-
-		"team1_player_base_offset_x"		"-75"
-		"team1_player_base_y"				"0"
-		"team1_player_delta_x"				"-47"
-		"team1_player_delta_y"				"0"
-		"team2_player_base_offset_x"		"25"
-		"team2_player_base_y"				"0"
-		"team2_player_delta_x"				"47"
-		"team2_player_delta_y"				"0"
-		"teams_player_delta_x_comp"			"42"
-
-		"avatar_width"	"63"
-		"spacer"		"5"
-		"name_width"	"57"
-		"horiz_inset"	"2"
+		"ypos"					"25"		//default ypos
 
 		if_mvm
 		{
-			"xpos"					"c-250"
-			"ypos"					"0"
-			"wide"					"500"
-			"tall"					"480"
-
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"xpos"				"0"			//mvm xpos
+			"ypos"				"25"		//mvm ypos
+			"wide"				"f0"		//mvm wide
 		}
-		
 		if_competitive
 		{
-			"xpos"							"cs-0.5"
-			"ypos"							"0"
-			"wide"							"f0"
-			"tall"							"480"
-
-			"team1_player_base_y"			"75"
-			"team2_player_base_y"			"66"
-			"team2_player_base_offset_x"	"5"
+			"ypos"				"25"		//comp ypos
 		}
-		
-		if_readymode		//toggle this with "mp_tournament_readymode 1"						//toggle this with "mp_tournament_readymode 1"
+		if_readymode						//toggle this with "mp_tournament_readymode 1"
 		{
-			"ypos"							"25"
+			"xpos"				"0"			//readymode xpos
+			"ypos"				"25"		//readymode ypos
+			"wide"				"f0"		//readymode wide
 
 			"team2_player_delta_x"			"55"	//how far appart each panel is
 		}
 
 		"ModeImage"
-		{
+		{	
 			if_competitive
 			{
 				"visible"		"1"
@@ -63,42 +33,35 @@
 		
 		"playerpanels_kv"
 		{
-			"visible"		"0"
-			"wide"			"50"
-			"tall"			"33"
-			"zpos"			"1"
+			"color_ready"		"0 255 0 220"
+			"color_notready"	"0 0 0 220"
 			
-			"color_ready"	"positive"
-			"color_notready"	"black"
-			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
-
-			if_competitive
+			if_competitive				//untested
 			{
 				"wide"		"45"
 				"tall"		"29"
 			}
-
-			if_readymode		//toggle this with "mp_tournament_readymode 1"
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
 			
 			"playername"
 			{
-				"font"			"tea9"
+				"font"					"tea9"
+				"xpos"					"0"
+				"wide"					"55"
+				"textAlignment"			"center"
 
-				if_mvm
+				if_mvm					//mvm setting
 				{
+					"xpos"				"0"
+					"wide"				"55"
 					"font"				"tea9"
 				}
-
-				if_competitive
+				if_readymode			//toggle this with "mp_tournament_readymode 1"
+				{
+					"xpos"				"0"
+					"wide"				"55"
+					"font"				"tea9"
+				}
+				if_competitive			//untested
 				{
 					"xpos"				"4"
 					"ypos"				"21"
@@ -108,56 +71,79 @@
 					"font"				"PlayerPanelPlayerName"
 					"proportionaltoparent" "1"
 				}
-
-				if_readymode		//toggle this with "mp_tournament_readymode 1"			//toggle this with "mp_tournament_readymode 1"
-				{
-					"xpos"				"0"
-					"wide"				"55"
-					"font"				"tea9"
-				}
 			}
 			
 			"classimage"
 			{
+				if_competitive		//untested
+				{
+					"xpos"			"4"
+					"ypos"			"4"
+					"wide"			"p0.4"
+					"tall"			"p0.6"
+					"proportionaltoparent" "1"
+				}
 			}
 			"classimagebg"
 			{
 				"bgcolor_override"		"custombgcolor"
 				"border"				"bg_lrtb"
+				
+				if_competitive		//untested
+				{
+					"xpos"			"4"
+					"ypos"			"4"
+					"wide"			"p0.4"
+					"tall"			"p0.6"
+					"visible"		"1"
+					"proportionaltoparent" "1"
+				}
 			}
-			
 			"HealthIcon"
 			{
+				"xpos"				"10"
+				"wide"				"52"
+				"tall"				"52"
+				
+				if_competitive		//untested
+				{
+					"wide"			"p0.64"
+					"tall"			"p0.96"
+					"visible"		"1"
+					"proportionaltoparent" "1"
+				}
 			}
-			
-			"ReadyBG"					//mvm setup
+			"ReadyImage"
+			{
+			}
+			"ReadyBG"
 			{
 				"border"				"bg_lrtb"
 				"src_corner_height"		"25"
 				"src_corner_width"		"25"
 				"draw_corner_width"		"0"
-				"draw_corner_height" 	"0"		
-			}
-			"ReadyImage"
-			{
+				"draw_corner_height" 	"0"	
+				
+				if_competitive		//untested
+				{
+					"xpos"			"28"
+					"ypos"			"5"
+					"wide"			"p0.3"
+					"tall"			"p0.45"
+					"proportionaltoparent" "1"
+					"visible"		"1"
+				}		
 			}
 			
 			"respawntime"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
-				"xpos"			"30"
-				"ypos"			"18"
-				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"10"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
+				"font"			"tea9"
+				"xpos"			"0"
+				"ypos"			"10"
+				"wide"			"55"
+				"textAlignment"	"center"
 				
-				if_competitive
+				if_competitive		//untested
 				{
 					"xpos"			"6"
 					"ypos"			"7.5"
@@ -170,25 +156,13 @@
 			
 			"chargeamount"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
-				"xpos"			"25"
-				"ypos"			"17"
-				"zpos"			"6"
-				"wide"			"25"
-				"tall"			"15"
-				"visible"		"1"
-				"labelText"		"%chargeamount%"
-				"textAlignment"	"north"
-				"fgcolor"		"0 255 0 255"
+				"font"			"tea9"
+				"xpos"			"0"
+				"ypos"			"20"
+				"wide"			"55"
+				"textAlignment"	"center"
 				
-				if_mvm
-				{	
-					"visible"		"0"
-				}
-				
-				if_competitive
+				if_competitive		//untested
 				{
 					"xpos"			"22"
 					"ypos"			"15"
@@ -200,20 +174,9 @@
 			
 			"specindex"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"specindex"
-				"font"			"DefaultVerySmall"
-				"xpos"			"4"
-				"ypos"			"2"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"visible"		"1"
-				"labelText"		"%specindex%"
-				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				"visible"		"0"
 				
-				if_competitive
+				if_competitive		//untested
 				{
 					"wide"			"p0.9"
 					"tall"			"p0.22"
@@ -225,233 +188,194 @@
 
 	"HudTournamentBG"
 	{
-		"border"									"bg_lrt"
-		"src_corner_height"							"25"
-		"src_corner_width"							"25"
-		"draw_corner_width"							"0"
-		"draw_corner_height"						"0"	
+		"border"				"bg_lrtb"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 		
-		if_mvm
+		
+		if_mvm				//mvm setting
 		{
 			"visible"		"0"
 		}
-		
-		if_competitive
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
+		{
+			"xpos"			"cs-0.5"
+			"visible"		"1"
+		}
+		if_competitive		//untested
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"12"
 			"tall"			"20"
 			"visible"		"1"
-		}
-		
-		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
-		{
-			"xpos"			"195"
-			"border"		"bg_lrtb"
-			"visible"		"1"
 		}		
 	}
 	"TournamentLabel"
-	{
-		"font"			"tea14"
-		"xpos"			"cs-0.5"
-		"textAlignment"	"north"
+	{	
+		"font"				"tea14"
+		"xpos"				"cs-0.5"
+		"textAlignment"		"north"
 		
-		if_mvm
+		if_mvm				//mvm setting
 		{
 			"visible"		"0"
 		}
-
-		if_competitive
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
+		{
+			"xpos"			"cs-0.5"
+			"visible"		"1"
+		}
+		if_competitive		//untested
 		{
 			"xpos"			"cs-0.5"
 			"visible"		"0"
-		}
-
-		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
-		{
-			"xpos"			"200"
-			"visible"		"1"
 		}
 	}
 
 	"HudTournamentBLUEBG"
 	{
-		"xpos"			"5"
-		"ypos"			"23"
-		"border"									"bg_lrtb"
-		"src_corner_height"							"25"
-		"src_corner_width"							"25"
-		"draw_corner_width"							"0"
-		"draw_corner_height"						"0"	
+		"border"				"bg_lrtb"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 		
-		if_mvm
+		if_mvm				//mvm setting
 		{
 			"visible"		"0"
 		}
-
-		if_competitive
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
+		{
+			"xpos"			"cs-1"
+			"visible"		"1"
+		}
+		if_competitive		//untested
 		{
 			"xpos"			"cs-0.5"
 			"visible"		"0"
-		}
-
-		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
-		{
-			"xpos"			"200"
-			"visible"		"1"
 		}
 	}
 	"TournamentBLUELabel"
-	{
-		"xpos"			"-5"
-		"ypos"			"0"
-		"font"			"tea12"
-		"textAlignment"	"south-west"
-		"pin_to_sibling"							"HudTournamentBLUEBG"
-		"pin_corner_to_sibling"						"0"
-		"pin_to_sibling_corner"						"0"
+	{	
+		"font"				"tea12"
+		"textAlignment"		"west"
 		
-		if_mvm
+		if_mvm				//mvm setting
 		{
 			"visible"		"0"
 		}
-
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
+		{
+			"xpos"			"cs-1.8"
+			"visible"		"1"
+		}
 		if_competitive
 		{
 			"xpos"			"cs-0.5"
 			"visible"		"0"
 		}
 
-		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
-		{
-			"xpos"			"-5"
-			"visible"		"1"
-		}
 	}
 	"TournamentBLUEStateLabel"
-	{
-		"xpos"			"-5"
-		"ypos"			"0"
-		"font"			"tea12"
-		"textAlignment"	"south-east"
-		"pin_to_sibling"							"HudTournamentBLUEBG"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+	{	
+		"font"				"tea12"
+		"textAlignment"		"east"
 		
-		if_mvm
+		if_mvm				//mvm setting
 		{
 			"visible"		"0"
 		}
-
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
+		{
+			"xpos"			"cs-1.1"
+			"visible"		"1"
+		}
 		if_competitive
 		{
 			"xpos"			"cs-0.5"
 			"visible"		"0"
 		}
 
-		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
-		{
-			"xpos"			"-5"
-			"visible"		"1"
-		}
 	}
 
 	"HudTournamentREDBG"
 	{
-		"xpos"			"125"
-		"ypos"			"23"
-		"border"									"bg_lrtb"
-		"src_corner_height"							"25"
-		"src_corner_width"							"25"
-		"draw_corner_width"							"0"
-		"draw_corner_height"						"0"	
+		"border"				"bg_rtb"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
 		
-		if_mvm
+		if_mvm				//mvm setting
 		{
 			"visible"		"0"
 		}
-
-		if_competitive
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
+		{
+			"xpos"			"cs-0"
+			"visible"		"1"
+		}
+		if_competitive		//untested
 		{
 			"xpos"			"cs-0.5"
 			"visible"		"0"
 		}
-
-		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
-		{
-			"xpos"			"320"
-			"visible"		"1"
-		}
 	}
 	"TournamentREDLabel"
-	{
-		"xpos"			"-5"
-		"ypos"			"0"
+	{	
 		"font"			"tea12"
-		"textAlignment"	"south-east"
-		"pin_to_sibling"							"HudTournamentREDBG"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
+		"textAlignment"	"east"
 		
-		if_mvm
+		if_mvm				//mvm setting
 		{
 			"visible"		"0"
 		}
-
-		if_competitive
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
+		{
+			"xpos"			"cs+0.8"
+			"visible"		"1"
+		}
+		if_competitive		//untested
 		{
 			"xpos"			"370"
 			"visible"		"0"
 		}
-
-		if_readymode		//toggle this with "mp_tournament_readymode 1"		//toggle this with "mp_tournament_readymode 1"
-		{
-			"xpos"			"-5"
-			"visible"		"1"
-		}
 	}
 	"TournamentREDStateLabel"
-	{
-		"xpos"			"-5"
-		"ypos"			"0"
-		"font"			"tea12"
-		"textAlignment"	"south-west"
-		"pin_to_sibling"							"HudTournamentREDBG"
-		"pin_corner_to_sibling"						"0"
-		"pin_to_sibling_corner"						"0"
+	{	
+		"font"				"tea12"
+		"textAlignment"		"west"
 		
-		if_mvm
+		if_mvm				//mvm setting
 		{
 			"visible"		"0"
 		}
-
-		if_competitive
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
+		{
+			"xpos"			"cs+0.1"
+			"visible"		"1"
+		}
+		if_competitive		//untested
 		{
 			"xpos"			"325"
 			"visible"		"0"
 		}
-
-		if_readymode		//toggle this with "mp_tournament_readymode 1"
-		{
-			"xpos"			"-5"
-			"visible"		"1"
-		}
 	}
 	"TournamentConditionLabel"
 	{
-		"font"			"tea12"
-		"fgcolor"		"white"
-		"xpos"			"0"
-		"ypos"			"40"
+		"font"				"tea12"
+		"xpos"				"0"
 		"textAlignment"		"north"
+		"proportionaltoparent"	"1"
 		
-		if_mvm
+		if_mvm				//mvm setting
 		{
 			"visible"		"0"
 		}
-
-		if_competitive
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
+		{
+			"font"			"tea12"
+			"xpos"			"cs-0.5"
+			"ypos"			"42"
+			"visible"		"1"
+		}
+		if_competitive		//untested
 		{
 			"xpos"			"c-45"
 			"ypos"			"18"
@@ -459,149 +383,138 @@
 			"visible"		"1"
 			"font"			"TFFontMedium"
 		}
-
-		if_readymode		//toggle this with "mp_tournament_readymode 1"
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"40"
-			"visible"		"1"
-			"font"			"tea12"
-			"proportionaltoparent"			"1"
-		}
 	}
 
 	"HudTournamentBGHelp"
 	{
-		"ypos"										"55"
-		"border"									"bg_lrb"
-		"src_corner_height"							"25"
-		"src_corner_width"							"25"
-		"draw_corner_width"							"0"
-		"draw_corner_height"						"0"	
+		"ypos"					"58"
+		"border"				"bg_lrtb"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
+		
+		if_mvm				//mvm setting
+		{
+			"visible"		"0"
+		}
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
+		{
+			"visible"		"0"
+		}
+		if_competitive		//untested
+		{
+			"visible"		"0"
+		}
 	}
 	"TournamentInstructionsLabel"
-	{	
-		"font"			"tea12"
-		"fgcolor"		"white"
-		"xpos"			"0"
-		"ypos"			"55"
-		"textAlignment"		"north"
+	{
+		"font"				"tea12"
+		"ypos"				"58"
+		"tall"				"17"
 		
-		if_mvm				//f4 to start label
+		if_mvm				//mvm setting
 		{
-			"font"			"tea16"
-			"xpos"			"155"
-			"ypos"			"105"
+			"font"			"tea18"
+			"xpos"			"cs-0.5"
 		}
-
-		if_competitive
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
 		{
-			"font"			"tea12"
+			"font"			"tea18"
+			"xpos"			"cs-0.5"
+		}
+		if_competitive		//untested
+		{
+			"font"			"HudFontSmallishBold"
 			"xpos"			"cs-0.5"
 			"ypos"			"110"
 			"wide"			"190"
 			"tall"			"20"
 			"zpos"			"3"
 		}
-
-		if_readymode		//toggle this with "mp_tournament_readymode 1"
-		{
-			"font"			"tea12"
-		}
 	}
 	
 	"TournamentInstructionsLabelShadow"
 	{	
 		"font"			"tea12"
-		"fgcolor"		"white"
-		"xpos"			"2"
-		"ypos"			"57"
-		"textAlignment"		"north"
+		"xpos"			"1"
+		"ypos"			"58"
+		"tall"			"17"
 		
-		if_mvm
+		if_mvm				//mvm setting
 		{
-			"font"			"tea16"
-			"xpos"			"156"
-			"ypos"			"105"
-		}
-
-		if_competitive
-		{
-			"font"			"tea12"
+			"font"			"tea18"
 			"xpos"			"cs-0.5"
-			"ypos"			"111"
-			"wide"			"190"
-			"tall"			"20"
-			"visible"		"1"
-			"fgcolor"		"Black"
 		}
-
 		if_readymode		//toggle this with "mp_tournament_readymode 1"
 		{
-			"font"			"tea12"
-			"fgcolor"		"Black"
+			"font"		"tea18"
+			"xpos"		"cs-0.5"
+		}
+		if_competitive	//untested
+		{
+			"font"		"HudFontSmallishBold"
+			"xpos"		"cs-0.5"
+			"ypos"		"111"
+			"wide"		"190"
+			"tall"		"20"
+			"visible"	"1"
+			"fgcolor"	"Black"
 		}
 	}
 
-	"TournamentReadyHintIcon"		//not used aparently
+	"TournamentReadyHintIcon"
 	{
 	}
 	
 	"CountdownBG"
 	{
-		"xpos"										"230"
-		"ypos"										"r55"
+		"xpos"				"230"
+		"ypos"				"r55"
 		
-		"border"									"bg_lrtb"
-		"src_corner_height"							"25"
-		"src_corner_width"							"25"
-		"draw_corner_width"							"0"
-		"draw_corner_height"						"0"	
+		"border"			"bg_lrtb"
+		"draw_corner_width"	"0"
+		"draw_corner_height""0"	
 
-		if_competitive
+		if_readymode		//toggle this with "mp_tournament_readymode 1"
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+		if_competitive		//untested
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"150"
 		}
+	}
+	"CountdownLabel"
+	{
+		"font"				"tea24"
+		"xpos"				"230"
+		"ypos"				"r55"
 
 		if_readymode		//toggle this with "mp_tournament_readymode 1"
 		{
 			"xpos"			"300"
 			"ypos"			"130"
 		}
-	}
-
-	"CountdownLabel"
-	{
-		"font"			"tea24"
-		"xpos"			"230"
-		"ypos"			"r55"
-
-		if_competitive
+		if_competitive		//untested
 		{
 			"fgcolor"		"white"
 			"font"			"tea24"
 		}
+	}
+	"CountdownLabelShadow"
+	{	
+		"font"				"tea24"
+
 		if_readymode		//toggle this with "mp_tournament_readymode 1"
 		{
 			"xpos"			"300"
 			"ypos"			"130"
 		}
-	}
-	
-	"CountdownLabelShadow"
-	{	
-		"font"			"tea24"
-
-		if_competitive
+		if_competitive		//untested
 		{
 			"font"			"tea24"
 		}
 
-		if_readymode		//toggle this with "mp_tournament_readymode 1"
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
 	}
 }
