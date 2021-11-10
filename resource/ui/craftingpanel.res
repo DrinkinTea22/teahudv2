@@ -14,6 +14,9 @@
 	}
 	"crafting_panel"
 	{
+		"titlebarfgcolor_override"				"blank"
+		"titlebardisabledfgcolor_override"		"blank"
+		"titlebarbgcolor_override"				"blank"
 		"bgcolor_override"				"MenuBGColor"
 		"infocus_bgcolor_override"		"MenuBGColor"
 		"outoffocus_bgcolor_override"	"MenuBGColor"

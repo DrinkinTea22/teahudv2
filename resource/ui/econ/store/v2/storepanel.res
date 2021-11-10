@@ -5,6 +5,9 @@
 {
 	"store_panel"
 	{
+		"titlebarfgcolor_override"				"blank"
+		"titlebardisabledfgcolor_override"		"blank"
+		"titlebarbgcolor_override"				"blank"
 		"bgcolor_override"				"sheet"
 		"infocus_bgcolor_override"		"sheet"
 		"outoffocus_bgcolor_override"	"sheet"
