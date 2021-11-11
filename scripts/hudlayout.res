@@ -196,5 +196,14 @@
 	{
 		"ypos"											"30"
 	}	
+
+	HudTeamGoalTournament
+	{
+		"xpos"											"cs-0.5"
+		"ypos"											"15"
+		//"wide"										"320"
+		//"tall"										"300"
+		"proportionaltoparent"							"1"
+	}	
 }
 
