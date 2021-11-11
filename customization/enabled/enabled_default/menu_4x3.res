@@ -75,7 +75,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"										"243"
-		"tall"										"220"
+		"tall"										"218"
 		"border"					"noborder"
 		"pin_to_sibling"							"bgbordercs3"
 		
@@ -97,7 +97,7 @@
 			"columns_count"	"1"
 			"inset_x"		"10"
 			"inset_y"		"5"
-			"row_gap"		"5"
+			"row_gap"		"4"
 
 			"friendpanel_kv"
 			{

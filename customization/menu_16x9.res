@@ -43,6 +43,11 @@
 	{
 		"wide"			"340"
 		"tall"			"250"
+		
+		"SteamFriendsList"
+		{
+			"row_gap"	"5"
+		}	
 	}
 	//friends (none)
 	
