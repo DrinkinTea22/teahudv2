@@ -60,7 +60,7 @@
 	"AmmoIcon"
 	{
 		"xpos"			"40"
-		"ypos"			"20"
+		"ypos"			"23"
 	}
 	"quickpin"
 	{
