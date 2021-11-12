@@ -57,11 +57,19 @@
 	{
 		"labelText"		""
 	}
+	"ShowBaseItemsCheckbox"
+	{
+		"xpos"			"c-292"
+		"ypos"			"4"
+		"wide"			"30"
+		"textinsetx"	"9999"
+	}
 	"ClassLabel"
 	{
 		"font"			"tea16"
-		"xpos"			"c-290"
+		"xpos"			"c-260"
 		"wide"			"350"
+		"tall"			"20"
 		"ypos"			"5"
 	}
 	
@@ -83,23 +91,72 @@
 	}
 	
 	//upper tools
+	"search_icon"
+	{
+		"controlname"	"imagepanel"
+		"fieldname"		"search_icon"
+		"xpos"			"c-289"
+        "ypos"			"36"
+		"zpos"			"-100"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/store/store_zoom"
+		"scaleimage"	"1"	
+	}	
 	"NameFilterTextEntry"
 	{
-		"xpos"			"c-287"
-        "ypos"			"35"
-		"font"		"tea12"
+		"xpos"			"-17"
+        "ypos"			"2"
+		"wide"			"128"
+		"font"			"tea12"
+		"pin_to_sibling"		"search_icon"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 	"NameFilterLabel"
 	{		"fgcolor"		"blank"		}
-	
-	"ShowBaseItemsCheckbox"
+
+	"PrevPageButton"
 	{
-		"Font"			"tea12"
-		"textAlignment"	"east"
-		"xpos"			"c-200"
-        "ypos"			"33"
-	}
-	
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPageButton"
+		"xpos"			"63"
+		"ypos"			"3"
+		"zpos"			"-5"
+		"wide"			"25"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		"&A"
+		"font"			"tea18"
+		"textAlignment"	"center"
+		"Command"		"prevpage"
+		"pin_to_sibling""ShowRarityComboBox"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"
+	}	
+	"NextPageButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPageButton"
+		"xpos"			"30"
+		"ypos"			"0"
+		"zpos"			"-5"
+		"wide"			"25"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		"&D"
+		"font"			"tea18"
+		"textAlignment"	"center"
+		"Command"		"nextpage"
+		"pin_to_sibling""PrevPageButton"
+		"pin_corner_to_sibling"						"1"
+		"pin_to_sibling_corner"						"1"
+	}	
+
 	"ShowRarityComboBox"
 	{
 		"xpos"				"c-75"
@@ -110,8 +167,9 @@
 	}	
 	"SortByComboBox"
 	{
+		"wide"				"147"
+        "ypos"				"36"
 		"Font"				"tea12"
-        "ypos"			"36"
 		
 		"fgcolor_override"	"white"
 		"disabledFgColor_override" "Labelsunavailable"
@@ -126,49 +184,6 @@
 			"font"			"tea14"
 		}
 	}
-	"PrevPageButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"PrevPageButton"
-		"xpos"			"c-318"
-		"ypos"			"154"
-		"zpos"			"-5"
-		"wide"			"25"
-		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
-		"labeltext"		"&A"
-		"font"			"tea24"
-		"textAlignment"	"center"
-		"Command"		"prevpage"
-	}	
-	"NextPageButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"PrevPageButton"
-		"xpos"			"c288"
-		"ypos"			"154"
-		"zpos"			"-5"
-		"wide"			"25"
-		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
-		"labeltext"		"&D"
-		"font"			"tea24"
-		"textAlignment"	"center"
-		"Command"		"nextpage"
-	}	
-	
-	"DragToNextPageButton"
-	{
-		"visible"		"1"
-		"enabled"		"1"
-	}		
-	"DragToPrevPageButton"
-	{
-		"visible"		"1"
-		"enabled"		"1"
-	}		
 	"CancelApplyToolButton"
 	{
 		"font"			"tea14"
