@@ -46,17 +46,49 @@
 		}	
 	}
 
+	"search_icon"
+	{
+		"controlname"	"imagepanel"
+		"fieldname"		"search_icon"
+		"xpos"			"c-95"
+		"ypos"			"15"
+		"zpos"			"-1"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/store/store_zoom"
+		"scaleimage"	"1"	
+	}		
+	"coolbackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"coolbackground"
+		"xpos"			"2"
+		"ypos"			"3"
+		"zpos"			"-10"
+		"wide"			"112"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"custombgcolor"
+		"paintbackground"	"1"
+		"paintborder"		"1"
+		"border"			"bg_lrtb"
+		"pin_to_sibling"	"search_icon"
+	}
 	"NameFilterTextEntry"
 	{
-		"xpos"		"c-45"
-		"ypos"		"15"
-		"zpos"		"2"
-		"wide"		"90"
-		"tall"		"19"
-		"fgcolor_override"		"Black"
-		"bgcolor_override"		"white"
-		"paintbackgroundtype"	"0"
+		"xpos"					"-17"
+        "ypos"					"1"
+		"wide"					"90"
+		"tall"					"19"
 		"font"					"tea12"
+		"bgcolor_override"		"button"
+		"RoundedCorners"		"0"
+		"pin_to_sibling"		"search_icon"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 	"NoItemsLabel"
 	{
