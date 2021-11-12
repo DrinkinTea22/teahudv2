@@ -205,5 +205,10 @@
 		//"tall"										"300"
 		"proportionaltoparent"							"1"
 	}	
+
+	StatPanel
+	{
+		"ypos"											"c60"
+	}	
 }
 
