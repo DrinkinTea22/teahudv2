@@ -6,6 +6,10 @@ New starting point for TeaHud using Jarateking's "BaseHud", if you want to learn
 [BaseHud Project](https://github.com/JarateKing/BaseHud) <br>
 All credits to: [Jarateking](https://github.com/JarateKing)
 
+## Screenshot Album
+
+[link to imgur](https://imgur.com/a/marJFLz)
+
 ## customizations
 
 You shall drop what you want in the hud in the following path:
