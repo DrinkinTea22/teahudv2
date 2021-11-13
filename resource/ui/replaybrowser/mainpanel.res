@@ -1,4 +1,4 @@
-#base "../base/replaybrowser/mainpanel.res"
+#base "base/mainpanel.res"
 //similar to charinfopanel, but for replays
 "Resource/UI/replaybrowser/mainpanel.res"
 {

@@ -1,4 +1,4 @@
-#base "../base/replaybrowser/ListThumbnail.res"
+#base "base/ListThumbnail.res"
 "resource/ListThumbnail.res"
 {
 	"ListThumbnail"

@@ -1,4 +1,4 @@
-#base "../base/replaybrowser/DetailsPanel.res"
+#base "base/DetailsPanel.res"
 //when replay seleted
 "Resource/UI/DetailsPanel.res"
 {

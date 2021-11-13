@@ -1,4 +1,4 @@
-#base "../base/replaybrowser/renderdialog.res"
+#base "base/renderdialog.res"
 //save to movie..
 "Resource/UI/replaybrowser/renderdialog.res"
 {

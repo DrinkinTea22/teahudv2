@@ -1,4 +1,4 @@
-#base "../base/replaybrowser/TitleEditPanel.res"
+#base "base/TitleEditPanel.res"
 "Resource/UI/TitleEditPanel.res"
 {
 	"TitleEditPanel"

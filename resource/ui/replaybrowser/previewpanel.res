@@ -1,4 +1,4 @@
-#base "../base/replaybrowser/PreviewPanel.res"
+#base "base/PreviewPanel.res"
 //preview recording
 "Resource/UI/PreviewPanel.res"
 {

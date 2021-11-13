@@ -1,4 +1,4 @@
-#base "../base/replaybrowser/basepage.res"
+#base "base/basepage.res"
 //main replays panel
 
 //tools

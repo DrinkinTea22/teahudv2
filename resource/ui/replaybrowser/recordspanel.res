@@ -1,4 +1,4 @@
-#base "../base/replaybrowser/RecordPanel.res"
+#base "base/RecordPanel.res"
 "Resource/UI/RecordPanel.res"
 {
 	"RecordPanel"

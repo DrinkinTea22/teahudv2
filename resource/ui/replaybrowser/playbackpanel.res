@@ -1,4 +1,4 @@
-#base "../base/replaybrowser/PlaybackPanel.res"
+#base "base/PlaybackPanel.res"
 "Resource/UI/PlaybackPanel.res"
 {
 	"PlaybackPanel"

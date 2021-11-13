@@ -1,4 +1,4 @@
-#base "../base/replaybrowser/playbackpanelslideshow.res"
+#base "base/playbackpanelslideshow.res"
 "Resource/UI/playbackpanelslideshow.res"
 {
 	"Screenshot"

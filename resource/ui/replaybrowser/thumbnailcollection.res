@@ -1,4 +1,4 @@
-#base "../base/replaybrowser/thumbnailcollection.res"
+#base "base/thumbnailcollection.res"
 //not saved replays background settings
 "resource/ui/replaybrowser/thumbnailcollection.res"
 {

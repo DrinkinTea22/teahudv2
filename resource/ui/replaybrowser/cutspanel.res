@@ -1,4 +1,4 @@
-#base "../base/replaybrowser/cutspanel.res"
+#base "base/cutspanel.res"
 "Resource/UI/replaybrowser/cutspanel.res"
 {
 	"VerticalLine"
