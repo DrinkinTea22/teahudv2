@@ -2,46 +2,67 @@
 //current mvm wave status
 "Resource/UI/WaveStatusPanel.res"
 {
-	"Background"		//hardcoded, cant modify tall values
+	"Background"				//hardcoded, cant modify tall values
 	{
-		"xpos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	"BackgroundFixed"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundFixed"
-		"xpos"			"cs-0.5"
-		"ypos"			"2"
-		"zpos"			"-1"
-		"wide"			"200"
-		"tall"			"62"
-		"visible"		"1"
-		"enabled"		"1"
-		"proportionaltoparent"	"1"
-		"border"		"bg_lrtb"
-		"fillcolor"		"custombgcolor"
-	}
-	"WaveCountLabel"
-	{
-		"font"			"tea14"
-		"fgcolor"		"TanLight"
+		"border"				"bg_lrtb"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"		
 	}
 	"SupportLabel"
 	{
-		"font"			"tea14"
-		"fgcolor"		"white"
+		if_verbose				// Scoreboard
+		{
+			"visible"			"1"
+		}
 	}
 	"SeparatorBar"
 	{
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"white"
+		if_verbose				// Scoreboard
+		{
+			"visible"			"0"
+		}
+	}
+	"WaveCountLabel"			//this is pinned to ProgressBar
+	{
+		"fgcolor"				"white"
+		"font"					"tea14"
+	}
+	"WaveCountLabelShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"WaveCountLabelShadow"
+		"font"					"tea14"
+		"fgcolor"				"black"
+		"xpos"					"-1"
+		"ypos"					"-2"
+		"zpos"					"3"
+		"wide"					"200"
+		"tall"					"12"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"center"
+		"labelText"				"%wave_count%"
+
+		"pin_to_sibling" 		"WaveCountLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
 	}
 	"ProgressBar"
 	{
+		"xpos"			"211"
+		"ypos"			"20"
+		"wide"			"178"
+		"xpos_minmode"	"231"
+		"ypos_minmode"	"8"
+		"wide_minmode"	"138"
 	}
 	"ProgressBarBG"
 	{
+		"xpos"			"210"
+		"ypos"			"19"
+		"wide"			"180"
+		"xpos_minmode"	"230"
+		"ypos_minmode"	"7"
+		"wide_minmode"	"140"
 	}
 }

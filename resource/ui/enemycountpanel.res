@@ -7,13 +7,18 @@
 		"font"			"tea12"
 		"fgcolor"		"white"
 	}
+	"EnemyCountImageBG"
+	{
+		"xpos"					"2"
+		"ypos"					"1"
+		"wide"					"15"
+		"tall"					"16"
+		"PaintBackgroundType"	"0"
+	}
 	"EnemyCountPanel"
 	{
 	}
 	"EnemyCountImage"
-	{
-	}
-	"EnemyCountImageBG"
 	{
 	}
 	"EnemyCountCritImageBG"

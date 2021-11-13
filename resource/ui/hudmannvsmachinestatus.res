@@ -15,8 +15,6 @@
 		"Background"
 		{
 			"border"				"bg_lrtb"
-			"src_corner_height"		"25"
-			"src_corner_width"		"25"
 			"draw_corner_width"		"0"
 			"draw_corner_height"	"0"	
 		}
@@ -26,13 +24,14 @@
 			"fgcolor"		"white"		
 		}
 	}
+	"BossStatusPanel"		//fixing background overlap
+	{
+		"ypos"				"2"
+	}
 	"WaveStatusPanel"
 	{
 	}
 	"WaveCompleteSummaryPanel"
-	{
-	}
-	"BossStatusPanel"
 	{
 	}
 	"UpgradeLevelContainer"
