@@ -62,7 +62,7 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"fov"			"90"
+		"fov"			"80"
 		"allow_manip"								"1"	//this makes everything bellow WORK
 		
 		"model"
