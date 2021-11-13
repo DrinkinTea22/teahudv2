@@ -461,6 +461,18 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1"
 
+		"quickpin"
+		{
+			"controlname"							"cexbutton"
+			"fieldname"								"quickpin"
+			"xpos"									"254"	//didn't know this existed tbh
+			"ypos"									"90"
+			"tall"									"0"
+			"visible"								"1"	
+			"enabled"								"1"
+			"proportionalToParent"					"1"
+			"labeltext"								""
+		}
 		"CountdownImage"							//hardcoded element, move using pin
 		{
 			"wide"									"25"
@@ -468,18 +480,6 @@
 			"pin_to_sibling"						"quickpin"
 			"pin_corner_to_sibling"					"0"
 			"pin_to_sibling_corner"					"0"
-		}
-		"quickpin"
-		{
-			"controlname"							"cexbutton"
-			"fieldname"								"quickpin"
-			"xpos"									"cs2.06"	//didn't know this existed tbh
-			"ypos"									"90"
-			"tall"									"0"
-			"visible"								"1"	
-			"enabled"								"1"
-			"proportionalToParent"					"1"
-			"labeltext"								""
 		}
 		"CountdownLabelTime"
 		{
