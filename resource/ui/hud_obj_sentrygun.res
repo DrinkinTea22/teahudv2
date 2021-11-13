@@ -58,10 +58,11 @@
 		}
 		"Health"
 		{
-			"xpos"			"5"
-			"ypos"			"0"
-			"wide"			"8"
-			"tall"			"38"
+			"xpos"										"5"
+			"ypos"										"cs-0.5"
+			"wide"										"8"
+			"tall"										"36"
+			"proportionaltoparent"						"1"
 		}		
 		"Icon_Upgrade_1"
 		{
