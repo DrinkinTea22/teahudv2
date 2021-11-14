@@ -39,5 +39,6 @@
 	}	
 	"ItemEffectMeterCount"
 	{
+		"ypos"										"8"
 	}
 }

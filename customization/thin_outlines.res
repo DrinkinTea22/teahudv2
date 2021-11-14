@@ -1,99 +1,54 @@
 "Resource/UI/HudPlayerHealth.res"
 {
-	"HudPlayerHealth"
-	{
-	}	
 	"PlayerStatusHealthValueShadow"
 	{
 		"xpos"										"1"
 		"ypos"										"1"
 	}	
-	"healthCS"
-	{
-		"xpos"										"-1"
-		"ypos"										"0"
-	}
-	"healthCS2"
-	{
-		"xpos"										"-1"
-		"ypos"										"0"
-	}
-	"healthCS3"
-	{
-		"xpos"										"0"
-		"ypos"										"-1"
-	}
-	"healthCS4"
-	{
-		"xpos"										"0"
-		"ypos"										"-1"
-	}
-	"healthCS5"
-	{
-		"xpos"										"1"
-		"ypos"										"0"
-	}
-	"healthCS6"
-	{
-		"xpos"										"1"
-		"ypos"										"0"
-	}
-	"healthCS7"
-	{
-		"xpos"										"0"
-		"ypos"										"1"
-	}
-	"healthCS8"
-	{
-		"xpos"										"0"
-		"ypos"										"-1"
-	}
-	
-	
 	"AmmoInClipShadow"
 	{
 		"xpos"										"1"
 		"ypos"										"1"
 		
 	}	
-	"AmmoInClipCS"
+	"globaloutline"
 	{
 		"xpos"										"-1"
 		"ypos"										"0"
 	}
-	"AmmoInClipCS2"
+	"globaloutline2"
 	{
 		"xpos"										"-1"
 		"ypos"										"0"
 	}
-	"AmmoInClipCS3"
+	"globaloutline3"
 	{
 		"xpos"										"0"
 		"ypos"										"-1"
 	}
-	"AmmoInClipCS4"
+	"globaloutline4"
 	{
 		"xpos"										"0"
 		"ypos"										"-1"
 	}
-	"AmmoInClipCS5"
+	"globaloutline5"
 	{
 		"xpos"										"1"
 		"ypos"										"0"
 	}
-	"AmmoInClipCS6"
+	"globaloutline6"
 	{
 		"xpos"										"1"
 		"ypos"										"0"
 	}
-	"AmmoInClipCS7"
+	"globaloutline7"
 	{
 		"xpos"										"0"
 		"ypos"										"1"
 	}
-	"AmmoInClipCS8"
+	"globaloutline8"
 	{
 		"xpos"										"0"
 		"ypos"										"-1"
-	}			
+	}	
 }

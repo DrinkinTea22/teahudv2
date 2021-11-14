@@ -1,14 +1,14 @@
 #base "base/hudmediccharge.res"
-
+//medic uber panel
 "Resource/UI/HudMedicCharge.res"
 {	
 	"ChargeLabel"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
 		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"p0.50"
+		"wide"										"200"
+		"tall"										"100"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"uberFIX"
@@ -17,8 +17,8 @@
 	}
 	"ChargeMeter"
 	{	
-		"xpos"										"c-50"
-		"ypos"										"140"
+		"xpos"										"cs-0.5"
+		"ypos"										"65"
 		"proportionaltoparent"						"1"
 		"zpos"										"0"
 		"wide"										"100"
@@ -28,11 +28,11 @@
 	//vac
 	"IndividualChargesLabel"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
 		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"p0.50"
+		"wide"										"200"
+		"tall"										"100"
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
 		"font"										"uberFIX"
@@ -40,46 +40,46 @@
 	}		
 	"ChargeMeter1"
 	{	
-		"xpos"										"c-37"
-		"ypos"										"96"
-		"proportionaltoparent"						"1"
-		"zpos"			"2"
-		"wide"			"37"
-		"tall"			"8"		
+		"xpos"										"60"
+		"ypos"										"65"
+		"wide"										"20"
+		"tall"										"8"	
+		"border"									"bg_ltb"
+		"proportionaltoparent"						"1"	
 	}
 	"ChargeMeter2"
 	{	
-		"xpos"			"-37"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"37"
-		"tall"			"8"		
+		"xpos"										"-20"
+		"ypos"										"0"
+		"wide"										"20"
+		"tall"										"8"	
+		"border"									"bg_lrtb"
 		"pin_to_sibling" 							"ChargeMeter1"	
 	}
 	"ChargeMeter3"
 	{	
-		"xpos"			"0"
-		"ypos"			"-37"
-		"zpos"			"2"
-		"wide"			"37"
-		"tall"			"8"		
-		"pin_to_sibling" 							"ChargeMeter1"	
+		"xpos"										"-20"
+		"ypos"										"0"
+		"wide"										"20"
+		"tall"										"8"	
+		"border"									"bg_tb"
+		"pin_to_sibling" 							"ChargeMeter2"	
 	}
 	"ChargeMeter4"
 	{	
-		"xpos"			"-37"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"37"
-		"tall"			"8"	
+		"xpos"										"-20"
+		"ypos"										"0"
+		"wide"										"20"
+		"tall"										"8"	
+		"border"									"bg_lrtb"
 		"pin_to_sibling" 							"ChargeMeter3"		
 	}
 	"quickpin"
 	{
 		"controlname"								"cexbutton"
 		"fieldname"									"quickpin"
-		"xpos"										"c-37"
-		"ypos"										"110"
+		"xpos"										"60"
+		"ypos"										"37"
 		"tall"										"0"
 		"visible"									"1"	
 		"enabled"									"1"
@@ -88,10 +88,10 @@
 	}	
 	"ResistIcon"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"20"
-		"tall"			"20"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"20"
+		"tall"										"20"
 		"pin_to_sibling" 							"quickpin"	
 	}
 

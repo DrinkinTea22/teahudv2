@@ -396,6 +396,63 @@ scheme
 		}	
 		//*******************************************Spectatour Borders
 		
+		//*******************************************replay Borders
+		ReplayFatLineBorderRedBGOpaque
+		{
+			"image"									"../hud/tournament_panel_red"
+			"draw_corner_width"						"0"				
+			"draw_corner_height"					"0"	
+		}
+		ReplayFatLineBorderOpaque
+		{
+			"image"									"../hud/tournament_panel_brown"
+			"draw_corner_width"						"0"				
+			"draw_corner_height"					"0"	
+		}
+		ReplayGrayDialogBorder
+		{
+			"image"									"../hud/tournament_panel_brown"
+			"draw_corner_width"						"0"				
+			"draw_corner_height"					"0"	
+		}
+		ReplayOutlinedGreyBox
+		{
+			"image"									"../hud/tournament_panel_brown"
+			"draw_corner_width"						"0"				
+			"draw_corner_height"					"0"	
+		}
+		ReplayOutlinedDullGreyBox
+		{
+			"image"									"../hud/tournament_panel_brown"
+			"draw_corner_width"						"0"				
+			"draw_corner_height"					"0"	
+		}
+		ReplayThinLineBorder
+		{
+			//"image"								"../hud/tournament_panel_brown"
+			"draw_corner_width"						"0"				
+			"draw_corner_height"					"0"	
+		}
+		ReplayDefaultBorder
+		{
+			"image"									"../hud/tournament_panel_brown"
+			"draw_corner_width"						"0"				
+			"draw_corner_height"					"0"		
+		}
+		ReplayHighlightBorder
+		{
+			"image"									"../hud/tournament_panel_brown"
+			"draw_corner_width"						"0"				
+			"draw_corner_height"					"0"	
+		}
+		ReplayBalloonBorder
+		{
+			"image"									"../hud/tournament_panel_brown"
+			"draw_corner_width"						"0"				
+			"draw_corner_height"					"0"	
+		}
+		//*******************************************replay Borders
+		
 		//*******************************************Item Borders (backpack, etc) [Default NoQualityBorders]
 		BackpackItemBorder
 		{
@@ -1142,430 +1199,263 @@ scheme
 		//*******************************************Others		
 		OutlinedGreyBox
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"		
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		OutlinedDullGreyBox
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		TFThinLineBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		TFFatLineBorderOpaque
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		TFFatLineBorderRedBGOpaque
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		TFFatLineBorderBlueBGOpaque
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		TFFatLineBorderClearBG
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		GrayDialogBorder
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"		
+		{	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		StoreFreeTrialBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		BackpackItemGrayedOut
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		BackpackItemGrayedOut_Selected
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
-		}		
-		ReplayFatLineBorderRedBGOpaque
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
-		}
-		ReplayFatLineBorderOpaque
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
-		}
-		ReplayGrayDialogBorder
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
-		}
-		ReplayOutlinedGreyBox
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
-		}
-		ReplayOutlinedDullGreyBox
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
-		}		
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
+		}				
 		MainMenuButtonGlow
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		MainMenuButtonGlow2
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}		
 		NotificationDefault
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		NotificationHighPriority
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		MainMenuButtonDepressed
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		MainMenuButtonDepressedArmed
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		MainMenuButtonDefault
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		MainMenuButtonArmed
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		MainMenuButtonDisabled
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		MainMenuMiniButtonDefault
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		MainMenuMiniButtonArmed
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		MainMenuBGBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		MainMenuBGBorderAlpha
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		MainMenuBlogTabBG
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		MainMenuHighlightBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		TrainingResultsBG
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		StoreInnerShadowBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		StoreNewBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		StoreHighlightedBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		StoreHighlightedBackgroundBorder
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"		
+		{	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		StoreDiscountBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		StorePreviewBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		StoreAddToCart
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"		
+		{	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		StorePreviewTabSelected
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"		
+		{	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		StorePreviewTabUnselected
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"		
+		{	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		StorePromotion
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		ArmoryScrollbarBox
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		ArmoryScrollbarWell
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}	
-		ReplayThinLineBorder
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
-		}
-		ReplayDefaultBorder
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
-		}
-		ReplayHighlightBorder
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
-		}
-		ReplayBalloonBorder
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
-		}
 		QuestStatusBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		RedWithThinBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		BlueWithThinBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		InnerShadowBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		InnerShadowBorderThin
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"		
+		{	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		OuterShadowBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		OuterShadowBorderThin
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		CYOAScreenBorder
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"		
+		{	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		CYOANodeViewBorder
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"		
+		{	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		CYOANodeViewBorder_Active
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"		
+		{	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		CYOANodeViewBorder_Inactive
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"		
+		{	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}
 		CYOANodeViewBorder_TurnIn
-		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"		
+		{	
+			"draw_corner_width"						"0"				
+			"draw_corner_height" 					"0"		
 		}		
 		//*******************************************Others				
 	}

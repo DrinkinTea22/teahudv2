@@ -2,7 +2,7 @@
 {			
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"										"c-80"
+		"xpos"										"20"
 		"ypos"										"cs-0.5"
 		"zpos"										"2"
 		"wide"										"18"	

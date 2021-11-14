@@ -7,23 +7,23 @@
 {
 	//fix labels
 	"AmmoInClipShadow"
-	{		"wide"		"0"		}
-	"AmmoInClipCS"
-	{		"wide"		"0"		}
-	"AmmoInClipCS2"
-	{		"wide"		"0"		}
-	"AmmoInClipCS3"
-	{		"wide"		"0"		}
-	"AmmoInClipCS4"
-	{		"wide"		"0"		}
-	"AmmoInClipCS5"
-	{		"wide"		"0"		}
-	"AmmoInClipCS6"
-	{		"wide"		"0"		}
-	"AmmoInClipCS7"
-	{		"wide"		"0"		}
-	"AmmoInClipCS8"
-	{		"wide"		"0"		}
+	{		"wide"			"0"				}
+	"globaloutline"
+	{		"labelText"		"%Health%"		}
+	"globaloutline2"
+	{		"labelText"		"%Health%"		}
+	"globaloutline3"
+	{		"labelText"		"%Health%"		}
+	"globaloutline4"
+	{		"labelText"		"%Health%"		}
+	"globaloutline5"
+	{		"labelText"		"%Health%"		}
+	"globaloutline6"
+	{		"labelText"		"%Health%"		}
+	"globaloutline7"
+	{		"labelText"		"%Health%"		}
+	"globaloutline8"
+	{		"labelText"		"%Health%"		}
 	//fix labels
 	"PlayerStatusMaxHealthValue"
 	{
@@ -31,10 +31,10 @@
 	}
 	"HudPlayerHealth"
 	{
-		"xpos"											"0"	
-		"ypos"											"c20"	
-		"wide"											"p0.50"
-		"tall"											"p0.50"
+		"xpos"											"c-304"	
+		"ypos"											"c90"	
+		"wide"											"200"
+		"tall"											"100"
 		//"border"										"bg_lrtb" //testing
 		"proportionaltoparent"							"1"
 		
@@ -47,8 +47,8 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"10"
-		"wide"										"f0"
-		"tall"										"f0"
+		"wide"										"200"
+		"tall"										"50"
 		"zpos"										"50"
 		"proportionaltoparent"						"1"	
 		"textAlignment"								"center"	
@@ -56,12 +56,20 @@
 		"fgcolor"									"Health"
 	}		
 
+	"PlayerStatusHealthImage"
+	{
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"0"	//deleting this with xpos will result in unusable status icons
+		"tall"										"0"	//deleting this with xpos will result in unusable status icons
+		"proportionaltoparent"						"1"
+	}
 	"StatusIconFix"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"StatusIconFix"
-		"xpos"										"c-98"
-		"ypos"										"cs-0.5"
+		"xpos"										"4"
+		"ypos"										"8"
 		"zpos"										"5"
 		"wide" 										"10"	
 		"tall" 										"100"
@@ -286,19 +294,10 @@
 		"pin_to_sibling"							"StatusIconFix"
 		"pin_corner_to_sibling"						"4"
 		"pin_to_sibling_corner"						"4"
-	}
-	"PlayerStatusHealthImage"
-	{
-		//"xpos"										"cs-0.5"
-		"wide"										"0"	//deleting this with xpos will result in unusable status icons
-		"tall"										"0"	//deleting this with xpos will result in unusable status icons
-		"proportionaltoparent"						"1"
 	}	
 	"PlayerStatusHealthImageBG"
 	{
-		//"xpos"										"cs-0.5"
-		"wide"										"0"	//deleting this with xpos will result in unusable status icons
-		"tall"										"0"	//deleting this with xpos will result in unusable status icons
-		"proportionaltoparent"						"1"
+		"wide"										"0"
+		"tall"										"0"
 	}		
 }

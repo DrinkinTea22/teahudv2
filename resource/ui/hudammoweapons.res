@@ -5,24 +5,25 @@
 {
 	//fix labels
 	"PlayerStatusHealthValueShadow"
-	{		"wide"		"0"		}
-	"healthCS"
-	{		"wide"		"0"		}
-	"healthCS2"
-	{		"wide"		"0"		}
-	"healthCS3"
-	{		"wide"		"0"		}
-	"healthCS4"
-	{		"wide"		"0"		}
-	"healthCS5"
-	{		"wide"		"0"		}
-	"healthCS6"
-	{		"wide"		"0"		}
-	"healthCS7"
-	{		"wide"		"0"		}
-	"healthCS8"
-	{		"wide"		"0"		}
+	{		"wide"			"0"																	}
+	"globaloutline"
+	{		"labelText"		"%Ammo%"		"pin_to_sibling"			"AmmoInClipShadow"		}
+	"globaloutline2"
+	{		"labelText"		"%Ammo%"		"pin_to_sibling"			"globaloutline"			}
+	"globaloutline3"
+	{		"labelText"		"%Ammo%"		"pin_to_sibling"			"globaloutline2"		}
+	"globaloutline4"
+	{		"labelText"		"%Ammo%"		"pin_to_sibling"			"globaloutline3"		}
+	"globaloutline5"
+	{		"labelText"		"%Ammo%"		"pin_to_sibling"			"globaloutline4"		}
+	"globaloutline6"
+	{		"labelText"		"%Ammo%"		"pin_to_sibling"			"globaloutline5"		}
+	"globaloutline7"
+	{		"labelText"		"%Ammo%"		"pin_to_sibling"			"globaloutline6"		}
+	"globaloutline8"
+	{		"labelText"		"%Ammo%"		"pin_to_sibling"			"globaloutline7"		}
 	//fix labels
+	
 	"HudWeaponAmmoBG"
 	{
 		"visible"			"0"
@@ -36,7 +37,7 @@
 	}	
 	"AmmoNoClipShadow"
 	{
-		"xpos"			"9999"
+		"xpos"				"9999"
 		"enabled"			"0"		
 	}
 	
@@ -45,11 +46,11 @@
 	{
 		"font"										"tea48"
 		"fgcolor"									"Ammo"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
 		"zpos"										"50"
-		"wide"										"f0"
-		"tall"										"p0.50"
+		"wide"										"200"
+		"tall"										"50"
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"	
 	}		
@@ -61,10 +62,10 @@
 	{
 		"font"										"tea24"
 		"fgcolor"									"Ammo"
-		"xpos"										"0"
-		"ypos"										"25"
-		"wide"										"f0"
-		"tall"										"p0.50"
+		"xpos"										"cs-0.5"
+		"ypos"										"50"
+		"wide"										"200"
+		"tall"										"50"
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"		
 	}		
@@ -74,8 +75,8 @@
 		"fgcolor"									"Black"
 		"xpos"										"-2"
 		"ypos"										"-2"
-		"wide"										"f0"
-		"tall"										"p0.50"
+		"wide"										"200"
+		"tall"										"50"
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"	
 		"pin_to_sibling"							"AmmoInReserve"	
@@ -84,11 +85,11 @@
 	{
 		"font"										"tea48"
 		"fgcolor"									"Ammo"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
 		"zpos"										"50"
-		"wide"										"f0"
-		"tall"										"p0.50"
+		"wide"										"200"
+		"tall"										"50"
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"	
 	}									

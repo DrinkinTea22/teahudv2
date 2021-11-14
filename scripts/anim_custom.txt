@@ -16,16 +16,16 @@ event AnimateHitmarker
 event HudLowAmmoPulse
 {
 	Animate	AmmoInClipShadow 			FgColor		"AmmoLow"			Linear 0.0 0.0
-	Animate	AmmoInClipCS 				FgColor		"AmmoLow"			Linear 0.0 0.0
-	Animate	AmmoInClipCS2 				FgColor		"AmmoLow"			Linear 0.0 0.0
+	Animate	globaloutline 				FgColor		"AmmoLow"			Linear 0.0 0.0
+	Animate	globaloutline2 				FgColor		"AmmoLow"			Linear 0.0 0.0
 	
-	Animate	AmmoInClipCS3 				FgColor		"AmmoLow"			Linear 0.0 0.0
-	Animate	AmmoInClipCS4 				FgColor		"AmmoLow"			Linear 0.0 0.0
-	Animate	AmmoInClipCS5 				FgColor		"AmmoLow"			Linear 0.0 0.0
+	Animate	globaloutline3 				FgColor		"AmmoLow"			Linear 0.0 0.0
+	Animate	globaloutline4 				FgColor		"AmmoLow"			Linear 0.0 0.0
+	Animate	globaloutline5 				FgColor		"AmmoLow"			Linear 0.0 0.0
 	
-	Animate	AmmoInClipCS6 				FgColor		"AmmoLow"			Linear 0.0 0.0
-	Animate	AmmoInClipCS7 				FgColor		"AmmoLow"			Linear 0.0 0.0
-	Animate	AmmoInClipCS8 				FgColor		"AmmoLow"			Linear 0.0 0.0
+	Animate	globaloutline6 				FgColor		"AmmoLow"			Linear 0.0 0.0
+	Animate	globaloutline7 				FgColor		"AmmoLow"			Linear 0.0 0.0
+	Animate	globaloutline8 				FgColor		"AmmoLow"			Linear 0.0 0.0
 
 	RunEvent HudLowAmmoPulseLoop		0.3
 }
@@ -42,14 +42,14 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulseLoop 0.0
 
 	Animate	AmmoInClipShadow 			FgColor		"Black"		Linear 0.0 0.0
-	Animate	AmmoInClipCS 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	AmmoInClipCS2				FgColor		"Black"		Linear 0.0 0.0
-	Animate	AmmoInClipCS3 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	AmmoInClipCS4 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	AmmoInClipCS5 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	AmmoInClipCS6 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	AmmoInClipCS7 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	AmmoInClipCS8 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline2				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline3 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline4 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline5 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline6 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline7 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline8 				FgColor		"Black"		Linear 0.0 0.0
 }
 ////************************************************Low Ammo Animations STOP.
 
@@ -57,16 +57,16 @@ event HudLowAmmoPulseStop
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthValueShadow 		FgColor		"HealthHigh"			Linear 0.0 0.0
-	Animate	healthCS 				FgColor		"HealthHigh"			Linear 0.0 0.0
-	Animate	healthCS2 				FgColor		"HealthHigh"			Linear 0.0 0.0
-	
-	Animate	healthCS3 				FgColor		"HealthHigh"			Linear 0.0 0.0
-	Animate	healthCS4 				FgColor		"HealthHigh"			Linear 0.0 0.0
-	Animate	healthCS5 				FgColor		"HealthHigh"			Linear 0.0 0.0
-	
-	Animate	healthCS6 				FgColor		"HealthHigh"			Linear 0.0 0.0
-	Animate	healthCS7 				FgColor		"HealthHigh"			Linear 0.0 0.0
-	Animate	healthCS8 				FgColor		"HealthHigh"			Linear 0.0 0.0
+	Animate	globaloutline 						FgColor		"HealthHigh"			Linear 0.0 0.0
+	Animate	globaloutline2 						FgColor		"HealthHigh"			Linear 0.0 0.0
+
+	Animate	globaloutline3 						FgColor		"HealthHigh"			Linear 0.0 0.0
+	Animate	globaloutline4 						FgColor		"HealthHigh"			Linear 0.0 0.0
+	Animate	globaloutline5 						FgColor		"HealthHigh"			Linear 0.0 0.0
+
+	Animate	globaloutline6 						FgColor		"HealthHigh"			Linear 0.0 0.0
+	Animate	globaloutline7 						FgColor		"HealthHigh"			Linear 0.0 0.0
+	Animate	globaloutline8 						FgColor		"HealthHigh"			Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop		0.0250
 }
@@ -84,14 +84,14 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
 	Animate	PlayerStatusHealthValueShadow 			FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS2				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS3 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS4 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS5 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS6 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS7 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS8 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline2				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline3 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline4 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline5 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline6 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline7 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline8 				FgColor		"Black"		Linear 0.0 0.0
 }
 ////************************************************high health Animations STOP.
 
@@ -99,16 +99,16 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {	
 	Animate	PlayerStatusHealthValueShadow 		FgColor		"HealthLow"			Linear 0.0 0.0
-	Animate	healthCS 				FgColor		"HealthLow"			Linear 0.0 0.0
-	Animate	healthCS2 				FgColor		"HealthLow"			Linear 0.0 0.0
-	
-	Animate	healthCS3 				FgColor		"HealthLow"			Linear 0.0 0.0
-	Animate	healthCS4 				FgColor		"HealthLow"			Linear 0.0 0.0
-	Animate	healthCS5 				FgColor		"HealthLow"			Linear 0.0 0.0
-	
-	Animate	healthCS6 				FgColor		"HealthLow"			Linear 0.0 0.0
-	Animate	healthCS7 				FgColor		"HealthLow"			Linear 0.0 0.0
-	Animate	healthCS8 				FgColor		"HealthLow"			Linear 0.0 0.0
+	Animate	globaloutline 						FgColor		"HealthLow"			Linear 0.0 0.0
+	Animate	globaloutline2 						FgColor		"HealthLow"			Linear 0.0 0.0
+
+	Animate	globaloutline3 						FgColor		"HealthLow"			Linear 0.0 0.0
+	Animate	globaloutline4 						FgColor		"HealthLow"			Linear 0.0 0.0
+	Animate	globaloutline5 						FgColor		"HealthLow"			Linear 0.0 0.0
+
+	Animate	globaloutline6 						FgColor		"HealthLow"			Linear 0.0 0.0
+	Animate	globaloutline7 						FgColor		"HealthLow"			Linear 0.0 0.0
+	Animate	globaloutline8 						FgColor		"HealthLow"			Linear 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop		0.0250
 }
@@ -126,14 +126,14 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
 	Animate	PlayerStatusHealthValueShadow 			FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS2				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS3 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS4 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS5 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS6 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS7 				FgColor		"Black"		Linear 0.0 0.0
-	Animate	healthCS8 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline2				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline3 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline4 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline5 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline6 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline7 				FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline8 				FgColor		"Black"		Linear 0.0 0.0
 }
 ////************************************************low health Animations STOP.
 

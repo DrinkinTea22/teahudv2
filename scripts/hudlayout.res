@@ -27,10 +27,10 @@
 	
 	HudWeaponAmmo
 	{
-		"xpos"											"c0"	
-		"ypos"											"c20"	
-		"wide"											"p0.50"
-		"tall"											"f0"
+		"xpos"											"c104"	
+		"ypos"											"c90"	
+		"wide"											"200"
+		"tall"											"100"
 		"proportionaltoparent"							"1"
 		//"border"										"bg_lrtb" //testing
 	}
@@ -46,10 +46,10 @@
 	
 	HudMedicCharge
 	{
-		"xpos"											"c0"	
-		"ypos"											"c20"	
-		"wide"											"p0.50"
-		"tall"											"f0"
+		"xpos"											"c104"	
+		"ypos"											"c90"	
+		"wide"											"200"
+		"tall"											"100"
 		"proportionaltoparent"							"1"
 		//"border"										"bg_lrtb" //testing
 	}	

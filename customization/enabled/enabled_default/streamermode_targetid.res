@@ -89,25 +89,19 @@
 	}
 	"MoveableSubPanel"
 	{
+		"zpos"											"1000"
 		"quickpin"
 		{
 			"controlname"								"cexbutton"
 			"fieldname"									"quickpin"
-			"xpos"										"cs-0.6"
-			"ypos"										"rs1-14"
+			"xpos"										"cs-0.65"
+			"ypos"										"rs1-12"
 			"tall"										"0"
 			"visible"									"1"	
 			"enabled"									"1"
 			"labeltext"									""
 			"proportionaltoparent"						"1"
 		}
-		"MoveableIconBG"
-		{
-			"xpos"			"6"
-			"ypos"			"15"
-			"icon"			"../vgui/replay/thumbnails/null"
-		}
-		
 		"MoveableIcon"									//hardcoded element, move using pin
 		{
 			"drawcolor"		"white"
@@ -116,11 +110,14 @@
 			"pin_corner_to_sibling"						"4"
 			"pin_to_sibling_corner"						"4"
 		}
+		"MoveableIconBG"
+		{
+			"icon"										"../vgui/replay/thumbnails/null"
+		}
 		"MoveableSymbolIcon"
 		{
 			"tall"			"0"
 		}
-
 		"MoveableKeyLabel"
 		{	
 			"font"			"tea9"
