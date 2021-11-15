@@ -1,4 +1,0 @@
-"Scripts/hudlayout.res"
-{
-	
-}
