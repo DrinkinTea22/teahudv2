@@ -119,7 +119,7 @@
 			//this is toggled by customizations
 			"playername"
 			{
-				"font"			"tea9"
+				"font"			"QuestObjectiveTracker_Desc"
 				"xpos"			"0"
 				"ypos"			"24"
 				"labelText"		"%playername%"
