@@ -4,26 +4,26 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"					"c114"	
+		"xpos"					"c0"	
 		"ypos"					"c136"	
-		"wide"					"200"
+		"wide"					"p0.50"
 		"tall"					"100"
 		"proportionaltoparent"	"1"
 
 		"if_killstreak_visible"
 		{
-			"xpos"					"c114"	
+			"xpos"					"c0"	
 			"ypos"					"c136"	
-			"wide"					"200"
+			"wide"					"p0.50"
 			"tall"					"100"
 			"proportionaltoparent"	"1"
 		}
 	}	
 	"ActionText"		//key to use spell
 	{
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"ypos"			"10"
-		"wide"			"200"
+		"wide"			"f0"
 		"tall"			"100"
 		"proportionaltoparent"	"1"
 		"font"			"tea10"
@@ -34,9 +34,9 @@
 	{
 		"font"			"tea30"
 		"textAlignment" "center"
-		"xpos"			"0"
+		"xpos"			"cs-0.48"
 		"ypos"			"0"
-		"wide"			"200"
+		"wide"			"f0"
 		"tall"			"100"
 		"proportionaltoparent"	"1"
 		"fgcolor"		"white"
@@ -48,7 +48,7 @@
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"-1"
-		"wide"			"200"
+		"wide"			"f0"
 		"tall"			"100"
 		"proportionaltoparent"	"1"
 		"fgcolor"		"black"

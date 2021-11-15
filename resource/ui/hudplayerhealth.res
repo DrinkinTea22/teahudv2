@@ -31,14 +31,14 @@
 	}
 	"HudPlayerHealth"
 	{
-		"xpos"											"c-304"	
+		"xpos"											"0"	
 		"ypos"											"c90"	
-		"wide"											"200"
+		"wide"											"p0.50"
 		"tall"											"100"
 		//"border"										"bg_lrtb" //testing
 		"proportionaltoparent"							"1"
 		
-		"HealthBonusPosAdj"								"15"	//controls the bonus image size anim
+		"HealthBonusPosAdj"								"40"	//controls the bonus image size anim
 		"HealthDeathWarning"							"0.60"
 		"HealthDeathWarningColor"						"HUDDeathWarning"
 	}
@@ -47,7 +47,7 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"10"
-		"wide"										"200"
+		"wide"										"f0"
 		"tall"										"50"
 		"zpos"										"50"
 		"proportionaltoparent"						"1"	
@@ -68,14 +68,15 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"StatusIconFix"
-		"xpos"										"4"
-		"ypos"										"8"
+		"xpos"										"rs1-0"
+		"ypos"										"38"
 		"zpos"										"5"
-		"wide" 										"10"	
+		"wide" 										"p1.47"	
 		"tall" 										"100"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
+		//""border"										"bg_lrtb" //testing
 	}
 	"PlayerStatusBleedImage"
 	{

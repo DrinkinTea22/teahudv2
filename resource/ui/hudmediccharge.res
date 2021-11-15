@@ -7,7 +7,7 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"1"
-		"wide"										"200"
+		"wide"										"f0"
 		"tall"										"100"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
@@ -31,7 +31,7 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"1"
-		"wide"										"200"
+		"wide"										"f0"
 		"tall"										"100"
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
@@ -40,12 +40,12 @@
 	}		
 	"ChargeMeter1"
 	{	
-		"xpos"										"60"
+		"xpos"										"c-40"
 		"ypos"										"65"
 		"wide"										"20"
 		"tall"										"8"	
 		"border"									"bg_ltb"
-		"proportionaltoparent"						"1"	
+		"proportionaltoparent"						"1"		
 	}
 	"ChargeMeter2"
 	{	
@@ -78,7 +78,7 @@
 	{
 		"controlname"								"cexbutton"
 		"fieldname"									"quickpin"
-		"xpos"										"60"
+		"xpos"										"c-40"
 		"ypos"										"37"
 		"tall"										"0"
 		"visible"									"1"	
