@@ -67,6 +67,8 @@ event HudHealthBonusPulse
 	Animate	globaloutline6 						FgColor		"HealthHigh"			Linear 0.0 0.0
 	Animate	globaloutline7 						FgColor		"HealthHigh"			Linear 0.0 0.0
 	Animate	globaloutline8 						FgColor		"HealthHigh"			Linear 0.0 0.0
+	
+	Animate	PlayerStatusHealthBonusImage		alpha		"130"					Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop		0.0250
 }
@@ -110,6 +112,8 @@ event HudHealthDyingPulse
 	Animate	globaloutline7 						FgColor		"HealthLow"			Linear 0.0 0.0
 	Animate	globaloutline8 						FgColor		"HealthLow"			Linear 0.0 0.0
 
+	Animate	PlayerStatusHealthBonusImage		alpha		"130"					Linear 0.0 0.0
+	
 	RunEvent HudHealthDyingPulseLoop		0.0250
 }
 
