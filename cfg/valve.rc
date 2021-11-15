@@ -1,3 +1,6 @@
+//fix outline bugs
+hud_reloadscheme
+
 // load the base configuration
 //exec default.cfg
 r_decal_cullsize 1
