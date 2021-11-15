@@ -32,6 +32,16 @@
 		"tall"			"20"
 		"textAlignment"	"center"
 	}
+	"CancelLabel"
+	{	
+		"font"			"tea10"
+		"xpos"			"2"
+		"ypos"			"2"
+		"zpos"			"10"
+		"wide"			"200"
+		"tall"			"13"
+		"textAlignment"	"north-west"
+	}
 	"MainBackground"	
 	{
 		"xpos"			"9999"
@@ -40,12 +50,6 @@
 	}
 	"DestroyIcon"	
 	{
-		"xpos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
-	"CancelLabel"
-	{	
 		"xpos"			"9999"
 		"visible"		"0"
 		"enabled"		"0"

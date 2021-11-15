@@ -2,6 +2,15 @@
 
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
+	"ToggleLabel"
+	{	
+		"font"			"tea10"
+		"xpos"			"22"
+		"ypos"			"2"
+		"wide"			"f0"
+		"tall"			"13"
+		"textAlignment"	"north-west"
+	}
 	"Divider"
 	{
 		"xpos"			"17"
@@ -105,11 +114,6 @@
 	}
 	"SpyIcon"
 	{
-		"xpos"			"9999"
-		"enabled"		"0"
-	}
-	"ToggleLabel"
-	{	
 		"xpos"			"9999"
 		"enabled"		"0"
 	}
