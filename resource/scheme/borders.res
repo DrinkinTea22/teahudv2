@@ -433,11 +433,8 @@ scheme
 			"draw_corner_width"						"0"				
 			"draw_corner_height"					"0"	
 		}
-		ReplayDefaultBorder
+		ReplayDefaultBorder							//dashboard border
 		{
-			"image"									"../hud/tournament_panel_brown"
-			"draw_corner_width"						"0"				
-			"draw_corner_height"					"0"		
 		}
 		ReplayHighlightBorder
 		{
