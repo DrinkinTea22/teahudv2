@@ -479,6 +479,12 @@
 			"xpos"			"300"
 			"ypos"			"130"
 		}
+		if_mvm				//mvm fix
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-27"
+			"tall"			"20"
+		}
 		if_competitive		//untested
 		{
 			"xpos"			"cs-0.5"
@@ -496,6 +502,10 @@
 			"xpos"			"300"
 			"ypos"			"130"
 		}
+		if_mvm				//mvm fix
+		{
+			"xpos"			"cs-0.5"
+		}
 		if_competitive		//untested
 		{
 			"fgcolor"		"white"
@@ -510,6 +520,10 @@
 		{
 			"xpos"			"300"
 			"ypos"			"130"
+		}
+		if_mvm				//mvm fix
+		{
+			"xpos"			"cs-0.5"
 		}
 		if_competitive		//untested
 		{

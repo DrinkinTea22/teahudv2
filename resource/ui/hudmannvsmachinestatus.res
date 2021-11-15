@@ -28,10 +28,11 @@
 	{
 		"ypos"				"2"
 	}
-	"WaveStatusPanel"
+	"WaveCompleteSummaryPanel"	//be similar to PVEWinPanel
 	{
+		"ypos"				"c15"
 	}
-	"WaveCompleteSummaryPanel"
+	"WaveStatusPanel"
 	{
 	}
 	"UpgradeLevelContainer"

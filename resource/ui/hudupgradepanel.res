@@ -2,7 +2,7 @@
 //mvm upgrade station
 
 //tools
-#base "../tools/tools.res"
+//#base "../tools/tools.res"
 "Resource/UI/HudUpgradePanel.res"
 {
 	"reloadschemebutton"

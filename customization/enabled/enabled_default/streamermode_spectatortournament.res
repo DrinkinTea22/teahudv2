@@ -138,6 +138,7 @@
 			if_mvm
 			{
 				"wide"								"155"
+				"tall"								"15"
 			}
 		}
 		if_mvm
