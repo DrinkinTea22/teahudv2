@@ -23,8 +23,7 @@
 	{
 		"TextColor"		"white"
 		"NumberFont"	"tea14"
-	}
-	
+	}	
 	HudWeaponAmmo
 	{
 		"xpos"											"c0"	
