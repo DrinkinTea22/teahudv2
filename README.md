@@ -33,6 +33,7 @@ tf
 * Hitmarker: shows a white-ish circle when the player does damage
 * No Bonus Image: disables the "cross" image when low/high health
 * Alternative Scoreboard: alternative looking stats for the scoreboard
+* Compact Menus: makes engineer's menus smaller
 
 ## Supported GameModes
 
