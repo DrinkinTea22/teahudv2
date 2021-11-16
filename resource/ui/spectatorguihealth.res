@@ -59,10 +59,10 @@
 		"font"										"tea14"
 		"pin_to_sibling"							"PlayerStatusHealthValue"
 	}	
-	"healthCS"
+	"globaloutline"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS"
+		"fieldName"									"globaloutline"
 		"font"										"tea14"
 		"fgcolor"									"Black"
 		"xpos"										"-1"
@@ -76,10 +76,10 @@
 		"labelText"									"%Health%"
 		"pin_to_sibling"							"PlayerStatusHealthValueShadow"
 	}
-	"healthCS2"
+	"globaloutline2"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS2"
+		"fieldName"									"globaloutline2"
 		"font"										"tea14"
 		"fgcolor"									"Black"
 		"xpos"										"-1"
@@ -91,12 +91,12 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS"
+		"pin_to_sibling"							"globaloutline"
 	}
-	"healthCS3"
+	"globaloutline3"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS3"
+		"fieldName"									"globaloutline3"
 		"font"										"tea14"
 		"fgcolor"									"Black"
 		"xpos"										"0"
@@ -108,12 +108,12 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS2"
+		"pin_to_sibling"							"globaloutline2"
 	}
-	"healthCS4"
+	"globaloutline4"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS4"
+		"fieldName"									"globaloutline4"
 		"font"										"tea14"
 		"fgcolor"									"Black"
 		"xpos"										"0"
@@ -125,12 +125,12 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS3"
+		"pin_to_sibling"							"globaloutline3"
 	}
-	"healthCS5"
+	"globaloutline5"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS5"
+		"fieldName"									"globaloutline5"
 		"font"										"tea14"
 		"fgcolor"									"Black"
 		"xpos"										"1"
@@ -142,12 +142,12 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS4"
+		"pin_to_sibling"							"globaloutline4"
 	}
-	"healthCS6"
+	"globaloutline6"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS6"
+		"fieldName"									"globaloutline6"
 		"font"										"tea14"
 		"fgcolor"									"Black"
 		"xpos"										"1"
@@ -159,12 +159,12 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS5"
+		"pin_to_sibling"							"globaloutline5"
 	}
-	"healthCS7"
+	"globaloutline7"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS7"
+		"fieldName"									"globaloutline7"
 		"font"										"tea14"
 		"fgcolor"									"Black"
 		"xpos"										"0"
@@ -176,12 +176,12 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS6"
+		"pin_to_sibling"							"globaloutline6"
 	}
-	"healthCS8"
+	"globaloutline8"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"healthCS8"
+		"fieldName"									"globaloutline8"
 		"font"										"tea14"
 		"fgcolor"									"Black"
 		"xpos"										"0"
@@ -193,6 +193,6 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%Health%"
-		"pin_to_sibling"							"healthCS7"
+		"pin_to_sibling"							"globaloutline7"
 	}									
 }
