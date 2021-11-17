@@ -101,18 +101,21 @@
 		"ypos"			"20"
 		"wide"			"300"
 		"tall"			"20"
+		"centerwrap"	"0"
 		
 		if_mvm
 		{
-			"xpos"			"0"
+			"xpos"			"cs-0.5"
 			"ypos"			"250"
-			"wide"			"f0"
+			"wide"			"120"
 			"textAlignment"	"center"
 			"zpos"			"100"
+			"centerwrap"	"1"
 			"visible"		"1"
+			"proportionaltoparent"		"1"
 		}
 	}	
-	"ServerTimeLeft"			//MVM time
+	"ServerTimeLeft"	//MVM time
 	{
 		"font"			"tea12"
 		"textAlignment"	"west"
@@ -120,13 +123,13 @@
 		"ypos"			"0"
 		"wide"			"300"
 		"tall"			"20"
-		"pin_to_sibling"							"ServerLabel"
+		"pin_to_sibling""ServerLabel"
 		
 		if_mvm
 		{
 			"xpos"			"0"
-			"ypos"			"-10"
-			"wide"			"f0"
+			"ypos"			"-20"
+			"wide"			"120"
 			"textAlignment"	"center"
 			"zpos"			"100"
 			"visible"		"1"
