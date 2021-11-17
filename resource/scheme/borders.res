@@ -345,27 +345,21 @@ scheme
 		//*******************************************Loadout Default Item Fixes		
 		LoadoutItemMouseOverBorder
 		{
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_lrtb"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		LoadoutItemPopupBorder						//mouseoveritempanel border
 		{
-			"image"									"loadout_rect"
-			"src_corner_height"						"33"
-			"src_corner_width"						"33"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_lrtb"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		EconItemBorder								//classloadout no item border and quit/disconnect dialog border
 		{
-			"color"									"bodercolor"
-			"bordercolor_override"					"bodercolor"
-			"src_corner_width"						"25"
-			"src_corner_height"						"25"
-			"draw_corner_width"						"4"
-			"draw_corner_height"					"4"
+			"image"									"replay/thumbnails/bg_lrtb"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}											//to make life easier i wont make a custom bg for each dialog panel.
 		//*******************************************Loadout Default Item Fixes	
 		
@@ -453,390 +447,330 @@ scheme
 		//*******************************************Item Borders (backpack, etc) [Default NoQualityBorders]
 		BackpackItemBorder
 		{
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_lrtb"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemSelectedBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_lrtb"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_lrtb"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Default NoQualityBorders]
 		
 		//*******************************************Item Borders (backpack, etc) [Unique]
 		BackpackItemBorder_Unique
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_Unique
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_Unique
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"			
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_Unique
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"			
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Unique]
 		
 		//*******************************************Item Borders (backpack, etc) [Strange]
 		BackpackItemBorder_Strange
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_Strange
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_Strange
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"			
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_Strange
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"			
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Strange]
 		
 		//*******************************************Item Borders (backpack, etc) [Haunted]
 		BackpackItemBorder_Haunted
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_Haunted
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_Haunted
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"			
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_Haunted
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"			
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Haunted]
 
 		//*******************************************Item Borders (backpack, etc) [Warpaint]
 		BackpackItemBorder_PaintkitWeapon
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_PaintkitWeapon
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_PaintkitWeapon
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"			
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_PaintkitWeapon
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Warpaint]
 		
 		//*******************************************Item Borders (backpack, etc) [Collector's]
 		BackpackItemBorder_Collectors
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_Collectors
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_Collectors
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"			
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_Collectors
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"			
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Collector's]
 
 		//*******************************************Item Borders (backpack, etc) [Vintage]
 		BackpackItemBorder_Vintage
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_Vintage
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_Vintage
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_Vintage
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"			
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Vintage]
 
 		//*******************************************Item Borders (backpack, etc) [Community]
 		BackpackItemBorder_Community
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_Community
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_Community
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_Community
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height" 					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Community]
 
 		//*******************************************Item Borders (backpack, etc) [Developer's]
 		BackpackItemBorder_Developer
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_Developer
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_Developer
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_Developer
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Developer's]
 
 		//*******************************************Item Borders (backpack, etc) [Self-made]
 		BackpackItemBorder_SelfMade
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_SelfMade
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_SelfMade
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_SelfMade
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Self-made]
 
 		//*******************************************Item Borders (backpack, etc) [blue]
 		BackpackItemBorder_Customized
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_Customized
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_Customized
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_Customized
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [blue]
 
 		//*******************************************Item Borders (backpack, etc) [Pink]
 		BackpackItemBorder_Completed
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_Completed
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_Completed
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_Completed
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Pink]
 		
@@ -844,352 +778,297 @@ scheme
 		//*******************************************Item Borders (backpack, etc) [Gray]
 		BackpackItemBorder_RarityDefault
 		{	
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_RarityDefault
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_RarityDefault
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_RarityDefault
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Gray]
 		
-		//*******************************************Item Borders (backpack, etc) [Light-blue]***********************
+		//*******************************************Item Borders (backpack, etc) [Light-blue
 		BackpackItemBorder_RarityCommon
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_RarityCommon
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"		
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"	
 		}
 		BackpackItemGreyedOutBorder_RarityCommon
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_RarityCommon
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
-		//*******************************************Item Borders (backpack, etc) [Light-blue]***********************
+		//*******************************************Item Borders (backpack, etc) [Light-blue
 		
 		//*******************************************Item Borders (backpack, etc) [blue]
 		BackpackItemBorder_RarityUncommon
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_RarityUncommon
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"		
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"	
 		}
 		BackpackItemGreyedOutBorder_RarityUncommon
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"	
 		}
 		BackpackItemGreyedOutSelectedBorder_RarityUncommon
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"	
 		}
 		//*******************************************Item Borders (backpack, etc) [blue]
 		
 		//*******************************************Item Borders (backpack, etc) [blue-dark]
 		BackpackItemBorder_RarityRare
 		{	
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_RarityRare
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"		
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"	
 		}
 		BackpackItemGreyedOutBorder_RarityRare
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_RarityRare
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [blue-dark]
 
 		//*******************************************Item Borders (backpack, etc) [Pink-dark]
 		BackpackItemBorder_RarityMythical
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_RarityMythical
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"		
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"	
 		}
 		BackpackItemGreyedOutBorder_RarityMythical
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_RarityMythical
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Pink-dark]
 		
 		//*******************************************Item Borders (backpack, etc) [Pink-darker]
 		BackpackItemBorder_RarityLegendary
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_RarityLegendary
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"		
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"	
 		}
 		BackpackItemGreyedOutBorder_RarityLegendary
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_RarityLegendary
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Pink-darker]
 		
 		//*******************************************Item Borders (backpack, etc) [red]
 		BackpackItemBorder_RarityAncient
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_RarityAncient
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"		
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"	
 		}
 		BackpackItemGreyedOutBorder_RarityAncient
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_RarityAncient
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [red]
 
 		//*******************************************Item Borders (backpack, etc) [Green-dark]		
 		BackpackItemBorder_1
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_1
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_1
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_1
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Green-dark]	
 		
 		//*******************************************Item Borders (backpack, etc) [Ugly-yellow]
 		BackpackItemBorder_2
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_2
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_2
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_2
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Ugly-yellow]
 		
 		//*******************************************Item Borders (backpack, etc) [Kinda-white]
 		BackpackItemBorder_3
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemMouseOverBorder_3
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"		
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"	
 		}
 		BackpackItemGreyedOutBorder_3
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_3
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}		
 		//*******************************************Item Borders (backpack, etc) [Kinda-white]
 		
 		//*******************************************Item Borders (backpack, etc) [Pink-dark]
 		BackpackItemBorder_4
 		{
-			"image"									"backpack_rect_mouseover_color"
-			"src_corner_height"						"25"
-			"src_corner_width"						"25"
-			"draw_corner_width"						"0"				
-			"draw_corner_height" 					"0"		
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"	
 		}
 		BackpackItemMouseOverBorder_4
 		{
-			"src_corner_height"						"18"
-			"src_corner_width"						"18"
-			"draw_corner_width"						"5"				
-			"draw_corner_height" 					"5"	
+			"image"									"replay/thumbnails/bg_items_preset_moi"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutBorder_4
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		BackpackItemGreyedOutSelectedBorder_4
 		{
-			"src_corner_height"						"22"
-			"src_corner_width"						"22"
-			"draw_corner_width"						"3"				
-			"draw_corner_height"					"3"	
+			"image"									"replay/thumbnails/bg_items_preset"
+			"draw_corner_width"						"5"
+			"draw_corner_height"					"5"
 		}
 		//*******************************************Item Borders (backpack, etc) [Pink-dark]
 
