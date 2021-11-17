@@ -7,8 +7,8 @@
 		"fieldName" 		"HudChat"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos"				"2"		//override anims pls
-		"ypos"				"2"		//override anims pls
+		"xpos"				"-9"		//override anims pls
+		"ypos"				"-15"		//override anims pls
 		"wide"	 			"280"
 		"tall"	 			"120"
 	}
@@ -32,8 +32,8 @@
 		"ypos"			"2"
 		"wide"			"45"
 		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"#chat_filterbutton"
 		"textAlignment"	"center"	
 	}

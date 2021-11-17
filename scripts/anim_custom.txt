@@ -5,6 +5,10 @@ event DamagedPlayer
 {
     StopEvent AnimateHitmarker 0.0
     RunEvent AnimateHitmarker 0.0
+	
+	//just in case.
+	StopEvent AnimLock 0.0
+	RunEvent AnimLock 0.0
 }
 
 event AnimateHitmarker
