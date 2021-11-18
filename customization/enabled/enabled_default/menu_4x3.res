@@ -354,6 +354,14 @@
 		"pin_corner_to_sibling"						"0"
 		"pin_to_sibling_corner"						"0"		
 	}	
+	"RankTooltipPanel"
+	{
+		"xpos"			"-8"
+		"ypos"			"-20"
+		"pin_to_sibling"							"bgbordercs1"
+		"pin_corner_to_sibling"						"0"
+		"pin_to_sibling_corner"						"0"	
+	}
 	//rank stuff 
 	
 	//no internet available
