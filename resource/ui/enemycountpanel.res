@@ -7,6 +7,13 @@
 		"font"			"tea12"
 		"fgcolor"		"white"
 	}
+	"EnemyCountCritImageBG"
+	{
+		"xpos"					"2"
+		"tall"					"3"
+		"wide"					"15"
+		"ypos"					"17"
+	}
 	"EnemyCountImageBG"
 	{
 		"xpos"					"2"
@@ -19,9 +26,6 @@
 	{
 	}
 	"EnemyCountImage"
-	{
-	}
-	"EnemyCountCritImageBG"
 	{
 	}
 }
