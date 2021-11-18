@@ -28,34 +28,26 @@
 		"border"			"noborder"	//not used, covers the tip panel
 		"bgcolor_override"	"blank"		//not used, covers the tip panel
 		
-		"OutterPanelBG"
+		"OutterPanelBG"				//first bg
 		{
+			"tall"					"350"
 			"border"				"bg_lrtb"
-			"src_corner_height"		"25"
-			"src_corner_width"		"25"
 			"draw_corner_width"		"0"
 			"draw_corner_height"	"0"	
 		}
-		"InnerPanelRim"
+		"InnerPanelRim"				//second bg
 		{
+			"tall"					"278"
 			"PaintBackgroundType"	"0"
 			"border"				"bg_lrtb"
 			"bgcolor_override"		"MENUBGCOLOR"
 		}
-		"InnerBGPanel"
+		"InnerBGPanel"				//trird bg
 		{
+			"tall"					"268"
 			"PaintBackgroundType"	"0"
 			"border"				"bg_lrtb"
 			"bgcolor_override"		"custombgcolor"
-		}
-		"PlayerUpgradeButton"
-		{
-		}
-		"ClassImage"
-		{
-		}
-		"SentryIcon"
-		{
 		}
 		"ActiveTabPanel"
 		{
@@ -122,46 +114,52 @@
 		"UpgradeItemsBG"
 		{
 			"ypos"					"105"
-			"tall"					"160"
+			"tall"					"214"
 			"border"				"bg_lrb"
 			"bgcolor_override"		"black"
 		}
 		
-		"UpgradeItemsLabel"	//item/class name
+		"UpgradeItemsLabel"			//item/class name
 		{
 			"ypos"					"105"
 			"font"					"tea12"
 		}
-		"UpgradeItemStatsLabel"	//item/class stats
+		"UpgradeItemStatsLabel"		//item/class stats
 		{
 			"ypos"					"125"
-			"tall"					"140"
+			"tall"					"190"
+			"centerwrap"			"1"
 		}
 		
 		"CreditsLabel"
 		{
+			"ypos"			"285+39"
 			"font"			"tea14"
 			"fgcolor"		"MVMsubBonus"
 		}
 		"CreditsTextLabel"
 		{
+			"ypos"			"285+39"
 			"font"			"tea14"
 			"fgcolor"		"MVMsubLabel"
 		}
 		
 		"CancelButton"
 		{
+			"ypos"			"285+45"
 			"labelText"		"#TF_PVE_UpgradeCancel"
 			"font"			"tea14"
 		}
 		"CloseButton"
 		{
+			"ypos"			"285+45"
 			"labelText"		"#TF_PVE_UpgradeDone"
 			"font"			"tea14"
 		}
 		"RespecButton"
 		{
 			"xpos"			"10"
+			"ypos"			"285+45"
 			"font"			"tea12"
 		}
 	}	
