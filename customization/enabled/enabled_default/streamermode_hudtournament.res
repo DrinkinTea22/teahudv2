@@ -36,15 +36,25 @@
 			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			
-			if_competitive				//untested
+			if_competitive	//untested
 			{
 				"wide"		"45"
 				"tall"		"29"
 			}
+			if_mvm			//mvm
+			{
+				"wide"		"51"
+				"tall"		"35"
+			}
+			if_readymode	//toggle this with "mp_tournament_readymode 1"
+			{
+				"wide"		"51"
+				"tall"		"35"
+			}
 			
 			"playername"
 			{
-				"font"					"tea9"
+				"font"					"tea7"
 				"xpos"					"0"
 				"wide"					"55"
 				"textAlignment"			"center"
@@ -53,13 +63,13 @@
 				{
 					"xpos"				"0"
 					"wide"				"55"
-					"font"				"tea9"
+					"font"				"tea7"
 				}
 				if_readymode			//toggle this with "mp_tournament_readymode 1"
 				{
 					"xpos"				"0"
 					"wide"				"55"
-					"font"				"tea9"
+					"font"				"tea7"
 				}
 				if_competitive			//untested
 				{
@@ -75,6 +85,21 @@
 			
 			"classimage"
 			{
+				"xpos"				"cs-0.5"
+				"ypos"				"5"
+				"proportionaltoparent" "1"
+				
+				if_mvm
+				{
+					"xpos"				"cs-0.5"
+					"ypos"				"5"
+				}
+				if_readymode
+				{
+					"xpos"				"cs-0.5"
+					"ypos"				"5"
+				}
+				
 				if_competitive		//untested
 				{
 					"xpos"			"4"
@@ -86,8 +111,11 @@
 			}
 			"classimagebg"
 			{
-				"bgcolor_override"		"custombgcolor"
-				"border"				"bg_lrtb"
+				"xpos"				"cs-0.5"
+				"ypos"				"5"
+				"bgcolor_override"	"custombgcolor"
+				"border"			"bg_lrtb"
+				"proportionaltoparent" "1"
 				
 				if_competitive		//untested
 				{
@@ -101,9 +129,7 @@
 			}
 			"HealthIcon"
 			{
-				"xpos"				"10"
-				"wide"				"52"
-				"tall"				"52"
+				"wide"				"0"
 				
 				if_competitive		//untested
 				{
@@ -115,14 +141,17 @@
 			}
 			"ReadyImage"
 			{
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"image"			"../vgui/replay/thumbnails/null"
+				"fillcolor"		"80 180 80 255"
 			}
 			"ReadyBG"
 			{
-				"border"				"bg_lrtb"
-				"src_corner_height"		"25"
-				"src_corner_width"		"25"
-				"draw_corner_width"		"0"
-				"draw_corner_height" 	"0"	
+				"wide"				"0"
 				
 				if_competitive		//untested
 				{
@@ -156,11 +185,7 @@
 			
 			"chargeamount"
 			{
-				"font"			"tea9"
-				"xpos"			"0"
-				"ypos"			"20"
-				"wide"			"55"
-				"textAlignment"	"center"
+				"wide"				"0"
 				
 				if_competitive		//untested
 				{
