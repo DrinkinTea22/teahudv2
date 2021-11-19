@@ -48,7 +48,6 @@
 		"delta_item_end_y"		"28"
 		"PositiveColor"			"positive"
 		"NegativeColor"			"negative"
-		"delta_lifetime"		"1.5"
 		"delta_item_font"		"tea14"
 		"proportionaltoparent"	"1"
 
@@ -64,7 +63,6 @@
 			"delta_item_end_y"		"37"
 			"PositiveColor"			"positive"
 			"NegativeColor"			"negative"
-			"delta_lifetime"		"1.5"
 			"delta_item_font"		"tea12"
 			"proportionaltoparent"	"1"
 		}
@@ -119,7 +117,7 @@
 			//this is toggled by customizations
 			"playername"
 			{
-				"font"			"QuestObjectiveTracker_Desc"
+				"font"			"tea7"
 				"xpos"			"0"
 				"ypos"			"24"
 				"labelText"		"%playername%"
@@ -152,22 +150,6 @@
 				"font"			"tea12"
 			}
 			//health and respawntime
-			
-			"HealthIcon"
-			{
-			}
-			"ReadyBG"
-			{
-			}
-			"ReadyImage"
-			{
-			}
-			"chargeamount"
-			{
-			}
-			"specindex"
-			{
-			}
 		}
 	}
 	
@@ -187,15 +169,9 @@
 		{
 			"font"			"tea14"
 		}
-		"BlueLeaderAvatar"
-		{
-		}
 		"BlueLeaderAvatarBG"
 		{
 			"bgcolor_override"	"black"
-		}
-		"BluePlayerList"
-		{
 		}
 		"BluePlayerListBG"
 		{
@@ -217,15 +193,9 @@
 		{
 			"font"			"tea14"
 		}
-		"RedLeaderAvatar"
-		{
-		}
 		"RedLeaderAvatarBG"
 		{
 			"bgcolor_override"	"black"
-		}
-		"RedPlayerList"
-		{
 		}
 		"RedPlayerListBG"
 		{
