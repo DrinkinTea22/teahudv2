@@ -12,6 +12,17 @@ Scheme
 			}
 		}
 		//**************************************************mostly text.
+		"tea7"
+		{
+			"1"
+			{
+				"name"										"rubik semibold"
+				"tall"										"7"
+				"tall"										"6"	[$LINUX]
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		"tea9"
 		{
 			"1"
