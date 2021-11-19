@@ -7,7 +7,8 @@
 	}
 	"PanelBackground"
 	{
-		"bgcolor_override"		"black"					
+		"bgcolor_override"		"black"	
+		"paintbackground"		"1"					
 		"border"				"bg_lrtb"					
 	}
 	"WaveFailHeader"
