@@ -165,7 +165,7 @@
 	}
 	"BuyBackLabel"									//pay to respawn instantly, mvm
 	{
-		"ypos"										"15"
+		"ypos"										"70"
 		"font"										"tea10"
 	}
 	"itempanel"
