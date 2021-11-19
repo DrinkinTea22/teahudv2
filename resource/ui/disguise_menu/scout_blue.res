@@ -1,5 +1,4 @@
 #base "../base/disguise_menu/scout_blue.res"
-
 //this file is used for #base porpuses, do not delete
 "Resource/UI/disguise_menu/scout_blue.res"
 {
@@ -39,17 +38,21 @@
 	}
 	"NewNumberLabel"
 	{	
+		"xpos"			"cs-0.45"
 		"ypos"			"55"
 		"font"			"tea16"
 		"labelText"		"1"
 		"fgcolor"		"white"
+		"proportionaltoparent""1"
 	}
 	"NumberLabel"
 	{	
+		"xpos"			"cs-0.45"
 		"ypos"			"55"
 		"font"			"tea16"
 		"labelText"		"1"
 		"fgcolor"		"white"
+		"proportionaltoparent""1"
 	}
 	"ItemNameLabel"
 	{	
