@@ -20,6 +20,7 @@ event AnimateHitmarker
 event HudLowAmmoPulse
 {
 	Animate	AmmoInClipShadow 			FgColor		"AmmoLow"			Linear 0.0 0.0
+	Animate	globaloutline0 				FgColor		"AmmoLow"			Linear 0.0 0.0
 	Animate	globaloutline 				FgColor		"AmmoLow"			Linear 0.0 0.0
 	Animate	globaloutline2 				FgColor		"AmmoLow"			Linear 0.0 0.0
 	
@@ -46,6 +47,7 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulseLoop 0.0
 
 	Animate	AmmoInClipShadow 			FgColor		"Black"		Linear 0.0 0.0
+	Animate	globaloutline0 				FgColor		"Black"		Linear 0.0 0.0
 	Animate	globaloutline 				FgColor		"Black"		Linear 0.0 0.0
 	Animate	globaloutline2				FgColor		"Black"		Linear 0.0 0.0
 	Animate	globaloutline3 				FgColor		"Black"		Linear 0.0 0.0

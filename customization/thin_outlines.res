@@ -5,7 +5,7 @@
 		"xpos"										"1"
 		"ypos"										"1"
 	}	
-	"AmmoInClipShadow"
+	"globaloutline0"
 	{
 		"xpos"										"1"
 		"ypos"										"1"

@@ -1,9 +1,11 @@
-"Resource/UI/thicc_outlines.res"
+"Resource/UI/HudAmmoWeapons.res"
 {
-	"PlayerStatusHealthValueShadow"
+	//fix labels	
+	"globaloutline0"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueShadow"
+		"fieldName"									"globaloutline0"
+		"font"										"tea48"
 		"fgcolor"									"Black"
 		"xpos"										"2"
 		"ypos"										"2"
@@ -13,24 +15,10 @@
 		"proportionaltoparent"						"1"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"%Health%"
 		"textAlignment"								"center"	
-		"font"										"tea48"
-		"pin_to_sibling"							"PlayerStatusHealthValue"
-	}	
-	"AmmoInClipShadow"
-	{
-		"font"										"tea48"
-		"fgcolor"									"Black"
-		"xpos"										"2"
-		"ypos"										"2"
-		"wide"										"f0"
-		"tall"										"50"
-		"proportionaltoparent"						"1"
-		"zpos"										"1"
-		"textAlignment"								"center"	
+		"labelText"									"%Ammo%"
 		"pin_to_sibling"							"AmmoInClip"
-	}	
+	}
 	"globaloutline"
 	{
 		"ControlName"								"CExLabel"
@@ -47,7 +35,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"	
 		"labelText"									"%Ammo%"
-		"pin_to_sibling"							"PlayerStatusHealthValueShadow"
+		"pin_to_sibling"							"globaloutline0"
 	}
 	"globaloutline2"
 	{
@@ -175,4 +163,80 @@
 		"labelText"									"%Ammo%"
 		"pin_to_sibling"							"globaloutline7"
 	}		
+	//fix labels
+	
+	"HudWeaponAmmoBG"
+	{
+		"visible"			"0"
+		"enabled"			"0"		
+	}
+	"HudWeaponLowAmmoImage"
+	{
+		"xpos"				"9999"
+		"visible"			"0"
+		"enabled"			"0"			
+	}	
+	"AmmoInClipShadow"
+	{
+		"xpos"				"9999"
+		"enabled"			"0"			
+	}
+	"AmmoNoClipShadow"
+	{
+		"xpos"				"9999"
+		"enabled"			"0"		
+	}
+	
+	//ammo	
+	"AmmoInClip"
+	{
+		"font"										"tea48"
+		"fgcolor"									"Ammo"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
+		"zpos"										"50"
+		"wide"										"f0"
+		"tall"										"50"
+		"proportionaltoparent"						"1"
+		"textAlignment"								"center"	
+	}		
+	//ammo	
+	
+	
+	//reserve ammo								
+	"AmmoInReserve"
+	{
+		"font"										"tea24"
+		"fgcolor"									"Ammo"
+		"xpos"										"cs-0.5"
+		"ypos"										"50"
+		"wide"										"f0"
+		"tall"										"50"
+		"proportionaltoparent"						"1"
+		"textAlignment"								"center"		
+	}		
+	"AmmoInReserveShadow"
+	{
+		"font"										"tea24"
+		"fgcolor"									"Black"
+		"xpos"										"-2"
+		"ypos"										"-2"
+		"wide"										"f0"
+		"tall"										"50"
+		"proportionaltoparent"						"1"
+		"textAlignment"								"center"	
+		"pin_to_sibling"							"AmmoInReserve"	
+	}									
+	"AmmoNoClip"
+	{
+		"font"										"tea48"
+		"fgcolor"									"Ammo"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
+		"zpos"										"50"
+		"wide"										"f0"
+		"tall"										"50"
+		"proportionaltoparent"						"1"
+		"textAlignment"								"center"	
+	}									
 }
