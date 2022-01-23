@@ -24,17 +24,22 @@
 		"proportionaltoparent"	"1"	
 		"fillcolor"				"custombgcolor"
 	}
-	"DisguiseNameLabel"
+	
+	//note: do not mess with "wide" values or your text will get cut-off
+	"DisguiseNameLabel"	// make a bot to test large names: "bot -team red -class scout -name stupidlylargenametotest"
 	{	
 		"font"			"tea12"
 		"xpos"			"34"
 		"ypos"			"44"
+		"wide"			"166"
 	}
 	"WeaponNameLabel"
 	{	
-		"font"			"tea11"
+		"font"			"tea12"
 		"xpos"			"34"
 		"ypos"			"51"
+		"wide"			"166"
+		"proportionaltoparent"			"1"
 	}
 	"SpectatorGUIHealth"
 	{

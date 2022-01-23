@@ -34,11 +34,11 @@
 		"fillcolor"									"custombgcolor"
 	}
 	
-	"TargetNameLabel"
+	//note: do not mess with "wide" values or your text will get cut-off
+	"TargetNameLabel"	// make a bot to test large names: "bot -team red -class scout -name stupidlylargenametotest"
 	{
 		"font"			"tea12"
 		"ypos"			"rs0-20"
-		"wide"			"f0"
 		"textAlignment"	"north-west"
 		"proportionaltoparent"	"1"	
 	}
@@ -46,7 +46,6 @@
 	{
 		"font"			"tea9"
 		"ypos"			"rs0-14"
-		"wide"			"f0"
 		"labelText"		"%targetdata%"
 		"textAlignment"	"west"
 		"proportionaltoparent"	"1"	
