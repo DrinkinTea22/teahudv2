@@ -17,6 +17,59 @@
 	{
 		//this makes everything work, also use "vgui_cache_res_files 0" will save your time!
 	}
+	"Background"
+	{
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-199"
+		"wide"					"f0"
+		"tall"					"f0"
+		"image"					"../vgui/replay/thumbnails/null"
+		"bgcolor_override"		"MENUBGCOLOR"
+		
+		if_wider
+		{
+			"wide"					"f0"
+			"tall"					"f0"
+		}
+		if_taller
+		{
+			"wide"					"f0"
+			"tall"					"f0"
+		}
+		if_halloween_0
+		{
+			"image"				"../vgui/replay/thumbnails/null"
+		}
+		if_halloween_1
+		{
+		"image"					"../vgui/replay/thumbnails/null"
+		}
+		if_halloween_2
+		{
+		"image"					"../vgui/replay/thumbnails/null"
+		}
+		if_halloween_3
+		{
+		"image"					"../vgui/replay/thumbnails/null"
+		}
+		if_halloween_4
+		{
+		"image"					"../vgui/replay/thumbnails/null"
+		}
+		if_halloween_5
+		{
+		"image"					"../vgui/replay/thumbnails/null"
+		}
+		if_fullmoon
+		{
+		"image"					"../vgui/replay/thumbnails/null"
+		}
+		if_christmas
+		{
+		"image"					"../vgui/replay/thumbnails/null"
+		}
+	}
 	"reloadschemebutton"
 	{
 		"xpos"		"c0"
