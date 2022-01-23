@@ -12,7 +12,8 @@
 		{
 			"overhealbar"				//overheal hp
 			{
-				"wide"					"60"		//using this makes the bar fill the panel
+				"wide"					"p1"		//using this makes the bar fill the panel
+				"proportionaltoparent"	"1"
 			}
 		}	
 	}	
