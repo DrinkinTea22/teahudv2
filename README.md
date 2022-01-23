@@ -54,14 +54,6 @@ tf
 
 * Auto-update script
 * Reference / base default hud files
-* On-start and on-first-run cfg's
-* Closecaption compiler
-* chat_english language converter
-* Animation fixes
-* Animation locking setup
-* Remove play-button background-dimmer option
-* Preloaded cp icons (sv_pure compatible)
-* Fixes for certain existing hud materials
 * Custom crosshairs, from [
 TF2-Hud-Crosshairs](https://github.com/Hypnootize/TF2-Hud-Crosshairs)
 
@@ -69,7 +61,7 @@ Some of these features involve scripting or programs that are intended for windo
 Where possible, linux is also supported (you may need wine to run the update script).
 
 ## Goals for this project:
-As i'm now working with a auto-update hud, i would like to achieve minimal changes and its intended for casual players (for now). <br>
+As i'm now working with a auto-update hud, i would like to achieve minimal changes and its intended for casual players . <br>
 Note: this will replace the original project [TeaHud](https://github.com/DrinkinTea22/TeaHud) but the hud will remain on 
 my github account.
 
@@ -82,7 +74,7 @@ my github account.
 * **Seeker** for Seekers Crosshair<br>
 * **Garm3n** for wings Crosshairs<br>
 
-also:
+huge thanks to:
 
 - [**Hypnootize**](https://github.com/Hypnootize)
 - [**Whisker**](https://github.com/rbjaxter)
