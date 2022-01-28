@@ -415,6 +415,12 @@ MIT license updated
 huditemattributetracker						-no longer uses #base
 QuestNotificationPanel_base					-no longer uses #base
 
+//day 4	- huds.tf
+							--		visuals		--
+hitmarker									-works exactly as a custom crosshair
+payload										-new look and icons (fix plr)
+							--		under the hud		-- 
+
 
 //update download link
 https://github.com/DrinkinTea22/teahudv2/archive/refs/heads/main.zip
