@@ -4,7 +4,10 @@
 {	
 	"ObjectiveStatusEscort"
 	{
-		"ypos"				"r135"	//do not overlap my hud
+		"xpos"					"cs-0.5"
+		"ypos"					"r135"	//do not overlap my hud
+		"wide"					"280"
+		"proportionaltoparent"	"1"
 		
 		"if_multiple_trains"
 		{
@@ -14,11 +17,11 @@
 	
 	"LevelBar"
 	{
-		"xpos"			"73"
-		"ypos"			"123"
+		"xpos"			"0"
+		"ypos"			"121"
 		"zpos"			"0"
 		"wide"			"254"
-		"tall"			"4"
+		"tall"			"6"
 		"labelText"		""
 		"image"			"../vgui/replay/thumbnails/null"
 		"fillcolor"		"custombgcolor"
@@ -28,7 +31,7 @@
 		{
 			"ypos"			"118"
 			"zpos"			"3"
-			"tall"			"4"
+			"tall"			"6"
 			"image"			"../vgui/replay/thumbnails/null"
 			"fillcolor"		"custombgcolor"
 		}
@@ -43,7 +46,7 @@
 	
 	"ProgressBar"
 	{
-		"xpos"			"73"
+		"xpos"			"0"
 		"ypos"			"123"
 		"zpos"			"4"
 		"wide"			"254"
@@ -55,14 +58,14 @@
 		{
 			"ypos"			"118"
 			"zpos"			"6"
-			"tall"			"4"
+			"tall"			"6"
 			"visible"		"1"
 		}
 	}		
 	
 	"HomeCPIcon"
 	{
-		"xpos"		"66"	
+		"xpos"		"-1"	
 		"ypos"		"118"
 		"wide"		"14"
 		"tall"		"14"
@@ -80,18 +83,19 @@
 		
 		"if_multiple_trains"			//Paylaod Race settings
 		{
-			"xpos"			"65"
-			"wide"			"14"
-			"tall"			"6"
+			"xpos"			"-2"
+			"wide"			"6"
+			"tall"			"8"
+			"zpos"			"10"
 			"image"			"../hud/cart_point_neutral_opaque"
 		}
 		"if_multiple_trains_top"		//this moves your current team home icon
 		{
-			"ypos"			"115"
+			"ypos"			"116"
 		}
 		"if_multiple_trains_bottom"		//this moves the enemy's team home icon
 		{
-			"ypos"			"120"
+			"ypos"			"116"
 		}
 	}
 	"SimpleControlPointTemplate"
@@ -102,32 +106,57 @@
 		
 		"if_multiple_trains"
 		{
-			"ypos"			"115"
-			"ypos"			"115"
+			"ypos"			"116"
 			"wide"			"8"	
-			"tall"			"10"
+			"tall"			"8"
 		}
 	}
 	"EscortItemPanel"
 	{
+		"xpos"		"0"
 		"ypos"		"48"
-		"wide"		"52"	
-		"tall"		"75"		
+		"wide"		"508"							//match end (x2 times "filler" wide.)
+		"tall"		"80"	
 
 		"if_multiple_trains"
 		{
 			"ypos"			"48"
 			"zpos"			"8"
-			"wide"			"52"
+			"wide"			"508"					//match end (x2 times "filler" wide.)
 			"tall"			"170"
+		}
+		
+		"Filler"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"Filler"
+			"xpos"									"0"
+			"ypos"									"73"
+			"zpos"									"-100"
+			"wide"									"254"
+			"tall"									"6"
+			"visible"								"1"
+			"enabled"								"1"
+			"fillcolor"								"MainBlue"
+			"scaleImage"							"1"
+			"proportionaltoparent"					"1"
+			
+			"if_multiple_trains"
+			{
+				"ypos"								"70"
+			}
+			"if_multiple_trains_red"
+			{
+				"fillcolor"							"MainRed"
+			}
 		}
 		
 		"RecedeTime"
 		{	
 			"font"		"tea12"	
-			"xpos"		"21"	
+			"xpos"		"248"	
 			"ypos"		"50"	
-			"wide"		"10"
+			"wide"		"12"
 			"tall"		"12"
 			
 			"if_multiple_trains"
@@ -148,34 +177,34 @@
 		}
 		"EscortItemImage"
 		{
-			"xpos"		"13"
-			"ypos"		"50"
+			"xpos"		"246"
+			"ypos"		"58"
 			"zpos"		"1"
-			"wide"		"26"
-			"tall"		"26"
+			"wide"		"16"
+			"tall"		"16"
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"11"
-				"ypos"			"43"
-				"wide"			"30"
-				"tall"			"30"
+				"xpos"			"246"
+				"ypos"			"58"
+				"wide"			"16"
+				"tall"			"16"
 			}						
 		}
 		"EscortItemImageBottom"
 		{	
-			"xpos"			"20"
-			"ypos"			"117"
+			"xpos"			"246"
+			"ypos"			"70"
 			"zpos"			"1"
 			"wide"			"40"
 			"tall"			"40"
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"11"
-				"ypos"			"71"
-				"wide"			"30"
-				"tall"			"30"
+				"xpos"			"246"
+				"ypos"			"72"
+				"wide"			"16"
+				"tall"			"16"
 			}			
 		}
 		"EscortItemImageAlert"
@@ -198,8 +227,8 @@
 		}
 		"Speed_Backwards"
 		{
-			"xpos"		"23"
-			"ypos"		"53"
+			"xpos"		"251"
+			"ypos"		"62"
 			"wide"		"7"
 			"tall"		"7"
 			
@@ -207,46 +236,41 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"22"
-				"wide"			"8"
-				"tall"			"8"
+				"xpos"			"251"
+				"wide"			"7"
+				"tall"			"7"
 			}
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"61"	//61
 			}	
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"			"75"
 			}	
 		}
 		"CapPlayerImage"
 		{
-			"xpos"		"19"
-			"ypos"		"51"
-			"wide"		"4"
-			"tall"		"8"
-			
+			"xpos"		"9999"
+		
 			"if_multiple_trains"
 			{
-				"xpos"			"17"
-				"wide"			"5"
-				"tall"			"10"
+				"xpos"			"9999"
 			}
 			"if_multiple_trains_top"
 			{
-				"ypos"			"45"
+				"ypos"			"9999"
 			}	
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"81"
+				"ypos"			"9999"
 			}	
 		}
 		"CapNumPlayers"
 		{	
-			"font"		"tea10"
-			"xpos"		"23"
-			"ypos"		"50"
+			"font"		"tea9"
+			"xpos"		"250"					//match Filler
+			"ypos"		"72"
 			"wide"		"20"
 			"tall"		"9"
 			"textAlignment"	"west"
@@ -254,46 +278,51 @@
 			"if_multiple_trains"
 			{
 				"font"			"tea10"
-				"xpos"			"23"
+				"xpos"			"250"
 				"wide"			"30"
 				"tall"			"9"
 			}			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"68"
 			}
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"82"
+				"ypos"			"68"
 			}	
 		}
+		//get this by adding a bot, then use "status" to know your position in the map (near payload)
+		//use "bot_teleport" with said position, ie: "bot_teleport Archimedes! 6181 7117 -123 0 0 0"
+		//enjoy.
 		"Blocked"
-		{	
-			"xpos"		"23"
-			"ypos"		"53"
+		{
+			"xpos"		"251"
+			"ypos"		"62"
 			"wide"		"7"
 			"tall"		"7"
 			
-			"image"			"../hud/cart_blocked"	
+			"image"			"../hud/cart_blocked"		
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"22"
-				"wide"			"8"
-				"tall"			"8"
+				"xpos"			"267"
+				"wide"			"7"
+				"tall"			"7"
 			}
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"61"	//61
 			}	
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"			"76"
 			}
+
 		}
 		"EscortTeardrop"
 		{
 			"xpos"			"9999"
+			
 			"if_multiple_trains"
 			{
 				"xpos"			"9999"
