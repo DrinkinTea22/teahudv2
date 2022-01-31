@@ -1,4 +1,4 @@
-# Current State: stable (bug finding/fixing)
+# Current State: stable/with minor bugs (No longer in Development!)
 
 # TeaHudv2
 
