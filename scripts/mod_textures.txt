@@ -17,5 +17,13 @@
 	
 	TextureData
 	{
+		"obj_attachment_sapper"	//basehud wrong input, causes killfeed icon mess
+		{
+				"file"		"sprites/bucket_sapper"
+				"x"		"0"
+				"y"		"64"
+				"width"		"96"
+				"height"	"32"
+		}
 	}
 }
