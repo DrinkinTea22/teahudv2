@@ -121,11 +121,7 @@
 				"BluePlayerListParent"
 				{
 					BluePlayerList
-					{
-						"medal"					"0"
-						"wide"					"0"
-						"tall"					"0"
-					}
+					{		"ypos"		"9999"		"visible"	"0"		"enabled"	"0"		}	
 				}
 			}
             "RedTeamPanel"
@@ -136,11 +132,7 @@
 				"RedPlayerListParent"
 				{
 					RedPlayerListParent
-					{
-						"medal"					"0"
-						"wide"					"0"
-						"tall"					"0"
-					}
+					{		"ypos"		"9999"		"visible"	"0"		"enabled"	"0"		}	
 				}
 			}
 		}
