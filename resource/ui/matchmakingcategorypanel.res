@@ -1,4 +1,5 @@
 #base "base/MatchmakingCategoryPanel.res"
+//casual (per gamemode droplist button)
 "Resource/UI/MatchmakingCategoryPanel.res"
 {
 	"MatchmakingCategoryPanel"
@@ -9,16 +10,15 @@
 	"TopContainer"
 	{
 		"tall"					"30"
+		
 		"BGColor"
 		{
 			"bgcolor_override"	"0 0 0 255"
 		}
 		"BGImage"
-		{
-			"xpos"			"9999"
-		}
+		{		"xpos"			"9999"		}
 
-		"EntryToggleButton"
+		"EntryToggleButton"				//view maps
 		{
 			"ypos"						"20"
 			"textAlignment"				"center"
@@ -36,9 +36,6 @@
 				"scaleImage"	"0"
 			}	
 		}
-		"Shade"
-		{
-		}
 		"Checkbutton"
 		{
 			"xpos"		"0"
@@ -46,26 +43,18 @@
 		}
 		"Title"
 		{
-			"xpos"		"15"
-			"ypos"		"2"
-			"textAlignment"		"north-west"
-			"font"				"tea12"
+			"xpos"				"0"
+			"ypos"				"3"
+			"wide"				"f0"
+			"textAlignment"		"center"
+			"font"				"tea20"
 		}	
 		"DescLabel"
-		{
-			"xpos"		"20"
-			"ypos"		"12"
-			"wide"		"p0.90"
-			"font"			"tea9"
-		}
+		{		"xpos"			"9999"		}
 		"TitleShadow"
-		{
-			"xpos"		"9999"
-		}
+		{		"xpos"			"9999"		}
 		"DescLabelShadow"
-		{
-			"xpos"		"9999"
-		}
+		{		"xpos"			"9999"		}
 	}
 	"PlayListDropShadow"
 	{

@@ -5,42 +5,34 @@
 	"ExpandableList"
 	{
 		"fieldName"		"ExpandableList"
-		"xpos"			"r0"
-		"ypos"			"10"
+		"xpos"			"r0"		//using "0" makes this panel cover the screen, thanks Hypnotize!<3
+		"ypos"			"cs-0.5"
 		"zpos"			"1001"
-		"wide"			"280"
-		"tall"			"f70"
+		"wide"			"f0"
+		"tall"			"300"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
+	"BGPanel"
+	{
+		"tall"			"300"	//from MatchMakingDashboardSidePanel
+	}
 	"Title"
 	{
-		"xpos"				"0"
-		"textAlignment"		"north"
-		"font"				"tea20"
-		"fgcolor_override"	"white"
-		
-		"ControlName"		"Label"
-		"fieldName"			"Title"
-		"ypos"				"20"
-		"zpos"				"99"
-		"wide"				"f0"
-		"tall"				"20"
-		"proportionaltoparent"	"1"
-		"labeltext"			"#TF_Matchmaking_HeaderModeSelect"
-		"mouseinputenabled"	"0"
+		"labeltext"			""
 	}
 	"playlist"
 	{
 	//	"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
-		"xpos"			"8"
-		"ypos"			"50"
+		"xpos"			"cs-0.5"
+		"ypos"			"5"
 		"zpos"			"100"
-		"wide"			"255"
-		"tall"			"365"
+		"wide"			"280"
+		"tall"			"290"	//ExpandableList > tall -10
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+		//"border"			"bg_lrtb" //testing
 	}
 	"PlayListDropShadow"
 	{
@@ -50,8 +42,8 @@
 		"xpos"			"8"
 		"ypos"			"50"
 		"zpos"			"1000"
-		"wide"			"255"
-		"tall"			"298"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"

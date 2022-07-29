@@ -4,6 +4,7 @@
 {
 	"MatchmakingCategoryMapPanel"
 	{
+		//makes everythink work.
 	}
 	"MapCheckbutton"
 	{

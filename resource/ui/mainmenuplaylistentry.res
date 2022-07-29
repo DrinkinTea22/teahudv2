@@ -4,7 +4,7 @@
 {
 	"ModeImage"
 	{
-		"alpha"			"80"
+		"alpha"			"0"
 	}
 	"PlayListDropShadow"	//inner shadow
 	{
@@ -28,7 +28,7 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f0"
+		"wide"			"p1"
 		"tall"			"20"
 		
 		"textinsetx"	"0"

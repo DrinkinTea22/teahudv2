@@ -1,5 +1,5 @@
 #base "base/MatchmakingCasualCriteria.res"
-//casual settings and window settings
+//casual settings and window settings deeper than MatchMakingDashboardCasualCriteria
 "Resource/UI/MatchmakingCasualCriteria.res"
 {
 	"PlaylistBGPanel"
@@ -28,13 +28,38 @@
 		}
 		"RestoreCasualSearchCriteria"
 		{
-			"xpos"			"c-20"
-			"ypos"			"50"
+			"xpos"			"10"
+			"ypos"			"10"
+			"wide"			"50"
+			"tall"			"50"
+			
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"30"
+				"tall"			"30"
+				"proportionaltoparent"			"1"
+			}	
 		}	
 		"SaveCasualSearchCriteria"
 		{
-			"xpos"			"c5"
-			"ypos"			"50"
+			"xpos"			"rs1-10"
+			"ypos"			"10"
+			"wide"			"50"
+			"tall"			"50"
+			"proportionaltoparent"			"1"
+			
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"30"
+				"tall"			"30"
+				"proportionaltoparent"			"1"
+			}
 		}
 		"QueueEstimation"
 		{
@@ -50,6 +75,7 @@
 
 			"ScrollBar"
 			{
+				"xpos"			"rs1+1"
 				"Slider"
 				{
 					"fgcolor_override"	"white"

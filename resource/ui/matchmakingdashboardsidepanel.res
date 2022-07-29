@@ -1,5 +1,5 @@
 #base "base/MatchMakingDashboardSidePanel.res"
-//inner panel when gamemode selecter
+//inner panel when gamemode selected
 //works as base, DO NOT DELETE
 "Resource/UI/MatchMakingDashboardSidePanel.res"
 {
