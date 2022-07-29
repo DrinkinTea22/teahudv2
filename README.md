@@ -1,4 +1,4 @@
-# Current State: stable/with minor bugs (No longer in Development!)
+# Current State: stable (bug finding/fixing)
 
 # TeaHudv2
 
@@ -29,11 +29,11 @@ tf
 * Transparent Viewmodels: enables transparent viewmodels (only works on dxlevel 90 or higher)
 * Player Name: enables player names for match status
 * Lowered Metal Stickies: makes metal and stickies to not be bellow the crosshair
-* Streamer Mode: makes streamer's life easier (needs to be done with the game closed)
 * Hitmarker: shows a white-ish circle when the player does damage
 * No Bonus Image: disables the "cross" image when low/high health
 * Alternative Scoreboard: alternative looking stats for the scoreboard
 * Compact Menus: makes engineer's menus smaller
+* **Streamer Mode**: makes streamer's life easier (needs to be done with the game closed)
 
 ## Supported GameModes
 
