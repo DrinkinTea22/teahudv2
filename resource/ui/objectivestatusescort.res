@@ -18,12 +18,13 @@
 	"LevelBar"
 	{
 		"xpos"			"0"
-		"ypos"			"121"
+		"ypos"			"122"
 		"zpos"			"0"
 		"wide"			"254"
 		"tall"			"6"
 		"labelText"		""
 		"image"			"../vgui/replay/thumbnails/null"
+		"border"		"bg_lrtb"
 		"fillcolor"		"custombgcolor"
 		"scaleImage"	"1"
 		
@@ -38,7 +39,7 @@
 		"if_single_with_hills"		//map pl_upward
 		{
 			"ypos"			"122"
-			"tall"			"4"
+			"tall"			"6"
 			"image"			"../vgui/replay/thumbnails/null"
 			"fillcolor"		"custombgcolor"
 		}		
@@ -47,7 +48,7 @@
 	"ProgressBar"
 	{
 		"xpos"			"0"
-		"ypos"			"123"
+		"ypos"			"122"
 		"zpos"			"4"
 		"wide"			"254"
 		"tall"			"4"
@@ -66,9 +67,10 @@
 	"HomeCPIcon"
 	{
 		"xpos"		"-1"	
-		"ypos"		"118"
-		"wide"		"14"
-		"tall"		"14"
+		"ypos"		"122"
+		"wide"		"12"
+		"tall"		"6"
+		"border"	"comboboxborder"
 		
 		"if_team_red"
 		{		"image"			"../hud/cart_point_red"		}
@@ -83,32 +85,33 @@
 		
 		"if_multiple_trains"			//Paylaod Race settings
 		{
-			"xpos"			"-2"
-			"wide"			"6"
-			"tall"			"8"
+			"xpos"			"0"
+			"wide"			"12"
+			"tall"			"6"
 			"zpos"			"10"
 			"image"			"../hud/cart_point_neutral_opaque"
 		}
 		"if_multiple_trains_top"		//this moves your current team home icon
 		{
-			"ypos"			"116"
+			"ypos"			"118"
 		}
 		"if_multiple_trains_bottom"		//this moves the enemy's team home icon
 		{
-			"ypos"			"116"
+			"ypos"			"118"
 		}
 	}
 	"SimpleControlPointTemplate"
 	{	
-		"ypos"		"119"	
-		"wide"		"8"	
-		"tall"		"10"
+		"ypos"		"122"	
+		"wide"		"10"	
+		"tall"		"6"
+		"border"	"comboboxborder"
 		
 		"if_multiple_trains"
 		{
-			"ypos"			"116"
-			"wide"			"8"	
-			"tall"			"8"
+			"ypos"			"118"	
+			"wide"			"10"	
+			"tall"			"6"
 		}
 	}
 	"EscortItemPanel"
@@ -131,7 +134,7 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Filler"
 			"xpos"									"0"
-			"ypos"									"73"
+			"ypos"									"74"
 			"zpos"									"-100"
 			"wide"									"254"
 			"tall"									"6"
@@ -227,26 +230,26 @@
 		}
 		"Speed_Backwards"
 		{
-			"xpos"		"251"
-			"ypos"		"62"
-			"wide"		"7"
-			"tall"		"7"
+			"xpos"		"262"
+			"ypos"		"60"
+			"wide"			"14"
+			"tall"			"14"
 			
-			"image"			"../hud/cart_arrow_left"	
+			"image"			"../vgui/button_arrow_left"
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"251"
-				"wide"			"7"
-				"tall"			"7"
+				"xpos"			"252"
+				"wide"			"14"
+				"tall"			"14"
 			}
 			"if_multiple_trains_top"
 			{
-				"ypos"			"61"	//61
+				"ypos"			"66"
 			}	
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"75"
+				"ypos"			"66"
 			}	
 		}
 		"CapPlayerImage"

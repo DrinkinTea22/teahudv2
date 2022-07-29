@@ -4,7 +4,7 @@
 //tools
 //#base "../tools/tools.res"
 
-"Resource/UI/winpanel.res"
+"Resource/UI/winpanel.res"	//winpanel???
 {
 	"reloadschemebutton"
 	{
@@ -20,9 +20,24 @@
 	
 	"StatData"
 	{
-		"xpos"		"-10"
-		"ypos"		"-90"
+		"xpos"		"5"
+		"ypos"		"5"
+		"wide"		"f10"
+		"tall"		"f116"	//sheetinset_bottom
+		"border"	"bg_lrtb"
+		"bgcolor_override"	"custombgcolor"
 
+		//"div1"
+		//{	"xpos"	"cs-0.5"	"controlname"	"imagepanel"	"fieldname"	"div1"	"ypos"	"0"	"zpos"	"-100"	"wide"	"3"	"tall"	"f0"	"visible"	"1"	"enabled"	"1"	"scaleimage"	"1"	"proportionaltoparent"	"1"	"fillcolor"	"white"	}
+		//"div2"
+		//{	"xpos"	"0"	"controlname"	"imagepanel"	"fieldname"	"div2"	"ypos"	"cs-0.5"	"zpos"	"-100"	"wide"	"f0"	"tall"	"3"	"visible"	"1"	"enabled"	"1"	"scaleimage"	"1"	"proportionaltoparent"	"1"	"fillcolor"	"white"	}		
+			////horizontal-alignment
+		//"div3"
+		//{	"xpos"	"200"	"controlname"	"imagepanel"	"fieldname"	"div3"	"ypos"	"cs-0.5"	"zpos"	"-100"	"wide"	"2"	"tall"	"f0"	"visible"	"1"	"enabled"	"1"	"scaleimage"	"1"	"proportionaltoparent"	"1"	"fillcolor"	"white"	}		
+		//"div4"
+		//{	"xpos"	"rs1-200"	"controlname"	"imagepanel"	"fieldname"	"div4"	"ypos"	"0"	"zpos"	"-100"	"wide"	"2"	"tall"	"f0"	"visible"	"1"	"enabled"	"1"	"scaleimage"	"1"	"proportionaltoparent"	"1"	"fillcolor"	"white"	}		
+			//horizontal-alignment
+		
 		"NonInteractiveHeaders"		//loading map stuff
 		{
 			"Xpos" 					"9999"		
@@ -31,34 +46,37 @@
 		{
 			"BarChartComboA"		//left side chartcombo
 			{
-				"xpos"		"c-280"
-				"ypos"		"195"
-				"wide"			"190" 
+				"xpos"		"c-301"
+				"ypos"		"c-147"
+				"wide"		"190" 
 			}
 			"BarChartComboB"		//right side chartcombo
 			{
-				"xpos"		"c-90"
-				"ypos"		"195"
-				"wide"			"190" 
+				"xpos"		"c-103"
+				"ypos"		"c-147"
+				"wide"		"190" 
 			}
 			"ClassCombo"		//best moments side chartcombo
 			{
-				"xpos"		"c125"
-				"ypos"		"195"
+				"xpos"		"c113"
+				"ypos"		"c-147"
 				"wide"		"180"
 			}
 		}
 		//right panel
 		"AveragesBG"		//main bg
 		{
+			"xpos"					"c-305"
+			"ypos"					"cs-0.5"
 			"bgcolor_override"		"custombgcolor"
 			"border"				"bg_lrtb"
 			"tall"					"230"
+			"proportionaltoparent"	"1"
 		}
 		"AveragesLabel"		//performance label
 		{
 			"bgcolor_override"							"custombgcolor"
-			"border"									"bg_b"
+			"border"									"bg_lrtb"
 			"font"										"tea16"
 			"textAlignment"								"center"
 			"xpos"										"0"
@@ -73,16 +91,19 @@
 		//background color for stats
 		"ClassBarBG1A"
 		{
-			"xpos"			"c-281"
-			"ypos"			"215"
-			"wide"			"382"
-			"fillcolor"		"custombgcolor"
+			"xpos"										"c-297"
+			"ypos"										"c-70"
+			"wide"										"388"
+			"border"									"bg_lrtb"
+			"fillcolor"									"custombgcolor"
+			"proportionaltoparent"						"1"
 		}				
 		"ClassBarBG2A"
 		{
 			"xpos"										"0"
 			"ypos"										"-20"
-			"wide"										"382"
+			"wide"										"388"
+			"border"									"bg_lrtb"
 			"fillcolor"									"custombgcolor"
 			"pin_to_sibling"							"ClassBarBG1A"
 			"pin_corner_to_sibling"						"0"
@@ -92,7 +113,8 @@
 		{
 			"xpos"										"0"
 			"ypos"										"-20"
-			"wide"										"382"
+			"wide"										"388"
+			"border"									"bg_lrtb"
 			"fillcolor"									"custombgcolor"
 			"pin_to_sibling"							"ClassBarBG2A"
 			"pin_corner_to_sibling"						"0"
@@ -102,7 +124,8 @@
 		{
 			"xpos"										"0"
 			"ypos"										"-20"
-			"wide"										"382"
+			"wide"										"388"
+			"border"									"bg_lrtb"
 			"fillcolor"									"custombgcolor"
 			"pin_to_sibling"							"ClassBarBG3A"
 			"pin_corner_to_sibling"						"0"
@@ -112,7 +135,8 @@
 		{
 			"xpos"										"0"
 			"ypos"										"-20"
-			"wide"										"382"
+			"wide"										"388"
+			"border"									"bg_lrtb"
 			"fillcolor"									"custombgcolor"
 			"pin_to_sibling"							"ClassBarBG4A"
 			"pin_corner_to_sibling"						"0"
@@ -122,7 +146,8 @@
 		{
 			"xpos"										"0"
 			"ypos"										"-20"
-			"wide"										"382"
+			"wide"										"388"
+			"border"									"bg_lrtb"
 			"fillcolor"									"custombgcolor"
 			"pin_to_sibling"							"ClassBarBG5A"
 			"pin_corner_to_sibling"						"0"
@@ -132,7 +157,8 @@
 		{
 			"xpos"										"0"
 			"ypos"										"-20"
-			"wide"										"382"
+			"wide"										"388"
+			"border"									"bg_lrtb"
 			"fillcolor"									"custombgcolor"
 			"pin_to_sibling"							"ClassBarBG6A"
 			"pin_corner_to_sibling"						"0"
@@ -142,7 +168,8 @@
 		{
 			"xpos"										"0"
 			"ypos"										"-20"
-			"wide"										"382"
+			"wide"										"388"
+			"border"									"bg_lrtb"
 			"fillcolor"									"custombgcolor"
 			"pin_to_sibling"							"ClassBarBG7A"
 			"pin_corner_to_sibling"						"0"
@@ -152,7 +179,8 @@
 		{
 			"xpos"										"0"
 			"ypos"										"-20"
-			"wide"										"382"
+			"wide"										"388"
+			"border"									"bg_lrtb"
 			"fillcolor"									"custombgcolor"
 			"pin_to_sibling"							"ClassBarBG8A"
 			"pin_corner_to_sibling"						"0"
@@ -160,54 +188,54 @@
 		}		
 		//background color for stats
 
-		//right stats progress bar	
+		//left stats progress bar	
 		"ClassBar1A"		//this one controls everyone's xpos
 		{
-			"xpos"			"c-278"
-			"ypos"			"216"
+			"xpos"			"c-299"
+			"ypos"			"c-126"
 			"fillcolor"		"stat1"
 		}	
 		"ClassBar2A"
 		{
-			"ypos"			"236"
+			"ypos"			"c-106"
 			"fillcolor"		"stat2"
 		}	
 		"ClassBar3A"
 		{
-			"ypos"			"256"
+			"ypos"			"c-86"
 			"fillcolor"		"stat3"
 		}		
 		"ClassBar4A"
 		{
-			"ypos"			"276"
+			"ypos"			"c-66"
 			"fillcolor"		"stat4"
 		}	
 		"ClassBar5A"
 		{
-			"ypos"			"296"
+			"ypos"			"c-46"
 			"fillcolor"		"stat5"
 		}			
 		"ClassBar6A"
 		{
-			"ypos"			"316"
+			"ypos"			"c-26"
 			"fillcolor"		"stat6"
 		}		
 		"ClassBar7A"
 		{
-			"ypos"			"336"
+			"ypos"			"c-6"
 			"fillcolor"		"stat7"
 		}		
 		"ClassBar8A"
 		{
-			"ypos"			"356"
+			"ypos"			"c14"
 			"fillcolor"		"stat8"
 		}			
 		"ClassBar9A"
 		{
-			"ypos"			"376"
+			"ypos"			"c34"
 			"fillcolor"		"stat9"
 		}	
-		//right stats progress bar
+		//left stats progress bar
 		
 		//individual class bg
 		"ClassBarBG1B"
@@ -368,164 +396,168 @@
 		}	
 		//class label
 		
-		//left stats progress bar
+		//right stats progress bar
 		"ClassBar1B"		//this one controls everyone's xpos
 		{
-			"xpos"			"c-53"
-			"ypos"			"216"
+			"xpos"			"c-74"
+			"ypos"			"c-126"
 			"fillcolor"		"stat1"
 		}	
 		"ClassBar2B"
 		{
-			"ypos"			"236"
+			"ypos"			"c-106"
 			"fillcolor"		"stat2"
 		}
 		"ClassBar3B"
 		{
-			"ypos"			"256"
+			"ypos"			"c-86"
 			"fillcolor"		"stat3"
 		}
 		"ClassBar4B"
 		{
-			"ypos"			"276"
+			"ypos"			"c-66"
 			"fillcolor"		"stat4"
 		}		
 		"ClassBar5B"
 		{
-			"ypos"			"296"
+			"ypos"			"c-46"
 			"fillcolor"		"stat5"
 		}	
 		"ClassBar6B"
 		{
-			"ypos"			"336"
+			"ypos"			"c-26"
 			"fillcolor"		"stat6"
 		}
 		"ClassBar7B"
 		{
-			"ypos"			"316"
+			"ypos"			"c-6"
 			"fillcolor"		"stat7"
 		}
 		"ClassBar8B"
 		{
-			"ypos"			"356"
+			"ypos"			"c14"
 			"fillcolor"		"stat8"
 		}	
 		"ClassBar9B"
 		{
-			"ypos"			"376"
+			"ypos"			"c34"
 			"fillcolor"		"stat9"
 		}	
-		//left stats progress bar
-	
-		//left side stats labels
-		"ClassBarLabel1B"		//this one controls everyone's xpos
-		{
-			"font"			"tea10"
-			"xpos"			"c-127"
-			"ypos"			"212"
-		}		
-		"ClassBarLabel2B"
-		{
-			"font"			"tea10"
-			"ypos"			"232"
-		}				
-		"ClassBarLabel3B"
-		{
-			"font"			"tea10"
-			"ypos"			"252"
-		}				
-		"ClassBarLabel4B"
-		{
-			"font"			"tea10"
-			"ypos"			"272"
-		}				
-		"ClassBarLabel5B"
-		{
-			"font"			"tea10"
-			"ypos"			"292"
-		}			
-		"ClassBarLabel6B"
-		{
-			"font"			"tea10"
-			"ypos"			"312"
-		}
-		"ClassBarLabel7B"
-		{
-			"font"			"tea10"
-			"ypos"			"332"
-		}				
-		"ClassBarLabel8B"
-		{
-			"font"			"tea10"
-			"ypos"			"352"
-		}				
-		"ClassBarLabel9B"
-		{
-			"font"			"tea10"
-			"ypos"			"372"
-		}	
-		//left side stats labels
+		//right stats progress bar
 		
-		//right side stats labels
+		//left side stats labels
 		"ClassBarLabel1A"
 		{
 			"font"			"tea10"
-			"xpos"			"c-282"
-			"ypos"			"212"
+			"xpos"			"c-402"
+			"ypos"			"c-129"
 		}	
 		"ClassBarLabel2A"
 		{
 			"font"			"tea10"
-			"ypos"			"232"
+			"ypos"			"c-109"
 		}				
 		"ClassBarLabel3A"
 		{
 			"font"			"tea10"
-			"ypos"			"252"
+			"ypos"			"c-89"
 		}				
 		"ClassBarLabel4A"
 		{
 			"font"			"tea10"
-			"ypos"			"272"
+			"ypos"			"c-69"	//nice
 		}				
 		"ClassBarLabel5A"
 		{
 			"font"			"tea10"
-			"ypos"			"292"
+			"ypos"			"c-49"
 		}			
 		"ClassBarLabel6A"
 		{
 			"font"			"tea10"
-			"ypos"			"312"
+			"ypos"			"c-29"
 		}
 		"ClassBarLabel7A"
 		{
 			"font"			"tea10"
-			"ypos"			"332"
+			"ypos"			"c-9"
 		}				
 		"ClassBarLabel8A"
 		{
 			"font"			"tea10"
-			"ypos"			"352"
+			"ypos"			"c11"
 		}				
 		"ClassBarLabel9A"
 		{
 			"font"			"tea10"
-			"ypos"			"372"
+			"ypos"			"c31"
+		}	
+		//left side stats labels
+	
+		//right side stats labels
+		"ClassBarLabel1B"		//this one controls everyone's xpos
+		{
+			"font"			"tea10"
+			"xpos"			"c-179"
+			"ypos"			"c-129"
+		}		
+		"ClassBarLabel2B"
+		{
+			"font"			"tea10"
+			"ypos"			"c-109"
+		}				
+		"ClassBarLabel3B"
+		{
+			"font"			"tea10"
+			"ypos"			"c-89"
+		}				
+		"ClassBarLabel4B"
+		{
+			"font"			"tea10"
+			"ypos"			"c-69"	//nice
+		}				
+		"ClassBarLabel5B"
+		{
+			"font"			"tea10"
+			"ypos"			"c-49"
+		}			
+		"ClassBarLabel6B"
+		{
+			"font"			"tea10"
+			"ypos"			"c-29"
+		}
+		"ClassBarLabel7B"
+		{
+			"font"			"tea10"
+			"ypos"			"c-9"
+		}				
+		"ClassBarLabel8B"
+		{
+			"font"			"tea10"
+			"ypos"			"c11"
+		}				
+		"ClassBarLabel9B"
+		{
+			"font"			"tea10"
+			"ypos"			"c31"
 		}	
 		//right side stats labels
 
 		//left panel
 		"RecordsBG"			//best moments bg
 		{
+			"xpos"					"-406-5"
+			"ypos"					"0"
 			"bgcolor_override"		"custombgcolor"
 			"border"				"bg_lrtb"
 			"tall"					"230"
+			"proportionaltoparent"	"1"
+			"pin_to_sibling"		"AveragesBG"
 		}
 		"RecordsLabel1"		//your best moments label
 		{
 			"bgcolor_override"							"custombgcolor"
-			"border"									"bg_b"
+			"border"									"bg_lrtb"
 			"font"										"tea16"
 			"textAlignment"								"center"
 			"wide"										"200"
@@ -537,144 +569,99 @@
 		}	
 		"RecordsSubBG1"
 		{
+			"xpos"			"-10"
+			"ypos"			"-65"
 			"wide"			"180"
 			"tall"			"156"
 			"fillcolor"		"custombgcolor"
+			"pin_to_sibling"							"RecordsLabel1"
 		}	
 		//left panel
 		
 		//labels
 		"OverallRecord1Label"
-		{		"font"			"tea9"		}												
+		{
+			"xpos"			"-5"
+			"ypos"			"-1"
+			"font"			"tea9"
+			"pin_to_sibling""RecordsSubBG1"
+		}												
 		"OverallRecord2Label"
-		{		"font"			"tea9"		}		
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord1Label"		}		
 		"OverallRecord3Label"
-		{		"font"			"tea9"		}		
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord2Label"		}		
 		"OverallRecord4Label"
-		{		"font"			"tea9"		}			
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord3Label"		}				
 		"OverallRecord5Label"
-		{		"font"			"tea9"		}			
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord4Label"		}			
 		"OverallRecord6Label"
-		{		"font"			"tea9"		}			
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord5Label"		}				
 		"OverallRecord7Label"
-		{		"font"			"tea9"		}				
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord6Label"		}				
 		"OverallRecord8Label"
-		{		"font"			"tea9"		}		
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord7Label"		}			
 		"OverallRecord9Label"
-		{		"font"			"tea9"		}		
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord8Label"		}			
 		"OverallRecord10Label"
-		{		"font"			"tea9"		}			
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord9Label"		}				
 		"OverallRecord11Label"
-		{		"font"			"tea9"		}		
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord10Label"		}		
 		"OverallRecord12Label"
-		{		"font"			"tea9"		}		
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord11Label"		}			
 		"OverallRecord13Label"
-		{		"font"			"tea9"		}		
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord12Label"		}			
 		"OverallRecord14Label"
-		{		"font"			"tea9"		}		
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord13Label"		}			
 		"OverallRecord15Label"
-		{		"font"			"tea9"		}		
+		{		"xpos"			"0"	"ypos"			"-10"	"font"			"tea9"	"pin_to_sibling""OverallRecord14Label"		}			
 		//labels
 		
 		//values
 		"OverallRecord1Value"
 		{
-			"font"			"tea10"
 			"textAlignment"	"east"
-			"xpos"			"c+100"
+			"xpos"			"24"
+			"ypos"			"-1"
+			"font"			"tea10"
+			"pin_to_sibling""RecordsSubBG1"
 		}									
 		"OverallRecord2Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}										
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord1Value"		}										
 		"OverallRecord3Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}									
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord2Value"		}									
 		"OverallRecord4Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}							
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord3Value"		}							
 		"OverallRecord5Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}								
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord4Value"		}								
 		"OverallRecord6Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}							
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord5Value"		}							
 		"OverallRecord7Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}										
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord6Value"		}										
 		"OverallRecord8Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}						
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord7Value"		}						
 		"OverallRecord9Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}				
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord8Value"		}				
 		"OverallRecord10Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}						
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord9Value"		}							
 		"OverallRecord11Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}					
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord10Value"		}				
 		"OverallRecord12Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}						
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord11Value"		}						
 		"OverallRecord13Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}					
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord12Value"		}		
 		"OverallRecord14Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}						
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord13Value"		}						
 		"OverallRecord15Value"
-		{
-			"font"			"tea10"
-			"textAlignment"	"east"
-			"xpos"			"c+100"
-		}		
+		{		"xpos"			"0"	"ypos"			"-10"	"textAlignment"	"east"	"font"			"tea10"	"pin_to_sibling""OverallRecord14Value"		}		
 		//values
 		//left panel		
 	}
 	"ResetStatsButton" [$WIN32]
 	{
-		"xpos"			"c175"
-		"ypos"			"c46"
+		"xpos"			"c-35"
+		"ypos"			"c68"
 		"font"			"tea10"
+		"proportionaltoparent"			"1"
 	}
 
 	//[deleted lol]
