@@ -6,7 +6,7 @@
 	{
 		"xpos"					"cs-0.5"
 		"ypos"					"r135"	//do not overlap my hud
-		"wide"					"280"
+		"wide"					"180"
 		"proportionaltoparent"	"1"
 		
 		"if_multiple_trains"
@@ -20,7 +20,7 @@
 		"xpos"			"0"
 		"ypos"			"122"
 		"zpos"			"0"
-		"wide"			"254"
+		"wide"			"172"
 		"tall"			"6"
 		"labelText"		""
 		"image"			"../vgui/replay/thumbnails/null"
@@ -50,7 +50,7 @@
 		"xpos"			"0"
 		"ypos"			"122"
 		"zpos"			"4"
-		"wide"			"254"
+		"wide"			"172"
 		"tall"			"4"
 		"image"			"../vgui/replay/thumbnails/null"
 		"fillcolor"		"custombgcolor"

@@ -10,7 +10,7 @@
 	{
 		"xpos"					"cs-0.5"
 		"ypos"					"r135"
-		"wide"					"280"
+		"wide"					"180"
 		"proportionaltoparent"	"1"
 		
 		"if_blue_is_top"			//map plr_pípeline
@@ -34,7 +34,7 @@
 	{
 		"xpos"					"cs-0.5"
 		"ypos"					"r135"
-		"wide"					"280"
+		"wide"					"180"
 		"proportionaltoparent"	"1"
 
 		"if_red_is_top"
