@@ -33,13 +33,8 @@
 	//path: hud/resource/ui/freezepanel_basic.res
 	"FreezePanelBase"
 	{
-		"FreezeLabelKillerFIXED"
+		"FreezeLabelKiller"
 		{		"ypos"		"9999"		"visible"	"0"		"enabled"	"0"		}
-		"NemesisSubPanel"
-		{
-			"NemesisLabelFIXED"
-			{		"ypos"		"9999"		"visible"	"0"		"enabled"	"0"		}
-		}
 	}
 
 	"itempanel"
