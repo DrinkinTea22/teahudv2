@@ -86,3 +86,31 @@ event HudTournament_MoveChatWindow
 {
 }
 ////************************************************Prevent chat from moving
+
+////************************************************flash payload/cp
+event HudCartAlarmPulse
+{
+}
+event ControlPointIconShrink
+{
+}
+event ControlPointIconGrow
+{
+}
+////************************************************flash payload/cp
+
+////************************************************removed vote your experience in *game
+event SurveyShowSequence
+{
+	RunEventChild Survey SurveyDelete 0.1
+}
+////************************************************removed vote your experience in *game
+
+////************************************************removed xpsource
+event XPSourceShow_Positive
+{
+}
+event XPSourceShow_Negative
+{
+}
+////************************************************removed xpsource
