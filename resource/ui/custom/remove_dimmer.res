@@ -2,7 +2,7 @@
 {
 	"DashboardDimmer"
 	{
-		"wide" "0"
-		"tall" "0"
+		"wide" "f0"
+		"tall" "f0"
 	}
 }
