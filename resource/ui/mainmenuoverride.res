@@ -5,9 +5,10 @@
 //#base "../../resource/tools/tools.res"
 
 // part of the menu		(if not set, 4x3 will be the default)
-#base "../../customization/enabled/menu_16x9.res"						//1
-#base "../../customization/enabled/enabled_default/bookmarks_4x3.res"	//2
-#base "../../customization/enabled/enabled_default/menu_4x3.res"		//3
+#base "../../customization/enabled/no_friend_list.res"		//1
+#base "../../customization/enabled/menu_16x9.res"			//2
+#base "core_base/menu_tools.res"							//3
+#base "core_base/menu_4x3.res"								//4
 
 #base "base/mainmenuoverride.res"
 

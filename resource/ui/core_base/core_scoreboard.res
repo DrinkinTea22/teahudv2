@@ -1144,7 +1144,7 @@
 	}						
 	"ShadedBar"
 	{
-		"xpos"			"9999"
+		"wide"			"0"
 	}
 	"ClassImage"
 	{

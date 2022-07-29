@@ -2,9 +2,10 @@
 {
 	"DisguiseStatusBG"
 	{
-		"xpos"					"0"
-		"ypos"					"60"
-		"tall"					"3"
+		"xpos"					"cs-0.5"	
+		"ypos"					"c137"
+		"wide"					"25"
+		"tall"					"4"
 		"proportionaltoparent"	"1"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
@@ -14,7 +15,7 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"DisguiseStatusCsBackground"
 		"xpos"					"0"
-		"ypos"					"43"
+		"ypos"					"rs1"
 		"zpos"					"-1"
 		"wide"					"200"
 		"tall"					"18"
@@ -23,6 +24,7 @@
 		"scaleImage"			"1"	
 		"proportionaltoparent"	"1"	
 		"fillcolor"				"custombgcolor"
+		"border"				"bg_lrtb"
 	}
 	
 	//note: do not mess with "wide" values or your text will get cut-off
@@ -30,22 +32,24 @@
 	{	
 		"font"			"tea12"
 		"xpos"			"34"
-		"ypos"			"44"
+		"ypos"			"rs1+7"
 		"wide"			"166"
+		"proportionaltoparent"	"1"	
 	}
 	"WeaponNameLabel"
 	{	
 		"font"			"tea12"
 		"xpos"			"34"
-		"ypos"			"51"
+		"ypos"			"rs1+15"
 		"wide"			"166"
 		"proportionaltoparent"			"1"
 	}
 	"SpectatorGUIHealth"
 	{
 		"xpos"			"0"
-		"ypos"			"38"
+		"ypos"			"rs1+10"
 		"wide"			"32"
 		"tall"			"32"
+		"proportionaltoparent"			"1"
 	}
 }

@@ -4,7 +4,7 @@
 	"MainMenuOverride"
 	{
 		//this makes everything work, also use "vgui_cache_res_files 0" will save your time!
-	}
+	}	
 
 	//main background
 	"bgbordercs1"							
@@ -12,7 +12,7 @@
 		"controlname"								"imagepanel"
 		"fieldname"									"bgbordercs1"
 		"xpos"										"c-250"
-		"ypos"										"c-200"
+		"ypos"										"c-175"
 		"zpos"										"-100"
 		"wide"										"250"
 		"tall"										"150"
@@ -45,39 +45,23 @@
 		"xpos"										"0"
 		"ypos"										"-151"
 		"zpos"										"-100"
-		"wide"										"250"
+		"wide"										"500"
 		"tall"										"220"
 		"fillcolor"									"custombgcolor"
 		"border"									"bg_lrtb"
 		"pin_to_sibling"							"bgbordercs1"
 	}	
 	//third background	
-
-	//fourth background
-	"bgbordercs4"							
-	{							
-		"controlname"								"imagepanel"
-		"fieldname"									"bgbordercs4"
-		"xpos"										"0"
-		"ypos"										"-151"
-		"zpos"										"-100"
-		"wide"										"250"
-		"tall"										"220"
-		"fillcolor"									"custombgcolor"
-		"border"									"bg_lrtb"
-		"pin_to_sibling"							"bgbordercs2"
-	}
-	//fourth background		
 	
 	//friends (none)
 	"FriendsContainer"
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"										"243"
-		"tall"										"218"
-		"border"					"noborder"
-		"pin_to_sibling"							"bgbordercs3"
+		"wide"				"500"
+		"tall"				"220"
+		"border"			"noborder"
+		"pin_to_sibling"	"bgbordercs3"
 		
 		"TitleLabel"
 		{
@@ -91,17 +75,21 @@
 		{
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
+			"wide"			"f5"		//5 unit gap
+			"tall"			"f5"		//5 unit gap
 
-			"columns_count"	"1"
-			"inset_x"		"10"
+			"columns_count"	"4"
+			"inset_x"		"5"
 			"inset_y"		"5"
 			"row_gap"		"4"
 
+			"ScrollBar"
+			{
+				"xpos"			"rs1-0"
+			}	
 			"friendpanel_kv"
 			{
-				"wide"		"p0.99"
+				"wide"		"121"		// bgbordercs3(wide)/columns_count => (x)-5
 				"tall"		"20"
 				"proportionaltoparent"	"1"
 			}
@@ -117,23 +105,88 @@
 	//top right buttons
 	"MOTD_ShowButtonPanel"
 	{
-		"xpos"			"0"
-		"ypos"			"32"
-		"pin_corner_to_sibling"						"2"
-		"pin_to_sibling_corner"						"2"
-		"pin_to_sibling"							"bgbordercs3"
+		"xpos"			"16"
+		"ypos"			"16"
+		"zpos"			"16"
+		"pin_corner_to_sibling"						"3"
+		"pin_to_sibling_corner"						"3"
+		"pin_to_sibling"							"SettingsButtonFixed"
+		
+		"MOTD_ShowButtonPanel_SB"
+		{		
+			"labelText"		"+"
+			"font"			"tea16"
+			"textinsety"	"10"
+			"border_default"	"bg_lrtb"
+			"DepressedBgColor"	"button"
+			"ArmedBgColor"		"buttonHover"
+			"paintbackground"	"1"
+			"image_drawcolor"	"white"
+			
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"tall"			"16"
+				"wide"			"16"
+				"image"			"glyph_steamworkshop"
+				"proportionaltoparent"			"1"
+			}
+		}	
 	}
 	"QuestLogButton"
 	{
-		"xpos"			"-32"
+		"xpos"			"60"
 		"ypos"			"0"
-		"pin_to_sibling"							"MOTD_ShowButtonPanel"
+		"zpos"			"16"
+		"pin_to_sibling"	"MOTD_ShowButtonPanel"
+		
+		"SubButton"
+		{
+			"border_default"	"bg_lrtb"
+			"paintborder"		"1"
+			"DepressedBgColor"	"button"
+			"ArmedBgColor"		"buttonHover"
+			"paintbackground"	"1"
+			"image_drawcolor"	"white"
+			
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"tall"			"18"
+				"wide"			"18"
+				"image"			"glyph_workshop_edit"
+				"proportionaltoparent"			"1"
+			}
+		}	
 	}
 	"WatchStreamButton"
 	{
-		"xpos"			"-32"
+		"xpos"			"60"
 		"ypos"			"0"
+		"zpos"			"16"
 		"pin_to_sibling"							"QuestLogButton"
+		
+		"SubButton"
+		{
+			"border_default"	"bg_lrtb"
+			"paintborder"		"1"
+			"DepressedBgColor"	"button"
+			"ArmedBgColor"		"buttonHover"
+			"paintbackground"	"1"
+			"image_drawcolor"	"white"
+			
+			"SubImage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"tall"			"26"
+				"wide"			"26"
+				"image"			"glyph_view"
+				"proportionaltoparent"			"1"
+			}
+		}	
 	}
 	//top right buttons
 	
@@ -142,31 +195,36 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
-		"wide"										"250"
+		"zpos"			"100"
+		"wide"										"500"
 		"tall"										"220"
 		"paintbackground"		"1"
 		"border"				"bg_lrtb"
-		"bgcolor_override"		"white"
-		"pin_to_sibling"		"bgbordercs4"
-		
-		"MOTD_HeaderContainer"
+		"bgcolor_override"		"black"
+		"pin_to_sibling"		"bgbordercs3"
+
+		"div1"
+		{	"xpos"	"165"	"controlname"	"imagepanel"	"fieldname"	"div1"	"ypos"	"0"	"zpos"	"-100"	"wide"	"2"	"tall"	"f0"	"visible"	"1"	"enabled"	"1"	"scaleimage"	"1"	"proportionaltoparent"	"1"	"fillcolor"	"white"	}
+		"div2"
+		{	"xpos"	"330"	"controlname"	"imagepanel"	"fieldname"	"div2"	"ypos"	"0"	"zpos"	"-100"	"wide"	"2"	"tall"	"f0"	"visible"	"1"	"enabled"	"1"	"scaleimage"	"1"	"proportionaltoparent"	"1"	"fillcolor"	"white"	}		
+	
+		"MOTD_TitleLabel"
 		{
-			"wide"			"f0"
-			
-			"MOTD_HeaderLabel"
-			{
-				"font"			"tea14"
-				"textAlignment"	"center"
-				"wide"			"250"
-				"PaintBackgroundType" "0"
-				"fgcolor_override"	"white"
-				"bgcolor_override"	"141 178 61 255"
-			}
+			"font"			"tea18"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"tall"			"20"
+			"wide"			"500"
+			"labelText"		"#TF_OfflinePractice_Settings"
+			"centerwrap"	"1"
+			"fgcolor_override"	"white"
+			"bgcolor_override"	"button"	//header BG bar
+			"border"			"bg_b"
 		}
 		"MOTD_CloseButton"
 		{
-			"xpos"						"230"
+			"xpos"						"rs1-5"
 			"ypos"						"4"
 			"proportionaltoparent"		"1"
 			
@@ -176,77 +234,19 @@
 			
 			"image_drawcolor"			"white"
 			"image_armedcolor"			"200 80 60 255"			
-		}				
-		"MOTD_TitleLabel"
-		{
-			"font"			"tea14"
-			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"25"
-			"wide"			"250"
-			"centerwrap"	"1"
-		}
-		"MOTD_Label"
-		{
-			"font"			"tea12"
-			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"40"
-			"wide"			"250"
-		}
-		
-		"MOTD_TitleImageBg"
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"55"
-			"wide"			"150"
-			"tall"			"100"
-		}
-		"MOTD_TitleImageContainer"
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"55"
-			"wide"			"150"
-			"tall"			"100"
-		}
-		"MOTD_TextScroller"
-		{
-			"xpos"			"20"	//makes the text look centered
-			"ypos"			"160"
-			"wide"			"250"
-			"tall"			"115"
-			"PaintBackgroundType"	"0"
-			"fgcolor"		"LabelDark"
-			
-			"MOTD_TextPanel"
-			{
-				"wide"			"250"	//this gets ignored lol
-			
-				"MOTD_TextLabel"
-				{
-					"font"			"tea9"
-					"textAlignment"	"center"
-					"xpos"			"0"
-					"wide"			"250"
-					"fgcolor"		"LabelDark"
-				}
-			}
-		}
-		
-		"MOTD_URLButton"
-		{
-			"xpos"			"cs-0.5"
-			"wide"			"150"
-			"font"			"tea12"
-			"textAlignment"	"center"
-			"border_default"	"bg_lrtb"
-			"border_armed"		"bg_lrtb"
-			
-			"defaultFgColor_override"		"white"
-			"defaultBgColor_override"		"46 43 42 255"
-			"armedFgColor_override"			"white"
-			"depressedFgColor_override"		"white"
 		}	
+		"MOTD_HeaderContainer"
+		{	"wide"			"0"		}	
+		"MOTD_Label"
+		{	"wide"			"0"		}
+		"MOTD_TitleImageBg"
+		{	"wide"			"0"		}
+		"MOTD_TitleImageContainer"
+		{	"wide"			"0"		}
+		"MOTD_TextScroller"
+		{	"wide"			"0"		}
+		"MOTD_URLButton"
+		{	"wide"			"0"		}
 	}		
 	//MOTD
 	
@@ -257,7 +257,7 @@
 		"ypos"			"32"
 		"pin_corner_to_sibling"						"3"
 		"pin_to_sibling_corner"						"3"
-		"pin_to_sibling"							"bgbordercs4"
+		"pin_to_sibling"							"bgbordercs3"
 		
 		"SubImage"
 		{
@@ -295,7 +295,7 @@
 		
 		"pin_corner_to_sibling"						"3"
 		"pin_to_sibling_corner"						"3"
-		"pin_to_sibling"							"bgbordercs4"
+		"pin_to_sibling"							"bgbordercs3"
 		
 		"Notifications_CloseButton"
 		{
@@ -633,14 +633,14 @@
 	//buttons in-game
 	"ReportPlayerButton"
 	{
-		"xpos"			"-10"
+		"xpos"			"-20"
 		"ypos"			"25"
 		"zpos"			"11"
 		"wide"										"20"
 		"tall"										"20"
 		"pin_to_sibling"							"bgbordercs3"
-		"pin_corner_to_sibling"						"3"
-		"pin_to_sibling_corner"						"3"
+		"pin_corner_to_sibling"						"6"
+		"pin_to_sibling_corner"						"6"
 
 		"SubButton"
 		{

@@ -16,7 +16,7 @@
 		"HealthBonusPosAdj"								"40"	//controls the bonus image size anim
 		"HealthDeathWarning"							"0.60"
 		"HealthDeathWarningColor"						"HUDDeathWarning"
-	}
+	}	
 	//note: using "p1" instead of "f0" fixes the outline problem.
 	"PlayerStatusHealthValue"
 	{

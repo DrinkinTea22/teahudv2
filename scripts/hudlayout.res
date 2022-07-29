@@ -5,8 +5,8 @@
 //streamer mode
 #base "../customization/enabled/streamer_mode.res"
 //custom engineer metal position
-#base "../customization/enabled/lowered_metal_stickies.res"				//2
-#base "../customization/enabled/enabled_default/hudaccountpanel.res"	//1
+#base "../customization/enabled/lowered_metal_stickies.res"		//2
+#base "../resource/ui/core_base/core_hudaccountpanel.res"		//1
 //hitmarker
 #base "../customization/enabled/hitmarker.res"	
 
@@ -122,7 +122,14 @@
 		"ypos"											"c35"
 		"wide"											"450"
 		"tall"											"70"
-	}	
+	}
+	DisguiseStatus
+	{
+		"xpos"											"0"
+		"ypos"											"0"
+		"wide"											"f0"
+		"tall"											"f0"
+	}
 	
 	CMainTargetID
 	{

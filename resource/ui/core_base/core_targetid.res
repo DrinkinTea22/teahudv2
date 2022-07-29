@@ -26,7 +26,7 @@
 		"ypos"										"rs1-3"
 		"zpos"										"-1"
 		"wide"										"9999"
-		"tall"										"18"
+		"tall"										"17"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"	
