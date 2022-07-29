@@ -33,7 +33,7 @@
 	//path: hud/resource/ui/freezepanel_basic.res
 	"FreezePanelBase"
 	{
-		"FreezeLabelKiller"
+		"FreezeLabelKillerFIXED"
 		{		"ypos"		"9999"		"visible"	"0"		"enabled"	"0"		}
 	}
 
@@ -211,21 +211,27 @@
 	//file: spectatortournament.res
 	//path: hud/resource/ui/spectatortournament.res
 	//WARNING: shared fieldname
-	"specgui"
-	{
-		"playerpanels_kv"
-		{			
-			"playername"
-			{
-				"wide"	"0"
-				
-				if_mvm
-				{
-					"wide"	"0"
-				}
-			}
-		}
-	}		
+	//
+	//**WARNING** using this mod and also using remove_dimmer.cfg will make obj status to disappear.
+	//
+	//"specgui"
+	//{
+	//	"ControlName"		"Frame"
+	//	"fieldName"			"specgui"
+	//	
+	//	"playerpanels_kv"
+	//	{			
+	//		"playername"
+	//		{
+	//			"wide"	"0"
+	//			
+	//			if_mvm
+	//			{
+	//				"wide"	"0"
+	//			}
+	//		}
+	//	}
+	//}		
 
 	//file: targetid.res
 	//path: hud/resource/ui/targetid.res
