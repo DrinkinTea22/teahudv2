@@ -39,13 +39,13 @@
 			"xpos"										"0"
 			"ypos"										"0"
 			"zpos"										"-100"
-			"wide"										"20"
+			"wide"										"18"
 			"tall"										"30"
 			"visible"									"1"
 			"enabled"									"1"
 			"scaleimage"								"1"	
 			"fillcolor"									"custombgcolor"
-			"border"									"bg_ltb"
+			"border"									"bg_lrtb"
 		}
 		"Icon_Upgrade_1"
 		{
@@ -65,7 +65,7 @@
 			"xpos"										"5"
 			"ypos"										"cs-0.5"
 			"wide"										"8"
-			"tall"										"26"
+			"tall"										"f4"
 			"proportionaltoparent"						"1"
 		}	
 		"AlertTray"			//togle this with "cl_obj_fake_alert 1"
@@ -116,6 +116,7 @@
 	
 		"RunningPanel"
 		{
+			"ypos"			"-5"
 			"tall"			"30"
 		
 			"UpgradeIcon"

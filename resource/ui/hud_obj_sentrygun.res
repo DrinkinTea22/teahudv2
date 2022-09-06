@@ -48,20 +48,20 @@
 			"xpos"										"0"
 			"ypos"										"0"
 			"zpos"										"-100"
-			"wide"										"20"
+			"wide"										"18"
 			"tall"										"40"
 			"visible"									"1"
 			"enabled"									"1"
 			"scaleimage"								"1"	
 			"fillcolor"									"custombgcolor"
-			"border"									"bg_ltb"
+			"border"									"bg_lrtb"
 		}
 		"Health"
 		{
 			"xpos"										"5"
 			"ypos"										"cs-0.5"
 			"wide"										"8"
-			"tall"										"36"
+			"tall"										"f4"
 			"proportionaltoparent"						"1"
 		}		
 		"Icon_Upgrade_1"
@@ -135,7 +135,7 @@
 			{
 				"font"			"tea12"
 				"xpos"			"-12"
-				"ypos"			"2"
+				"ypos"			"0"
 				"pin_to_sibling"	"KillIcon"
 			}
 			
