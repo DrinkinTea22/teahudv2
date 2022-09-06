@@ -22,6 +22,7 @@ tf
             └── Enabled
 ```
 
+* **favourite servers**: go to the cfg folder and within **hud_favourite_servers.cfg** type the server's ip after the keyword **connect** without the "<>"
 * Crosshairs: enables label crosshairs
 * Last Damage Done: enables damage done text
 * 16x9: makes stuff bigger tor wide resolutions
