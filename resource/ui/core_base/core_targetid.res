@@ -23,14 +23,12 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"TargetIDCsBackground"
 		"xpos"										"0"
-		"ypos"										"rs1-3"
-		"zpos"										"-1"
-		"wide"										"9999"
-		"tall"										"17"
+		"ypos"										"15"
+		"zpos"										"-100"
+		"wide"										"640"
+		"tall"										"18"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"	
-		"proportionaltoparent"						"1"	
 		"fillcolor"									"custombgcolor"
 	}
 	
@@ -58,8 +56,7 @@
 	}	
 	"AmmoIcon"
 	{
-		"xpos"			"40"
-		"ypos"			"23"
+		"ypos"					"23"
 	}
 	"quickpin"
 	{
