@@ -687,6 +687,15 @@
 			"enabled"		"1"
 			"image"			"../hud/class_heavyblue"
 		}
+		"class_engiblue"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"class_engiblue"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/class_engiblue"
+		}
 		"class_medicblue"
 		{
 			"ControlName"	"ImagePanel"
@@ -759,6 +768,15 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/class_heavyred"
+		}
+		"class_engired"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"class_engired"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/class_engired"
 		}
 		"class_medicred"
 		{
@@ -834,6 +852,15 @@
 			"enabled"		"1"
 			"image"			"../hud/class_heavyblue_cloak"
 		}
+		"class_engiblue_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"class_engiblue_cloak"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/class_engiblue_cloak"
+		}
 		"class_medicblue_cloak"
 		{
 			"ControlName"	"ImagePanel"
@@ -906,6 +933,15 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/class_heavyred_cloak"
+		}
+		"class_engired_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"class_engired_cloak"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/class_engired_cloak"
 		}
 		"class_medicred_cloak"
 		{
@@ -981,6 +1017,15 @@
 			"enabled"		"1"
 			"image"			"../hud/class_heavyblue_halfcloak"
 		}
+		"class_engiblue_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"class_engiblue_halfcloak"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/class_engiblue_halfcloak"
+		}
 		"class_medicblue_halfcloak"
 		{
 			"ControlName"	"ImagePanel"
@@ -1053,6 +1098,15 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/class_heavyred_halfcloak"
+		}
+		"class_engired_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"class_engired_halfcloak"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/class_engired_halfcloak"
 		}
 		"class_medicred_halfcloak"
 		{
