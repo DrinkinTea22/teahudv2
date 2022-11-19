@@ -894,7 +894,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MOTD_HeaderIcon"
-			"xpos"			"265"
+			"xpos"			"9999"
 			"ypos"			"25"
 			"zpos"			"100"
 			"wide"			"25"
