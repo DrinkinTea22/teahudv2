@@ -1,8 +1,8 @@
-# Current State: stable (bug finding/fixing)
+# Current State: stable (no longer in development)
 
 # TeaHudv2
 
-New starting point for TeaHud using Jarateking's "BaseHud", if you want to learn about it, click the link bellow: <br>
+New starting point for TeaHud using Jarateking's "BaseHud", if you want to learn about it, click the link below: <br>
 [BaseHud Project](https://github.com/JarateKing/BaseHud) <br>
 All credits to: [Jarateking](https://github.com/JarateKing)
 
@@ -12,7 +12,7 @@ All credits to: [Jarateking](https://github.com/JarateKing)
 
 ## customizations
 
-You shall drop what you want in the hud in the following path:
+You shall drop what you want in the hud on the following path:
 
 ```
 tf
@@ -25,11 +25,11 @@ tf
 * **favourite servers**: go to the cfg folder and within **hud_favourite_servers.cfg** type the server's ip after the keyword **connect** without the "<>"
 * Crosshairs: enables label crosshairs
 * Last Damage Done: enables damage done text
-* 16x9: makes stuff bigger tor wide resolutions
+* 16x9: makes stuff bigger for wider resolutions
 * Thin Outlines: makes ammo/health outlines thinner
 * Transparent Viewmodels: enables transparent viewmodels (only works on dxlevel 90 or higher)
 * Player Name: enables player names for match status
-* Lowered Metal Stickies: makes metal and stickies to not be bellow the crosshair
+* Lowered Metal Stickies: makes metal and stickies to not be below the crosshair
 * Hitmarker: shows a white-ish circle when the player does damage
 * No Bonus Image: disables the "cross" image when low/high health
 * Alternative Scoreboard: alternative looking stats for the scoreboard
